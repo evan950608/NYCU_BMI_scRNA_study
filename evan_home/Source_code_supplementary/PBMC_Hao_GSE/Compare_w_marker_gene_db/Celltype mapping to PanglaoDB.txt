@@ -1,0 +1,96 @@
+Celltype mapping to PanglaoDB
+
+
+{
+    "B": [						B cells
+        "B intermediate",		
+        "B memory",				B cells memory
+        "B naive",				B cells naive
+        "Plasmablast"			Plasma cells
+    ],
+    "CD4 T": [					T helper cells (T follicular helper cells)
+        "CD4 CTL",				T cytotoxic cells ?
+        "CD4 Naive",			T cells naive
+        "CD4 Proliferating",    
+        "CD4 TCM",				T memory cells
+        "CD4 TEM",				T memory cells
+        "Treg"					T regulatory cells
+    ],
+    "CD8 T": [                  T cytotoxic cells
+        "CD8 Naive",			T cells naive
+        "CD8 Proliferating",   
+        "CD8 TCM",				T memory cells
+        "CD8 TEM"				T memory cells
+    ],
+    "DC": [						Dendritic cells
+        "ASDC",					AXL + SIGLEC6 +
+        "cDC1",                 Conventional dendritic cells  (Panglao 沒有)
+        "cDC2",                 
+        "pDC"                   Plasmacytoid dendritic cells
+    ],
+    "Mono": [					Monocytes
+        "CD14 Mono",            
+        "CD16 Mono"             
+    ],
+    "NK": [						NK cells
+        "NK",					NK cells
+        "NK Proliferating",     
+        "NK_CD56bright"         
+    ],
+    "other": [
+        "Doublet",              
+        "Eryth",				Erythroblasts (Erythroid-like and erythroid precursor cells)
+        "HSPC",					Hematopoietic stem cells
+        "ILC",                  Nuocytes
+        "Platelet"				Platelets
+    ],
+    "other T": [
+        "MAIT",                 Mucosal-associated invariant T cells (Panglao 沒有)
+        "dnT",                  double negative T cells (Panglao 沒有)
+        "gdT"					Gamma delta T cells
+    ]
+}
+
+
+------------------------------------------------------------
+interested_types = [
+    "Platelets",
+    "Erythroblasts",
+    "Erythroid-like and erythroid precursor cells",
+    "B cells",
+    "B cells memory",
+    "B cells naive",
+    "Basophils",
+    "Dendritic cells",
+    "Eosinophils",
+    "Gamma delta T cells",
+    "Macrophages",
+    "Mast cells",
+    "Megakaryocytes",
+    "Monocytes",
+    "Myeloid-derived suppressor cells",
+    "Natural killer T cells",
+    "Neutrophils",
+    "NK cells",
+    "Nuocytes",
+    "Plasma cells",
+    "Plasmacytoid dendritic cells",
+    "Red pulp macrophages",
+    "T cells",
+    "T cells naive",
+    "T cytotoxic cells",
+    "T follicular helper cells",
+    "T helper cells",
+    "T memory cells",
+    "T regulatory cells"
+]
+------------------------------------------------------------
+
+"""
+
+
+
+
+
+
+

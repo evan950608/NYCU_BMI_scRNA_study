@@ -1,0 +1,23 @@
+nohup: ignoring input
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+Original adata: (32340, 20568)
+adata celltype shape: (15, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 9595)
+optimal lambda: 0.00014677992676220703
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.00014677992676220703
+Convergence with loss threshold
+Convergence with loss threshold
+Converge history:`
+{0: 0.6931473016738892, 100: 0.02931290492415428, 200: 0.012980934232473373}
+minimum epoch =  238 ; minimum lost =  0.009960523806512356 ; diff weight =  0.0014019996160641313
+ASDC feature list exported.
+Traceback (most recent call last):
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_loss_converge/L2_feature_selection_all.py", line 114, in <module>
+    run_pipeline_feature_selection(celltype)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_loss_converge/L2_feature_selection_all.py", line 94, in run_pipeline_feature_selection
+    pipeline_feature_selection(adata, celltype, label, opt_lmbd, output_path='/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_loss_converge/loss_feature_selection')
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_loss_converge/L2_feature_selection_all.py", line 49, in pipeline_feature_selection
+    minimal loss: {opt_res.loss}
+AttributeError: 'ADlasso2' object has no attribute 'loss'. Did you mean: 'loss_'?

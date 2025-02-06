@@ -1,0 +1,110 @@
+CD4_Proliferating
+Lambda: 1.0
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.254 min
+==========
+Lambda: 0.146779926762207
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.146779926762207, cost : 11.07 min
+==========
+Lambda: 0.31622776601683833
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.31622776601683833, cost : 12.263 min
+==========
+Lambda: 0.21544346900318853
+Hessian approximation fail, yTs = 0
+lambda is : 0.21544346900318853, cost : 16.87 min
+==========
+Lambda: 0.06812920690579614
+Hessian approximation fail, yTs = 0
+lambda is : 0.06812920690579614, cost : 14.353 min
+==========
+Lambda: 0.00010000000000000009
+Convergence with loss threshold
+lambda is : 0.00010000000000000009, cost : 15.623 min
+==========
+Lambda: 0.00014677992676220703
+Convergence with loss threshold
+lambda is : 0.00014677992676220703, cost : 15.888 min
+==========
+Lambda: 0.0002154434690031884
+Convergence with loss threshold
+lambda is : 0.0002154434690031884, cost : 16.037 min
+==========
+Lambda: 0.0004641588833612784
+Convergence with loss threshold
+lambda is : 0.0004641588833612784, cost : 16.213 min
+==========
+Lambda: 0.0003162277660168384
+Convergence with loss threshold
+lambda is : 0.0003162277660168384, cost : 16.329 min
+==========
+Lambda: 0.0006812920690579617
+Convergence with loss threshold
+lambda is : 0.0006812920690579617, cost : 16.627 min
+==========
+Lambda: 0.031622776601683826
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.031622776601683826, cost : 17.121 min
+==========
+Lambda: 0.010000000000000004
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.010000000000000004, cost : 17.178 min
+==========
+Lambda: 0.014677992676220709
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.014677992676220709, cost : 17.403 min
+==========
+Lambda: 0.0010000000000000002
+Convergence with loss threshold
+lambda is : 0.0010000000000000002, cost : 17.814 min
+==========
+Lambda: 0.004641588833612781
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.004641588833612781, cost : 18.369 min
+==========
+Lambda: 0.10000000000000006
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.10000000000000006, cost : 18.381 min
+==========
+Lambda: 0.003162277660168382
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.003162277660168382, cost : 18.403 min
+==========
+Lambda: 0.02154434690031885
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.02154434690031885, cost : 18.976 min
+==========
+Lambda: 0.006812920690579619
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.006812920690579619, cost : 19.107 min
+==========
+Lambda: 0.0014677992676220707
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.0014677992676220707, cost : 22.652 min
+==========
+Lambda: 0.0021544346900318864
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.0021544346900318864, cost : 25.096 min
+==========
+Lambda: 0.046415888336127815
+Hessian approximation fail, yTs = 0
+lambda is : 0.046415888336127815, cost : 28.632 min
+==========
+Lambda: 0.46415888336127825
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.46415888336127825, cost : 29.268 min
+==========
+Lambda: 0.6812920690579616
+Hessian approximation fail, yTs = 0
+lambda is : 0.6812920690579616, cost : 33.135 min
+==========
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+CD4_Proliferating Time elapsed: 33.18735554218292 minutes.
+Original adata: (32340, 20568)
+adata celltype shape: (856, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15467)
+====================

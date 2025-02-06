@@ -1,0 +1,2308 @@
+nohup: ignoring input
+Representative adata: (57515, 27504) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Queue ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM']
+====================
+***** Starting tuning
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for ASDC
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-02 17:11:31 Max_iter: 1000
+At iteration 2, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  3 ; minimum lost =  0.01382057461887598 ; diff loss =  4.6100467443466187e-07 ; diff weight =  0.00490354560315609
+lambda is : 9.999999999999997e-06, cost : 0.439 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-02 17:11:57 Max_iter: 1000
+At iteration 2, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  3 ; minimum lost =  0.013985378667712212 ; diff loss =  5.606561899185181e-07 ; diff weight =  0.0059430100955069065
+lambda is : 1.4677992676220687e-05, cost : 0.364 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-02 17:12:19 Max_iter: 1000
+At iteration 2, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  3 ; minimum lost =  0.014221369288861752 ; diff loss =  7.35744833946228e-07 ; diff weight =  0.007656129077076912
+lambda is : 2.1544346900318854e-05, cost : 0.377 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-02 17:12:41 Max_iter: 1000
+At iteration 355, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  356 ; minimum lost =  0.0009634946472942829 ; diff loss =  9.913928806781769e-07 ; diff weight =  0.009089161641895771
+lambda is : 3.16227766016838e-05, cost : 5.792 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-02 17:18:30 Max_iter: 1000
+At iteration 362, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  363 ; minimum lost =  0.0011989327613264322 ; diff loss =  9.62521880865097e-07 ; diff weight =  0.020097211003303528
+lambda is : 4.6415888336127784e-05, cost : 5.684 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-02 17:24:11 Max_iter: 1000
+At iteration 349, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  350 ; minimum lost =  0.0015220922650769353 ; diff loss =  9.622890502214432e-07 ; diff weight =  0.011580239981412888
+lambda is : 6.81292069057961e-05, cost : 5.455 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-02 17:29:38 Max_iter: 1000
+At iteration 337, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  338 ; minimum lost =  0.0019493114668875933 ; diff loss =  9.82312485575676e-07 ; diff weight =  0.010501952841877937
+lambda is : 9.999999999999991e-05, cost : 5.267 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-02 17:34:55 Max_iter: 1000
+At iteration 306, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  307 ; minimum lost =  0.00251232972368598 ; diff loss =  9.648501873016357e-07 ; diff weight =  0.009159721434116364
+lambda is : 0.00014677992676220703, cost : 4.791 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-02 17:39:42 Max_iter: 1000
+At iteration 298, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  299 ; minimum lost =  0.0032111881300807 ; diff loss =  9.543728083372116e-07 ; diff weight =  0.006563245318830013
+lambda is : 0.0002154434690031884, cost : 4.666 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-02 17:44:22 Max_iter: 1000
+At iteration 270, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  271 ; minimum lost =  0.004166004713624716 ; diff loss =  8.475035429000854e-07 ; diff weight =  0.007997848093509674
+lambda is : 0.00031622776601683783, cost : 4.237 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-02 17:48:36 Max_iter: 1000
+At iteration 264, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  265 ; minimum lost =  0.0052672820165753365 ; diff loss =  9.257346391677856e-07 ; diff weight =  0.003919882234185934
+lambda is : 0.00046415888336127795, cost : 4.142 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-02 17:52:45 Max_iter: 1000
+At iteration 272, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  273 ; minimum lost =  0.0067372508347034454 ; diff loss =  9.080395102500916e-07 ; diff weight =  0.00520313112065196
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 4.263 min
+==========
+Testing lambda: 0.001 starting at 2024-10-02 17:57:01 Max_iter: 1000
+At iteration 252, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  253 ; minimum lost =  0.008530033752322197 ; diff loss =  9.94652509689331e-07 ; diff weight =  0.006217409856617451
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 3.955 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-02 18:00:58 Max_iter: 1000
+At iteration 249, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  250 ; minimum lost =  0.010522997006773949 ; diff loss =  7.618218660354614e-07 ; diff weight =  0.002750214422121644
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 3.908 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-02 18:04:52 Max_iter: 1000
+At iteration 105, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  106 ; minimum lost =  0.012040352448821068 ; diff loss =  9.471550583839417e-07 ; diff weight =  0.001683059032075107
+lambda is : 0.0021544346900318843, cost : 1.686 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-02 18:06:33 Max_iter: 1000
+At iteration 91, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  92 ; minimum lost =  0.013227618299424648 ; diff loss =  8.00006091594696e-07 ; diff weight =  0.0025098661426454782
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.003162277660168382, cost : 1.463 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-02 18:08:01 Max_iter: 1000
+At iteration 120, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.014869697391986847 ; diff loss =  8.87550413608551e-07 ; diff weight =  0.001687520183622837
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.004641588833612781, cost : 1.909 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-02 18:09:56 Max_iter: 1000
+At iteration 105, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  106 ; minimum lost =  0.017190372571349144 ; diff loss =  2.477318048477173e-07 ; diff weight =  1.2755393981933594e-05
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.006812920690579613, cost : 1.676 min
+==========
+Testing lambda: 0.01 starting at 2024-10-02 18:11:36 Max_iter: 1000
+At iteration 106, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  107 ; minimum lost =  0.020558468997478485 ; diff loss =  7.450580596923828e-09 ; diff weight =  6.110934191383421e-05
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.010000000000000004, cost : 1.692 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-02 18:13:18 Max_iter: 1000
+At iteration 111, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  112 ; minimum lost =  0.02521343342959881 ; diff loss =  8.065253496170044e-07 ; diff weight =  0.00019592046737670898
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.014677992676220709, cost : 1.77 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-02 18:15:04 Max_iter: 1000
+At iteration 120, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.03176334872841835 ; diff loss =  1.30385160446167e-07 ; diff weight =  0.000345766544342041
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.02154434690031885, cost : 1.907 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-02 18:16:59 Max_iter: 1000
+At iteration 122, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  123 ; minimum lost =  0.04083457589149475 ; diff loss =  1.9371509552001953e-07 ; diff weight =  0.00033849477767944336
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0316227766016838, cost : 1.939 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-02 18:18:55 Max_iter: 1000
+At iteration 130, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  131 ; minimum lost =  0.05329354852437973 ; diff loss =  5.923211574554443e-07 ; diff weight =  0.0005339384078979492
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.04641588833612786, cost : 2.063 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-02 18:20:59 Max_iter: 1000
+At iteration 133, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  134 ; minimum lost =  0.07025538384914398 ; diff loss =  8.791685104370117e-07 ; diff weight =  0.0005919337272644043
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0681292069057962, cost : 2.11 min
+==========
+Testing lambda: 0.1 starting at 2024-10-02 18:23:05 Max_iter: 1000
+At iteration 131, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  132 ; minimum lost =  0.09313294291496277 ; diff loss =  2.7567148208618164e-07 ; diff weight =  0.00026285648345947266
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.10000000000000002, cost : 2.074 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.390670    0.236842          0.130434           10745  ...        1.0       1.0      0.013821       0.004904
+0.000015    0.376382    0.250000          0.137224           10352  ...        1.0       1.0      0.013985       0.005943
+0.000022    0.359002    0.263158          0.144867            9874  ...        1.0       1.0      0.014221       0.007656
+0.000032    0.006908    1.000000          0.739750             190  ...        1.0       1.0      0.000963       0.009089
+0.000046    0.004072    1.000000          0.776023             112  ...        1.0       1.0      0.001199       0.020097
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+ASDC Time elapsed: 73.72571821212769 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for B_intermediate
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-02 18:25:21 Max_iter: 1000
+At iteration 612, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  613 ; minimum lost =  0.0070732831954956055 ; diff loss =  3.7439167499542236e-07 ; diff weight =  0.0009603252401575446
+lambda is : 9.999999999999997e-06, cost : 9.758 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-02 18:35:06 Max_iter: 1000
+At iteration 490, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  491 ; minimum lost =  0.009687626734375954 ; diff loss =  9.723007678985596e-07 ; diff weight =  0.0007362462347373366
+lambda is : 1.4677992676220687e-05, cost : 7.908 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-02 18:43:01 Max_iter: 1000
+At iteration 528, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  529 ; minimum lost =  0.010936870239675045 ; diff loss =  7.394701242446899e-07 ; diff weight =  0.007874183356761932
+lambda is : 2.1544346900318854e-05, cost : 8.612 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-02 18:51:37 Max_iter: 1000
+At iteration 453, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  454 ; minimum lost =  0.01331890095025301 ; diff loss =  9.55536961555481e-07 ; diff weight =  0.001213402603752911
+lambda is : 3.16227766016838e-05, cost : 7.303 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-02 18:58:56 Max_iter: 1000
+At iteration 475, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  476 ; minimum lost =  0.014936741441488266 ; diff loss =  8.856877684593201e-07 ; diff weight =  0.00032445319811813533
+lambda is : 4.6415888336127784e-05, cost : 7.685 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-02 19:06:37 Max_iter: 1000
+At iteration 527, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  528 ; minimum lost =  0.016894089058041573 ; diff loss =  7.916241884231567e-07 ; diff weight =  0.0007443930371664464
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 8.446 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-02 19:15:03 Max_iter: 1000
+At iteration 490, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  491 ; minimum lost =  0.019379032775759697 ; diff loss =  6.221234798431396e-07 ; diff weight =  0.0008115890668705106
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 7.814 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-02 19:22:52 Max_iter: 1000
+At iteration 490, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  491 ; minimum lost =  0.022108804434537888 ; diff loss =  6.742775440216064e-07 ; diff weight =  0.00046878549619577825
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 7.779 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-02 19:30:39 Max_iter: 1000
+At iteration 436, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  437 ; minimum lost =  0.025269541889429092 ; diff loss =  4.991888999938965e-07 ; diff weight =  0.0004434439179021865
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 6.91 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-02 19:37:34 Max_iter: 1000
+At iteration 506, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  507 ; minimum lost =  0.028561096638441086 ; diff loss =  8.717179298400879e-07 ; diff weight =  0.0018706611590459943
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 7.925 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-02 19:45:29 Max_iter: 1000
+At iteration 408, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  408 ; minimum lost =  0.032758936285972595 ; diff loss =  -4.470348358154297e-07 ; diff weight =  0.015454118140041828
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 6.511 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-02 19:52:00 Max_iter: 1000
+At iteration 474, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  475 ; minimum lost =  0.03683110326528549 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0014262873446568847
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 7.418 min
+==========
+Testing lambda: 0.001 starting at 2024-10-02 19:59:25 Max_iter: 1000
+At iteration 451, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  452 ; minimum lost =  0.041492220014333725 ; diff loss =  8.866190910339355e-07 ; diff weight =  0.0018885701429098845
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 7.046 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-02 20:06:28 Max_iter: 1000
+At iteration 430, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  431 ; minimum lost =  0.046819452196359634 ; diff loss =  9.872019290924072e-07 ; diff weight =  0.0017910957103595138
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 6.72 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-02 20:13:11 Max_iter: 1000
+At iteration 426, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  427 ; minimum lost =  0.05293811857700348 ; diff loss =  6.034970283508301e-07 ; diff weight =  0.0009730450110509992
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 6.647 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-02 20:19:50 Max_iter: 1000
+At iteration 442, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  443 ; minimum lost =  0.05974921956658363 ; diff loss =  9.648501873016357e-07 ; diff weight =  0.0015672770095989108
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 6.886 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-02 20:26:43 Max_iter: 1000
+At iteration 384, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  385 ; minimum lost =  0.06732554733753204 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0010192561894655228
+lambda is : 0.004641588833612781, cost : 5.977 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-02 20:32:41 Max_iter: 1000
+At iteration 319, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  320 ; minimum lost =  0.07612926512956619 ; diff loss =  7.003545761108398e-07 ; diff weight =  0.0001782996259862557
+lambda is : 0.006812920690579613, cost : 4.978 min
+==========
+Testing lambda: 0.01 starting at 2024-10-02 20:37:40 Max_iter: 1000
+At iteration 382, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  383 ; minimum lost =  0.08632306754589081 ; diff loss =  6.854534149169922e-07 ; diff weight =  0.0012370580807328224
+lambda is : 0.010000000000000004, cost : 5.948 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-02 20:43:37 Max_iter: 1000
+At iteration 371, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  372 ; minimum lost =  0.09849566221237183 ; diff loss =  3.129243850708008e-07 ; diff weight =  0.0001416193408658728
+lambda is : 0.014677992676220709, cost : 5.774 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-02 20:49:23 Max_iter: 1000
+At iteration 313, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  314 ; minimum lost =  0.11264990270137787 ; diff loss =  2.980232238769531e-07 ; diff weight =  0.00030012495699338615
+lambda is : 0.02154434690031885, cost : 4.886 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-02 20:54:16 Max_iter: 1000
+At iteration 301, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  302 ; minimum lost =  0.12916353344917297 ; diff loss =  7.152557373046875e-07 ; diff weight =  0.0007853080751374364
+lambda is : 0.0316227766016838, cost : 4.704 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-02 20:58:59 Max_iter: 1000
+At iteration 211, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  212 ; minimum lost =  0.14492560923099518 ; diff loss =  4.917383193969727e-07 ; diff weight =  0.00018696169718168676
+lambda is : 0.04641588833612786, cost : 3.315 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-02 21:02:18 Max_iter: 1000
+At iteration 191, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  191 ; minimum lost =  0.1580829620361328 ; diff loss =  -2.9802322387695312e-08 ; diff weight =  0.0009587170789018273
+lambda is : 0.0681292069057962, cost : 3.011 min
+==========
+Testing lambda: 0.1 starting at 2024-10-02 21:05:18 Max_iter: 1000
+At iteration 170, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  171 ; minimum lost =  0.17635366320610046 ; diff loss =  2.980232238769531e-07 ; diff weight =  0.0001189945251098834
+lambda is : 0.10000000000000002, cost : 2.679 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.089587    0.463789          0.396960            2464  ...        1.0       1.0      0.007073       0.000960
+0.000015    0.106385    0.426847          0.369176            2926  ...        1.0       1.0      0.009688       0.000736
+0.000022    0.070826    0.517922          0.444744            1948  ...        1.0       1.0      0.010937       0.007874
+0.000032    0.074971    0.515728          0.447852            2062  ...        1.0       1.0      0.013319       0.001213
+0.000046    0.058210    0.583029          0.502725            1601  ...        1.0       1.0      0.014937       0.000324
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+B_intermediate Time elapsed: 162.70824576616286 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for B_memory
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-02 21:08:09 Max_iter: 1000
+At iteration 579, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  580 ; minimum lost =  0.004550798796117306 ; diff loss =  8.586794137954712e-07 ; diff weight =  0.002869597403332591
+lambda is : 9.999999999999997e-06, cost : 9.229 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-02 21:17:23 Max_iter: 1000
+At iteration 623, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  624 ; minimum lost =  0.005308700725436211 ; diff loss =  7.622875273227692e-07 ; diff weight =  0.004501818213611841
+lambda is : 1.4677992676220687e-05, cost : 10.027 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-02 21:27:25 Max_iter: 1000
+At iteration 523, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  524 ; minimum lost =  0.0069687990471720695 ; diff loss =  9.378418326377869e-07 ; diff weight =  0.0015134336426854134
+lambda is : 2.1544346900318854e-05, cost : 8.361 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-02 21:35:46 Max_iter: 1000
+At iteration 536, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  537 ; minimum lost =  0.00820065476000309 ; diff loss =  6.165355443954468e-07 ; diff weight =  0.0009170119883492589
+lambda is : 3.16227766016838e-05, cost : 8.52 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-02 21:44:17 Max_iter: 1000
+At iteration 530, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  531 ; minimum lost =  0.009868563152849674 ; diff loss =  7.990747690200806e-07 ; diff weight =  0.000829446769785136
+lambda is : 4.6415888336127784e-05, cost : 8.399 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-02 21:52:41 Max_iter: 1000
+At iteration 480, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  481 ; minimum lost =  0.011649161577224731 ; diff loss =  3.334134817123413e-07 ; diff weight =  0.010769978165626526
+lambda is : 6.81292069057961e-05, cost : 7.626 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-02 22:00:19 Max_iter: 1000
+At iteration 525, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  526 ; minimum lost =  0.013450250029563904 ; diff loss =  5.848705768585205e-07 ; diff weight =  0.004848322831094265
+lambda is : 9.999999999999991e-05, cost : 8.281 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-02 22:08:36 Max_iter: 1000
+At iteration 494, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  495 ; minimum lost =  0.01570194587111473 ; diff loss =  7.80448317527771e-07 ; diff weight =  0.004937019199132919
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 7.799 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-02 22:16:24 Max_iter: 1000
+At iteration 522, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  523 ; minimum lost =  0.018215756863355637 ; diff loss =  6.51925802230835e-07 ; diff weight =  0.0005129952332936227
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 8.192 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-02 22:24:35 Max_iter: 1000
+At iteration 530, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  531 ; minimum lost =  0.02125353366136551 ; diff loss =  9.257346391677856e-07 ; diff weight =  0.003112185513600707
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 8.283 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-02 22:32:52 Max_iter: 1000
+At iteration 498, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  499 ; minimum lost =  0.02498505264520645 ; diff loss =  9.57399606704712e-07 ; diff weight =  0.002894745906814933
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 7.921 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-02 22:40:48 Max_iter: 1000
+At iteration 491, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  492 ; minimum lost =  0.029438123106956482 ; diff loss =  4.76837158203125e-07 ; diff weight =  0.002770261839032173
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 7.669 min
+==========
+Testing lambda: 0.001 starting at 2024-10-02 22:48:28 Max_iter: 1000
+At iteration 525, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  526 ; minimum lost =  0.03495020419359207 ; diff loss =  7.152557373046875e-07 ; diff weight =  0.0026166613679379225
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 8.192 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-02 22:56:39 Max_iter: 1000
+At iteration 478, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  479 ; minimum lost =  0.041819848120212555 ; diff loss =  6.444752216339111e-07 ; diff weight =  0.002377450233325362
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 7.463 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-02 23:04:07 Max_iter: 1000
+At iteration 522, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  523 ; minimum lost =  0.05033810809254646 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.00230531208217144
+lambda is : 0.0021544346900318843, cost : 8.137 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-02 23:12:15 Max_iter: 1000
+At iteration 416, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  416 ; minimum lost =  0.06117141991853714 ; diff loss =  -5.587935447692871e-07 ; diff weight =  0.009144102223217487
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 6.521 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-02 23:18:47 Max_iter: 1000
+At iteration 481, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  482 ; minimum lost =  0.0736415833234787 ; diff loss =  9.611248970031738e-07 ; diff weight =  0.000672078225761652
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 7.497 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-02 23:26:16 Max_iter: 1000
+At iteration 467, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  468 ; minimum lost =  0.08792911469936371 ; diff loss =  8.791685104370117e-07 ; diff weight =  0.0009423423907719553
+lambda is : 0.006812920690579613, cost : 7.277 min
+==========
+Testing lambda: 0.01 starting at 2024-10-02 23:33:33 Max_iter: 1000
+At iteration 375, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  376 ; minimum lost =  0.10307227075099945 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0006906171911396086
+lambda is : 0.010000000000000004, cost : 5.855 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-02 23:39:24 Max_iter: 1000
+At iteration 336, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  337 ; minimum lost =  0.11659212410449982 ; diff loss =  6.92903995513916e-07 ; diff weight =  4.552240716293454e-05
+lambda is : 0.014677992676220709, cost : 5.242 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-02 23:44:39 Max_iter: 1000
+At iteration 348, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  349 ; minimum lost =  0.1311190128326416 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.001733513898216188
+lambda is : 0.02154434690031885, cost : 5.426 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-02 23:50:04 Max_iter: 1000
+At iteration 272, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  272 ; minimum lost =  0.1474114954471588 ; diff loss =  0.0 ; diff weight =  1.4409424693440087e-05
+lambda is : 0.0316227766016838, cost : 4.255 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-02 23:54:20 Max_iter: 1000
+At iteration 204, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  205 ; minimum lost =  0.16417834162712097 ; diff loss =  1.4901161193847656e-07 ; diff weight =  9.915630653267726e-05
+lambda is : 0.04641588833612786, cost : 3.206 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-02 23:57:32 Max_iter: 1000
+At iteration 209, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  210 ; minimum lost =  0.17741529643535614 ; diff loss =  3.427267074584961e-07 ; diff weight =  0.0002015872159972787
+lambda is : 0.0681292069057962, cost : 3.286 min
+==========
+Testing lambda: 0.1 starting at 2024-10-03 00:00:49 Max_iter: 1000
+At iteration 185, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  186 ; minimum lost =  0.19474676251411438 ; diff loss =  4.470348358154297e-07 ; diff weight =  2.4978209694381803e-05
+lambda is : 0.10000000000000002, cost : 2.916 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.071117    0.488386          0.445011            1956  ...        1.0       1.0      0.004551       0.002870
+0.000015    0.051302    0.560976          0.497034            1411  ...        1.0       1.0      0.005309       0.004502
+0.000022    0.057083    0.567944          0.510557            1570  ...        1.0       1.0      0.006969       0.001513
+0.000032    0.046611    0.622822          0.560769            1282  ...        1.0       1.0      0.008201       0.000917
+0.000046    0.037885    0.668990          0.599547            1042  ...        1.0       1.0      0.009869       0.000829
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff_noZ.py:929: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax1 = plt.subplots(figsize = (fig_width,fig_height))
+B_memory Time elapsed: 175.6539203206698 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for B_naive
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-03 00:03:54 Max_iter: 1000
+At iteration 609, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  610 ; minimum lost =  0.004778820555657148 ; diff loss =  6.39352947473526e-07 ; diff weight =  0.0011973986402153969
+lambda is : 9.999999999999997e-06, cost : 9.686 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-03 00:13:36 Max_iter: 1000
+At iteration 557, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  558 ; minimum lost =  0.0061188084073364735 ; diff loss =  9.60659235715866e-07 ; diff weight =  0.0009524397319182754
+lambda is : 1.4677992676220687e-05, cost : 8.908 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-03 00:22:30 Max_iter: 1000
+At iteration 559, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  560 ; minimum lost =  0.007015823852270842 ; diff loss =  6.300397217273712e-07 ; diff weight =  0.0007848813547752798
+lambda is : 2.1544346900318854e-05, cost : 9.053 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-03 00:31:33 Max_iter: 1000
+At iteration 564, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  565 ; minimum lost =  0.00803704559803009 ; diff loss =  6.835907697677612e-07 ; diff weight =  0.0004555611521936953
+lambda is : 3.16227766016838e-05, cost : 8.947 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-03 00:40:30 Max_iter: 1000
+At iteration 586, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  587 ; minimum lost =  0.009129922837018967 ; diff loss =  7.553026080131531e-07 ; diff weight =  0.003983534872531891
+lambda is : 4.6415888336127784e-05, cost : 9.256 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-03 00:49:45 Max_iter: 1000
+At iteration 542, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  543 ; minimum lost =  0.010550111532211304 ; diff loss =  5.746260285377502e-07 ; diff weight =  0.007551921531558037
+lambda is : 6.81292069057961e-05, cost : 8.558 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-03 00:58:19 Max_iter: 1000
+At iteration 584, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  585 ; minimum lost =  0.011737300083041191 ; diff loss =  7.7858567237854e-07 ; diff weight =  0.0009271123562939465
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 9.189 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-03 01:07:30 Max_iter: 1000
+At iteration 600, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  601 ; minimum lost =  0.013126271776854992 ; diff loss =  9.955838322639465e-07 ; diff weight =  0.0037503736093640327
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 9.403 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-03 01:16:54 Max_iter: 1000
+At iteration 597, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  598 ; minimum lost =  0.014713091775774956 ; diff loss =  6.984919309616089e-07 ; diff weight =  0.0035888198763132095
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 9.32 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-03 01:26:14 Max_iter: 1000
+At iteration 589, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  590 ; minimum lost =  0.016561079770326614 ; diff loss =  7.7858567237854e-07 ; diff weight =  0.00398787809535861
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 9.189 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-03 01:35:25 Max_iter: 1000
+At iteration 561, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  562 ; minimum lost =  0.018781837075948715 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.004457319155335426
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 8.747 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-03 01:44:10 Max_iter: 1000
+At iteration 559, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  560 ; minimum lost =  0.0215067770332098 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.004740462638437748
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 8.691 min
+==========
+Testing lambda: 0.001 starting at 2024-10-03 01:52:51 Max_iter: 1000
+At iteration 517, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  518 ; minimum lost =  0.02493755891919136 ; diff loss =  8.586794137954712e-07 ; diff weight =  0.004328462295234203
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 8.04 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-03 02:00:54 Max_iter: 1000
+At iteration 491, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  492 ; minimum lost =  0.029238209128379822 ; diff loss =  8.419156074523926e-07 ; diff weight =  0.003401529509574175
+lambda is : 0.0014677992676220694, cost : 7.633 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-03 02:08:32 Max_iter: 1000
+At iteration 468, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  469 ; minimum lost =  0.03465251624584198 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.004057885147631168
+lambda is : 0.0021544346900318843, cost : 7.28 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-03 02:15:49 Max_iter: 1000
+At iteration 555, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  555 ; minimum lost =  0.041390568017959595 ; diff loss =  -2.7194619178771973e-07 ; diff weight =  0.00811885204166174
+lambda is : 0.003162277660168382, cost : 8.617 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-03 02:24:26 Max_iter: 1000
+At iteration 483, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  484 ; minimum lost =  0.04996884986758232 ; diff loss =  8.977949619293213e-07 ; diff weight =  0.002451217034831643
+lambda is : 0.004641588833612781, cost : 7.51 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-03 02:31:56 Max_iter: 1000
+At iteration 481, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  482 ; minimum lost =  0.0609726682305336 ; diff loss =  8.493661880493164e-07 ; diff weight =  0.002106303349137306
+lambda is : 0.006812920690579613, cost : 7.669 min
+==========
+Testing lambda: 0.01 starting at 2024-10-03 02:39:36 Max_iter: 1000
+At iteration 471, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  472 ; minimum lost =  0.07493700087070465 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0019565389957278967
+lambda is : 0.010000000000000004, cost : 7.327 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-03 02:46:56 Max_iter: 1000
+At iteration 442, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  443 ; minimum lost =  0.09254111349582672 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0018513540271669626
+lambda is : 0.014677992676220709, cost : 6.884 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-03 02:53:49 Max_iter: 1000
+At iteration 380, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  381 ; minimum lost =  0.11449263989925385 ; diff loss =  8.046627044677734e-07 ; diff weight =  0.0010121320374310017
+lambda is : 0.02154434690031885, cost : 5.927 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-03 02:59:45 Max_iter: 1000
+At iteration 349, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  350 ; minimum lost =  0.14084851741790771 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0009777593659237027
+lambda is : 0.0316227766016838, cost : 5.445 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-03 03:05:11 Max_iter: 1000
+At iteration 307, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  308 ; minimum lost =  0.1712626814842224 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0006040335865691304
+lambda is : 0.04641588833612786, cost : 4.797 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-03 03:09:59 Max_iter: 1000
+At iteration 264, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  265 ; minimum lost =  0.20746532082557678 ; diff loss =  8.940696716308594e-08 ; diff weight =  0.00014869391452521086
+lambda is : 0.0681292069057962, cost : 4.134 min
+==========
+Testing lambda: 0.1 starting at 2024-10-03 03:14:07 Max_iter: 1000
+At iteration 226, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  227 ; minimum lost =  0.24921928346157074 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0002779513015411794
+lambda is : 0.10000000000000002, cost : 3.546 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.072935    0.431663          0.449782            2006  ...        1.0       1.0      0.004779       0.001197
+0.000015    0.072426    0.437733          0.453225            1992  ...        1.0       1.0      0.006119       0.000952
+0.000022    0.057555    0.495953          0.503121            1583  ...        1.0       1.0      0.007016       0.000785
+0.000032    0.039885    0.575342          0.566064            1097  ...        1.0       1.0      0.008037       0.000456
+0.000046    0.027596    0.664695          0.633390             759  ...        1.0       1.0      0.009130       0.003984
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+B_naive Time elapsed: 193.83191056251525 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for CD14_Mono
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-03 03:17:50 Max_iter: 1000
+At iteration 671, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  672 ; minimum lost =  0.013340131379663944 ; diff loss =  9.424984455108643e-07 ; diff weight =  0.00033748376881703734
+lambda is : 9.999999999999997e-06, cost : 10.849 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-03 03:28:41 Max_iter: 1000
+At iteration 613, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  613 ; minimum lost =  0.016902923583984375 ; diff loss =  -2.0489096641540527e-08 ; diff weight =  0.015768760815262794
+lambda is : 1.4677992676220687e-05, cost : 10.091 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-03 03:38:46 Max_iter: 1000
+At iteration 600, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  601 ; minimum lost =  0.019553709775209427 ; diff loss =  9.94652509689331e-07 ; diff weight =  0.0004760752199217677
+lambda is : 2.1544346900318854e-05, cost : 9.71 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-03 03:48:29 Max_iter: 1000
+At iteration 631, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  632 ; minimum lost =  0.02161487191915512 ; diff loss =  9.201467037200928e-07 ; diff weight =  0.0003601177886594087
+lambda is : 3.16227766016838e-05, cost : 10.226 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-03 03:58:42 Max_iter: 1000
+At iteration 519, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  520 ; minimum lost =  0.026020044460892677 ; diff loss =  8.959323167800903e-07 ; diff weight =  0.0001788297522580251
+lambda is : 4.6415888336127784e-05, cost : 8.388 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-03 04:07:06 Max_iter: 1000
+At iteration 577, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  578 ; minimum lost =  0.027153782546520233 ; diff loss =  8.922070264816284e-07 ; diff weight =  0.0002761954383458942
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 9.594 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-03 04:16:41 Max_iter: 1000
+At iteration 588, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  589 ; minimum lost =  0.029175229370594025 ; diff loss =  7.953494787216187e-07 ; diff weight =  0.0003013405075762421
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 9.528 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-03 04:26:13 Max_iter: 1000
+At iteration 553, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  554 ; minimum lost =  0.03149142861366272 ; diff loss =  6.966292858123779e-07 ; diff weight =  0.00032573030330240726
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 8.851 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-03 04:35:04 Max_iter: 1000
+At iteration 563, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  564 ; minimum lost =  0.03363340348005295 ; diff loss =  4.246830940246582e-07 ; diff weight =  0.0006873334059491754
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 8.955 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-03 04:44:01 Max_iter: 1000
+At iteration 555, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  556 ; minimum lost =  0.036237865686416626 ; diff loss =  5.662441253662109e-07 ; diff weight =  0.005843996535986662
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 8.708 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-03 04:52:44 Max_iter: 1000
+At iteration 527, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  528 ; minimum lost =  0.039360061287879944 ; diff loss =  9.611248970031738e-07 ; diff weight =  0.006394244730472565
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 8.268 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-03 05:01:00 Max_iter: 1000
+At iteration 587, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  588 ; minimum lost =  0.04207887873053551 ; diff loss =  5.550682544708252e-07 ; diff weight =  0.0004049235431011766
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 9.158 min
+==========
+Testing lambda: 0.001 starting at 2024-10-03 05:10:09 Max_iter: 1000
+At iteration 599, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  600 ; minimum lost =  0.04574963450431824 ; diff loss =  5.513429641723633e-07 ; diff weight =  0.0005433661863207817
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 9.326 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-03 05:19:29 Max_iter: 1000
+At iteration 528, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  529 ; minimum lost =  0.050202637910842896 ; diff loss =  7.562339305877686e-07 ; diff weight =  0.0026184481102973223
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 8.214 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-03 05:27:42 Max_iter: 1000
+At iteration 506, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  506 ; minimum lost =  0.05558473616838455 ; diff loss =  -3.7997961044311523e-07 ; diff weight =  0.007565536070615053
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 7.909 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-03 05:35:36 Max_iter: 1000
+At iteration 609, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  610 ; minimum lost =  0.06204255670309067 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0014894068008288741
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 9.465 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-03 05:45:04 Max_iter: 1000
+At iteration 548, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  549 ; minimum lost =  0.07066448032855988 ; diff loss =  9.760260581970215e-07 ; diff weight =  0.0015065436018630862
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 8.665 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-03 05:53:44 Max_iter: 1000
+At iteration 557, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  558 ; minimum lost =  0.08169086277484894 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0012641737703233957
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 8.668 min
+==========
+Testing lambda: 0.01 starting at 2024-10-03 06:02:24 Max_iter: 1000
+At iteration 536, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  537 ; minimum lost =  0.09595613926649094 ; diff loss =  6.034970283508301e-07 ; diff weight =  0.0005622393800877035
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.010000000000000004, cost : 8.345 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-03 06:10:45 Max_iter: 1000
+At iteration 416, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  417 ; minimum lost =  0.11436806619167328 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.0007239446858875453
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.014677992676220709, cost : 6.491 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-03 06:17:14 Max_iter: 1000
+At iteration 366, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  367 ; minimum lost =  0.1374717354774475 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.001188351190648973
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.02154434690031885, cost : 5.714 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-03 06:22:57 Max_iter: 1000
+At iteration 362, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  363 ; minimum lost =  0.16601431369781494 ; diff loss =  6.556510925292969e-07 ; diff weight =  0.0005333462613634765
+lambda is : 0.0316227766016838, cost : 5.652 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-03 06:28:36 Max_iter: 1000
+At iteration 398, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  399 ; minimum lost =  0.20218726992607117 ; diff loss =  7.450580596923828e-07 ; diff weight =  0.00014754687435925007
+lambda is : 0.04641588833612786, cost : 6.214 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-03 06:34:49 Max_iter: 1000
+At iteration 401, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  402 ; minimum lost =  0.24522912502288818 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0001936402404680848
+lambda is : 0.0681292069057962, cost : 6.255 min
+==========
+Testing lambda: 0.1 starting at 2024-10-03 06:41:05 Max_iter: 1000
+At iteration 354, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  355 ; minimum lost =  0.2979537546634674 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0001922848605317995
+lambda is : 0.10000000000000002, cost : 5.521 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.185500    0.404252          0.236182            5102  ...        1.0       1.0      0.013340       0.000337
+0.000015    0.176847    0.415964          0.242287            4864  ...        1.0       1.0      0.016903       0.015769
+0.000022    0.133981    0.495666          0.287768            3685  ...        1.0       1.0      0.019554       0.000476
+0.000032    0.126418    0.513235          0.303551            3477  ...        1.0       1.0      0.021615       0.000360
+0.000046    0.116019    0.539119          0.325051            3191  ...        1.0       1.0      0.026020       0.000179
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+CD14_Mono Time elapsed: 208.8321331779162 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for CD16_Mono
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-03 06:46:46 Max_iter: 1000
+At iteration 512, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  513 ; minimum lost =  0.009112393483519554 ; diff loss =  9.96515154838562e-07 ; diff weight =  0.00039546331390738487
+lambda is : 9.999999999999997e-06, cost : 8.514 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-03 06:55:17 Max_iter: 1000
+At iteration 554, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  555 ; minimum lost =  0.00979641079902649 ; diff loss =  9.741634130477905e-07 ; diff weight =  0.0008508962928317487
+lambda is : 1.4677992676220687e-05, cost : 9.04 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-03 07:04:19 Max_iter: 1000
+At iteration 494, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  495 ; minimum lost =  0.01231367513537407 ; diff loss =  8.754432201385498e-07 ; diff weight =  0.0002474849170539528
+lambda is : 2.1544346900318854e-05, cost : 8.114 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-03 07:12:26 Max_iter: 1000
+At iteration 536, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  537 ; minimum lost =  0.012848824262619019 ; diff loss =  8.475035429000854e-07 ; diff weight =  0.005281565245240927
+lambda is : 3.16227766016838e-05, cost : 8.788 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-03 07:21:13 Max_iter: 1000
+At iteration 559, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  560 ; minimum lost =  0.014377906918525696 ; diff loss =  6.388872861862183e-07 ; diff weight =  0.0003051546518690884
+lambda is : 4.6415888336127784e-05, cost : 9.006 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-03 07:30:14 Max_iter: 1000
+At iteration 511, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  512 ; minimum lost =  0.016555584967136383 ; diff loss =  8.475035429000854e-07 ; diff weight =  0.0008059059618972242
+lambda is : 6.81292069057961e-05, cost : 8.245 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-03 07:38:29 Max_iter: 1000
+At iteration 502, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  503 ; minimum lost =  0.01855982095003128 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.0005882731638848782
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 8.126 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-03 07:46:36 Max_iter: 1000
+At iteration 498, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  499 ; minimum lost =  0.020493747666478157 ; diff loss =  8.67992639541626e-07 ; diff weight =  0.0008845842094160616
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 7.967 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-03 07:54:34 Max_iter: 1000
+At iteration 566, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  567 ; minimum lost =  0.02216002158820629 ; diff loss =  7.525086402893066e-07 ; diff weight =  0.00024206026864703745
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 8.922 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-03 08:03:29 Max_iter: 1000
+At iteration 523, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  524 ; minimum lost =  0.024446552619338036 ; diff loss =  7.431954145431519e-07 ; diff weight =  0.0005776379257440567
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 8.218 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-03 08:11:42 Max_iter: 1000
+At iteration 534, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  535 ; minimum lost =  0.02694065123796463 ; diff loss =  8.791685104370117e-07 ; diff weight =  0.00238299579359591
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 8.331 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-03 08:20:02 Max_iter: 1000
+At iteration 537, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  538 ; minimum lost =  0.029976222664117813 ; diff loss =  5.010515451431274e-07 ; diff weight =  0.0025054907891899347
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 8.37 min
+==========
+Testing lambda: 0.001 starting at 2024-10-03 08:28:24 Max_iter: 1000
+At iteration 531, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  532 ; minimum lost =  0.03378470987081528 ; diff loss =  8.307397365570068e-07 ; diff weight =  0.002133357571437955
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 8.272 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-03 08:36:41 Max_iter: 1000
+At iteration 516, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  517 ; minimum lost =  0.03839685022830963 ; diff loss =  8.642673492431641e-07 ; diff weight =  0.0020122674759477377
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 8.025 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-03 08:44:42 Max_iter: 1000
+At iteration 479, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  480 ; minimum lost =  0.044049039483070374 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0018587568774819374
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 7.45 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-03 08:52:09 Max_iter: 1000
+At iteration 453, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  453 ; minimum lost =  0.050715554505586624 ; diff loss =  -4.6566128730773926e-07 ; diff weight =  0.009394416585564613
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 7.062 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-03 08:59:13 Max_iter: 1000
+At iteration 454, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  455 ; minimum lost =  0.05836839601397514 ; diff loss =  4.880130290985107e-07 ; diff weight =  0.0019407327054068446
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 7.186 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-03 09:06:24 Max_iter: 1000
+At iteration 481, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  482 ; minimum lost =  0.0685209184885025 ; diff loss =  5.438923835754395e-07 ; diff weight =  0.0013549035647884011
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 7.488 min
+==========
+Testing lambda: 0.01 starting at 2024-10-03 09:13:53 Max_iter: 1000
+At iteration 405, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  406 ; minimum lost =  0.0817243680357933 ; diff loss =  3.650784492492676e-07 ; diff weight =  0.0008158794371411204
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.010000000000000004, cost : 6.317 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-03 09:20:12 Max_iter: 1000
+At iteration 393, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  394 ; minimum lost =  0.09884515404701233 ; diff loss =  3.3527612686157227e-07 ; diff weight =  0.0004542884125839919
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.014677992676220709, cost : 6.128 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-03 09:26:20 Max_iter: 1000
+At iteration 429, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  430 ; minimum lost =  0.12015955150127411 ; diff loss =  4.470348358154297e-07 ; diff weight =  0.0005915594520047307
+lambda is : 0.02154434690031885, cost : 6.683 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-03 09:33:01 Max_iter: 1000
+At iteration 372, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  373 ; minimum lost =  0.14643847942352295 ; diff loss =  2.384185791015625e-07 ; diff weight =  0.0001899941562442109
+lambda is : 0.0316227766016838, cost : 5.8 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-03 09:38:49 Max_iter: 1000
+At iteration 370, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  371 ; minimum lost =  0.17788751423358917 ; diff loss =  2.2351741790771484e-07 ; diff weight =  0.0002278934553032741
+lambda is : 0.04641588833612786, cost : 5.766 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-03 09:44:35 Max_iter: 1000
+At iteration 363, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  364 ; minimum lost =  0.21203190088272095 ; diff loss =  2.980232238769531e-07 ; diff weight =  0.0002113364462275058
+lambda is : 0.0681292069057962, cost : 5.659 min
+==========
+Testing lambda: 0.1 starting at 2024-10-03 09:50:15 Max_iter: 1000
+At iteration 208, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  209 ; minimum lost =  0.24002383649349213 ; diff loss =  8.493661880493164e-07 ; diff weight =  0.00029279940645210445
+lambda is : 0.10000000000000002, cost : 3.266 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.170521    0.474194          0.264632            4690  ...        1.0       1.0      0.009112       0.000395
+0.000015    0.134271    0.555556          0.306935            3693  ...        1.0       1.0      0.009796       0.000851
+0.000022    0.136053    0.551075          0.306807            3742  ...        1.0       1.0      0.012314       0.000247
+0.000032    0.080316    0.679928          0.383298            2209  ...        1.0       1.0      0.012849       0.005282
+0.000046    0.072680    0.739785          0.429127            1999  ...        1.0       1.0      0.014378       0.000305
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+CD16_Mono Time elapsed: 186.8158272067706 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for CD4_CTL
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-03 09:53:41 Max_iter: 1000
+At iteration 519, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  520 ; minimum lost =  0.0054763928055763245 ; diff loss =  9.806826710700989e-07 ; diff weight =  0.0011965985177084804
+lambda is : 9.999999999999997e-06, cost : 8.322 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-03 10:02:00 Max_iter: 1000
+At iteration 515, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  516 ; minimum lost =  0.00649200240150094 ; diff loss =  9.229406714439392e-07 ; diff weight =  0.0007345942431129515
+lambda is : 1.4677992676220687e-05, cost : 8.257 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-03 10:10:16 Max_iter: 1000
+At iteration 545, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  546 ; minimum lost =  0.00768432579934597 ; diff loss =  4.842877388000488e-07 ; diff weight =  0.00213099317625165
+lambda is : 2.1544346900318854e-05, cost : 8.656 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-03 10:18:55 Max_iter: 1000
+At iteration 505, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  506 ; minimum lost =  0.009606827981770039 ; diff loss =  8.23289155960083e-07 ; diff weight =  0.0010585569543763995
+lambda is : 3.16227766016838e-05, cost : 8.064 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-03 10:26:59 Max_iter: 1000
+At iteration 443, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  444 ; minimum lost =  0.01198892667889595 ; diff loss =  9.937211871147156e-07 ; diff weight =  0.0008458984084427357
+lambda is : 4.6415888336127784e-05, cost : 7.071 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-03 10:34:03 Max_iter: 1000
+At iteration 511, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  511 ; minimum lost =  0.01366929430514574 ; diff loss =  -4.1816383600234985e-07 ; diff weight =  0.004827182739973068
+lambda is : 6.81292069057961e-05, cost : 8.076 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-03 10:42:08 Max_iter: 1000
+At iteration 486, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  487 ; minimum lost =  0.01649177074432373 ; diff loss =  7.990747690200806e-07 ; diff weight =  0.000985694001428783
+lambda is : 9.999999999999991e-05, cost : 7.678 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-03 10:49:48 Max_iter: 1000
+At iteration 476, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  477 ; minimum lost =  0.019509438425302505 ; diff loss =  5.289912223815918e-07 ; diff weight =  0.0014134891098365188
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 7.707 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-03 10:57:31 Max_iter: 1000
+At iteration 552, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  553 ; minimum lost =  0.022730205208063126 ; diff loss =  6.314367055892944e-07 ; diff weight =  0.0026771551929414272
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 8.659 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-03 11:06:10 Max_iter: 1000
+At iteration 528, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  528 ; minimum lost =  0.026611559092998505 ; diff loss =  -2.2351741790771484e-07 ; diff weight =  0.010251488536596298
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 8.28 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-03 11:14:27 Max_iter: 1000
+At iteration 484, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  485 ; minimum lost =  0.030955813825130463 ; diff loss =  4.805624485015869e-07 ; diff weight =  0.0004018307663500309
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 7.577 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-03 11:22:02 Max_iter: 1000
+At iteration 528, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  529 ; minimum lost =  0.03603319078683853 ; diff loss =  6.51925802230835e-07 ; diff weight =  0.0017963781720027328
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 8.239 min
+==========
+Testing lambda: 0.001 starting at 2024-10-03 11:30:16 Max_iter: 1000
+At iteration 495, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  496 ; minimum lost =  0.04226457700133324 ; diff loss =  5.327165126800537e-07 ; diff weight =  0.0005806576227769256
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 7.725 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-03 11:38:00 Max_iter: 1000
+At iteration 466, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  467 ; minimum lost =  0.04941532015800476 ; diff loss =  9.08970832824707e-07 ; diff weight =  0.0016266610473394394
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 7.271 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-03 11:45:16 Max_iter: 1000
+At iteration 451, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  452 ; minimum lost =  0.05755867436528206 ; diff loss =  9.648501873016357e-07 ; diff weight =  0.0016010490944609046
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 7.033 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-03 11:52:18 Max_iter: 1000
+At iteration 448, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  449 ; minimum lost =  0.06636177003383636 ; diff loss =  9.08970832824707e-07 ; diff weight =  0.0013929905835539103
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 6.975 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-03 11:59:16 Max_iter: 1000
+At iteration 405, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  406 ; minimum lost =  0.07477526366710663 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0013519602362066507
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 6.314 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-03 12:05:35 Max_iter: 1000
+At iteration 350, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  350 ; minimum lost =  0.08347849547863007 ; diff loss =  -1.4901161193847656e-07 ; diff weight =  0.003089625621214509
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 5.529 min
+==========
+Testing lambda: 0.01 starting at 2024-10-03 12:11:07 Max_iter: 1000
+At iteration 393, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  394 ; minimum lost =  0.09235692024230957 ; diff loss =  8.642673492431641e-07 ; diff weight =  0.0012974905548617244
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.010000000000000004, cost : 6.291 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-03 12:17:24 Max_iter: 1000
+At iteration 320, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  321 ; minimum lost =  0.10124874114990234 ; diff loss =  3.0547380447387695e-07 ; diff weight =  0.0006912949029356241
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.014677992676220709, cost : 5.006 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-03 12:22:25 Max_iter: 1000
+At iteration 238, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  239 ; minimum lost =  0.11066418141126633 ; diff loss =  6.854534149169922e-07 ; diff weight =  0.0008560619316995144
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.02154434690031885, cost : 3.744 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-03 12:26:09 Max_iter: 1000
+At iteration 246, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  247 ; minimum lost =  0.1191692054271698 ; diff loss =  2.8312206268310547e-07 ; diff weight =  0.00034530999255366623
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0316227766016838, cost : 3.858 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-03 12:30:01 Max_iter: 1000
+At iteration 220, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  221 ; minimum lost =  0.12867148220539093 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.00016695100930519402
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.04641588833612786, cost : 3.46 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-03 12:33:28 Max_iter: 1000
+At iteration 199, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  200 ; minimum lost =  0.1416415274143219 ; diff loss =  1.043081283569336e-07 ; diff weight =  0.00012922286987304688
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0681292069057962, cost : 3.133 min
+==========
+Testing lambda: 0.1 starting at 2024-10-03 12:36:36 Max_iter: 1000
+At iteration 176, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  177 ; minimum lost =  0.159959077835083 ; diff loss =  1.4901161193847656e-08 ; diff weight =  3.248453140258789e-05
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.10000000000000002, cost : 2.777 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.079625    0.403810          0.446321            2190  ...        1.0       1.0      0.005476       0.001197
+0.000015    0.070135    0.440000          0.477393            1929  ...        1.0       1.0      0.006492       0.000735
+0.000022    0.050356    0.528571          0.550890            1385  ...        1.0       1.0      0.007684       0.002131
+0.000032    0.046466    0.556667          0.573851            1278  ...        1.0       1.0      0.009607       0.001059
+0.000046    0.036649    0.605714          0.605517            1008  ...        1.0       1.0      0.011989       0.000846
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+CD4_CTL Time elapsed: 165.78350070317586 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for CD4_Naive
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-03 12:39:33 Max_iter: 1000
+At iteration 684, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  685 ; minimum lost =  0.020872587338089943 ; diff loss =  8.922070264816284e-07 ; diff weight =  0.000805047107860446
+lambda is : 9.999999999999997e-06, cost : 10.965 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-03 12:50:31 Max_iter: 1000
+At iteration 598, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  599 ; minimum lost =  0.02648356184363365 ; diff loss =  1.2479722499847412e-07 ; diff weight =  0.012493262067437172
+lambda is : 1.4677992676220687e-05, cost : 9.601 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-03 13:00:07 Max_iter: 1000
+At iteration 557, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  558 ; minimum lost =  0.03199160844087601 ; diff loss =  7.972121238708496e-07 ; diff weight =  0.00034006862551905215
+lambda is : 2.1544346900318854e-05, cost : 8.95 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-03 13:09:04 Max_iter: 1000
+At iteration 561, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  562 ; minimum lost =  0.03641869127750397 ; diff loss =  8.828938007354736e-07 ; diff weight =  0.0004156911454629153
+lambda is : 3.16227766016838e-05, cost : 9.018 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-03 13:18:05 Max_iter: 1000
+At iteration 569, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  570 ; minimum lost =  0.040660399943590164 ; diff loss =  8.977949619293213e-07 ; diff weight =  0.0003342234995216131
+lambda is : 4.6415888336127784e-05, cost : 9.135 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-03 13:27:14 Max_iter: 1000
+At iteration 560, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  561 ; minimum lost =  0.04597224295139313 ; diff loss =  7.189810276031494e-07 ; diff weight =  0.0003837346739601344
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 9.045 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-03 13:36:16 Max_iter: 1000
+At iteration 572, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  573 ; minimum lost =  0.052282966673374176 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.0004653223732020706
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 9.168 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-03 13:45:26 Max_iter: 1000
+At iteration 495, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  496 ; minimum lost =  0.06045494228601456 ; diff loss =  8.568167686462402e-07 ; diff weight =  0.0002022454427788034
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 7.957 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-03 13:53:24 Max_iter: 1000
+At iteration 548, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  549 ; minimum lost =  0.06730057299137115 ; diff loss =  5.513429641723633e-07 ; diff weight =  0.0008594738901592791
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 8.687 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-03 14:02:05 Max_iter: 1000
+At iteration 491, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  492 ; minimum lost =  0.07703327387571335 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0001772968244040385
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 7.996 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-03 14:10:05 Max_iter: 1000
+At iteration 553, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  554 ; minimum lost =  0.08581109344959259 ; diff loss =  9.462237358093262e-07 ; diff weight =  0.00022290008200798184
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 8.758 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-03 14:18:50 Max_iter: 1000
+At iteration 442, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  443 ; minimum lost =  0.09612511098384857 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.00025128322886303067
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 7.034 min
+==========
+Testing lambda: 0.001 starting at 2024-10-03 14:25:52 Max_iter: 1000
+At iteration 529, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  530 ; minimum lost =  0.10599935799837112 ; diff loss =  5.364418029785156e-07 ; diff weight =  8.225641795434058e-05
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 8.358 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-03 14:34:14 Max_iter: 1000
+At iteration 483, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  484 ; minimum lost =  0.11880786716938019 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0004121066886000335
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 7.588 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-03 14:41:49 Max_iter: 1000
+At iteration 492, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  492 ; minimum lost =  0.13228344917297363 ; diff loss =  -9.834766387939453e-07 ; diff weight =  0.00555452099069953
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 7.71 min
+==========
+Testing lambda: 0.003162 starting at 2024-10-03 14:49:32 Max_iter: 1000
+At iteration 484, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  485 ; minimum lost =  0.14752724766731262 ; diff loss =  8.195638656616211e-07 ; diff weight =  0.00033908404293470085
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 7.563 min
+==========
+Testing lambda: 0.004642 starting at 2024-10-03 14:57:05 Max_iter: 1000
+At iteration 529, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  530 ; minimum lost =  0.1647968888282776 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.0014743084320798516
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 8.255 min
+==========
+Testing lambda: 0.006813 starting at 2024-10-03 15:05:21 Max_iter: 1000
+At iteration 376, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  377 ; minimum lost =  0.18552649021148682 ; diff loss =  6.556510925292969e-07 ; diff weight =  0.0026883261743932962
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 5.883 min
+==========
+Testing lambda: 0.01 starting at 2024-10-03 15:11:14 Max_iter: 1000
+At iteration 449, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  449 ; minimum lost =  0.20621085166931152 ; diff loss =  -8.344650268554688e-07 ; diff weight =  0.009109538048505783
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.010000000000000004, cost : 7.037 min
+==========
+Testing lambda: 0.014678 starting at 2024-10-03 15:18:16 Max_iter: 1000
+At iteration 516, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  516 ; minimum lost =  0.22867411375045776 ; diff loss =  -1.9371509552001953e-07 ; diff weight =  0.0013424813514575362
+lambda is : 0.014677992676220709, cost : 8.05 min
+==========
+Testing lambda: 0.021544 starting at 2024-10-03 15:26:19 Max_iter: 1000
+At iteration 501, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  502 ; minimum lost =  0.2534431517124176 ; diff loss =  4.172325134277344e-07 ; diff weight =  0.00033471756614744663
+lambda is : 0.02154434690031885, cost : 7.784 min
+==========
+Testing lambda: 0.031623 starting at 2024-10-03 15:34:06 Max_iter: 1000
+At iteration 333, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  334 ; minimum lost =  0.27894076704978943 ; diff loss =  8.046627044677734e-07 ; diff weight =  0.0004336596466600895
+lambda is : 0.0316227766016838, cost : 5.397 min
+==========
+Testing lambda: 0.046416 starting at 2024-10-03 15:39:30 Max_iter: 1000
+At iteration 456, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  457 ; minimum lost =  0.3026543855667114 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0005840329686179757
+lambda is : 0.04641588833612786, cost : 7.095 min
+==========
+Testing lambda: 0.068129 starting at 2024-10-03 15:46:36 Max_iter: 1000
+At iteration 404, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  405 ; minimum lost =  0.32407891750335693 ; diff loss =  5.066394805908203e-07 ; diff weight =  0.00030549734947271645
+lambda is : 0.0681292069057962, cost : 6.293 min
+==========
+Testing lambda: 0.1 starting at 2024-10-03 15:52:53 Max_iter: 1000
+At iteration 278, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  278 ; minimum lost =  0.3461742401123047 ; diff loss =  0.0 ; diff weight =  5.161304216017015e-05
+lambda is : 0.10000000000000002, cost : 4.35 min
+==========
+          Percentage  Prevalence  Other_prevalence  Feature_number  ...  Precision  F1 score  loss_history  error_history
+0.000010    0.124891    0.264948          0.347231            3435  ...        1.0       1.0      0.020873       0.000805
+0.000015    0.112638    0.282958          0.367963            3098  ...        1.0       1.0      0.026484       0.012493
+0.000022    0.100713    0.308740          0.397715            2770  ...        1.0       1.0      0.031992       0.000340
+0.000032    0.080097    0.356555          0.448661            2203  ...        1.0       1.0      0.036419       0.000416
+0.000046    0.060609    0.409033          0.502863            1667  ...        1.0       1.0      0.040660       0.000334
+
+[5 rows x 11 columns]
+Exporting resultDF
+Exporting result Dict
+CD4_Naive Time elapsed: 197.74935660759607 minutes.
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for CD4_Proliferating
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-10-03 15:57:24 Max_iter: 1000
+At iteration 2, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  3 ; minimum lost =  0.01863420009613037 ; diff loss =  8.791685104370117e-07 ; diff weight =  0.00653504254296422
+lambda is : 9.999999999999997e-06, cost : 0.542 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-10-03 15:57:57 Max_iter: 1000
+At iteration 2, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  3 ; minimum lost =  0.01877627708017826 ; diff loss =  9.94652509689331e-07 ; diff weight =  0.00736172404140234
+lambda is : 1.4677992676220687e-05, cost : 0.549 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-10-03 15:58:30 Max_iter: 1000
+At iteration 378, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  379 ; minimum lost =  0.001412097131833434 ; diff loss =  5.206093192100525e-07 ; diff weight =  0.002317037433385849
+lambda is : 2.1544346900318854e-05, cost : 5.982 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-10-03 16:04:29 Max_iter: 1000
+At iteration 379, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  380 ; minimum lost =  0.0016919062472879887 ; diff loss =  9.515788406133652e-07 ; diff weight =  0.012494351714849472
+lambda is : 3.16227766016838e-05, cost : 5.961 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-10-03 16:10:26 Max_iter: 1000
+At iteration 357, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  358 ; minimum lost =  0.0020493038464337587 ; diff loss =  8.333008736371994e-07 ; diff weight =  0.011293004266917706
+lambda is : 4.6415888336127784e-05, cost : 5.627 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-10-03 16:16:04 Max_iter: 1000
+At iteration 330, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  331 ; minimum lost =  0.0024452246725559235 ; diff loss =  9.75094735622406e-07 ; diff weight =  0.0073572788387537
+lambda is : 6.81292069057961e-05, cost : 5.182 min
+==========
+Testing lambda: 0.0001 starting at 2024-10-03 16:21:15 Max_iter: 1000
+At iteration 332, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  333 ; minimum lost =  0.002886804984882474 ; diff loss =  8.856877684593201e-07 ; diff weight =  0.0060211047530174255
+lambda is : 9.999999999999991e-05, cost : 5.213 min
+==========
+Testing lambda: 0.000147 starting at 2024-10-03 16:26:28 Max_iter: 1000
+At iteration 311, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  312 ; minimum lost =  0.0034291394986212254 ; diff loss =  9.05478373169899e-07 ; diff weight =  0.008766703307628632
+lambda is : 0.00014677992676220703, cost : 4.889 min
+==========
+Testing lambda: 0.000215 starting at 2024-10-03 16:31:21 Max_iter: 1000
+At iteration 281, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  282 ; minimum lost =  0.004080047365278006 ; diff loss =  9.289942681789398e-07 ; diff weight =  0.005201522260904312
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 4.425 min
+==========
+Testing lambda: 0.000316 starting at 2024-10-03 16:35:46 Max_iter: 1000
+At iteration 273, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  274 ; minimum lost =  0.004772284999489784 ; diff loss =  7.739290595054626e-07 ; diff weight =  0.004355417564511299
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 4.291 min
+==========
+Testing lambda: 0.000464 starting at 2024-10-03 16:40:04 Max_iter: 1000
+At iteration 233, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  234 ; minimum lost =  0.005735163576900959 ; diff loss =  9.424984455108643e-07 ; diff weight =  0.0038115568459033966
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 3.67 min
+==========
+Testing lambda: 0.000681 starting at 2024-10-03 16:43:44 Max_iter: 1000
+At iteration 239, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  240 ; minimum lost =  0.006826712749898434 ; diff loss =  9.066425263881683e-07 ; diff weight =  0.005068729165941477
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 3.756 min
+==========
+Testing lambda: 0.001 starting at 2024-10-03 16:47:29 Max_iter: 1000
+At iteration 212, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  213 ; minimum lost =  0.008212371729314327 ; diff loss =  4.1443854570388794e-07 ; diff weight =  0.001966989366337657
+lambda is : 0.0010000000000000002, cost : 3.337 min
+==========
+Testing lambda: 0.001468 starting at 2024-10-03 16:50:50 Max_iter: 1000
+At iteration 179, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  180 ; minimum lost =  0.00993411522358656 ; diff loss =  9.806826710700989e-07 ; diff weight =  0.00440562330186367
+lambda is : 0.0014677992676220694, cost : 2.822 min
+==========
+Testing lambda: 0.002154 starting at 2024-10-03 16:53:39 Max_iter: 1000

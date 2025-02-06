@@ -1,0 +1,155 @@
+=====================
+ASDC
+Cut index: 5
+Feature no: 10
+Cut: 0.0006812920690579617
+=====================
+B_intermediate
+Cut index: 14
+Feature no: 8
+Cut: 0.02154434690031885
+=====================
+B_memory
+Cut index: 14
+Feature no: 22
+Cut: 0.02154434690031885
+=====================
+B_naive
+Cut index: 21
+Feature no: 20
+Cut: 0.31622776601683833
+=====================
+CD14_Mono
+Cut index: 21
+Feature no: 15
+Cut: 0.31622776601683833
+=====================
+CD16_Mono
+Cut index: 17
+Feature no: 49
+Cut: 0.06812920690579614
+=====================
+CD4_CTL
+Cut index: 13
+Feature no: 75
+Cut: 0.014677992676220709
+=====================
+CD4_Naive
+Cut index: 20
+Feature no: 76
+Cut: 0.21544346900318853
+=====================
+CD4_Proliferating
+Cut index: 6
+Feature no: 12
+Cut: 0.0010000000000000002
+=====================
+CD4_TCM
+Cut index: 18
+Feature no: 53
+Cut: 0.10000000000000006
+=====================
+CD4_TEM
+Cut index: 14
+Feature no: 21
+Cut: 0.02154434690031885
+=====================
+CD8_Naive
+Cut index: 18
+Feature no: 40
+Cut: 0.10000000000000006
+=====================
+CD8_Proliferating
+Cut index: 6
+Feature no: 10
+Cut: 0.0010000000000000002
+=====================
+CD8_TCM
+Cut index: 15
+Feature no: 7
+Cut: 0.031622776601683826
+=====================
+CD8_TEM
+Cut index: 19
+Feature no: 38
+Cut: 0.146779926762207
+=====================
+Doublet
+Cut index: 10
+Feature no: 28
+Cut: 0.004641588833612781
+=====================
+Eryth
+Cut index: 7
+Feature no: 5
+Cut: 0.0014677992676220707
+=====================
+HSPC
+Cut index: 12
+Feature no: 4
+Cut: 0.010000000000000004
+=====================
+ILC
+Cut index: 6
+Feature no: 7
+Cut: 0.0010000000000000002
+=====================
+MAIT
+Cut index: 16
+Feature no: 11
+Cut: 0.046415888336127815
+=====================
+NK
+Cut index: 21
+Feature no: 35
+Cut: 0.31622776601683833
+=====================
+NK_CD56bright
+Cut index: 11
+Feature no: 27
+Cut: 0.006812920690579619
+=====================
+NK_Proliferating
+Cut index: 11
+Feature no: 17
+Cut: 0.006812920690579619
+=====================
+Plasmablast
+Cut index: 11
+Feature no: 8
+Cut: 0.006812920690579619
+=====================
+Platelet
+Cut index: 14
+Feature no: 5
+Cut: 0.02154434690031885
+=====================
+Treg
+Cut index: 16
+Feature no: 7
+Cut: 0.046415888336127815
+=====================
+cDC1
+Cut index: 7
+Feature no: 4
+Cut: 0.0014677992676220707
+=====================
+cDC2
+Cut index: 14
+Feature no: 6
+Cut: 0.02154434690031885
+=====================
+dnT
+Cut index: 9
+Feature no: 20
+Cut: 0.003162277660168382
+=====================
+gdT
+Cut index: 15
+Feature no: 14
+Cut: 0.031622776601683826
+=====================
+pDC
+Cut index: 13
+Feature no: 16
+Cut: 0.014677992676220709

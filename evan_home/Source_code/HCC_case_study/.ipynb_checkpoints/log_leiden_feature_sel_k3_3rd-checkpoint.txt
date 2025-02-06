@@ -1,0 +1,10 @@
+nohup: ignoring input
+Original adata: (71915, 25712)
+all cell types: ['Leiden_0', 'Leiden_1', 'Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_16', 'Leiden_17', 'Leiden_18', 'Leiden_19', 'Leiden_2', 'Leiden_20', 'Leiden_21', 'Leiden_22', 'Leiden_23', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+Queue ['Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+Original adata: (71915, 25712)
+optimal lambda: 0.0014677992676220694
+====================
+Starting job for Leiden_6
+Fitting with optimal lambda: 0.0014677992676220694

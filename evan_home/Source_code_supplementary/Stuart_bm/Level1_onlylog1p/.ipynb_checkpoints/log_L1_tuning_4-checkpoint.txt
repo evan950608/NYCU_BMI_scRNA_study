@@ -1,0 +1,50 @@
+nohup: ignoring input
+Original adata: (30011, 17009)
+all cell types: ['B_cell', 'Mono&DC', 'NK', 'Progenitor_cells', 'T_cell']
+====================
+cts ['B_cell', 'Mono&DC', 'Progenitor_cells', 'T_cell']
+====================
+Original adata: (30011, 17009)
+adata celltype shape: (3733, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 15715)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for B_cell
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda:Lambda:     0.004642 0.0681290.014678 0.0031620.046416starting at  starting atstarting at starting at 2024-02-29 15:48:32 2024-02-29 15:48:32  2024-02-29 15:48:32starting at
+
+2024-02-29 15:48:32
+ 
+2024-02-29 15:48:32
+Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:     Lambda: 0.0010.0003160.000681Lambda:Lambda:0.000464Lambda:Lambda:Lambda:Lambda:0.000215 0.002154 starting at starting at starting at  Lambda:Lambda:Lambda:Lambda:   Lambda:   starting at1e-05    Lambda:Lambda:0.0001476.8e-05    starting at1.5e-053.2e-05 2.2e-05 4.6e-05 2024-02-29 15:48:32 starting at2024-02-29 15:48:322024-02-29 15:48:322024-02-29 15:48:32   starting at 0.006813 0.1 0.010.031623   0.021544 starting at  
+starting at 
+
+
+0.00010.001468  2024-02-29 15:48:32starting at starting atstarting at  starting at2024-02-29 15:48:32starting atstarting atstarting at2024-02-29 15:48:32starting at 2024-02-29 15:48:322024-02-29 15:48:32 starting at 
+2024-02-29 15:48:32  starting at 2024-02-29 15:48:32
+   
+ 
+
+starting at2024-02-29 15:48:32
+2024-02-29 15:48:322024-02-29 15:48:32 
+2024-02-29 15:48:322024-02-29 15:48:322024-02-29 15:48:32
+2024-02-29 15:48:32 
+
+
+2024-02-29 15:48:32
+
+
+
+2024-02-29 15:48:32

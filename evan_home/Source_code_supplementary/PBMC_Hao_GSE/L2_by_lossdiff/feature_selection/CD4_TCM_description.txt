@@ -1,0 +1,6 @@
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 0.925764192139738
+    minimal loss: 0.1407718062400818
+    minimal weight diff: 0.0068308208137750626
+    total selected feature: 56
+    Time elapsed: 5.495258760452271

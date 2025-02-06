@@ -1,0 +1,11 @@
+Species	Tissue	CellType	Marker	Resource
+Human	Blood plasma	Endothelial cell	GP1BA, PECAM1	24511371
+Human	Blood plasma	Erythrocyte	GYPA	24511371
+Human	Blood plasma	Erythroid progenitor cell	SLC4A1	35437648
+Human	Blood plasma	Mature B cell	MS4A1	35437648
+Human	Blood plasma	Monocyte	CD14	35437648, 24511371
+Human	Blood plasma	Neutrophil	CD177, G0S2, LCN2	35437648
+Human	Blood plasma	Plasma cell	CD38, MZB1, SDC1	35437648
+Human	Blood plasma	Platelet	ITGA2B	24511371
+Human	Blood plasma	Precursor B cell	VPREB3	35437648
+Human	Blood plasma	T cell	CD3D	35437648

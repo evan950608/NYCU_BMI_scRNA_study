@@ -1,0 +1,87 @@
+nohup: ignoring input
+(32340, 20568)
+['ASDC', 'B intermediate', 'B memory', 'B naive', 'CD14 Mono', 'CD16 Mono']
+B intermediate Optimal lambda: 0.046415888336127815 
+
+====================
+Starting job for B intermediate
+Fitting with optimal lambda: 0.046415888336127815
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  126 ; minimum lost =  0.17615893483161926 ; diff weight =  9.13735493668355e-05
+B intermediate feature list exported.
+---Selection result for B intermediate
+Optimal lambda: 0.046415888336127815
+    median of selected prevalence: 1.0
+    total selected feature: 50
+
+B memory Optimal lambda: 0.06812920690579614 
+
+====================
+Starting job for B memory
+Fitting with optimal lambda: 0.06812920690579614
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  152 ; minimum lost =  0.21663111448287964 ; diff weight =  0.0002856254577636719
+B memory feature list exported.
+---Selection result for B memory
+Optimal lambda: 0.06812920690579614
+    median of selected prevalence: 1.0
+    total selected feature: 1
+
+ASDC Optimal lambda: 0.046415888336127815 
+
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.046415888336127815
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  186 ; minimum lost =  0.1160292997956276 ; diff weight =  9.655952453613281e-05
+ASDC feature list exported.
+---Selection result for ASDC
+Optimal lambda: 0.046415888336127815
+    median of selected prevalence: 1.0
+    total selected feature: 1
+
+B naive Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for B naive
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  458 ; minimum lost =  0.0699891448020935 ; diff weight =  3.451930024311878e-05
+B naive feature list exported.
+---Selection result for B naive
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9974076474400518
+    total selected feature: 5
+
+CD14 Mono Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for CD14 Mono
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  883 ; minimum lost =  0.1166439801454544 ; diff weight =  5.294858056004159e-05
+CD14 Mono feature list exported.
+---Selection result for CD14 Mono
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9792691496837667
+    total selected feature: 19
+
+CD16 Mono Optimal lambda: 0.003162277660168382 
+
+====================
+Starting job for CD16 Mono
+Fitting with optimal lambda: 0.003162277660168382
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  501 ; minimum lost =  0.06611856818199158 ; diff weight =  4.7681256546638906e-05
+CD16 Mono feature list exported.
+---Selection result for CD16 Mono
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 0.9893196202531646
+    total selected feature: 16
+

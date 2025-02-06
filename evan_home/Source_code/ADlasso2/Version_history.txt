@@ -1,0 +1,59 @@
+Last major edit date and edit notes
+
+AD2 2023/07/21
+AD2_0728 2023/07/28
+    updated by Yincheng
+AD2_w_utils 2023/08/27
+    add utilities for AD2
+AD2_w_utils_para 2023/09/19
+    add multiprocessing
+AD2_w_utils_precision (formerly AD2_w_utils_test) 2023/09/19
+    in lambda tuning, add precision to metrics
+AD2_w_utils_tuning 2023/10/18
+    in lambda tuning, do train_test_split outside of test_lambda() function
+    e.g. use the same train_test_split set for all lambdas
+    2023/10/24 update
+    add new multiprocessing method for lambda tuning
+    2023/12/27 update
+    add the record of loss_history and weight_difference_history to see the converge process
+AD2_w_utils_loss 2023/11/08
+    in ADlasso2.fit(), change converge criteria to "loss lower than a threshold"
+
+AD2_w_utils_lossdiff 2023/11/25
+    add loss difference as a converge criteria
+        diff_loss = prev_loss.item() - curr_loss.item()
+        diff_loss <= self.loss_tol
+    set loss_tol to 1e-6
+    modify lambda_tuning_para_ttsplit and lambda_tuning_cuda to incorporate loss_tol
+    document the loss convergence history in a dictionary for every lambda tested
+
+AD2_w_utils_lossdiff 2024/09/14 [Use for Z-transformed data]
+    modify lambda_tuning_cuda
+    export tuning metrics as dictionary and dataframe
+    also take un-normalized X_raw_count as input, for calculating prevalence (because Z-transformation turns zero to non-zero).
+
+    2024/09/26
+    modify lambda_tuning_viz: do not log-scale when plotting "loss_history"
+    modify lambda_decision: print and return candidate lambdas at various cut points; change legend position
+
+    2024/10/04
+    modify lambda_tuning_cuda() and lambda_tuning_para_cpu (formerly lambda_tuning_para_ttsplit())
+        Remove train test split: Use 100% of cells for lambda tuning
+        Calculate other prevalence (prevalence in other cells apart from target celltype) and add to tuning results
+
+AD2_w_utils_weightdiff 2024/09/26
+    modify ad.fit() to converge by weight difference = 1e-6
+    not much use
+    SCRAPPED
+
+AD2_w_utils_lossdiff_noZ 2024/10/01 [Use for NOT Z-transformed data]
+    modify lambda_tuning_cuda() and lambda_tuning_para_cpu (formerly lambda_tuning_para_ttsplit())
+        Remove train test split: Use 100% of cells for lambda tuning
+        Remove the part X_raw_count, no need to take raw counts if using non-Z-transformed dataset
+        Set backtracking iterations to 100
+        Calculate other prevalence (prevalence in other cells apart from target celltype) and add to tuning results
+    
+
+==========
+Final version
+    AD2_w_utils_lossdiff_noZ

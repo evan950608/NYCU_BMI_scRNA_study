@@ -1,0 +1,40 @@
+nohup: ignoring input
+Queue celltype: CD4_Proliferating
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (104, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 14186)
+====================
+Starting job for CD4_Proliferating
+[-1.91882091 -1.53505673 -1.15129255 -0.76752836 -0.38376418]
+[0.14677993 0.21544347 0.31622777 0.46415888 0.68129207]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda:Lambda:     0.681292 0.4641590.215443 0.14678 0.316228 starting at  starting at starting at starting at 2024-04-14 12:29:21starting at2024-04-14 12:29:212024-04-14 12:29:212024-04-14 12:29:21
+ 
+
+
+2024-04-14 12:29:21
+At iteration 118, Convergence with loss difference
+lambda is : 0.6812920690579616, cost : 19.223 min
+==========
+At iteration 120, Convergence with loss difference
+lambda is : 0.31622776601683833, cost : 19.728 min
+==========
+At iteration 131, Convergence with loss difference
+lambda is : 0.46415888336127825, cost : 20.812 min
+==========
+At iteration 141, Convergence with loss difference
+lambda is : 0.21544346900318834, cost : 22.146 min
+==========
+At iteration 146, Convergence with loss difference
+lambda is : 0.146779926762207, cost : 23.005 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:939: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  ax1.set(yscale="log")
+CD4_Proliferating Time elapsed: 23.04351948897044 minutes.
+***** Finished lambda tuning
+====================

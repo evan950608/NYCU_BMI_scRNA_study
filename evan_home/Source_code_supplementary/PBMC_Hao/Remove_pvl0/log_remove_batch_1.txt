@@ -1,0 +1,631 @@
+nohup: ignoring input
+cts ['CD4_T', 'CD8_T', 'Mono']
+====================
+Original adata: (32349, 20568)
+adata celltype shape: (8200, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 18580)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Starting job for CD4_T
+Lambda: 0.6812920690579616
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 0.327 min
+==========
+Lambda: 0.031622776601683826
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 0.692 min
+==========
+Lambda: 0.31622776601683833
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 20.253 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.46415888336127825
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 0.34 min
+==========
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 0.744 min
+==========
+Lambda: 0.0002154434690031884
+QWL-QN convergence
+lambda is : 0.0002154434690031884, cost : 53.208 min
+==========
+Lambda: 1.0
+QWL-QN convergence
+lambda is : 1.0, cost : 0.38 min
+==========
+Lambda: 0.006812920690579619
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 46.932 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 0.73 min
+==========
+Lambda: 0.21544346900318853
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 17.892 min
+==========
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 42.005 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.06812920690579614
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 26.033 min
+==========
+Lambda: 0.003162277660168382
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 53.862 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.10000000000000006
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 18.361 min
+==========
+Lambda: 0.146779926762207
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 19.734 min
+==========
+Lambda: 0.00010000000000000009
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 54.708 min
+==========
+Lambda: 0.00014677992676220703
+QWL-QN convergence
+lambda is : 0.00014677992676220703, cost : 54.615 min
+==========
+Lambda: 0.0021544346900318864
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 61.211 min
+==========
+Lambda: 0.0003162277660168384
+QWL-QN convergence
+lambda is : 0.0003162277660168384, cost : 57.584 min
+==========
+Lambda: 0.010000000000000004
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 55.936 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.004641588833612781
+QWL-QN convergence
+lambda is : 0.004641588833612781, cost : 53.503 min
+==========
+Lambda: 0.0014677992676220707
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 56.919 min
+==========
+Lambda: 0.0006812920690579617
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 61.867 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.0010000000000000002
+QWL-QN convergence
+lambda is : 0.0010000000000000002, cost : 66.621 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0004641588833612784
+QWL-QN convergence
+lambda is : 0.0004641588833612784, cost : 72.526 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Optimal lambda: 0.014677992676220709
+CD4_T Time elapsed: 72.59638906319937 minutes.
+***** Finished lambda tuning
+====================
+Original adata: (32349, 20568)
+adata celltype shape: (5093, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 18232)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Starting job for CD8_T
+Lambda: 1.0
+QWL-QN convergence
+lambda is : 1.0, cost : 0.376 min
+==========
+Lambda: 0.6812920690579616
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 0.415 min
+==========
+Lambda: 0.0004641588833612784
+QWL-QN convergence
+lambda is : 0.0004641588833612784, cost : 0.749 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0010000000000000002
+QWL-QN convergence
+lambda is : 0.0010000000000000002, cost : 0.758 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0006812920690579617
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 0.793 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0014677992676220707
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 0.807 min
+==========
+Lambda: 0.0002154434690031884
+QWL-QN convergence
+lambda is : 0.0002154434690031884, cost : 0.807 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.00014677992676220703
+QWL-QN convergence
+lambda is : 0.00014677992676220703, cost : 0.822 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0003162277660168384
+QWL-QN convergence
+lambda is : 0.0003162277660168384, cost : 0.832 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.00010000000000000009
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 0.975 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.10000000000000006
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 20.593 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.146779926762207
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 20.899 min
+==========
+Lambda: 0.21544346900318853
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 20.925 min
+==========
+Lambda: 0.31622776601683833
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 27.6 min
+==========
+Lambda: 0.06812920690579614
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 28.835 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.46415888336127825
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 34.152 min
+==========
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 35.242 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.031622776601683826
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 41.417 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 45.971 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.010000000000000004
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 51.147 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.004641588833612781
+QWL-QN convergence
+lambda is : 0.004641588833612781, cost : 55.429 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 58.702 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0021544346900318864
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 59.419 min
+==========
+Lambda: 0.006812920690579619
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 61.429 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.003162277660168382
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 66.749 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Optimal lambda: 0.0021544346900318864
+CD8_T Time elapsed: 66.8277506271998 minutes.
+***** Finished lambda tuning
+====================
+Original adata: (32349, 20568)
+adata celltype shape: (9802, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 19265)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Starting job for Mono
+Lambda: 0.46415888336127825
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 0.327 min
+==========
+Lambda: 0.6812920690579616
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 0.331 min
+==========
+Lambda: 1.0
+QWL-QN convergence
+lambda is : 1.0, cost : 0.332 min
+==========
+Lambda: 0.31622776601683833
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 11.638 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.21544346900318853
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 14.025 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.146779926762207
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 37.093 min
+==========
+Lambda: 0.10000000000000006
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 37.35 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.06812920690579614
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 41.673 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 58.402 min
+==========
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 58.747 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.031622776601683826
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 59.191 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.010000000000000004
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 63.833 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.006812920690579619
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 67.271 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0003162277660168384
+QWL-QN convergence
+lambda is : 0.0003162277660168384, cost : 68.791 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.0006812920690579617
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 72.043 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.0004641588833612784
+QWL-QN convergence
+lambda is : 0.0004641588833612784, cost : 81.562 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.0002154434690031884
+QWL-QN convergence
+lambda is : 0.0002154434690031884, cost : 81.977 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.00010000000000000009
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 86.701 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 87.856 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0014677992676220707
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 88.863 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.004641588833612781
+QWL-QN did not convergence
+lambda is : 0.004641588833612781, cost : 89.235 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.00014677992676220703
+QWL-QN did not convergence
+lambda is : 0.00014677992676220703, cost : 89.311 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.003162277660168382
+QWL-QN did not convergence
+lambda is : 0.003162277660168382, cost : 89.398 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.0021544346900318864
+QWL-QN did not convergence
+lambda is : 0.0021544346900318864, cost : 89.4 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0010000000000000002
+QWL-QN did not convergence
+lambda is : 0.0010000000000000002, cost : 89.321 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/PBMC_Hao/ADlasso2/AD2_w_utils_test.py:868: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax1 = plt.subplots(figsize = (fig_width, fig_height))
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Optimal lambda: 0.004641588833612781
+Mono Time elapsed: 89.4767441034317 minutes.
+***** Finished lambda tuning
+====================

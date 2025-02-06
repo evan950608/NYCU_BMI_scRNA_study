@@ -1,0 +1,23 @@
+species	official gene symbol	cell type	nicknames	ubiquitousness index	product description	gene type	canonical marker	germ layer	organ	sensitivity_human	sensitivity_mouse	specificity_human	specificity_mouse
+Mm Hs	S100A9	Dendritic cells	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	Mesoderm	Immune system	0.517007	0.0	0.0834154	0.0
+Hs	HLA-DRB1	Dendritic cells	HLA-DR1B	0.033	major histocompatibility complex, class II, DR beta 1	protein-coding gene	1.0	Mesoderm	Immune system	0.986395	0.0	0.141215	0.0
+Mm Hs	S100A8	Dendritic cells	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1.0	Mesoderm	Immune system	0.367347	0.0	0.0660098	0.0
+Hs	LYZ	Dendritic cells		0.008	lysozyme	protein-coding gene	1.0	Mesoderm	Immune system	0.442177	0.0	0.0213465	0.0
+Mm Hs	S100A9	Eosinophils	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.103383	0.0
+Mm Hs	S100A9	Erythroid-like and erythroid precursor cells	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene		Mesoderm	Blood	0.269006	0.0	0.0940086	0.0
+Mm Hs	S100A8	Erythroid-like and erythroid precursor cells	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene		Mesoderm	Blood	0.263158	0.0	0.0695134	0.0
+Mm Hs	S100A8	Macrophages	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1.0	Mesoderm	Immune system	0.166667	0.0	0.0795598	0.0
+Mm Hs	S100A9	Megakaryocytes	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.103383	0.0
+Mm Hs	S100A8	Megakaryocytes	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.0798872	0.0
+Mm Hs	S100A9	Monocytes	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	Mesoderm	Immune system	0.576923	0.0	0.0994946	0.0
+Mm Hs	S100A8	Monocytes	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1.0	Mesoderm	Immune system	0.384615	0.0	0.0773847	0.0
+Hs	LYZ	Monocytes		0.008	lysozyme	protein-coding gene		Mesoderm	Immune system				
+Mm Hs	S100A9	Myeloid-derived suppressor cells	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	mesoderm	Immune system	0.0	0.0	0.103383	0.0
+Mm Hs	S100A8	Myeloid-derived suppressor cells	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene		mesoderm	Immune system	0.0	0.0	0.0798872	0.0
+Mm Hs	S100A9	Neutrophils	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	Mesoderm	Immune system	0.307692	0.0	0.102548	0.0
+Hs	LYZ	Neutrophils		0.008	lysozyme	protein-coding gene	1.0	Mesoderm	Immune system	0.615385	0.0	0.0383768	0.0
+Mm Hs	S100A8	Neutrophils	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1.0	Mesoderm	Immune system	0.538462	0.0	0.078012	0.0
+Mm Hs	S100A8	Plasmacytoid dendritic cells	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene	1.0	Mesoderm	Immune system	0.272727	0.0	0.0785489	0.0
+Mm Hs	S100A9	Platelets	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene	1.0	Mesoderm	Blood	0.0	0.0	0.103513	0.0
+Mm Hs	S100A9	T memory cells	MIF|NIF|LIAG|MRP14|MAC387|CGLB|CAGB	0.061	S100 calcium binding protein A9	protein-coding gene		Mesoderm	Immune system	0.0	0.0	0.104729	0.0
+Mm Hs	S100A8	T memory cells	P8|CGLA|CAGA	0.064	S100 calcium binding protein A8	protein-coding gene		Mesoderm	Immune system	0.0	0.0	0.0809267	0.0

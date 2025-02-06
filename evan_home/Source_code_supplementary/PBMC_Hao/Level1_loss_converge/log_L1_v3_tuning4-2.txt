@@ -1,0 +1,729 @@
+nohup: ignoring input
+Original adata: (32349, 20568)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+cts: ['Mono', 'NK', 'other', 'other_T']
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+Original adata: (32349, 20568)
+adata celltype shape: (9802, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 19265)
+====================
+Starting job for Mono
+*** Start parallel lambda tuning ***
+Lambda: 0.10000000000000006
+loss_threshold: 0.05
+Lambda: 0.02154434690031885
+loss_threshold: 0.05
+Lambda: 0.06812920690579614
+loss_threshold: 0.05
+Lambda: 0.0004641588833612784
+loss_threshold: 0.05
+Lambda: 0.146779926762207
+loss_threshold: 0.05
+Lambda: 0.003162277660168382
+loss_threshold: 0.05
+Lambda: 0.006812920690579619
+loss_threshold: 0.05
+Lambda: 0.46415888336127825
+loss_threshold: 0.05
+Lambda: 0.0021544346900318864
+loss_threshold: 0.05
+Lambda: 0.046415888336127815
+loss_threshold: 0.05
+Lambda:Lambda:  0.0100000000000000040.31622776601683833
+
+loss_threshold: loss_threshold: 0.05
+0.05
+Lambda: 0.014677992676220709
+loss_threshold: 0.05
+Lambda: 0.031622776601683826
+loss_threshold: 0.05
+Lambda: 0.00014677992676220703
+loss_threshold: 0.05
+Lambda: 0.00010000000000000009
+loss_threshold: 0.05
+Lambda: 0.0003162277660168384
+loss_threshold: 0.05
+Lambda: 0.21544346900318853
+loss_threshold: 0.05
+Lambda: 1.0
+loss_threshold: 0.05
+Lambda: 0.0006812920690579617
+loss_threshold: 0.05
+Lambda: 0.6812920690579616
+loss_threshold: 0.05
+Lambda:Lambda:  0.0002154434690031884
+0.0014677992676220707
+loss_threshold: loss_threshold: 0.050.05
+
+Lambda: 0.0010000000000000002
+loss_threshold: 0.05
+Lambda: 0.004641588833612781
+loss_threshold: 0.05
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.46415888336127825, cost : 0.273 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.315 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579616, cost : 0.322 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.21544346900318853, cost : 14.552 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.31622776601683833, cost : 15.608 min
+==========
+Convergence with loss threshold
+Convergence with loss threshold
+lambda is : 0.00010000000000000009, cost : 18.961 min
+==========
+lambda is : 0.00014677992676220703, cost : 18.984 min
+==========
+Convergence with loss threshold
+lambda is : 0.0002154434690031884, cost : 19.498 min
+==========
+Convergence with loss threshold
+lambda is : 0.0003162277660168384, cost : 19.687 min
+==========
+Convergence with loss threshold
+lambda is : 0.0004641588833612784, cost : 20.556 min
+==========
+Convergence with loss threshold
+lambda is : 0.0006812920690579617, cost : 22.213 min
+==========
+Convergence with loss threshold
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 25.168 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence
+lambda is : 0.006812920690579619, cost : 47.987 min
+==========
+OWL-QN did not convergence
+lambda is : 0.004641588833612781, cost : 48.036 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220707, cost : 48.337 min
+==========
+OWL-QN did not convergence
+lambda is : 0.014677992676220709, cost : 48.394 min
+==========
+OWL-QN did not convergence
+lambda is : 0.02154434690031885, cost : 48.67 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318864, cost : 48.68 min
+==========
+OWL-QN did not convergence
+lambda is : 0.046415888336127815, cost : 48.735 min
+==========
+OWL-QN did not convergence
+lambda is : 0.010000000000000004, cost : 48.773 min
+==========
+OWL-QN did not convergence
+lambda is : 0.003162277660168382, cost : 48.904 min
+==========
+OWL-QN did not convergence
+lambda is : 0.06812920690579614, cost : 49.179 min
+==========
+OWL-QN did not convergence
+lambda is : 0.031622776601683826, cost : 49.625 min
+==========
+OWL-QN did not convergence
+lambda is : 0.10000000000000006, cost : 49.641 min
+==========
+Hessian approximation fail, yTs = 0
+lambda is : 0.146779926762207, cost : 53.877 min
+==========
+*** Collecting results ***
+Mono Time elapsed: 53.92797063191732 minutes.
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+Original adata: (32349, 20568)
+adata celltype shape: (3732, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 17653)
+====================
+Starting job for NK
+*** Start parallel lambda tuning ***
+Lambda: 0.31622776601683833
+loss_threshold: 0.05
+Lambda: 0.21544346900318853
+Lambda:loss_threshold:  0.05
+0.014677992676220709
+loss_threshold: 0.05
+Lambda:Lambda:  0.68129206905796160.031622776601683826
+Lambda:
+ loss_threshold: 0.00010000000000000009
+loss_threshold: 0.05
+loss_threshold: 0.05
+0.05
+Lambda: 0.0014677992676220707
+loss_threshold: 0.05
+Lambda: 0.0021544346900318864
+loss_threshold: 0.05
+Lambda:Lambda: Lambda: Lambda:0.046415888336127815 0.0002154434690031884 
+Lambda:0.02154434690031885
+0.46415888336127825 loss_threshold: 
+
+loss_threshold:0.00068129206905796170.05loss_threshold:loss_threshold:  
+
+ 0.05
+0.05loss_threshold: 0.05
+
+0.05
+Lambda: Lambda:0.003162277660168382 
+0.006812920690579619
+loss_threshold: loss_threshold: 0.05
+0.05
+Lambda:Lambda:  1.00.06812920690579614Lambda:
+
+ loss_threshold:loss_threshold:0.0004641588833612784  
+0.05
+0.05
+loss_threshold: 0.05
+Lambda: 0.00014677992676220703
+loss_threshold: 0.05
+Lambda: 0.146779926762207
+Lambda: Lambda:0.10000000000000006 loss_threshold: 
+0.0003162277660168384
+Lambda:0.05
+loss_threshold: loss_threshold:  0.05
+0.05
+0.004641588833612781
+loss_threshold: 0.05
+Lambda: 0.010000000000000004Lambda:
+ 0.0010000000000000002loss_threshold: 
+0.05
+loss_threshold: 0.05
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.247 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.46415888336127825, cost : 10.335 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.146779926762207, cost : 11.995 min
+==========
+Hessian approximation fail, yTs = 0
+lambda is : 0.10000000000000006, cost : 13.281 min
+==========
+Convergence with loss threshold
+lambda is : 0.00010000000000000009, cost : 16.556 min
+==========
+Convergence with loss threshold
+lambda is : 0.00014677992676220703, cost : 17.233 min
+==========
+Convergence with loss threshold
+lambda is : 0.0002154434690031884, cost : 18.303 min
+==========
+Convergence with loss threshold
+lambda is : 0.0003162277660168384, cost : 19.274 min
+==========
+Convergence with loss threshold
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0004641588833612784, cost : 21.304 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.6812920690579616, cost : 22.856 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.31622776601683833, cost : 24.884 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.21544346900318853, cost : 39.066 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence
+lambda is : 0.010000000000000004, cost : 48.638 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318864, cost : 48.793 min
+==========
+OWL-QN did not convergence
+lambda is : 0.006812920690579619, cost : 48.802 min
+==========
+OWL-QN did not convergence
+lambda is : 0.02154434690031885, cost : 48.854 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220707, cost : 48.889 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 49.086 min
+==========
+OWL-QN did not convergence
+lambda is : 0.004641588833612781, cost : 49.128 min
+==========
+OWL-QN did not convergence
+lambda is : 0.003162277660168382, cost : 49.571 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 49.758 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence
+lambda is : 0.014677992676220709, cost : 50.228 min
+==========
+OWL-QN did not convergence
+lambda is : 0.031622776601683826, cost : 50.414 min
+==========
+OWL-QN did not convergence
+lambda is : 0.046415888336127815, cost : 52.033 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.06812920690579614, cost : 61.805 min
+==========
+*** Collecting results ***
+NK Time elapsed: 61.85545960267385 minutes.
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+Original adata: (32349, 20568)
+adata celltype shape: (688, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 14366)
+====================
+Starting job for other
+*** Start parallel lambda tuning ***
+Lambda: Lambda: 1.0
+Lambda:Lambda:Lambda:0.00014677992676220703 loss_threshold: Lambda:Lambda:Lambda: Lambda:
+Lambda:0.46415888336127825 0.0003162277660168384   0.0010000000000000002 Lambda:Lambda:loss_threshold:  
+0.05
+
+0.0014677992676220707Lambda:0.00068129206905796170.00010000000000000009
+Lambda: 0.0004641588833612784 Lambda: Lambda:Lambda: Lambda:0.050.0002154434690031884loss_threshold: Lambda:Lambda:
+Lambda:Lambda:Lambda:Lambda:Lambda:loss_threshold:  
+
+0.21544346900318853loss_threshold: 
+0.068129206905796140.31622776601683833
+  0.146779926762207 
+
+0.05    loss_threshold:   0.050.014677992676220709
+loss_threshold:loss_threshold:0.05
+loss_threshold: 0.10000000000000006loss_threshold:0.046415888336127815
+0.6812920690579616
+loss_threshold:0.00215443469003188640.0316227766016838260.0031622776601683820.004641588833612781 0.0100000000000000040.0068129206905796190.02154434690031885
+
+  0.05loss_threshold:
+0.05loss_threshold:
+ 
+
+loss_threshold:  
+
+
+
+loss_threshold:0.05
+
+
+0.05loss_threshold:loss_threshold:
+ 
+ 0.050.05
+loss_threshold: loss_threshold: 0.05
+loss_threshold:0.05loss_threshold:loss_threshold:  loss_threshold:
+loss_threshold:loss_threshold: 
+  0.05
+0.050.05 
+ 0.050.05  0.05
+0.050.05
+
+
+0.05
+0.05
+
+
+0.05
+0.05
+
+
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.272 min
+==========
+Convergence with loss threshold
+lambda is : 0.00010000000000000009, cost : 8.481 min
+==========
+Convergence with loss threshold
+lambda is : 0.0002154434690031884, cost : 8.538 min
+==========
+Convergence with loss threshold
+Convergence with loss threshold
+lambda is : 0.00014677992676220703, cost : 8.697 min
+==========
+lambda is : 0.0003162277660168384, cost : 8.726 min
+==========
+Convergence with loss threshold
+lambda is : 0.0004641588833612784, cost : 8.982 min
+==========
+Convergence with loss threshold
+lambda is : 0.0006812920690579617, cost : 9.014 min
+==========
+Convergence with loss threshold
+lambda is : 0.0010000000000000002, cost : 10.008 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.10000000000000006, cost : 10.648 min
+==========
+Convergence with loss threshold
+lambda is : 0.0014677992676220707, cost : 10.998 min
+==========
+Hessian approximation fail, yTs = 0
+lambda is : 0.46415888336127825, cost : 11.094 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.06812920690579614, cost : 11.64 min
+==========
+Convergence with loss threshold
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318864, cost : 14.048 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.046415888336127815, cost : 14.974 min
+==========
+Convergence with loss threshold
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 17.863 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.031622776601683826, cost : 20.113 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.146779926762207, cost : 22.597 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318853, cost : 23.523 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.31622776601683833, cost : 29.458 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.014677992676220709, cost : 39.536 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579616, cost : 39.848 min
+==========
+OWL-QN did not convergence
+lambda is : 0.006812920690579619, cost : 45.698 min
+==========
+OWL-QN did not convergence
+lambda is : 0.010000000000000004, cost : 45.939 min
+==========
+OWL-QN did not convergence
+lambda is : 0.004641588833612781, cost : 46.504 min
+==========
+Hessian approximation fail, yTs = 0
+lambda is : 0.02154434690031885, cost : 47.445 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:1013: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax1 = plt.subplots(figsize = (fig_width,fig_height))
+other Time elapsed: 47.49625684420268 minutes.
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+Original adata: (32349, 20568)
+adata celltype shape: (1357, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 16310)
+====================
+Starting job for other_T
+*** Start parallel lambda tuning ***
+Lambda: 0.0004641588833612784
+loss_threshold: 0.05
+Lambda: 0.014677992676220709
+Lambda:Lambda:  loss_threshold: 0.46415888336127825
+0.10000000000000006
+Lambda:0.05
+Lambda:loss_threshold: Lambda: loss_threshold: Lambda:Lambda:  Lambda:0.0010000000000000002Lambda:Lambda:0.146779926762207Lambda:0.05
+  0.00031622776601683840.05
+Lambda: 
+  
+ 0.0464158883361278150.00010000000000000009
+ 0.68129206905796160.00215443469003188641.00.00014677992676220703loss_threshold:0.31622776601683833loss_threshold:
+
+
+loss_threshold:
+
+
+Lambda: 
+ Lambda:loss_threshold: loss_threshold: loss_threshold:loss_threshold: loss_threshold:loss_threshold: 0.050.05loss_threshold:  0.050.05  0.21544346900318853 0.05
+
+
+ 0.031622776601683826
+0.05
+
+
+0.050.05
+
+0.05
+Lambda:0.05
+Lambda:Lambda:Lambda: loss_threshold: Lambda:Lambda: 
+Lambda:  loss_threshold: Lambda: 0.0068129206905796190.05
+ 0.003162277660168382 0.0002154434690031884
+0.0014677992676220707
+0.05
+ 0.06812920690579614
+
+Lambda:0.004641588833612781
+0.0100000000000000040.0006812920690579617 
+loss_threshold: 
+loss_threshold: 
+0.02154434690031885
+0.05
+0.05
+loss_threshold: loss_threshold:loss_threshold: 0.05
+ 0.05
+0.05
+loss_threshold: 0.05
+loss_threshold: loss_threshold:0.05
+ 0.05
+loss_threshold: 0.05
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.289 min
+==========
+Hessian approximation fail, yTs = 0
+lambda is : 0.31622776601683833, cost : 11.226 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579616, cost : 11.498 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.146779926762207, cost : 12.16 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.046415888336127815, cost : 13.542 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.031622776601683826, cost : 15.239 min
+==========
+Convergence with loss threshold
+lambda is : 0.00010000000000000009, cost : 18.803 min
+==========
+Convergence with loss threshold
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 21.005 min
+==========
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.06812920690579614, cost : 23.796 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.21544346900318853, cost : 24.651 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.46415888336127825, cost : 37.787 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.10000000000000006, cost : 44.016 min
+==========
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_loss.py:163: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+Hessian approximation fail, yTs = 0
+lambda is : 0.02154434690031885, cost : 47.67 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 47.767 min
+==========
+OWL-QN did not convergence
+lambda is : 0.010000000000000004, cost : 47.979 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 48.041 min
+==========
+OWL-QN did not convergence
+lambda is : 0.004641588833612781, cost : 48.064 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220707, cost : 48.224 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 48.246 min
+==========
+OWL-QN did not convergence
+lambda is : 0.006812920690579619, cost : 48.301 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318864, cost : 48.376 min
+==========
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 48.395 min
+==========
+OWL-QN did not convergence
+OWL-QN did not convergence
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0004641588833612784, cost : 48.478 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0003162277660168384, cost : 48.485 min
+==========
+OWL-QN did not convergence
+lambda is : 0.014677992676220709, cost : 49.639 min
+==========
+*** Collecting results ***
+other_T Time elapsed: 49.689795569578806 minutes.
+***** Finished lambda tuning
+====================

@@ -1,0 +1,368 @@
+nohup: ignoring input
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+ASDC Feature count: 3902
+ASDC Positive feature count: 11
+------------------
+B_intermediate Feature count: 9
+B_intermediate Positive feature count: 6
+------------------
+B_memory Feature count: 21
+B_memory Positive feature count: 12
+------------------
+B_naive Feature count: 16
+B_naive Positive feature count: 11
+------------------
+CD14_Mono Feature count: 15
+CD14_Mono Positive feature count: 7
+------------------
+CD16_Mono Feature count: 41
+CD16_Mono Positive feature count: 20
+------------------
+CD4_CTL Feature count: 69
+CD4_CTL Positive feature count: 17
+------------------
+CD4_Naive Feature count: 70
+CD4_Naive Positive feature count: 34
+------------------
+CD4_Proliferating Feature count: 2324
+CD4_Proliferating Positive feature count: 54
+------------------
+CD4_TCM Feature count: 54
+CD4_TCM Positive feature count: 29
+------------------
+CD4_TEM Feature count: 21
+CD4_TEM Positive feature count: 11
+------------------
+CD8_Naive Feature count: 37
+CD8_Naive Positive feature count: 16
+------------------
+CD8_Proliferating Feature count: 2615
+CD8_Proliferating Positive feature count: 10
+------------------
+CD8_TCM Feature count: 4
+CD8_TCM Positive feature count: 0
+------------------
+CD8_TEM Feature count: 32
+CD8_TEM Positive feature count: 15
+------------------
+Doublet Feature count: 17
+Doublet Positive feature count: 7
+------------------
+Eryth Feature count: 471
+Eryth Positive feature count: 7
+------------------
+HSPC Feature count: 2
+HSPC Positive feature count: 0
+------------------
+ILC Feature count: 1106
+ILC Positive feature count: 2
+------------------
+MAIT Feature count: 9
+MAIT Positive feature count: 5
+------------------
+NK Feature count: 27
+NK Positive feature count: 18
+------------------
+NK_CD56bright Feature count: 21
+NK_CD56bright Positive feature count: 13
+------------------
+NK_Proliferating Feature count: 14
+NK_Proliferating Positive feature count: 5
+------------------
+Plasmablast Feature count: 129
+Plasmablast Positive feature count: 25
+------------------
+Platelet Feature count: 4
+Platelet Positive feature count: 3
+------------------
+Treg Feature count: 2
+Treg Positive feature count: 0
+------------------
+cDC1 Feature count: 967
+cDC1 Positive feature count: 32
+------------------
+cDC2 Feature count: 6
+cDC2 Positive feature count: 3
+------------------
+dnT Feature count: 189
+dnT Positive feature count: 101
+------------------
+gdT Feature count: 15
+gdT Positive feature count: 8
+------------------
+pDC Feature count: 16
+pDC Positive feature count: 10
+------------------
+                   Feature_count  Positive_feature_count
+ASDC                        3902                      11
+B_intermediate                 9                       6
+B_memory                      21                      12
+B_naive                       16                      11
+CD14_Mono                     15                       7
+CD16_Mono                     41                      20
+CD4_CTL                       69                      17
+CD4_Naive                     70                      34
+CD4_Proliferating           2324                      54
+CD4_TCM                       54                      29
+CD4_TEM                       21                      11
+CD8_Naive                     37                      16
+CD8_Proliferating           2615                      10
+CD8_TCM                        4                       0
+CD8_TEM                       32                      15
+Doublet                       17                       7
+Eryth                        471                       7
+HSPC                           2                       0
+ILC                         1106                       2
+MAIT                           9                       5
+NK                            27                      18
+NK_CD56bright                 21                      13
+NK_Proliferating              14                       5
+Plasmablast                  129                      25
+Platelet                       4                       3
+Treg                           2                       0
+cDC1                         967                      32
+cDC2                           6                       3
+dnT                          189                     101
+gdT                           15                       8
+pDC                           16                      10
+====================
+K-fold CV for: ASDC
+[0.9997898174174888, 1.0, 0.7002356902356902, 0.9999864193591396]
+====================
+K-fold CV for: B_intermediate
+[0.987970125921145, 0.6876908096215028, 0.48151004299138905, 0.9881598387799752]
+====================
+K-fold CV for: B_memory
+[0.9941643350752761, 0.8769047571023917, 0.852314376695011, 0.9980526036968966]
+====================
+K-fold CV for: B_naive
+[0.9956417961062748, 0.9504629864952656, 0.954530195637183, 0.9994009313754925]
+====================
+K-fold CV for: CD14_Mono
+[0.9872159387864148, 0.9679865158883191, 0.9759819559322842, 0.9983205044519504]
+====================
+K-fold CV for: CD16_Mono
+[0.9934781573708891, 0.9062941899893886, 0.9178357485204837, 0.9987610232390848]
+====================
+K-fold CV for: CD4_CTL
+[0.9953574331780146, 0.831606928233534, 0.7665567822674508, 0.9963727793594807]
+====================
+K-fold CV for: CD4_Naive
+[0.951293303106682, 0.7957735552504915, 0.7718497227409107, 0.9798434026042578]
+====================
+K-fold CV for: CD4_Proliferating
+[0.9996043622538255, 0.8289411764705882, 0.6501916783543712, 0.9975881507444198]
+====================
+K-fold CV for: CD4_TCM
+[0.9534136311686339, 0.7798828397770775, 0.7342505476252768, 0.9766973985166348]
+====================
+K-fold CV for: CD4_TEM
+[0.9754580728115968, 0.6464231542923355, 0.2627316118390028, 0.9517940568771692]
+====================
+K-fold CV for: CD8_Naive
+[0.9864494113495101, 0.9148939722763391, 0.8963466447283265, 0.9942647065022061]
+====================
+K-fold CV for: CD8_Proliferating
+[0.9994436341268518, 0.4809523809523809, 0.20405270092226618, 0.9971196114349652]
+====================
+K-fold CV for: CD8_TCM
+[0.9820726498058647, 0.0, 0.0, 0.7147789902508432]
+====================
+K-fold CV for: CD8_TEM
+[0.9788766452984653, 0.8734469224312187, 0.8505170020618238, 0.9911487990816965]
+====================
+K-fold CV for: Doublet
+[0.9965567106036609, 0.8287628500531726, 0.19389190673403775, 0.890640953438702]
+====================
+K-fold CV for: Eryth
+[0.9998330906393227, 0.9033613445378151, 0.8261202711441538, 0.9898524379207376]
+====================
+K-fold CV for: HSPC
+[0.9978549005708939, 0.32, 0.01720345640219953, 0.9244231012893322]
+====================
+K-fold CV for: ILC
+[0.9995116341942951, 0.9458333333333332, 0.5897369897369897, 0.9944872002179721]
+====================
+K-fold CV for: MAIT
+[0.9929341467041232, 0.8194081281974415, 0.7859643104107146, 0.9957604233961332]
+====================
+K-fold CV for: NK
+[0.9866657478413433, 0.9309174979344427, 0.9375904959035435, 0.998086709835461]
+====================
+K-fold CV for: NK_CD56bright
+[0.9974654415743881, 0.8192663851286766, 0.7702614962522414, 0.9981095102564925]
+====================
+K-fold CV for: NK_Proliferating
+[0.9985781758047196, 0.8324001024964037, 0.7777493851631807, 0.997393860770206]
+====================
+K-fold CV for: Plasmablast
+[0.999888726519643, 0.9862612612612611, 0.9750519599793606, 0.9976451835848927]
+====================
+K-fold CV for: Platelet
+[0.9978054440134809, 0.9226343332616347, 0.9226204098711147, 0.9798944573894965]
+====================
+K-fold CV for: Treg
+[0.9840755690128582, 0.0, 0.0, 0.8849310100655045]
+====================
+K-fold CV for: cDC1
+[0.9999505451623035, 0.9866518353726363, 0.9727587165017102, 0.999521702812239]
+====================
+K-fold CV for: cDC2
+[0.9969956227181467, 0.9102055789054123, 0.9019008419289675, 0.9986758778024105]
+====================
+K-fold CV for: dnT
+[0.9985225382046827, 0.7899174899174899, 0.5724916381156164, 0.9765779107262192]
+====================
+K-fold CV for: gdT
+[0.991246497931464, 0.8372869409739467, 0.798273992510093, 0.9867947013735445]
+====================
+K-fold CV for: pDC
+[0.9998578176760118, 0.9816605255209907, 0.9867231788569223, 0.9999710717117031]

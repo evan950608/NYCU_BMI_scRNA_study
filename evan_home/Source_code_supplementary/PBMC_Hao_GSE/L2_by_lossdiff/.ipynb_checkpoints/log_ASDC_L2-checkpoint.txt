@@ -1,0 +1,138 @@
+nohup: ignoring input
+Original adata: (32340, 33538)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+cts ['ASDC']
+====================
+Original adata: (32340, 33538)
+adata celltype shape: (15, 33538)
+adata shape after removing all zero columns for celltype cells: (32340, 9840)
+====================
+Starting job for ASDC
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda: Lambda: Lambda:  Lambda:Lambda:Lambda:0.002154  0.004642 3.2e-05 0.001    starting at0.000464  starting at1.5e-05 starting at starting at 1e-05 Lambda: 2.2e-05 0.000215  2023-11-29 08:25:24starting at  2023-11-29 08:25:24starting at 2023-11-29 08:25:24
+2023-11-29 08:25:24
+starting at 0.003162 starting at starting at 
+2023-11-29 08:25:24
+
+2023-11-29 08:25:24
+Lambda:2023-11-29 08:25:24starting at 2023-11-29 08:25:242023-11-29 08:25:24
+Lambda: Lambda:
+2023-11-29 08:25:24
+
+Lambda:Lambda:Lambda: 0.001468    4.6e-05 6.8e-05 0.000316 0.000147  starting atstarting at starting at starting at starting at 2023-11-29 08:25:24Lambda:2023-11-29 08:25:242023-11-29 08:25:240.012023-11-29 08:25:24
+ 
+ 
+
+ 2023-11-29 08:25:24
+0.0001 starting at starting at 2023-11-29 08:25:242023-11-29 08:25:24
+
+Lambda: Lambda:0.006813  starting at0.000681  2023-11-29 08:25:24starting at 
+2023-11-29 08:25:24
+Lambda: 0.014678 starting at 2023-11-29 08:25:24
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+At iteration 2, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 0.765 min
+==========
+Lambda: 0.021544 starting at 2023-11-29 08:26:10
+lambda is : 3.16227766016838e-05, cost : 0.768 min
+==========
+Lambda: 0.031623 starting at 2023-11-29 08:26:10
+lambda is : 4.6415888336127784e-05, cost : 0.778 min
+==========
+Lambda: 0.046416 starting at 2023-11-29 08:26:11
+lambda is : 6.81292069057961e-05, cost : 0.793 min
+==========
+Lambda: 0.068129 starting at 2023-11-29 08:26:12
+lambda is : 0.00014677992676220703, cost : 0.808 min
+==========
+Lambda: 0.1 starting at 2023-11-29 08:26:13
+lambda is : 9.999999999999991e-05, cost : 0.836 min
+==========
+lambda is : 9.999999999999997e-06, cost : 0.875 min
+==========
+lambda is : 1.4677992676220687e-05, cost : 0.886 min
+==========
+At iteration 98, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.003162277660168382, cost : 7.265 min
+==========
+At iteration 114, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.004641588833612781, cost : 9.708 min
+==========
+At iteration 112, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 9.486 min
+==========
+At iteration 117, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 10.126 min
+==========
+At iteration 127, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0014677992676220694, cost : 11.036 min
+==========
+At iteration 118, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 10.476 min
+==========
+At iteration 128, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 11.342 min
+==========
+At iteration 129, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.006812920690579613, cost : 11.461 min
+==========
+At iteration 123, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 10.806 min
+==========
+At iteration 128, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 11.068 min
+==========
+At iteration 141, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.010000000000000004, cost : 12.18 min
+==========
+At iteration 145, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0021544346900318843, cost : 12.546 min
+==========
+At iteration 175, Convergence with loss difference
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.014677992676220709, cost : 15.454 min
+==========
+At iteration 182, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 15.953 min
+==========
+At iteration 212, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 18.689 min
+==========
+At iteration 218, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 19.087 min
+==========
+At iteration 229, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 20.065 min
+==========
+*** Collecting results ***
+ASDC Time elapsed: 20.122637502352397 minutes.
+***** Finished lambda tuning
+====================

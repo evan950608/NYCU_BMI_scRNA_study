@@ -1,0 +1,166 @@
+nohup: ignoring input
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.10/site-packages/numpy/core/_methods.py:164: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  arr = asanyarray(a)
+/opt/conda/lib/python3.10/site-packages/numpy/core/_methods.py:198: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  arr = asanyarray(a)
+/opt/conda/lib/python3.10/site-packages/numpy/core/shape_base.py:65: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  ary = asanyarray(ary)
+Original adata: (32349, 20568)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+cts ['B']
+====================
+Original adata: (32349, 20568)
+adata celltype shape: (2760, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 17774)
+====================
+Starting job for B
+Testing lambda: 1e-05
+Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 4.961 min
+==========
+Testing lambda: 1.5e-05
+Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 4.768 min
+==========
+Testing lambda: 2.2e-05
+Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 4.564 min
+==========
+Testing lambda: 3.2e-05
+Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 4.341 min
+==========
+Testing lambda: 4.6e-05
+Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 4.311 min
+==========
+Testing lambda: 6.8e-05
+Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 4.449 min
+==========
+Testing lambda: 0.0001
+Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 4.781 min
+==========
+Testing lambda: 0.000147
+Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 4.945 min
+==========
+Testing lambda: 0.000215
+Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 3.657 min
+==========
+Testing lambda: 0.000316
+Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 3.35 min
+==========
+Testing lambda: 0.000464
+Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 3.194 min
+==========
+Testing lambda: 0.000681
+Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 3.375 min
+==========
+Testing lambda: 0.001
+Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 3.14 min
+==========
+Testing lambda: 0.001468
+Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 2.837 min
+==========
+Testing lambda: 0.002154
+Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 2.777 min
+==========
+Testing lambda: 0.003162
+Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 3.591 min
+==========
+Testing lambda: 0.004642
+Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 2.994 min
+==========
+Testing lambda: 0.006813
+Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 2.847 min
+==========
+Testing lambda: 0.01
+Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 2.459 min
+==========
+Testing lambda: 0.014678
+Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 2.259 min
+==========
+Testing lambda: 0.021544
+Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 2.592 min
+==========
+Testing lambda: 0.031623
+Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 2.445 min
+==========
+Testing lambda: 0.046416
+Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 1.857 min
+==========
+Testing lambda: 0.068129
+Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 1.023 min
+==========
+Testing lambda: 0.1
+Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 0.974 min
+==========
+tmpDF error in 0.10000000000000002
+TypeError: only size-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level1_loss_difference/L1_loss_diff_tuning.py", line 148, in <module>
+    pipeline_ad2(adata, celltype, label, output_path=server_path)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level1_loss_difference/L1_loss_diff_tuning.py", line 87, in pipeline_ad2
+    Fig = ad.lambda_tuning_viz(result_dict_for_viz, 'Feature_number', savepath='{}_feature_number.png'.format(celltype))
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py", line 918, in lambda_tuning_viz
+    ln2 = ax2.plot(lmbd_range, [100*p for p in pvl_recode], marker='o', c = 'r', linestyle='--', label='Prevalence', zorder=1); ax2.legend(loc='upper right')
+  File "/opt/conda/lib/python3.10/site-packages/matplotlib/axes/_axes.py", line 1690, in plot
+    self.add_line(line)
+  File "/opt/conda/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 2304, in add_line
+    self._update_line_limits(line)
+  File "/opt/conda/lib/python3.10/site-packages/matplotlib/axes/_base.py", line 2327, in _update_line_limits
+    path = line.get_path()
+  File "/opt/conda/lib/python3.10/site-packages/matplotlib/lines.py", line 1029, in get_path
+    self.recache()
+  File "/opt/conda/lib/python3.10/site-packages/matplotlib/lines.py", line 662, in recache
+    y = _to_unmasked_float_array(yconv).ravel()
+  File "/opt/conda/lib/python3.10/site-packages/matplotlib/cbook/__init__.py", line 1335, in _to_unmasked_float_array
+    return np.asarray(x, float)
+ValueError: setting an array element with a sequence.

@@ -1,0 +1,20 @@
+SingleR reference dataset
+https://bioconductor.org/packages/3.19/data/experiment/vignettes/celldex/inst/doc/userguide.html
+
+IMMUNE CELLS
+Monaco immune data
+	Human PBMCs
+	bulk RNA-seq samples of sorted immune cell populations from GSE107011
+	T cells, CD4, CD8, B cells, NK, Monocytes, Dendritic cells, Neutrophils, Basophils, Progenitors
+
+Database of Immune Cell Expression/eQTLs/Epigenomics (DICE)
+	human immune cell types
+	CD4, CD8, B cells, NK, Monocytes
+
+
+GENERAL PURPOSE
+Human primary cell atlas (HPCA)
+
+
+SingleR tutorial
+https://biostatsquid.com/singler-tutorial/

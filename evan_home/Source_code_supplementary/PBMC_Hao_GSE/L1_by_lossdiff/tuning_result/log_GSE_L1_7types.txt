@@ -1,0 +1,764 @@
+nohup: ignoring input
+Original adata: (32349, 33538)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+cts ['CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Original adata: (32349, 33538)
+adata celltype shape: (8200, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 21153)
+====================
+Starting job for CD4_T
+*** Start parallel lambda tuning ***
+Lambda: 0.014678
+Lambda: 0.031623
+Lambda: 3.2e-05
+Lambda: 1.5e-05
+Lambda: 0.000681
+Lambda: 6.8e-05
+Lambda: 0.000215
+Lambda: 0.1
+Lambda: 0.001468
+Lambda: 4.6e-05
+Lambda: 0.000147
+Lambda:Lambda:  2.2e-050.004642
+
+Lambda: 0.000464
+Lambda: 0.01
+Lambda: 0.021544
+Lambda: 0.046416
+Lambda: 0.000316
+Lambda: 0.003162
+Lambda: Lambda: 0.0681291e-05
+
+Lambda: 0.001
+Lambda: 0.0001
+Lambda: 0.006813
+Lambda: 0.002154
+At iteration 345, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 81.16 min
+==========
+At iteration 414, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 93.892 min
+==========
+At iteration 445, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 98.015 min
+==========
+At iteration 448, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 98.328 min
+==========
+At iteration 474, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 101.796 min
+==========
+At iteration 504, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 104.635 min
+==========
+At iteration 534, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 107.603 min
+==========
+At iteration 542, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 108.781 min
+==========
+At iteration 554, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 109.16 min
+==========
+At iteration 565, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 110.678 min
+==========
+At iteration 578, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 111.766 min
+==========
+At iteration 584, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 111.91 min
+==========
+At iteration 605, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 113.632 min
+==========
+At iteration 611, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 113.781 min
+==========
+At iteration 612, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 113.88 min
+==========
+At iteration 614, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 114.374 min
+==========
+At iteration 632, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 115.412 min
+==========
+At iteration 629, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 115.571 min
+==========
+At iteration 643, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 116.108 min
+==========
+At iteration 659, Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 117.243 min
+==========
+At iteration 663, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 117.723 min
+==========
+At iteration 703, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 120.314 min
+==========
+At iteration 716, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 120.851 min
+==========
+At iteration 758, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 123.053 min
+==========
+At iteration 765, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 123.582 min
+==========
+*** Collecting results ***
+CD4_T Time elapsed: 123.6947401324908 minutes.
+Original adata: (32349, 33538)
+adata celltype shape: (5093, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 20277)
+====================
+Starting job for CD8_T
+*** Start parallel lambda tuning ***
+Lambda: 0.01
+Lambda: 0.068129
+Lambda: 0.001468
+Lambda: 2.2e-05
+Lambda: 0.000316
+Lambda: 1.5e-05
+Lambda:Lambda:  0.0002150.1
+
+Lambda: 0.000681
+Lambda:Lambda:  0.0464160.021544Lambda:Lambda:
+
+  0.0316231e-05
+
+Lambda: Lambda:0.000147
+ 0.0001
+Lambda: 0.000464
+Lambda: 6.8e-05
+Lambda: 0.004642
+Lambda: 0.002154
+Lambda:Lambda:  Lambda:Lambda:0.0068130.001Lambda:  
+
+ 4.6e-05
+0.014678Lambda:0.003162
+ 
+3.2e-05
+At iteration 299, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 29.453 min
+==========
+At iteration 430, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 43.246 min
+==========
+At iteration 487, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 48.514 min
+==========
+At iteration 503, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 49.827 min
+==========
+At iteration 501, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 49.839 min
+==========
+At iteration 531, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 52.655 min
+==========
+At iteration 548, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 53.382 min
+==========
+At iteration 560, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 54.165 min
+==========
+At iteration 573, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 55.08 min
+==========
+At iteration 593, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 56.893 min
+==========
+At iteration 613, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 57.546 min
+==========
+At iteration 620, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 58.776 min
+==========
+At iteration 625, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 58.841 min
+==========
+At iteration 640, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 59.633 min
+==========
+At iteration 642, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 59.974 min
+==========
+At iteration 650, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 60.327 min
+==========
+At iteration 673, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 61.695 min
+==========
+At iteration 671, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 62.188 min
+==========
+At iteration 678, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 62.397 min
+==========
+At iteration 679, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 62.736 min
+==========
+At iteration 691, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 63.458 min
+==========
+At iteration 704, Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 64.43 min
+==========
+At iteration 711, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 64.956 min
+==========
+At iteration 723, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 65.415 min
+==========
+At iteration 786, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 69.686 min
+==========
+*** Collecting results ***
+CD8_T Time elapsed: 69.75158175230027 minutes.
+Original adata: (32349, 33538)
+adata celltype shape: (717, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 17987)
+====================
+Starting job for DC
+*** Start parallel lambda tuning ***
+Lambda: 0.004642
+Lambda: 0.000464
+Lambda: 0.01
+Lambda: 0.021544
+Lambda:Lambda:Lambda:   Lambda:6.8e-050.0003160.003162 
+
+
+0.001468
+Lambda:Lambda:Lambda: Lambda:Lambda:Lambda:Lambda: Lambda: 1.5e-05    0.0001 1e-05
+0.001
+4.6e-053.2e-050.031623
+0.1
+Lambda:Lambda:
+
+
+
+  2.2e-050.002154
+
+Lambda:Lambda:  0.006813
+0.014678
+Lambda: 0.000681
+Lambda: 0.068129
+Lambda:Lambda:  0.000215
+0.000147
+Lambda: 0.046416
+At iteration 165, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 15.393 min
+==========
+At iteration 172, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 16.009 min
+==========
+At iteration 211, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 19.805 min
+==========
+At iteration 252, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 23.084 min
+==========
+At iteration 312, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 28.502 min
+==========
+At iteration 321, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 29.216 min
+==========
+At iteration 390, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 34.545 min
+==========
+At iteration 410, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 36.066 min
+==========
+At iteration 434, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 37.699 min
+==========
+At iteration 442, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 38.04 min
+==========
+At iteration 443, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 38.538 min
+==========
+At iteration 438, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 38.554 min
+==========
+At iteration 451, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 39.478 min
+==========
+At iteration 477, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 40.595 min
+==========
+At iteration 479, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 41.177 min
+==========
+At iteration 483, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 41.245 min
+==========
+At iteration 488, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 41.381 min
+==========
+At iteration 498, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 41.82 min
+==========
+At iteration 525, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 43.73 min
+==========
+At iteration 533, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 43.873 min
+==========
+At iteration 536, Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 44.31 min
+==========
+At iteration 552, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 45.805 min
+==========
+At iteration 562, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 46.411 min
+==========
+At iteration 583, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 47.679 min
+==========
+At iteration 588, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 48.096 min
+==========
+*** Collecting results ***
+DC Time elapsed: 48.15183466275533 minutes.
+Original adata: (32349, 33538)
+adata celltype shape: (9802, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 22372)
+====================
+Starting job for Mono
+*** Start parallel lambda tuning ***
+Lambda: 3.2e-05
+Lambda: 0.004642
+Lambda: 6.8e-05
+Lambda: 4.6e-05
+Lambda: 0.000681
+Lambda: 0.000215
+Lambda: 0.1
+Lambda: 0.001
+Lambda: 0.014678
+Lambda: 0.031623
+Lambda: 0.006813Lambda:
+ 1e-05
+Lambda: 2.2e-05
+Lambda: 0.000316
+Lambda: 0.003162
+Lambda: 0.068129
+Lambda: 0.000147
+Lambda: 0.002154
+Lambda: 0.021544
+Lambda: 0.001468
+Lambda: 0.046416
+Lambda: 0.000464
+Lambda:Lambda:  1.5e-050.01
+
+Lambda: 0.0001
+At iteration 335, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 33.85 min
+==========
+At iteration 432, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 43.003 min
+==========
+At iteration 429, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 43.272 min
+==========
+At iteration 457, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 45.914 min
+==========
+At iteration 465, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 46.047 min
+==========
+At iteration 494, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 47.967 min
+==========
+At iteration 491, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 48.879 min
+==========
+At iteration 560, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 53.674 min
+==========
+At iteration 568, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 53.892 min
+==========
+At iteration 572, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 54.643 min
+==========
+At iteration 568, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 54.71 min
+==========
+At iteration 599, Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 56.296 min
+==========
+At iteration 602, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 56.418 min
+==========
+At iteration 609, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 56.855 min
+==========
+At iteration 612, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 57.337 min
+==========
+At iteration 621, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 57.892 min
+==========
+At iteration 625, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 58.127 min
+==========
+At iteration 631, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 58.488 min
+==========
+At iteration 663, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 60.35 min
+==========
+At iteration 665, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 60.467 min
+==========
+At iteration 668, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 60.908 min
+==========
+At iteration 696, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 62.374 min
+==========
+At iteration 700, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 62.614 min
+==========
+At iteration 707, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 63.301 min
+==========
+At iteration 725, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 64.281 min
+==========
+*** Collecting results ***
+Mono Time elapsed: 64.33730558951696 minutes.
+Original adata: (32349, 33538)
+adata celltype shape: (3732, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 19503)
+====================
+Starting job for NK
+*** Start parallel lambda tuning ***
+Lambda: 0.000681
+Lambda: 0.000316
+Lambda: 0.068129Lambda:
+ 0.002154
+Lambda: 4.6e-05
+Lambda: 0.003162
+Lambda: 0.006813
+Lambda: 0.014678
+Lambda:Lambda: Lambda: 0.001Lambda: 0.000464
+ 0.021544
+1e-05
+Lambda:
+ Lambda: 6.8e-053.2e-05
+
+Lambda:Lambda:  0.0014681.5e-05
+
+Lambda: 0.1
+Lambda: 0.01
+Lambda: 0.004642
+Lambda: 0.000147
+Lambda: 0.046416
+Lambda: Lambda:0.000215 
+2.2e-05
+Lambda: 0.0001
+Lambda: 0.031623
+At iteration 323, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 31.912 min
+==========
+At iteration 361, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 36.202 min
+==========
+At iteration 451, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 44.223 min
+==========
+At iteration 451, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 44.406 min
+==========
+At iteration 465, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 46.398 min
+==========
+At iteration 477, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 46.804 min
+==========
+At iteration 485, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 47.344 min
+==========
+At iteration 482, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 47.637 min
+==========
+At iteration 505, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 49.378 min
+==========
+At iteration 521, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 50.019 min
+==========
+At iteration 528, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 50.424 min
+==========
+At iteration 550, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 52.19 min
+==========
+At iteration 576, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 53.877 min
+==========
+At iteration 619, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 56.925 min
+==========
+At iteration 600, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 57.052 min
+==========
+At iteration 628, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 57.213 min
+==========
+At iteration 621, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 57.244 min
+==========
+At iteration 649, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 58.858 min
+==========
+At iteration 657, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 58.955 min
+==========
+At iteration 627, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 59.178 min
+==========
+At iteration 657, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 59.541 min
+==========
+At iteration 670, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 59.965 min
+==========
+At iteration 676, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 60.06 min
+==========
+At iteration 679, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 60.721 min
+==========
+At iteration 706, Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 62.276 min
+==========
+*** Collecting results ***
+NK Time elapsed: 62.33434916337331 minutes.
+Original adata: (32349, 33538)
+adata celltype shape: (688, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 17244)
+====================
+Starting job for other
+*** Start parallel lambda tuning ***
+Lambda: 3.2e-05
+Lambda: Lambda:Lambda:Lambda:0.004642
+Lambda:Lambda: 0.1  0.046416  Lambda:Lambda:
+0.006813Lambda:Lambda:Lambda:Lambda:
+Lambda:0.003162
+Lambda: 0.002154
+ Lambda:Lambda:Lambda:Lambda:Lambda: 
+   Lambda:  Lambda:1e-050.000681     0.0014680.0010.0316230.000215 0.0681292.2e-05 
+
+0.00011.5e-050.0004640.016.8e-05
+
+
+
+0.000147
+Lambda:
+0.021544
+
+
+
+
+
+ 
+4.6e-05
+Lambda: 0.000316
+Lambda: 0.014678
+At iteration 146, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 13.299 min
+==========
+At iteration 160, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 15.148 min
+==========
+At iteration 168, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 15.634 min
+==========
+At iteration 167, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 15.696 min
+==========
+At iteration 202, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 18.461 min
+==========
+At iteration 204, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 19.03 min
+==========
+At iteration 252, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 22.341 min
+==========
+At iteration 257, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 22.58 min
+==========
+At iteration 397, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 32.103 min
+==========
+At iteration 398, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 32.458 min
+==========
+At iteration 413, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 33.616 min
+==========
+At iteration 428, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 34.467 min
+==========
+At iteration 446, Convergence with loss difference
+At iteration 452, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 35.758 min
+==========
+lambda is : 0.0006812920690579617, cost : 35.761 min
+==========
+At iteration 440, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 35.829 min
+==========
+At iteration 459, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 36.193 min
+==========
+At iteration 458, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 36.51 min
+==========
+At iteration 458, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 36.622 min
+==========
+At iteration 462, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 36.658 min
+==========
+At iteration 470, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 37.328 min
+==========
+At iteration 473, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 37.459 min
+==========
+At iteration 484, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 38.383 min
+==========
+At iteration 508, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 39.338 min
+==========
+At iteration 509, Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 39.568 min
+==========
+At iteration 527, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 40.989 min
+==========
+*** Collecting results ***
+other Time elapsed: 41.04670262336731 minutes.
+Original adata: (32349, 33538)
+adata celltype shape: (1357, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 17110)
+====================
+Starting job for other_T
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda: Lambda:  0.003162  0.001468
+0.001
+
+0.000681
+0.000215
+Lambda:Lambda:  Lambda:1e-05
+0.046416
+Lambda:  6.8e-050.0001
+Lambda:
+ 0.014678
+Lambda:Lambda:Lambda: Lambda:  0.000316 0.0068134.6e-05
+0.000147
+
+
+Lambda: 3.2e-05
+Lambda: 0.000464
+Lambda:Lambda:  0.004642
+Lambda:0.068129
+Lambda:  0.0316231.5e-05
+
+Lambda: 0.021544
+Lambda:Lambda:  0.012.2e-05
+
+Lambda: 0.002154
+Lambda: 0.1
+At iteration 199, Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 18.299 min
+==========
+At iteration 228, Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 21.997 min
+==========
+At iteration 243, Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 23.126 min
+==========
+At iteration 328, Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 30.589 min
+==========
+At iteration 334, Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 31.748 min
+==========
+At iteration 425, Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 38.538 min
+==========
+At iteration 422, Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 38.904 min
+==========
+At iteration 429, Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 39.245 min
+==========
+At iteration 433, Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 39.366 min
+==========
+At iteration 463, Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 41.678 min
+==========
+At iteration 481, Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 42.613 min
+==========
+At iteration 492, Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 43.451 min
+==========
+At iteration 504, Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 44.485 min
+==========
+At iteration 516, Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 45.467 min
+==========
+At iteration 525, Convergence with loss difference
+At iteration 530, Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 46.008 min
+==========
+lambda is : 4.6415888336127784e-05, cost : 46.068 min
+==========
+At iteration 543, Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 46.934 min
+==========
+At iteration 542, Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 47.021 min
+==========
+At iteration 545, Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 47.046 min
+==========
+At iteration 552, Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 47.552 min
+==========
+At iteration 555, Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 47.72 min
+==========
+At iteration 565, Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 48.665 min
+==========
+At iteration 606, Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 50.764 min
+==========
+At iteration 620, Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 51.724 min
+==========
+At iteration 655, Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 53.877 min
+==========
+*** Collecting results ***
+other_T Time elapsed: 53.929459087053935 minutes.
+***** Finished lambda tuning
+====================

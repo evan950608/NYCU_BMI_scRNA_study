@@ -1,0 +1,1588 @@
+nohup: ignoring input
+Z-transformed rep_cells adata: (59897, 27504) <class 'numpy.ndarray'>
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Queue ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Subsetted raw count adata: (59897, 27504) <class 'anndata._core.views.SparseCSCView'>
+***** Starting tuning
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for B
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 08:15:28 Max_iter: 1000
+At iteration 241, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  242 ; minimum lost =  0.05206793546676636 ; diff loss =  7.078051567077637e-08 ; diff weight =  3.926332681203348e-08
+lambda is : 9.999999999999997e-06, cost : 0.528 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 08:16:00 Max_iter: 1000
+At iteration 234, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  235 ; minimum lost =  0.056065432727336884 ; diff loss =  7.450580596923828e-09 ; diff weight =  4.582295876076614e-09
+lambda is : 1.4677992676220687e-05, cost : 0.466 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 08:16:28 Max_iter: 1000
+At iteration 227, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  228 ; minimum lost =  0.060512661933898926 ; diff loss =  2.123415470123291e-07 ; diff weight =  1.1780824138440948e-07
+lambda is : 2.1544346900318854e-05, cost : 0.418 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 08:16:53 Max_iter: 1000
+At iteration 222, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  223 ; minimum lost =  0.06371463090181351 ; diff loss =  5.21540641784668e-08 ; diff weight =  4.346360427120999e-08
+lambda is : 3.16227766016838e-05, cost : 0.404 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 08:17:17 Max_iter: 1000
+At iteration 214, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  215 ; minimum lost =  0.06879901140928268 ; diff loss =  3.0547380447387695e-07 ; diff weight =  3.5955462607262234e-08
+lambda is : 4.6415888336127784e-05, cost : 0.364 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 08:17:39 Max_iter: 1000
+At iteration 208, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  209 ; minimum lost =  0.07336746156215668 ; diff loss =  6.631016731262207e-07 ; diff weight =  1.3685341571090248e-07
+lambda is : 6.81292069057961e-05, cost : 0.334 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 08:17:59 Max_iter: 1000
+At iteration 202, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  203 ; minimum lost =  0.07794593274593353 ; diff loss =  5.960464477539063e-08 ; diff weight =  2.8792634054752853e-08
+lambda is : 9.999999999999991e-05, cost : 0.327 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 08:18:19 Max_iter: 1000
+At iteration 197, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  198 ; minimum lost =  0.08242383599281311 ; diff loss =  2.9802322387695312e-08 ; diff weight =  2.6136895314721187e-08
+lambda is : 0.00014677992676220703, cost : 0.309 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 08:18:37 Max_iter: 1000
+At iteration 192, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  193 ; minimum lost =  0.08756085485219955 ; diff loss =  3.948807716369629e-07 ; diff weight =  7.78519861910354e-08
+lambda is : 0.0002154434690031884, cost : 0.283 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 08:18:54 Max_iter: 1000
+At iteration 188, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  189 ; minimum lost =  0.09322523325681686 ; diff loss =  1.564621925354004e-07 ; diff weight =  2.1973832531330117e-08
+lambda is : 0.00031622776601683783, cost : 0.266 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 08:19:10 Max_iter: 1000
+At iteration 185, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  186 ; minimum lost =  0.0997157022356987 ; diff loss =  2.0116567611694336e-07 ; diff weight =  4.839777290044367e-08
+lambda is : 0.00046415888336127795, cost : 0.247 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 08:19:25 Max_iter: 1000
+At iteration 184, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  185 ; minimum lost =  0.10730165988206863 ; diff loss =  5.960464477539063e-08 ; diff weight =  3.036048923377166e-08
+lambda is : 0.0006812920690579617, cost : 0.252 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 08:19:40 Max_iter: 1000
+At iteration 180, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  181 ; minimum lost =  0.11623205989599228 ; diff loss =  3.3527612686157227e-07 ; diff weight =  9.596305972081609e-08
+lambda is : 0.0010000000000000002, cost : 0.22 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 08:19:54 Max_iter: 1000
+At iteration 177, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  178 ; minimum lost =  0.12698926031589508 ; diff loss =  9.238719940185547e-07 ; diff weight =  3.3281045830335643e-07
+lambda is : 0.0014677992676220694, cost : 0.206 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 08:20:06 Max_iter: 1000
+At iteration 174, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  175 ; minimum lost =  0.1402083784341812 ; diff loss =  5.21540641784668e-07 ; diff weight =  3.882069066207805e-08
+lambda is : 0.0021544346900318843, cost : 0.192 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 08:20:17 Max_iter: 1000
+At iteration 174, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  175 ; minimum lost =  0.15727245807647705 ; diff loss =  2.086162567138672e-07 ; diff weight =  9.876858086954599e-08
+lambda is : 0.003162277660168382, cost : 0.192 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 08:20:29 Max_iter: 1000
+At iteration 175, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  176 ; minimum lost =  0.17699380218982697 ; diff loss =  4.470348358154297e-08 ; diff weight =  4.078800586171383e-08
+lambda is : 0.004641588833612781, cost : 0.202 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 08:20:41 Max_iter: 1000
+At iteration 174, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  174 ; minimum lost =  0.2021188735961914 ; diff loss =  0.0 ; diff weight =  1.0859109522698418e-07
+lambda is : 0.006812920690579613, cost : 0.188 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 08:20:52 Max_iter: 1000
+At iteration 177, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  178 ; minimum lost =  0.22992119193077087 ; diff loss =  8.642673492431641e-07 ; diff weight =  1.4930061809081963e-07
+lambda is : 0.010000000000000004, cost : 0.175 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 08:21:03 Max_iter: 1000
+At iteration 182, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  183 ; minimum lost =  0.2613345980644226 ; diff loss =  5.960464477539062e-07 ; diff weight =  5.843191388521518e-07
+lambda is : 0.014677992676220709, cost : 0.184 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 08:21:14 Max_iter: 1000
+At iteration 206, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  207 ; minimum lost =  0.2981375455856323 ; diff loss =  5.662441253662109e-07 ; diff weight =  1.4932837189007842e-07
+lambda is : 0.02154434690031885, cost : 0.194 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 08:21:26 Max_iter: 1000
+At iteration 489, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  490 ; minimum lost =  0.3291246294975281 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0010825050994753838
+lambda is : 0.0316227766016838, cost : 0.32 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 08:21:45 Max_iter: 1000
+At iteration 412, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  413 ; minimum lost =  0.40109825134277344 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.001280868542380631
+lambda is : 0.04641588833612786, cost : 0.275 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 08:22:01 Max_iter: 1000
+At iteration 390, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  391 ; minimum lost =  0.4806019365787506 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0012874773237854242
+lambda is : 0.0681292069057962, cost : 0.259 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 08:22:17 Max_iter: 1000
+At iteration 359, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  360 ; minimum lost =  0.558410108089447 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0003075846179854125
+lambda is : 0.10000000000000002, cost : 0.24 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.340605    0.139948          0.139657            9368  0.999854  0.999070  0.997513   0.995706  0.997848      0.052068   3.926333e-08
+0.000015    0.312573    0.154709          0.154879            8597  0.999854  0.999070  0.997159   0.995095  0.997541      0.056065   4.582296e-09
+0.000022    0.285886    0.171276          0.170960            7863  0.999854  0.999068  0.997513   0.995706  0.997848      0.060513   1.178082e-07
+0.000032    0.252945    0.190085          0.190008            6957  0.999854  0.999070  0.997159   0.995095  0.997541      0.063715   4.346360e-08
+0.000046    0.223131    0.213378          0.212802            6137  0.999854  0.999069  0.996805   0.994485  0.997235      0.068799   3.595546e-08
+Exporting resultDF
+Exporting result Dict
+B Time elapsed: 7.18397335211436 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for CD4_T
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 08:23:04 Max_iter: 1000
+At iteration 214, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  215 ; minimum lost =  0.213302344083786 ; diff loss =  3.427267074584961e-07 ; diff weight =  2.3451217145975534e-07
+lambda is : 9.999999999999997e-06, cost : 0.522 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 08:23:35 Max_iter: 1000
+At iteration 214, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  215 ; minimum lost =  0.22026868164539337 ; diff loss =  2.2351741790771484e-07 ; diff weight =  1.5568102185170574e-07
+lambda is : 1.4677992676220687e-05, cost : 0.494 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 08:24:05 Max_iter: 1000
+At iteration 215, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  216 ; minimum lost =  0.22678308188915253 ; diff loss =  3.129243850708008e-07 ; diff weight =  3.023912711341836e-07
+lambda is : 2.1544346900318854e-05, cost : 0.469 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 08:24:33 Max_iter: 1000
+At iteration 216, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  217 ; minimum lost =  0.23399850726127625 ; diff loss =  4.470348358154297e-08 ; diff weight =  2.448690494816219e-08
+lambda is : 3.16227766016838e-05, cost : 0.45 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 08:25:00 Max_iter: 1000
+At iteration 218, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  219 ; minimum lost =  0.24257802963256836 ; diff loss =  5.960464477539062e-07 ; diff weight =  6.540724371006945e-07
+lambda is : 4.6415888336127784e-05, cost : 0.4 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 08:25:24 Max_iter: 1000
+At iteration 224, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  225 ; minimum lost =  0.25116798281669617 ; diff loss =  5.960464477539063e-08 ; diff weight =  3.1672204414689986e-08
+lambda is : 6.81292069057961e-05, cost : 0.384 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 08:25:47 Max_iter: 1000
+At iteration 234, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  235 ; minimum lost =  0.2606498599052429 ; diff loss =  2.682209014892578e-07 ; diff weight =  3.0867167311043886e-07
+lambda is : 9.999999999999991e-05, cost : 0.36 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 08:26:08 Max_iter: 1000
+At iteration 250, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  251 ; minimum lost =  0.2716792821884155 ; diff loss =  2.9802322387695312e-08 ; diff weight =  1.4523817526423954e-07
+lambda is : 0.00014677992676220703, cost : 0.356 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 08:26:30 Max_iter: 1000
+At iteration 282, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  283 ; minimum lost =  0.2851524353027344 ; diff loss =  2.9802322387695312e-08 ; diff weight =  2.4186562086470076e-07
+lambda is : 0.0002154434690031884, cost : 0.333 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 08:26:50 Max_iter: 1000
+At iteration 325, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  325 ; minimum lost =  0.3033335208892822 ; diff loss =  -4.76837158203125e-07 ; diff weight =  0.002487987745553255
+lambda is : 0.00031622776601683783, cost : 0.322 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 08:27:09 Max_iter: 1000
+At iteration 370, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  371 ; minimum lost =  0.3243663012981415 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0015113704139366746
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 0.339 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 08:27:29 Max_iter: 1000
+At iteration 364, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  365 ; minimum lost =  0.34778183698654175 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0012519940501078963
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 0.32 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 08:27:49 Max_iter: 1000
+At iteration 378, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  379 ; minimum lost =  0.37332385778427124 ; diff loss =  6.854534149169922e-07 ; diff weight =  0.0008485528524033725
+lambda is : 0.0010000000000000002, cost : 0.307 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 08:28:07 Max_iter: 1000
+At iteration 368, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  369 ; minimum lost =  0.40060076117515564 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.000850518059451133
+lambda is : 0.0014677992676220694, cost : 0.285 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 08:28:24 Max_iter: 1000
+At iteration 360, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  361 ; minimum lost =  0.4281933903694153 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.000760108872782439
+lambda is : 0.0021544346900318843, cost : 0.264 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 08:28:40 Max_iter: 1000
+At iteration 351, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  352 ; minimum lost =  0.4558500051498413 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0007398979505524039
+lambda is : 0.003162277660168382, cost : 0.244 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 08:28:55 Max_iter: 1000
+At iteration 341, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  342 ; minimum lost =  0.48445314168930054 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0005987205076962709
+lambda is : 0.004641588833612781, cost : 0.235 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 08:29:09 Max_iter: 1000
+At iteration 332, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  333 ; minimum lost =  0.5137964487075806 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0005394220934249461
+lambda is : 0.006812920690579613, cost : 0.229 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 08:29:22 Max_iter: 1000
+At iteration 326, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  327 ; minimum lost =  0.5432335138320923 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0004788826627191156
+lambda is : 0.010000000000000004, cost : 0.222 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 08:29:36 Max_iter: 1000
+At iteration 332, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  333 ; minimum lost =  0.5706455707550049 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.00046281912364065647
+lambda is : 0.014677992676220709, cost : 0.227 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 08:29:49 Max_iter: 1000
+At iteration 372, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  373 ; minimum lost =  0.5949705243110657 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.00036114430986344814
+lambda is : 0.02154434690031885, cost : 0.249 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 08:30:04 Max_iter: 1000
+At iteration 373, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  374 ; minimum lost =  0.6166504621505737 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0002969465858768672
+lambda is : 0.0316227766016838, cost : 0.251 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 08:30:19 Max_iter: 1000
+At iteration 305, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  306 ; minimum lost =  0.6373714208602905 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.00035256758565083146
+lambda is : 0.04641588833612786, cost : 0.209 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 08:30:32 Max_iter: 1000
+At iteration 244, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  245 ; minimum lost =  0.6582334041595459 ; diff loss =  5.960464477539062e-07 ; diff weight =  0.0002519131812732667
+lambda is : 0.0681292069057962, cost : 0.172 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 08:30:42 Max_iter: 1000
+At iteration 207, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  208 ; minimum lost =  0.6785023212432861 ; diff loss =  5.364418029785156e-07 ; diff weight =  0.00042160932207480073
+lambda is : 0.10000000000000002, cost : 0.148 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.369910    0.102076          0.102399           10174  0.995104  0.982495  0.914287   0.894669  0.929433      0.213302   2.345122e-07
+0.000015    0.341805    0.112649          0.112700            9401  0.994314  0.980111  0.915386   0.895529  0.930326      0.220269   1.556810e-07
+0.000022    0.311991    0.126490          0.126636            8581  0.995087  0.983031  0.923639   0.906250  0.937163      0.226783   3.023913e-07
+0.000032    0.273887    0.143022          0.142996            7533  0.994579  0.981229  0.916115   0.900913  0.931058      0.233999   2.448690e-08
+0.000046    0.238838    0.162918          0.162506            6569  0.994737  0.981297  0.914910   0.900740  0.930097      0.242578   6.540724e-07
+Exporting resultDF
+Exporting result Dict
+CD4_T Time elapsed: 7.926714281241099 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for CD8_T
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 08:31:24 Max_iter: 1000
+At iteration 296, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  297 ; minimum lost =  0.17554710805416107 ; diff loss =  8.940696716308594e-08 ; diff weight =  3.07089749185252e-07
+lambda is : 9.999999999999997e-06, cost : 0.548 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 08:31:57 Max_iter: 1000
+At iteration 298, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  299 ; minimum lost =  0.1834200620651245 ; diff loss =  1.1920928955078125e-07 ; diff weight =  5.4477180100320766e-08
+lambda is : 1.4677992676220687e-05, cost : 0.519 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 08:32:28 Max_iter: 1000
+At iteration 292, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  293 ; minimum lost =  0.19464032351970673 ; diff loss =  7.450580596923828e-08 ; diff weight =  3.6471178077590594e-07
+lambda is : 2.1544346900318854e-05, cost : 0.492 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 08:32:57 Max_iter: 1000
+At iteration 287, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  288 ; minimum lost =  0.20571371912956238 ; diff loss =  1.043081283569336e-07 ; diff weight =  1.067054284931146e-07
+lambda is : 3.16227766016838e-05, cost : 0.456 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 08:33:25 Max_iter: 1000
+At iteration 285, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  286 ; minimum lost =  0.2156524956226349 ; diff loss =  1.4901161193847656e-08 ; diff weight =  4.0669831946615886e-07
+lambda is : 4.6415888336127784e-05, cost : 0.425 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 08:33:50 Max_iter: 1000
+At iteration 285, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  286 ; minimum lost =  0.22532334923744202 ; diff loss =  9.834766387939453e-07 ; diff weight =  3.8011592096154345e-06
+lambda is : 6.81292069057961e-05, cost : 0.382 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 08:34:13 Max_iter: 1000
+At iteration 283, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  284 ; minimum lost =  0.23573435842990875 ; diff loss =  4.470348358154297e-08 ; diff weight =  2.7640913913273835e-07
+lambda is : 9.999999999999991e-05, cost : 0.379 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 08:34:36 Max_iter: 1000
+At iteration 290, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  291 ; minimum lost =  0.24481859803199768 ; diff loss =  7.301568984985352e-07 ; diff weight =  8.317969104609801e-07
+lambda is : 0.00014677992676220703, cost : 0.342 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 08:34:57 Max_iter: 1000
+At iteration 307, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  308 ; minimum lost =  0.25342077016830444 ; diff loss =  6.556510925292969e-07 ; diff weight =  1.9926740151277045e-06
+lambda is : 0.0002154434690031884, cost : 0.333 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 08:35:17 Max_iter: 1000
+At iteration 339, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  340 ; minimum lost =  0.2620828449726105 ; diff loss =  8.046627044677734e-07 ; diff weight =  5.086174951429712e-06
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 0.364 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 08:35:38 Max_iter: 1000
+At iteration 352, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  352 ; minimum lost =  0.2715343236923218 ; diff loss =  -1.7881393432617188e-07 ; diff weight =  0.002355400938540697
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 0.318 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 08:35:57 Max_iter: 1000
+At iteration 326, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  327 ; minimum lost =  0.2812741994857788 ; diff loss =  5.960464477539063e-08 ; diff weight =  5.0450665867174393e-08
+lambda is : 0.0006812920690579617, cost : 0.293 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 08:36:15 Max_iter: 1000
+At iteration 328, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  329 ; minimum lost =  0.2905793786048889 ; diff loss =  6.556510925292969e-07 ; diff weight =  4.082802206539782e-06
+lambda is : 0.0010000000000000002, cost : 0.258 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 08:36:31 Max_iter: 1000
+At iteration 341, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  342 ; minimum lost =  0.2999926507472992 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0020957919768989086
+lambda is : 0.0014677992676220694, cost : 0.236 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 08:36:45 Max_iter: 1000
+At iteration 335, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  336 ; minimum lost =  0.31048712134361267 ; diff loss =  3.2782554626464844e-07 ; diff weight =  0.0023011337034404278
+lambda is : 0.0021544346900318843, cost : 0.227 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 08:36:58 Max_iter: 1000
+At iteration 344, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  345 ; minimum lost =  0.3223935663700104 ; diff loss =  2.086162567138672e-07 ; diff weight =  2.258128233734169e-06
+lambda is : 0.003162277660168382, cost : 0.251 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 08:37:13 Max_iter: 1000
+At iteration 308, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  309 ; minimum lost =  0.33687084913253784 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.0038778504822403193
+lambda is : 0.004641588833612781, cost : 0.209 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 08:37:26 Max_iter: 1000
+At iteration 334, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  335 ; minimum lost =  0.35345566272735596 ; diff loss =  5.960464477539063e-08 ; diff weight =  7.746556320853415e-07
+lambda is : 0.006812920690579613, cost : 0.25 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 08:37:41 Max_iter: 1000
+At iteration 321, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  322 ; minimum lost =  0.3733143210411072 ; diff loss =  9.834766387939453e-07 ; diff weight =  1.5087787687662058e-05
+lambda is : 0.010000000000000004, cost : 0.227 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 08:37:55 Max_iter: 1000
+At iteration 356, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  357 ; minimum lost =  0.3974369466304779 ; diff loss =  1.4901161193847656e-07 ; diff weight =  1.9049397224080167e-06
+lambda is : 0.014677992676220709, cost : 0.256 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 08:38:10 Max_iter: 1000
+At iteration 352, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  353 ; minimum lost =  0.4287434220314026 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0011192325036972761
+lambda is : 0.02154434690031885, cost : 0.235 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 08:38:24 Max_iter: 1000
+At iteration 348, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  349 ; minimum lost =  0.46861717104911804 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0008607552736066282
+lambda is : 0.0316227766016838, cost : 0.232 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 08:38:38 Max_iter: 1000
+At iteration 332, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  333 ; minimum lost =  0.5166153311729431 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0007580017554573715
+lambda is : 0.04641588833612786, cost : 0.221 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 08:38:51 Max_iter: 1000
+At iteration 312, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  313 ; minimum lost =  0.5697891116142273 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0006359913386404514
+lambda is : 0.0681292069057962, cost : 0.209 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 08:39:04 Max_iter: 1000
+At iteration 274, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  275 ; minimum lost =  0.6224793195724487 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0004772442625835538
+lambda is : 0.10000000000000002, cost : 0.186 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.355585    0.110864          0.110319            9780  0.993203  0.974886  0.886001   0.849048  0.903864      0.175547   3.070897e-07
+0.000015    0.321517    0.123962          0.123724            8843  0.992878  0.974131  0.889806   0.857079  0.907280      0.183420   5.447718e-08
+0.000022    0.290321    0.138790          0.138851            7985  0.993008  0.974431  0.894214   0.863001  0.911037      0.194640   3.647118e-07
+0.000032    0.258690    0.155694          0.155454            7115  0.992414  0.971292  0.894747   0.865158  0.911561      0.205714   1.067054e-07
+0.000046    0.221895    0.177442          0.176731            6103  0.992111  0.970488  0.901367   0.875458  0.917246      0.215652   4.066983e-07
+Exporting resultDF
+Exporting result Dict
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:949: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax1 = plt.subplots(figsize = (fig_width,fig_height))
+CD8_T Time elapsed: 7.9893245259920755 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for DC
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 08:39:47 Max_iter: 1000
+At iteration 199, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  200 ; minimum lost =  0.16812960803508759 ; diff loss =  3.427267074584961e-07 ; diff weight =  1.5196293645658443e-07
+lambda is : 9.999999999999997e-06, cost : 0.601 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 08:40:23 Max_iter: 1000
+At iteration 198, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  199 ; minimum lost =  0.17356880009174347 ; diff loss =  4.470348358154297e-08 ; diff weight =  3.980668594749659e-08
+lambda is : 1.4677992676220687e-05, cost : 0.601 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 08:40:59 Max_iter: 1000
+At iteration 194, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  195 ; minimum lost =  0.18257281184196472 ; diff loss =  3.725290298461914e-07 ; diff weight =  1.1547625433649955e-07
+lambda is : 2.1544346900318854e-05, cost : 0.612 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 08:41:36 Max_iter: 1000
+At iteration 190, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  191 ; minimum lost =  0.19183242321014404 ; diff loss =  4.470348358154297e-08 ; diff weight =  1.144766201832681e-07
+lambda is : 3.16227766016838e-05, cost : 0.516 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 08:42:07 Max_iter: 1000
+At iteration 186, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  187 ; minimum lost =  0.2023393213748932 ; diff loss =  6.109476089477539e-07 ; diff weight =  1.4899411837632215e-07
+lambda is : 4.6415888336127784e-05, cost : 0.485 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 08:42:36 Max_iter: 1000
+At iteration 185, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  186 ; minimum lost =  0.21127164363861084 ; diff loss =  2.9802322387695312e-08 ; diff weight =  9.059110794851222e-08
+lambda is : 6.81292069057961e-05, cost : 0.471 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 08:43:04 Max_iter: 1000
+At iteration 184, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  185 ; minimum lost =  0.2194497436285019 ; diff loss =  8.344650268554688e-07 ; diff weight =  5.014578050577256e-07
+lambda is : 9.999999999999991e-05, cost : 0.411 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 08:43:29 Max_iter: 1000
+At iteration 183, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  184 ; minimum lost =  0.22860226035118103 ; diff loss =  3.5762786865234375e-07 ; diff weight =  1.4342325016514224e-07
+lambda is : 0.00014677992676220703, cost : 0.371 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 08:43:51 Max_iter: 1000
+At iteration 183, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  184 ; minimum lost =  0.23899886012077332 ; diff loss =  4.470348358154297e-08 ; diff weight =  4.441079681782867e-08
+lambda is : 0.0002154434690031884, cost : 0.346 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 08:44:12 Max_iter: 1000
+At iteration 179, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  180 ; minimum lost =  0.2553810477256775 ; diff loss =  8.642673492431641e-07 ; diff weight =  3.8985794503787474e-07
+lambda is : 0.00031622776601683783, cost : 0.306 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 08:44:30 Max_iter: 1000
+At iteration 175, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  176 ; minimum lost =  0.27492037415504456 ; diff loss =  4.470348358154297e-07 ; diff weight =  1.4377336299276067e-07
+lambda is : 0.00046415888336127795, cost : 0.288 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 08:44:48 Max_iter: 1000
+At iteration 169, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  170 ; minimum lost =  0.2980976402759552 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.05679205830711e-07
+lambda is : 0.0006812920690579617, cost : 0.264 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 08:45:04 Max_iter: 1000
+At iteration 162, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  163 ; minimum lost =  0.3249313235282898 ; diff loss =  3.2782554626464844e-07 ; diff weight =  2.0835682335018646e-07
+lambda is : 0.0010000000000000002, cost : 0.233 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 08:45:18 Max_iter: 1000
+At iteration 159, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  160 ; minimum lost =  0.3530988097190857 ; diff loss =  6.258487701416016e-07 ; diff weight =  1.346093370102608e-07
+lambda is : 0.0014677992676220694, cost : 0.208 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 08:45:30 Max_iter: 1000
+At iteration 136, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  137 ; minimum lost =  0.41012710332870483 ; diff loss =  1.4901161193847656e-07 ; diff weight =  0.018344806507229805
+lambda is : 0.0021544346900318843, cost : 0.169 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 08:45:40 Max_iter: 1000
+At iteration 140, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  140 ; minimum lost =  0.4357881247997284 ; diff loss =  0.0 ; diff weight =  1.249105849865373e-07
+lambda is : 0.003162277660168382, cost : 0.192 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 08:45:52 Max_iter: 1000
+At iteration 125, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  126 ; minimum lost =  0.48813730478286743 ; diff loss =  8.940696716308594e-08 ; diff weight =  4.852195445437246e-08
+lambda is : 0.004641588833612781, cost : 0.17 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 08:46:02 Max_iter: 1000
+At iteration 142, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  143 ; minimum lost =  0.5019760131835938 ; diff loss =  2.980232238769531e-07 ; diff weight =  1.0196944089102544e-07
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 0.157 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 08:46:11 Max_iter: 1000
+At iteration 165, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  166 ; minimum lost =  0.5187256336212158 ; diff loss =  1.1920928955078125e-07 ; diff weight =  6.011036646214052e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.010000000000000004, cost : 0.184 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 08:46:22 Max_iter: 1000
+At iteration 173, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  174 ; minimum lost =  0.5458093881607056 ; diff loss =  1.1920928955078125e-07 ; diff weight =  6.000081498314103e-08
+lambda is : 0.014677992676220709, cost : 0.183 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 08:46:33 Max_iter: 1000
+At iteration 194, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  195 ; minimum lost =  0.5534908175468445 ; diff loss =  7.748603820800781e-07 ; diff weight =  1.1984011507593095e-06
+lambda is : 0.02154434690031885, cost : 0.183 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 08:46:44 Max_iter: 1000
+At iteration 201, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  202 ; minimum lost =  0.5797197818756104 ; diff loss =  1.7881393432617188e-07 ; diff weight =  1.3170890156288806e-08
+lambda is : 0.0316227766016838, cost : 0.177 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 08:46:55 Max_iter: 1000
+At iteration 286, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  287 ; minimum lost =  0.622597336769104 ; diff loss =  4.76837158203125e-07 ; diff weight =  0.00239722803235054
+lambda is : 0.04641588833612786, cost : 0.193 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 08:47:07 Max_iter: 1000
+At iteration 299, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  300 ; minimum lost =  0.66222083568573 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0003401382127776742
+lambda is : 0.0681292069057962, cost : 0.2 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 08:47:19 Max_iter: 1000
+Hessian approximation fail, yTs = 0
+Hessian approximation fail, yTs = 0
+minimum epoch =  184 ; minimum lost =  0.6827825903892517 ; diff loss =  2.3245811462402344e-06 ; diff weight =  5.960464477539063e-08
+lambda is : 0.10000000000000002, cost : 0.135 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.427647    0.222912          0.223401           11762  0.997404  0.978367  0.863305   0.769860  0.864829      0.168130   1.519629e-07
+0.000015    0.403105    0.244074          0.244089           11087  0.998917  0.987833  0.906633   0.838180  0.908842      0.173569   3.980669e-08
+0.000022    0.379618    0.264108          0.264256           10441  0.999200  0.988631  0.939367   0.897019  0.941679      0.182573   1.154763e-07
+0.000032    0.354603    0.287528          0.287204            9753  0.998279  0.983648  0.898839   0.827284  0.901159      0.191832   1.144766e-07
+0.000046    0.325225    0.312641          0.312239            8945  0.998478  0.986353  0.928133   0.881016  0.930791      0.202339   1.489941e-07
+Exporting resultDF
+Exporting result Dict
+DC Time elapsed: 7.791656418641408 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for Mono
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 08:47:59 Max_iter: 1000
+At iteration 119, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  120 ; minimum lost =  0.23194169998168945 ; diff loss =  7.748603820800781e-07 ; diff weight =  1.3383947816691943e-07
+lambda is : 9.999999999999997e-06, cost : 0.536 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 08:48:31 Max_iter: 1000
+At iteration 119, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  120 ; minimum lost =  0.2328977733850479 ; diff loss =  8.195638656616211e-07 ; diff weight =  1.0727565324941679e-07
+lambda is : 1.4677992676220687e-05, cost : 0.538 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 08:49:03 Max_iter: 1000
+At iteration 120, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.23388412594795227 ; diff loss =  1.4901161193847656e-08 ; diff weight =  1.8329744833067707e-08
+lambda is : 2.1544346900318854e-05, cost : 0.533 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 08:49:35 Max_iter: 1000
+At iteration 121, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  122 ; minimum lost =  0.2348559945821762 ; diff loss =  1.7881393432617188e-07 ; diff weight =  3.5302083034594034e-08
+lambda is : 3.16227766016838e-05, cost : 0.529 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 08:50:07 Max_iter: 1000
+At iteration 124, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  125 ; minimum lost =  0.23531410098075867 ; diff loss =  5.960464477539063e-08 ; diff weight =  7.231594434387034e-09
+lambda is : 4.6415888336127784e-05, cost : 0.498 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 08:50:37 Max_iter: 1000
+At iteration 125, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  126 ; minimum lost =  0.23593097925186157 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.2257855175334953e-08
+lambda is : 6.81292069057961e-05, cost : 0.46 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 08:51:05 Max_iter: 1000
+At iteration 126, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  127 ; minimum lost =  0.2364995777606964 ; diff loss =  5.960464477539063e-08 ; diff weight =  2.5860121155574234e-08
+lambda is : 9.999999999999991e-05, cost : 0.423 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 08:51:30 Max_iter: 1000
+At iteration 129, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  129 ; minimum lost =  0.23741182684898376 ; diff loss =  0.0 ; diff weight =  1.2046423591982602e-07
+lambda is : 0.00014677992676220703, cost : 0.418 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 08:51:55 Max_iter: 1000
+At iteration 131, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  132 ; minimum lost =  0.23835636675357819 ; diff loss =  3.8743019104003906e-07 ; diff weight =  2.2095047569337112e-08
+lambda is : 0.0002154434690031884, cost : 0.382 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 08:52:18 Max_iter: 1000
+At iteration 134, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  135 ; minimum lost =  0.2395273894071579 ; diff loss =  2.682209014892578e-07 ; diff weight =  8.157725162050156e-09
+lambda is : 0.00031622776601683783, cost : 0.358 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 08:52:39 Max_iter: 1000
+At iteration 138, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  139 ; minimum lost =  0.24158130586147308 ; diff loss =  3.427267074584961e-07 ; diff weight =  3.305294171696005e-08
+lambda is : 0.00046415888336127795, cost : 0.345 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 08:53:00 Max_iter: 1000
+At iteration 142, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  143 ; minimum lost =  0.2441890835762024 ; diff loss =  1.1920928955078125e-07 ; diff weight =  2.0805064337992007e-08
+lambda is : 0.0006812920690579617, cost : 0.309 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 08:53:19 Max_iter: 1000
+At iteration 146, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  147 ; minimum lost =  0.2474210262298584 ; diff loss =  4.172325134277344e-07 ; diff weight =  1.2703533514013543e-07
+lambda is : 0.0010000000000000002, cost : 0.295 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 08:53:36 Max_iter: 1000
+At iteration 153, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  153 ; minimum lost =  0.252131849527359 ; diff loss =  0.0 ; diff weight =  3.6600841468725775e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 0.306 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 08:53:55 Max_iter: 1000
+At iteration 161, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  162 ; minimum lost =  0.25894293189048767 ; diff loss =  2.086162567138672e-07 ; diff weight =  1.051506259841517e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 0.268 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 08:54:11 Max_iter: 1000
+At iteration 166, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  166 ; minimum lost =  0.2711881399154663 ; diff loss =  0.0 ; diff weight =  2.314555160864984e-07
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 0.247 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 08:54:26 Max_iter: 1000
+At iteration 176, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  177 ; minimum lost =  0.2856607139110565 ; diff loss =  4.76837158203125e-07 ; diff weight =  2.353073824679086e-07
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 0.211 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 08:54:38 Max_iter: 1000
+At iteration 193, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  194 ; minimum lost =  0.3031708896160126 ; diff loss =  8.940696716308594e-08 ; diff weight =  7.115486511111158e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 0.213 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 08:54:51 Max_iter: 1000
+At iteration 220, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  221 ; minimum lost =  0.3218385875225067 ; diff loss =  7.748603820800781e-07 ; diff weight =  9.885977760859532e-07
+lambda is : 0.010000000000000004, cost : 0.195 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 08:55:03 Max_iter: 1000
+At iteration 370, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  370 ; minimum lost =  0.34891432523727417 ; diff loss =  0.0 ; diff weight =  7.350620876422909e-07
+lambda is : 0.014677992676220709, cost : 0.286 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 08:55:20 Max_iter: 1000
+At iteration 388, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  389 ; minimum lost =  0.3868629038333893 ; diff loss =  8.046627044677734e-07 ; diff weight =  0.0009985140059143305
+lambda is : 0.02154434690031885, cost : 0.26 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 08:55:36 Max_iter: 1000
+At iteration 434, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  435 ; minimum lost =  0.42978039383888245 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0006026638438925147
+lambda is : 0.0316227766016838, cost : 0.287 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 08:55:53 Max_iter: 1000
+At iteration 356, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  357 ; minimum lost =  0.47823360562324524 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0005693395505659282
+lambda is : 0.04641588833612786, cost : 0.241 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 08:56:07 Max_iter: 1000
+At iteration 301, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  302 ; minimum lost =  0.5295206308364868 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0006997321615926921
+lambda is : 0.0681292069057962, cost : 0.208 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 08:56:20 Max_iter: 1000
+At iteration 323, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  324 ; minimum lost =  0.5820521116256714 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0005157074192538857
+lambda is : 0.10000000000000002, cost : 0.22 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.438554    0.153438          0.153900           12062  0.991361  0.967854  0.912301   0.888526  0.926331      0.231942   1.338395e-07
+0.000015    0.417612    0.167670          0.167624           11486  0.991340  0.968485  0.911764   0.885847  0.925800      0.232898   1.072757e-07
+0.000022    0.394815    0.182310          0.182306           10859  0.991168  0.967665  0.914470   0.891487  0.928171      0.233884   1.832974e-08
+0.000032    0.372891    0.198021          0.198902           10256  0.991266  0.966516  0.914346   0.898716  0.928291      0.234856   3.530208e-08
+0.000046    0.347804    0.217099          0.217414            9566  0.991334  0.967289  0.918813   0.902091  0.931991      0.235314   7.231594e-09
+Exporting resultDF
+Exporting result Dict
+Mono Time elapsed: 8.705413834253948 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for NK
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 08:57:06 Max_iter: 1000
+At iteration 219, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  220 ; minimum lost =  0.11675512790679932 ; diff loss =  5.21540641784668e-08 ; diff weight =  1.0458561661152999e-07
+lambda is : 9.999999999999997e-06, cost : 0.503 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 08:57:36 Max_iter: 1000
+At iteration 215, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  216 ; minimum lost =  0.12128960341215134 ; diff loss =  8.940696716308594e-08 ; diff weight =  1.582257347365612e-08
+lambda is : 1.4677992676220687e-05, cost : 0.49 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 08:58:05 Max_iter: 1000
+At iteration 208, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  209 ; minimum lost =  0.12895360589027405 ; diff loss =  3.427267074584961e-07 ; diff weight =  1.8340681151585159e-07
+lambda is : 2.1544346900318854e-05, cost : 0.451 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 08:58:32 Max_iter: 1000
+At iteration 206, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  207 ; minimum lost =  0.13405123353004456 ; diff loss =  5.960464477539063e-08 ; diff weight =  9.414944202035258e-08
+lambda is : 3.16227766016838e-05, cost : 0.442 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 08:58:59 Max_iter: 1000
+At iteration 206, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  207 ; minimum lost =  0.13812044262886047 ; diff loss =  4.470348358154297e-08 ; diff weight =  1.0617080548058766e-08
+lambda is : 4.6415888336127784e-05, cost : 0.422 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 08:59:24 Max_iter: 1000
+At iteration 203, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  204 ; minimum lost =  0.14452572166919708 ; diff loss =  8.940696716308594e-08 ; diff weight =  2.3346293787085415e-08
+lambda is : 6.81292069057961e-05, cost : 0.38 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 08:59:47 Max_iter: 1000
+At iteration 200, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  201 ; minimum lost =  0.15024900436401367 ; diff loss =  8.940696716308594e-08 ; diff weight =  4.85658055993099e-08
+lambda is : 9.999999999999991e-05, cost : 0.354 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 09:00:08 Max_iter: 1000
+At iteration 198, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  199 ; minimum lost =  0.15669015049934387 ; diff loss =  4.023313522338867e-07 ; diff weight =  1.9443081811232332e-08
+lambda is : 0.00014677992676220703, cost : 0.331 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 09:00:28 Max_iter: 1000
+At iteration 198, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  199 ; minimum lost =  0.16096189618110657 ; diff loss =  1.4901161193847656e-08 ; diff weight =  1.9583101806830427e-09
+lambda is : 0.0002154434690031884, cost : 0.308 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 09:00:47 Max_iter: 1000
+At iteration 201, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  202 ; minimum lost =  0.16503766179084778 ; diff loss =  7.450580596923828e-08 ; diff weight =  6.106340322276083e-08
+lambda is : 0.00031622776601683783, cost : 0.288 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 09:01:04 Max_iter: 1000
+At iteration 202, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  203 ; minimum lost =  0.1721005141735077 ; diff loss =  2.682209014892578e-07 ; diff weight =  1.725059064483503e-07
+lambda is : 0.00046415888336127795, cost : 0.257 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 09:01:19 Max_iter: 1000
+At iteration 202, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  203 ; minimum lost =  0.1830202043056488 ; diff loss =  2.9802322387695312e-08 ; diff weight =  6.231245208709879e-08
+lambda is : 0.0006812920690579617, cost : 0.261 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 09:01:35 Max_iter: 1000
+At iteration 203, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  204 ; minimum lost =  0.19653047621250153 ; diff loss =  2.8312206268310547e-07 ; diff weight =  2.46798776970536e-07
+lambda is : 0.0010000000000000002, cost : 0.234 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 09:01:49 Max_iter: 1000
+At iteration 208, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  209 ; minimum lost =  0.21244987845420837 ; diff loss =  3.129243850708008e-07 ; diff weight =  2.636027716107492e-07
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 0.245 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 09:02:04 Max_iter: 1000
+At iteration 222, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  223 ; minimum lost =  0.2293940782546997 ; diff loss =  2.980232238769531e-07 ; diff weight =  1.1875388139515053e-07
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 0.236 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 09:02:18 Max_iter: 1000
+At iteration 262, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  263 ; minimum lost =  0.24992389976978302 ; diff loss =  4.6193599700927734e-07 ; diff weight =  1.6999373428916442e-06
+lambda is : 0.003162277660168382, cost : 0.216 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 09:02:31 Max_iter: 1000
+At iteration 343, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  344 ; minimum lost =  0.28089815378189087 ; diff loss =  1.4901161193847656e-07 ; diff weight =  1.6218272094192798e-06
+lambda is : 0.004641588833612781, cost : 0.255 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 09:02:46 Max_iter: 1000
+At iteration 384, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  385 ; minimum lost =  0.3184136152267456 ; diff loss =  2.9802322387695312e-08 ; diff weight =  2.4612725724182383e-07
+lambda is : 0.006812920690579613, cost : 0.286 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 09:03:03 Max_iter: 1000
+At iteration 400, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  401 ; minimum lost =  0.35707587003707886 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0005640897434204817
+lambda is : 0.010000000000000004, cost : 0.271 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 09:03:20 Max_iter: 1000
+At iteration 405, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  406 ; minimum lost =  0.3966716527938843 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.000543885282240808
+lambda is : 0.014677992676220709, cost : 0.27 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 09:03:36 Max_iter: 1000
+At iteration 365, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  366 ; minimum lost =  0.435982882976532 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0004008020623587072
+lambda is : 0.02154434690031885, cost : 0.245 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 09:03:51 Max_iter: 1000
+At iteration 351, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  352 ; minimum lost =  0.47569626569747925 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0004306133487261832
+lambda is : 0.0316227766016838, cost : 0.234 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 09:04:05 Max_iter: 1000
+At iteration 341, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  342 ; minimum lost =  0.5192967653274536 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0006793762440793216
+lambda is : 0.04641588833612786, cost : 0.23 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 09:04:18 Max_iter: 1000
+At iteration 331, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  332 ; minimum lost =  0.5652348399162292 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0006515668937936425
+lambda is : 0.0681292069057962, cost : 0.222 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 09:04:32 Max_iter: 1000
+At iteration 324, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  325 ; minimum lost =  0.6109090447425842 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.00043186370749026537
+lambda is : 0.10000000000000002, cost : 0.218 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.361220    0.123240          0.122834            9935  0.998024  0.991792  0.949196   0.925395  0.956833      0.116755   1.045856e-07
+0.000015    0.335551    0.133610          0.133425            9229  0.998189  0.992451  0.953222   0.931412  0.960287      0.121290   1.582257e-08
+0.000022    0.306719    0.147309          0.147043            8436  0.997957  0.990964  0.944408   0.917687  0.952696      0.128954   1.834068e-07
+0.000032    0.277887    0.164283          0.163824            7643  0.998134  0.992627  0.945530   0.922431  0.953768      0.134051   9.414944e-08
+0.000046    0.241383    0.189281          0.188858            6639  0.997979  0.992572  0.953079   0.936652  0.960309      0.138120   1.061708e-08
+Exporting resultDF
+Exporting result Dict
+NK Time elapsed: 7.781668694814046 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for other
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 09:05:17 Max_iter: 1000
+At iteration 121, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  122 ; minimum lost =  0.2754291296005249 ; diff loss =  2.9802322387695312e-08 ; diff weight =  1.2110758618177897e-08
+lambda is : 9.999999999999997e-06, cost : 0.539 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 09:05:49 Max_iter: 1000
+At iteration 120, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.2767402231693268 ; diff loss =  2.384185791015625e-07 ; diff weight =  4.101676864820547e-08
+lambda is : 1.4677992676220687e-05, cost : 0.532 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 09:06:21 Max_iter: 1000
+At iteration 120, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.2801740765571594 ; diff loss =  3.8743019104003906e-07 ; diff weight =  2.6340938319435736e-08
+lambda is : 2.1544346900318854e-05, cost : 0.481 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 09:06:50 Max_iter: 1000
+At iteration 123, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  124 ; minimum lost =  0.2827490568161011 ; diff loss =  1.1920928955078125e-07 ; diff weight =  4.6124078778575495e-08
+lambda is : 3.16227766016838e-05, cost : 0.446 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 09:07:17 Max_iter: 1000
+At iteration 122, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  123 ; minimum lost =  0.2867829203605652 ; diff loss =  3.8743019104003906e-07 ; diff weight =  2.6089212568081166e-08
+lambda is : 4.6415888336127784e-05, cost : 0.439 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 09:07:43 Max_iter: 1000
+At iteration 122, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  123 ; minimum lost =  0.2888801693916321 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.0545203821266114e-08
+lambda is : 6.81292069057961e-05, cost : 0.4 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 09:08:07 Max_iter: 1000
+At iteration 122, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  122 ; minimum lost =  0.2926618158817291 ; diff loss =  0.0 ; diff weight =  9.61049693160021e-08
+lambda is : 9.999999999999991e-05, cost : 0.379 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 09:08:30 Max_iter: 1000
+At iteration 102, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  103 ; minimum lost =  0.32785239815711975 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.0252417581568807e-08
+lambda is : 0.00014677992676220703, cost : 0.36 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 09:08:51 Max_iter: 1000
+At iteration 118, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  119 ; minimum lost =  0.2981715798377991 ; diff loss =  1.1920928955078125e-07 ; diff weight =  9.690894753333623e-10
+lambda is : 0.0002154434690031884, cost : 0.336 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 09:09:12 Max_iter: 1000
+At iteration 99, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  100 ; minimum lost =  0.33819684386253357 ; diff loss =  2.9802322387695312e-08 ; diff weight =  0.012386574409902096
+lambda is : 0.00031622776601683783, cost : 0.289 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 09:09:29 Max_iter: 1000
+At iteration 117, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  117 ; minimum lost =  0.30863508582115173 ; diff loss =  0.0 ; diff weight =  1.0006373685200742e-07
+lambda is : 0.00046415888336127795, cost : 0.305 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 09:09:47 Max_iter: 1000
+At iteration 98, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  96 ; minimum lost =  0.3477654755115509 ; diff loss =  2.682209014892578e-07 ; diff weight =  0.005131556186825037
+lambda is : 0.0006812920690579617, cost : 0.286 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 09:10:05 Max_iter: 1000
+At iteration 99, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  100 ; minimum lost =  0.35392963886260986 ; diff loss =  2.9802322387695312e-08 ; diff weight =  3.226216094276424e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 0.282 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 09:10:21 Max_iter: 1000
+At iteration 101, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  102 ; minimum lost =  0.3636375069618225 ; diff loss =  5.960464477539063e-08 ; diff weight =  9.074288875865477e-09
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 0.252 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 09:10:37 Max_iter: 1000
+At iteration 120, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.35315507650375366 ; diff loss =  8.940696716308594e-08 ; diff weight =  1.3363120388021343e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 0.229 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 09:10:50 Max_iter: 1000
+At iteration 122, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  123 ; minimum lost =  0.3714295029640198 ; diff loss =  5.960464477539063e-08 ; diff weight =  7.857083872409021e-09
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 0.215 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 09:11:03 Max_iter: 1000
+At iteration 123, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  124 ; minimum lost =  0.3922739624977112 ; diff loss =  1.1920928955078125e-07 ; diff weight =  2.533260534676174e-08
+lambda is : 0.004641588833612781, cost : 0.193 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 09:11:15 Max_iter: 1000
+At iteration 121, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  121 ; minimum lost =  0.4221528470516205 ; diff loss =  0.0 ; diff weight =  2.189039349786981e-07
+lambda is : 0.006812920690579613, cost : 0.181 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 09:11:26 Max_iter: 1000
+At iteration 117, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  118 ; minimum lost =  0.4620281457901001 ; diff loss =  4.470348358154297e-07 ; diff weight =  7.340181440440574e-08
+lambda is : 0.010000000000000004, cost : 0.152 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 09:11:35 Max_iter: 1000
+At iteration 123, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  124 ; minimum lost =  0.5037601590156555 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.3511773033769714e-08
+lambda is : 0.014677992676220709, cost : 0.16 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 09:11:44 Max_iter: 1000
+At iteration 152, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  153 ; minimum lost =  0.5414296388626099 ; diff loss =  5.960464477539063e-08 ; diff weight =  4.4794983722340476e-08
+lambda is : 0.02154434690031885, cost : 0.167 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 09:11:54 Max_iter: 1000
+At iteration 238, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  238 ; minimum lost =  0.5803272724151611 ; diff loss =  0.0 ; diff weight =  4.393677500047488e-06
+lambda is : 0.0316227766016838, cost : 0.219 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 09:12:08 Max_iter: 1000
+At iteration 372, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  373 ; minimum lost =  0.6342670917510986 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0024696560576558113
+lambda is : 0.04641588833612786, cost : 0.246 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 09:12:22 Max_iter: 1000
+At iteration 269, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  270 ; minimum lost =  0.6691407561302185 ; diff loss =  2.980232238769531e-07 ; diff weight =  0.0004925685934722424
+lambda is : 0.0681292069057962, cost : 0.183 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 09:12:33 Max_iter: 1000
+At iteration 221, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  222 ; minimum lost =  0.686434805393219 ; diff loss =  1.1920928955078125e-07 ; diff weight =  0.00025916346930898726
+lambda is : 0.10000000000000002, cost : 0.154 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.401396    0.083818          0.084702           11040  0.926932  0.831734  0.721131   0.662100  0.734642      0.275429   1.211076e-08
+0.000015    0.374309    0.091517          0.092369           10295  0.934148  0.836068  0.730855   0.675958  0.744246      0.276740   4.101677e-08
+0.000022    0.344495    0.100813          0.101497            9475  0.934902  0.837790  0.738733   0.692584  0.752437      0.280174   2.634094e-08
+0.000032    0.312500    0.111273          0.112085            8595  0.939161  0.847204  0.760180   0.725686  0.773422      0.282749   4.612408e-08
+0.000046    0.282832    0.123184          0.124133            7779  0.939042  0.850233  0.765293   0.733333  0.778371      0.286783   2.608921e-08
+Exporting resultDF
+Exporting result Dict
+other Time elapsed: 7.562245571613312 minutes.
+Z-transformed rep_cells adata: (59897, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for other_T
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-27 09:13:15 Max_iter: 1000
+At iteration 207, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  208 ; minimum lost =  0.39862844347953796 ; diff loss =  7.152557373046875e-07 ; diff weight =  3.408645739000349e-07
+lambda is : 9.999999999999997e-06, cost : 0.501 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-27 09:13:45 Max_iter: 1000
+At iteration 206, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  207 ; minimum lost =  0.40611305832862854 ; diff loss =  8.046627044677734e-07 ; diff weight =  2.1255426929656096e-07
+lambda is : 1.4677992676220687e-05, cost : 0.465 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-27 09:14:13 Max_iter: 1000
+At iteration 202, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  203 ; minimum lost =  0.4149470925331116 ; diff loss =  2.9802322387695312e-08 ; diff weight =  1.3055164060915558e-07
+lambda is : 2.1544346900318854e-05, cost : 0.445 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-27 09:14:40 Max_iter: 1000
+At iteration 197, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  198 ; minimum lost =  0.42431965470314026 ; diff loss =  2.9802322387695312e-08 ; diff weight =  7.066005736078296e-08
+lambda is : 3.16227766016838e-05, cost : 0.432 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-27 09:15:06 Max_iter: 1000
+At iteration 190, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  191 ; minimum lost =  0.43279150128364563 ; diff loss =  4.76837158203125e-07 ; diff weight =  7.007766100741719e-08
+lambda is : 4.6415888336127784e-05, cost : 0.385 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-27 09:15:29 Max_iter: 1000
+At iteration 191, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  191 ; minimum lost =  0.4406734108924866 ; diff loss =  0.0 ; diff weight =  1.8788405213854276e-06
+lambda is : 6.81292069057961e-05, cost : 0.368 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-27 09:15:51 Max_iter: 1000
+At iteration 191, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  192 ; minimum lost =  0.4498315751552582 ; diff loss =  1.1920928955078125e-07 ; diff weight =  6.6150351862859225e-09
+lambda is : 9.999999999999991e-05, cost : 0.335 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-27 09:16:11 Max_iter: 1000
+At iteration 186, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  187 ; minimum lost =  0.4603366255760193 ; diff loss =  2.980232238769531e-07 ; diff weight =  2.123485529637037e-07
+lambda is : 0.00014677992676220703, cost : 0.302 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-27 09:16:29 Max_iter: 1000
+At iteration 184, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  185 ; minimum lost =  0.47105756402015686 ; diff loss =  8.940696716308594e-08 ; diff weight =  6.3357421531407e-09
+lambda is : 0.0002154434690031884, cost : 0.298 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-27 09:16:47 Max_iter: 1000
+At iteration 186, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  187 ; minimum lost =  0.48096320033073425 ; diff loss =  5.960464477539063e-08 ; diff weight =  5.688173931872598e-09
+lambda is : 0.00031622776601683783, cost : 0.286 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-27 09:17:04 Max_iter: 1000
+At iteration 195, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  196 ; minimum lost =  0.49016332626342773 ; diff loss =  5.960464477539063e-08 ; diff weight =  7.022446624205259e-08
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 0.293 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-27 09:17:22 Max_iter: 1000
+At iteration 207, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  208 ; minimum lost =  0.5003131031990051 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.7306686572737817e-07
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 0.27 min
+==========
+Testing lambda: 0.001 starting at 2024-09-27 09:17:38 Max_iter: 1000
+At iteration 209, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  210 ; minimum lost =  0.5176044702529907 ; diff loss =  5.960464477539063e-08 ; diff weight =  7.077312624836907e-10
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 0.255 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-27 09:17:53 Max_iter: 1000
+At iteration 211, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  212 ; minimum lost =  0.5346145033836365 ; diff loss =  5.960464477539063e-08 ; diff weight =  3.027412276424002e-08
+lambda is : 0.0014677992676220694, cost : 0.227 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-27 09:18:07 Max_iter: 1000
+At iteration 219, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  220 ; minimum lost =  0.5500324368476868 ; diff loss =  5.960464477539063e-08 ; diff weight =  1.199989725364503e-07
+lambda is : 0.0021544346900318843, cost : 0.206 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-27 09:18:19 Max_iter: 1000
+At iteration 228, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  229 ; minimum lost =  0.5653736591339111 ; diff loss =  8.940696716308594e-07 ; diff weight =  9.565384289089707e-07
+lambda is : 0.003162277660168382, cost : 0.191 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-27 09:18:31 Max_iter: 1000
+At iteration 268, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  269 ; minimum lost =  0.5842002034187317 ; diff loss =  1.1920928955078125e-07 ; diff weight =  5.546933468103532e-10
+lambda is : 0.004641588833612781, cost : 0.232 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-27 09:18:45 Max_iter: 1000
+At iteration 355, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  356 ; minimum lost =  0.6073877811431885 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0014487927546724677
+lambda is : 0.006812920690579613, cost : 0.235 min
+==========
+Testing lambda: 0.01 starting at 2024-09-27 09:18:59 Max_iter: 1000
+At iteration 312, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  313 ; minimum lost =  0.6284272074699402 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0006071043317206204
+lambda is : 0.010000000000000004, cost : 0.209 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-27 09:19:11 Max_iter: 1000
+At iteration 281, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  282 ; minimum lost =  0.6458423733711243 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0004358382138889283
+lambda is : 0.014677992676220709, cost : 0.19 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-27 09:19:23 Max_iter: 1000
+At iteration 249, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  250 ; minimum lost =  0.659331202507019 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0003583017678465694
+lambda is : 0.02154434690031885, cost : 0.17 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-27 09:19:33 Max_iter: 1000
+At iteration 226, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  227 ; minimum lost =  0.6720854043960571 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0003799143305514008
+lambda is : 0.0316227766016838, cost : 0.156 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-27 09:19:42 Max_iter: 1000
+At iteration 222, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  223 ; minimum lost =  0.6834113597869873 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.00039869267493486404
+lambda is : 0.04641588833612786, cost : 0.155 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-27 09:19:52 Max_iter: 1000
+At iteration 179, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  180 ; minimum lost =  0.6913531422615051 ; diff loss =  4.76837158203125e-07 ; diff weight =  0.000354432879248634
+lambda is : 0.0681292069057962, cost : 0.127 min
+==========
+Testing lambda: 0.1 starting at 2024-09-27 09:19:59 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+Hessian initialization fail, gradient diff = 0
+minimum epoch =  1 ; minimum lost =  0.6931473612785339 ; diff loss =  998.3068526387215 ; diff weight =  0.0
+lambda is : 0.10000000000000002, cost : 0.019 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.379290    0.097593          0.096968           10432  0.984450  0.928780  0.830770   0.788122  0.844731      0.398628   3.408646e-07
+0.000015    0.346350    0.110463          0.109928            9526  0.983592  0.924730  0.836667   0.805970  0.850766      0.406113   2.125543e-07
+0.000022    0.314863    0.122037          0.121500            8660  0.984175  0.922994  0.831428   0.801160  0.846019      0.414947   1.305516e-07
+0.000032    0.283595    0.138148          0.137584            7800  0.984971  0.926876  0.848332   0.821699  0.861552      0.424320   7.066006e-08
+0.000046    0.244801    0.158333          0.157834            6733  0.984605  0.925417  0.845728   0.826347  0.859431      0.432792   7.007766e-08
+Exporting resultDF
+Exporting result Dict
+other_T Time elapsed: 6.893568034966787 minutes.
+***** Finished lambda tuning
+====================

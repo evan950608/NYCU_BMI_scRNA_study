@@ -1,0 +1,336 @@
+nohup: ignoring input
+Original adata: (32349, 20568)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+cts ['other', 'other_T']
+====================
+Original adata: (32349, 20568)
+adata celltype shape: (688, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 14366)
+====================
+Starting job for other
+*** Start parallel lambda tuning ***
+Lambda: 3.2e-05
+Lambda: 2.2e-05
+Lambda: 0.000316
+Lambda: 1e-05
+Lambda: 0.000147
+Lambda: 1.5e-05
+Lambda: 0.000215
+Lambda: 4.6e-05
+Lambda: 0.001
+Lambda: 0.000464
+Lambda: 0.004642
+Lambda: 6.8e-05
+Lambda: 0.1
+Lambda: 0.006813
+Lambda: 0.001468
+Lambda: 0.000681
+Lambda: 0.002154
+Lambda: 0.0001
+Lambda: 0.046416
+Lambda:Lambda:  0.010.031623
+
+Lambda: 0.068129
+Lambda: 0.003162
+Lambda: 0.014678
+Lambda: 0.021544
+Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 26.662 min
+==========
+Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 27.527 min
+==========
+Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 29.669 min
+==========
+Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 30.976 min
+==========
+Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 35.325 min
+==========
+Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 53.83 min
+==========
+Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 60.142 min
+==========
+Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 61.302 min
+==========
+Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 68.376 min
+==========
+Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 70.566 min
+==========
+Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 71.606 min
+==========
+Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 71.625 min
+==========
+Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 77.346 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 81.898 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 82.528 min
+==========
+Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 90.803 min
+==========
+Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 94.986 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 96.093 min
+==========
+Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 96.386 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 98.212 min
+==========
+Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 98.531 min
+==========
+Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 98.625 min
+==========
+Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 99.22 min
+==========
+Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 100.819 min
+==========
+Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 103.244 min
+==========
+*** Collecting results ***
+other Time elapsed: 103.31906142234803 minutes.
+Original adata: (32349, 20568)
+adata celltype shape: (1357, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 16310)
+====================
+Starting job for other_T
+*** Start parallel lambda tuning ***
+Lambda: 1.5e-05
+Lambda:Lambda:  2.2e-050.000215
+
+Lambda: 0.000681
+Lambda: 3.2e-05
+Lambda: 0.000147
+Lambda:Lambda:  0.0215440.01
+
+Lambda: 6.8e-05
+Lambda: 0.031623
+Lambda: 0.001
+Lambda: 0.002154
+Lambda: 0.001468
+Lambda: 0.000316
+Lambda: 0.003162
+Lambda: 0.000464
+Lambda: 1e-05
+Lambda: 4.6e-05
+Lambda: 0.046416
+Lambda: 0.006813
+Lambda: 0.014678
+Lambda: 0.068129
+Lambda: 0.004642
+Lambda: 0.1
+Lambda: 0.0001
+Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 19.639 min
+==========
+Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 20.884 min
+==========
+Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 21.008 min
+==========
+Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 21.488 min
+==========
+Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 21.544 min
+==========
+Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 26.93 min
+==========
+Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 46.313 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 46.795 min
+==========
+Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 48.832 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 52.934 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 61.095 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 62.778 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 63.189 min
+==========
+Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 64.577 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 65.076 min
+==========
+Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 65.719 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 67.528 min
+==========
+Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 67.72 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 67.746 min
+==========
+Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 69.08 min
+==========
+Convergence with loss difference
+Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 69.421 min
+==========
+lambda is : 3.16227766016838e-05, cost : 69.425 min
+==========
+Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 70.097 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 70.238 min
+==========
+Convergence with loss difference
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 70.35 min
+==========
+*** Collecting results ***
+other_T Time elapsed: 70.42981655995051 minutes.
+***** Finished lambda tuning
+====================

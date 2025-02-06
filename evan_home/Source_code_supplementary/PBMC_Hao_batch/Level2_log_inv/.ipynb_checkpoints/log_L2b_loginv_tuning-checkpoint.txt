@@ -1,0 +1,50 @@
+nohup: ignoring input
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Queue ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (76, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 12931)
+====================
+Starting job for ASDC
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:        4.6e-05Lambda:2.2e-05 Lambda:1e-05 Lambda:6.8e-05 Lambda:Lambda:3.2e-05 Lambda:1.5e-05 Lambda:Lambda:0.000147 0.0001 Lambda:Lambda:Lambda:Lambda: starting atLambda: Lambda:Lambda:Lambda:Lambda:starting at  starting at  starting at   starting at  starting at   starting at starting at      2024-04-11 07:33:11 0.01     2024-04-11 07:33:110.046416 2024-04-11 07:33:110.1 2024-04-11 07:33:110.006813 0.021544 2024-04-11 07:33:110.014678 2024-04-11 07:33:110.031623 0.004642 2024-04-11 07:33:112024-04-11 07:33:110.000215 0.000316 0.000464 0.000681 
+0.068129starting at 0.002154 0.001468 0.003162 0.001 
+starting at
+starting at 
+starting atstarting at
+starting at
+starting at starting at 
+
+starting at starting at starting at starting at  2024-04-11 07:33:11starting at starting at starting at starting at  2024-04-11 07:33:112024-04-11 07:33:11
+ 2024-04-11 07:33:11 2024-04-11 07:33:11 2024-04-11 07:33:11
+2024-04-11 07:33:11
+2024-04-11 07:33:112024-04-11 07:33:11
+2024-04-11 07:33:112024-04-11 07:33:11
+starting at
+2024-04-11 07:33:11
+2024-04-11 07:33:112024-04-11 07:33:112024-04-11 07:33:11
+
+
+2024-04-11 07:33:11
+
+ 2024-04-11 07:33:11
+
+
+
+

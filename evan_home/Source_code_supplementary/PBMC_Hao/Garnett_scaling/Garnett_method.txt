@@ -1,0 +1,59 @@
+
+1. Hierarical markup language, celltype and subtype
+2. identifying representative cells bearing markers that unambiguously identify them as one of the cell types defined in the file.
+3. Garnett trains a classifier. recognize cells as belonging to each celltype based on similarity to representative cells.
+
+PBMC
+marker file using literature-based markers
+	a measure of each markers' usefulness for Garnett classification (Method)
+	exclude poorly scoring markers
+
+C. elegans
+
+complex system with deep hierarchy
+	 four-level classifier with 144 cell definitions for mouse nervous system 
+	 underclassify: cerebellum neuron as a neuron
+	 The size and complexity of this hierarchy facilitated exploration of the properties of markers chosen by the elastic-net regression to discriminate among cell types.
+	 Garnett tended to select genes that were more highly expressed and more specific than other genes
+
+classify human lung tumors basedon a Garnett classifier trained on lung cells from the MCA. (Fig 3)
+an ‘ecosystem’ of Garnett marker files and pre-trained classifiers.
+
+
+-----
+Methods
+Garnett
+	specify a cell hierarchy of cell types and subtypes.
+	each type must have at least one marker genes
+	negative marker genes: 一個細胞不屬於某一type的證據，也可以
+	tools for checking the quality of markers
+	Garnett uses the marker information provided to select cells that are then used to train an elastic-net regression-based classifier
+
+Marker files
+	hierarchical definitions: cell types can be specified to be a subtype of another defined type
+	Marker score G: only markers that are expressed specifically in a given cell type are useful.
+	marker quality plot (Supp 1a)
+
+Training the classifier
+	choose representative cells to train on.
+	gene expression matrix normalize by size factor
+	construct a tree representation of the marker file
+	For each parent node in the tree
+		cells are scored as ‘expressed’ or ‘not expressed’ for each of the provided markers
+		an aggregate marker score is derived for each cell type for each cell.
+		any metadata or hard expression cutoffs are applied to exclude a subset of cells from consideration.
+		
+
+Aggregated marker scores
+	for the purposes of identifying representative cell types based on markers
+	低表現但高度專一的marker 比 高表現但不專一的marker 是定義一個celltype 更好的證據
+	term frequency-inverse document frequency (TF-IDF) 
+
+Training with GLMnet
+
+
+
+
+
+
+

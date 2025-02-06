@@ -1,0 +1,162 @@
+Level 2 celltype mapping
+
+Set1 (Hao) to Set2 (SingleR)
+ASDC - No direct counterpart in Set 2. ASDC is not a standard abbreviation in immunology.
+	AXL+ SIGLEC6+ cells
+B_intermediate - Possibly corresponds to Non-switched memory B cells.
+B_memory - Corresponds to Non-switched memory B cells or Switched memory B cells.
+B_naive - Corresponds to Naive B cells.
+CD14_Mono - Corresponds to Classical monocytes.
+CD16_Mono - Corresponds to Non classical monocytes.
+CD4_CTL - Could correspond to Th1 cells, Th1/Th17 cells, or Terminal effector CD4 T cells, depending on their cytokine profile and function.
+	CD4 Cytotoxic T Lymphocytes
+CD4_Naive - Corresponds to Naive CD4 T cells.
+CD4_Proliferating - No direct counterpart in Set 2. Could be a state rather than a distinct subtype.
+CD4_TCM - Corresponds to Central memory CD4 T cells (not explicitly listed in Set 2).
+CD4_TEM - Corresponds to Terminal effector CD4 T cells.
+	CD4 Terminal Effector Memory T cells
+CD8_Naive - Corresponds to Naive CD8 T cells.
+CD8_Proliferating - No direct counterpart in Set 2. Could be a state rather than a distinct subtype.
+CD8_TCM - Corresponds to Central memory CD8 T cells.
+CD8_TEM - Corresponds to Terminal effector CD8 T cells.
+	CD8 Terminal Effector Memory T cells
+-----
+*Doublet - This term usually refers to a technical artifact in flow cytometry, not a cell type.
+*Eryth - No direct counterpart in Set 2. Refers to erythrocytes, which are not typically a focus in PBMC analysis.
+	Erythrocytes (red blood cells)
+HSPC - Corresponds to Progenitor cells.
+	Hematopoietic Stem and Progenitor Cells
+ILC - No direct counterpart in Set 2. ILC refers to innate lymphoid cells, a diverse group not detailed in Set 2.
+	Innate lymphoid cells
+	do not possess antigen-specific receptors
+MAIT - Corresponds to MAIT cells.
+	Mucosal-associated invariant T cells.
+NK - Corresponds to Natural killer cells.
+NK_CD56bright - A subtype of Natural killer cells.
+NK_Proliferating - No direct counterpart in Set 2. Could be a state rather than a distinct subtype.
+Plasmablast - Corresponds to Plasmablasts.
+	a critical stage in the development of B lymphocytes
+*Platelet - No direct counterpart in Set 2. Platelets are cell fragments, not typically classified with PBMCs.
+	血小板
+Treg - Corresponds to T regulatory cells.
+-----
+cDC1 - Possibly corresponds to a subtype of Myeloid dendritic cells.
+	Conventional dendritic cells 1
+	differentiated from Myeloid dendritic cells
+cDC2 - Corresponds to Myeloid dendritic cells.
+	Conventional dendritic cells 2
+	differentiated from Myeloid dendritic cells
+dnT - Double-negative T cells, no direct counterpart in Set 2.
+	lack of the two common co-receptor molecules, CD4 and CD8
+gdT - Corresponds to Vd2 gd T cells and Non-Vd2 gd T cells.
+	Gamma delta T (γδ T) cells
+	includes Vδ2 and non-Vδ2 γδ T cells
+pDC - Corresponds to Plasmacytoid dendritic cells.
+
+{
+    'ASDC': None,
+    'B_intermediate': 'Non-switched memory B cells',  #?
+    'B_memory': ['Non-switched memory B cells', 'Switched memory B cells'],
+    'B_naive': 'Naive B cells',
+    'CD14_Mono': 'Classical monocytes',
+    'CD16_Mono': ['Non classical monocytes', 'Intermediate monocytes'],
+# -----
+    'CD4_CTL': None,  #?
+    'CD4_Naive': 'Naive CD4 T cells',
+    'CD4_Proliferating': None,
+    'CD4_TCM': None,
+    'CD4_TEM': 'Terminal effector CD4 T cells',
+    'CD8_Naive': 'Naive CD8 T cells',
+    'CD8_Proliferating': None,
+    'CD8_TCM': 'Central memory CD8 T cells',
+    'CD8_TEM': 'Terminal effector CD8 T cells',
+# -----
+    'Doublet': None,  # technical artifact, not a celltype
+    'Eryth': None,  # not PMBC
+    'HSPC': 'Progenitor cells',
+    'ILC': None,
+    'MAIT': 'MAIT cells',
+    'NK': 'Natural killer cells',
+    'NK_CD56bright': 'Natural killer cells',
+    'NK_Proliferating': 'Natural killer cells',
+    'Plasmablast': 'Plasmablasts',
+    'Platelet': None,
+    'Treg': 'T regulatory cells',
+# -----
+    'cDC1': 'Myeloid dendritic cells',
+    'cDC2': 'Myeloid dendritic cells',
+    'dnT': None,
+    'gdT': ['Vd2 gd T cells', Non-Vd2 gd T cells],
+    'pDC': 'Plasmacytoid dendritic cells'
+}
+
+
+==========
+Central memory CD8 T cells - Closest to CD8_TCM.
+Classical monocytes - Corresponds to CD14_Mono.
+Effector memory CD8 T cells - Closest to CD8_TEM.
+Exhausted B cells - No direct counterpart in Set 1. Possibly similar to some B cell types but not explicitly defined.
+Follicular helper T cells - No direct counterpart in Set 1. These are a specific type of CD4+ T cells, not clearly defined in Set 1.
+Intermediate monocytes - Corresponds to CD16_Mono.
+Low-density basophils - No direct counterpart in Set 1. Basophils are not typically a focus in PBMC analysis.
+Low-density neutrophils - No direct counterpart in Set 1. Neutrophils are not typically included in PBMC analyses.
+MAIT cells - Corresponds to MAIT.
+Myeloid dendritic cells - 
+	dendritic cells derived from myeloid 骨髓 precursors
+	cDC1 and cDC2
+Naive B cells - Corresponds to B_naive.
+Naive CD4 T cells - Corresponds to CD4_Naive.
+Naive CD8 T cells - Corresponds to CD8_Naive.
+Natural killer cells - Corresponds to NK.
+Non classical monocytes - Corresponds to CD16_Mono.
+Non-Vd2 gd T cells - Closest to gdT (but this is not an exact match as gdT includes both Vd2 and non-Vd2).
+Non-switched memory B cells - Could be B_memory or B_intermediate.
+Plasmablasts - Corresponds to Plasmablast.
+Plasmacytoid dendritic cells - Corresponds to pDC.
+Progenitor cells - Corresponds to HSPC.
+Switched memory B cells - Closest to B_memory.
+T regulatory cells - Corresponds to Treg.
+Terminal effector CD4 T cells - Closest to CD4_TEM.
+Terminal effector CD8 T cells - Closest to CD8_TEM.
+Th1 cells - No direct counterpart in Set 1. Could be a functional state of some CD4+ T cells.
+	Type 1 T helper cell
+Th1/Th17 cells - No direct counterpart in Set 1. Could be a functional state of some CD4+ T cells.
+Th17 cells - No direct counterpart in Set 1. Specific type of CD4+ T cells not explicitly defined in Set 1.
+	T helper 17 cell
+Th2 cells - No direct counterpart in Set 1. Specific type of CD4+ T cells not explicitly defined in Set 1.
+	Type 2 T helper cell
+Vd2 gd T cells - Closest to gdT.
+
+{
+    'Central memory CD8 T cells': 'CD8_TCM',
+    'Classical monocytes': 'CD14_Mono',
+    'Effector memory CD8 T cells': 'CD8_TEM',
+    'Exhausted B cells': None,
+    'Follicular helper T cells': None,
+    'Intermediate monocytes': 'CD16_Mono',
+    'Low-density basophils': None,
+    'Low-density neutrophils': None,
+    'MAIT cells': 'MAIT',
+    'Myeloid dendritic cells': ['cDC1', 'cDC2'],
+    'Naive B cells': 'B_naive',
+    'Naive CD4 T cells': 'CD4_Naive',
+    'Naive CD8 T cells': 'CD8_Naive',
+    'Natural killer cells': ['NK', 'NK_CD56bright', 'NK_Proliferating'],
+    'Non classical monocytes': 'CD16_Mono',
+    'Non-Vd2 gd T cells': 'gdT',
+    'Non-switched memory B cells': 'B_memory',
+    'Plasmablasts': 'Plasmablast',
+    'Plasmacytoid dendritic cells': 'pDC',
+    'Progenitor cells': 'HSPC',
+    'Switched memory B cells': 'B_memory',
+    'T regulatory cells': 'Treg',
+    'Terminal effector CD4 T cells': 'CD4_TEM',
+    'Terminal effector CD8 T cells': 'CD8_TEM',
+    'Th1 cells': None,
+    'Th1/Th17 cells': None,
+    'Th17 cells': None,
+    'Th2 cells': None,
+    'Vd2 gd T cells': 'gdT'
+}
+
+

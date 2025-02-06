@@ -1,0 +1,1861 @@
+nohup: ignoring input
+Shape: (71915, 25712) <class 'scipy.sparse._csc.csc_matrix'>
+all leiden clusters: ['Leiden_0', 'Leiden_1', 'Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_16', 'Leiden_17', 'Leiden_18', 'Leiden_19', 'Leiden_2', 'Leiden_20', 'Leiden_21', 'Leiden_22', 'Leiden_23', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+***** Starting tuning
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_0
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda: Lambda: Lambda:Lambda: Lambda:Lambda:1.5e-05 Lambda: Lambda:Lambda:Lambda:1e-05 Lambda: Lambda:Lambda:Lambda:3.2e-05 Lambda: Lambda: Lambda:Lambda:Lambda:starting at Lambda: Lambda:2.2e-05 Lambda: Lambda:Lambda:  starting at  0.000215    starting at  4.6e-05  6.8e-05    2024-11-22 15:09:14  0.0001  starting at  0.021544   0.000147 0.1 2024-11-22 15:09:14 0.000316 starting at 0.000464 0.000681 0.0012024-11-22 15:09:14 0.001468 starting at 0.002154 starting at 0.003162 0.004642 0.006813 Max_iter: 0.01 starting at 0.014678 2024-11-22 15:09:14 0.031623 starting at 0.046416 0.068129 starting at starting at Max_iter: starting at 2024-11-22 15:09:14 starting at starting at  starting atMax_iter: starting at 2024-11-22 15:09:14 starting at 2024-11-22 15:09:14 starting at starting at starting at 1000
+starting at 2024-11-22 15:09:14 starting at Max_iter: starting at 2024-11-22 15:09:14 starting at starting at 2024-11-22 15:09:14 2024-11-22 15:09:14 10002024-11-22 15:09:14 Max_iter: 2024-11-22 15:09:14 2024-11-22 15:09:14  2024-11-22 15:09:1410002024-11-22 15:09:14 Max_iter: 2024-11-22 15:09:14 Max_iter: 2024-11-22 15:09:14 2024-11-22 15:09:14 2024-11-22 15:09:14 2024-11-22 15:09:14 Max_iter: 2024-11-22 15:09:14 10002024-11-22 15:09:14 Max_iter:2024-11-22 15:09:14 2024-11-22 15:09:14Max_iter: Max_iter:
+Max_iter:1000Max_iter: Max_iter:  Max_iter:
+Max_iter: 1000Max_iter:1000Max_iter: Max_iter:Max_iter: Max_iter:1000Max_iter:
+Max_iter: Max_iter: 1000  
+10001000 1000
+ 
+1000
+ 10001000
+ 1000
+ 1000 1000
+ 1000Max_iter:
+10001000
+
+1000
+1000
+
+
+1000
+ 
+
+
+
+
+1000
+At iteration 240, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  241 ; minimum lost =  0.37302911281585693 ; diff loss =  5.364418029785156e-07 ; diff weight =  8.93276373972185e-05
+lambda is : 0.10000000000000002, cost : 60.796 min
+==========
+At iteration 313, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  314 ; minimum lost =  0.33438146114349365 ; diff loss =  6.556510925292969e-07 ; diff weight =  0.00010483331425348297
+lambda is : 0.0681292069057962, cost : 78.171 min
+==========
+At iteration 391, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  392 ; minimum lost =  0.27323177456855774 ; diff loss =  2.086162567138672e-07 ; diff weight =  0.0002362533996347338
+lambda is : 0.0316227766016838, cost : 97.008 min
+==========
+At iteration 400, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  401 ; minimum lost =  0.24658872187137604 ; diff loss =  9.08970832824707e-07 ; diff weight =  0.0005300629418343306
+lambda is : 0.02154434690031885, cost : 99.706 min
+==========
+At iteration 431, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  432 ; minimum lost =  0.30224764347076416 ; diff loss =  7.152557373046875e-07 ; diff weight =  0.0006304612616077065
+lambda is : 0.04641588833612786, cost : 105.669 min
+==========
+At iteration 434, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  435 ; minimum lost =  0.22321811318397522 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0004768499347846955
+lambda is : 0.014677992676220709, cost : 107.036 min
+==========
+At iteration 478, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  479 ; minimum lost =  0.10142259299755096 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.00011147574696224183
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 117.485 min
+==========
+At iteration 520, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  521 ; minimum lost =  0.1859445869922638 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0017923663835972548
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 124.864 min
+==========
+At iteration 524, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  525 ; minimum lost =  0.20344282686710358 ; diff loss =  5.811452865600586e-07 ; diff weight =  0.0004234429507050663
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.010000000000000004, cost : 127.918 min
+==========
+At iteration 523, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  524 ; minimum lost =  0.17037352919578552 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0013074924936518073
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 128.148 min
+==========
+At iteration 519, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  520 ; minimum lost =  0.08425027132034302 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.00010987362475134432
+At iteration 529, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  529 ; minimum lost =  0.10499469935894012 ; diff loss =  -4.3958425521850586e-07 ; diff weight =  0.004967646673321724
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 128.882 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 129.139 min
+==========
+At iteration 529, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  530 ; minimum lost =  0.11213221400976181 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0010891553247347474
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 129.821 min
+==========
+At iteration 532, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  533 ; minimum lost =  0.07559210807085037 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.016635196283459663
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 3.16227766016838e-05, cost : 131.469 min
+==========
+At iteration 547, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  547 ; minimum lost =  0.08857402205467224 ; diff loss =  -3.725290298461914e-07 ; diff weight =  0.00864356104284525
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 134.226 min
+==========
+At iteration 543, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  544 ; minimum lost =  0.09334263205528259 ; diff loss =  9.164214134216309e-07 ; diff weight =  0.00013009340909775347
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 134.947 min
+==========
+At iteration 571, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  572 ; minimum lost =  0.1568460762500763 ; diff loss =  8.791685104370117e-07 ; diff weight =  0.0010993044124916196
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 138.233 min
+==========
+At iteration 581, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  582 ; minimum lost =  0.13529570400714874 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.001462881569750607
+At iteration 568, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  569 ; minimum lost =  0.11886174976825714 ; diff loss =  4.470348358154297e-07 ; diff weight =  0.00019822095055133104
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 139.118 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 139.277 min
+==========
+At iteration 576, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  577 ; minimum lost =  0.14534062147140503 ; diff loss =  8.195638656616211e-07 ; diff weight =  0.000446281919721514
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 139.919 min
+==========
+At iteration 594, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  595 ; minimum lost =  0.12660157680511475 ; diff loss =  5.513429641723633e-07 ; diff weight =  0.0009770876495167613
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 143.406 min
+==========
+At iteration 606, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  607 ; minimum lost =  0.07678154855966568 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.0015657634939998388
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 4.6415888336127784e-05, cost : 145.179 min
+==========
+At iteration 618, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  619 ; minimum lost =  0.060662198811769485 ; diff loss =  9.648501873016357e-07 ; diff weight =  0.0004522851959336549
+At iteration 615, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  616 ; minimum lost =  0.06514547765254974 ; diff loss =  8.195638656616211e-07 ; diff weight =  0.00031966259120963514
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999997e-06, cost : 147.834 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 1.4677992676220687e-05, cost : 147.909 min
+==========
+At iteration 665, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  666 ; minimum lost =  0.06604431569576263 ; diff loss =  8.270144462585449e-07 ; diff weight =  0.0002069735201075673
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 2.1544346900318854e-05, cost : 158.767 min
+==========
+*** Collecting results ***
+Exporting result Dict
+Leiden_0 Time elapsed: 158.8445312142372 minutes.
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_1
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda: Lambda:Lambda:Lambda:  Lambda:1e-05 Lambda: Lambda: Lambda:Lambda: Lambda:Lambda:1.5e-05 Lambda:2.2e-05 Lambda: Lambda:Lambda:starting at Lambda:Lambda: Lambda:3.2e-05  Lambda:Lambda:4.6e-05  Lambda: Lambda:0.000215 Lambda:  starting at  starting at  6.8e-05   2024-11-22 17:48:13   0.0001  starting at 0.000147  0.01 starting at 0.000316  0.031623  starting at  0.068129 0.000464 2024-11-22 17:48:13 0.000681 2024-11-22 17:48:13 0.001 starting at 0.001468 0.002154 Max_iter: 0.003162 0.004642 starting at 0.0068132024-11-22 17:48:13 starting at  starting at0.014678 2024-11-22 17:48:13 starting at 0.021544 starting at 0.1 2024-11-22 17:48:13 0.046416starting at starting at Max_iter: starting at Max_iter: starting at 2024-11-22 17:48:13 starting at starting at 1000starting at starting at 2024-11-22 17:48:13  starting atMax_iter: 2024-11-22 17:48:13  2024-11-22 17:48:13starting at Max_iter: 2024-11-22 17:48:13 starting at 2024-11-22 17:48:13 starting at Max_iter:  starting at2024-11-22 17:48:13 2024-11-22 17:48:13 10002024-11-22 17:48:13 10002024-11-22 17:48:13 Max_iter: 2024-11-22 17:48:13 2024-11-22 17:48:13 
+2024-11-22 17:48:13 2024-11-22 17:48:13 Max_iter:  2024-11-22 17:48:131000Max_iter:  Max_iter:2024-11-22 17:48:13 1000
+Max_iter: 2024-11-22 17:48:13 Max_iter: 2024-11-22 17:48:13 1000 2024-11-22 17:48:13Max_iter: Max_iter: 
+Max_iter:
+Max_iter: 1000Max_iter: Max_iter: Max_iter:Max_iter:1000 
+1000 Max_iter:1000Max_iter:1000Max_iter:
+ 10001000 1000
+10001000
+ 1000 
+Max_iter:
+1000 
+ 
+ Max_iter:
+
+1000
+
+
+1000
+ 1000
+1000
+10001000 
+
+
+
+1000
+At iteration 215, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  216 ; minimum lost =  0.3953481614589691 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.00020596821559593081
+lambda is : 0.10000000000000002, cost : 52.854 min
+==========
+At iteration 365, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  366 ; minimum lost =  0.36054763197898865 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.00026744327624328434
+lambda is : 0.0681292069057962, cost : 88.424 min
+==========
+At iteration 406, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  407 ; minimum lost =  0.2930485010147095 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.00036325983819551766
+lambda is : 0.0316227766016838, cost : 98.352 min
+==========
+At iteration 417, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  418 ; minimum lost =  0.3253861665725708 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.00028593812021426857
+lambda is : 0.04641588833612786, cost : 101.089 min
+==========
+At iteration 431, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  432 ; minimum lost =  0.240151509642601 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.00047246506437659264
+lambda is : 0.014677992676220709, cost : 105.278 min
+==========
+At iteration 435, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  436 ; minimum lost =  0.2178187519311905 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.0009915942791849375
+lambda is : 0.010000000000000004, cost : 106.713 min
+==========
+At iteration 439, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  440 ; minimum lost =  0.2646488845348358 ; diff loss =  5.066394805908203e-07 ; diff weight =  0.00028449183446355164
+lambda is : 0.02154434690031885, cost : 106.813 min
+==========
+At iteration 468, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  469 ; minimum lost =  0.1974351704120636 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0008127460605464876
+lambda is : 0.006812920690579613, cost : 113.994 min
+==========
+At iteration 469, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  470 ; minimum lost =  0.10862810164690018 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.00149213382974267
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 114.849 min
+==========
+At iteration 479, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  480 ; minimum lost =  0.12522882223129272 ; diff loss =  4.470348358154297e-07 ; diff weight =  0.001044194563291967
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 115.654 min
+==========
+At iteration 477, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  478 ; minimum lost =  0.10192611813545227 ; diff loss =  7.525086402893066e-07 ; diff weight =  0.00036253881989978254
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 116.157 min
+==========
+At iteration 476, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  477 ; minimum lost =  0.13565264642238617 ; diff loss =  3.129243850708008e-07 ; diff weight =  0.00014463889237958938
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 116.437 min
+==========
+At iteration 487, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  488 ; minimum lost =  0.17867209017276764 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0010008906247094274
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.004641588833612781, cost : 118.121 min
+==========
+At iteration 493, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  494 ; minimum lost =  0.07601724565029144 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0001858360192272812
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 3.16227766016838e-05, cost : 119.53 min
+==========
+At iteration 504, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  505 ; minimum lost =  0.14761996269226074 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.0009199198102578521
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 120.717 min
+==========
+At iteration 503, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  504 ; minimum lost =  0.11618614196777344 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.0013576858909800649
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 121.218 min
+==========
+At iteration 516, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  517 ; minimum lost =  0.08653882145881653 ; diff loss =  8.493661880493164e-07 ; diff weight =  0.00045038331882096827
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 123.757 min
+==========
+At iteration 524, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  525 ; minimum lost =  0.0957416445016861 ; diff loss =  9.08970832824707e-07 ; diff weight =  0.0021066777408123016
+At iteration 522, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  523 ; minimum lost =  0.16190612316131592 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0008664437918923795
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 124.477 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 124.499 min
+==========
+At iteration 522, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  523 ; minimum lost =  0.08256329596042633 ; diff loss =  9.313225746154785e-07 ; diff weight =  0.0035483213141560555
+At iteration 522, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  523 ; minimum lost =  0.09080879390239716 ; diff loss =  3.725290298461914e-07 ; diff weight =  0.00015110061212908477
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 125.24 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 125.409 min
+==========
+At iteration 523, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  524 ; minimum lost =  0.06822696328163147 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.00025590587756596506
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 1.4677992676220687e-05, cost : 126.748 min
+==========
+At iteration 541, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  542 ; minimum lost =  0.07893890887498856 ; diff loss =  9.313225746154785e-07 ; diff weight =  0.00021674616436939687
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 4.6415888336127784e-05, cost : 129.03 min
+==========
+At iteration 600, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  601 ; minimum lost =  0.06361478567123413 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.00025713458308018744
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999997e-06, cost : 141.496 min
+==========
+At iteration 626, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  627 ; minimum lost =  0.07053263485431671 ; diff loss =  5.960464477539062e-07 ; diff weight =  9.684528049547225e-05
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 2.1544346900318854e-05, cost : 146.922 min
+==========
+*** Collecting results ***
+Exporting result Dict
+Leiden_1 Time elapsed: 147.00486875772475 minutes.
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_10
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda: Lambda:Lambda:Lambda:Lambda:1e-05  Lambda: Lambda: Lambda:Lambda:Lambda:  Lambda:Lambda:Lambda:starting at Lambda: Lambda: 1.5e-05  Lambda:Lambda: 4.6e-05  Lambda:2.2e-05  Lambda:  Lambda:Lambda:Lambda: 0.000215 Lambda:3.2e-05 Lambda:Lambda:   2024-11-22 20:15:19 0.000681 0.001 starting at 6.8e-05  0.002154 starting at 0.0001  starting at 0.004642 0.01 0.000147   0.021544 starting at  starting at   0.046416 0.000316 0.000464 Max_iter: starting at starting at 2024-11-22 20:15:19 starting at 0.001468 starting at 2024-11-22 20:15:19 starting at 0.003162 2024-11-22 20:15:19 starting at starting at starting at 0.014678 0.006813 starting at 2024-11-22 20:15:19 0.031623 2024-11-22 20:15:19 0.068129 0.1 starting at starting at starting at 10002024-11-22 20:15:19 2024-11-22 20:15:19 Max_iter: 2024-11-22 20:15:19 starting at 2024-11-22 20:15:19 Max_iter: 2024-11-22 20:15:19 starting at Max_iter: 2024-11-22 20:15:19 2024-11-22 20:15:19 2024-11-22 20:15:19 starting at starting at 2024-11-22 20:15:19 Max_iter: starting at Max_iter: starting at starting at 2024-11-22 20:15:19 2024-11-22 20:15:19 2024-11-22 20:15:19 
+Max_iter: Max_iter: 1000Max_iter: 2024-11-22 20:15:19 Max_iter: 1000Max_iter: 2024-11-22 20:15:19 1000Max_iter: Max_iter: Max_iter: 2024-11-22 20:15:19 2024-11-22 20:15:19 Max_iter: 10002024-11-22 20:15:19 10002024-11-22 20:15:19 2024-11-22 20:15:19 Max_iter: Max_iter: Max_iter: 10001000
+1000Max_iter: 1000
+1000Max_iter: 
+100010001000Max_iter: Max_iter:1000
+Max_iter:
+Max_iter:Max_iter:100010001000
+
+
+1000
+
+1000
+
+
+
+1000 1000
+ 1000 1000 1000
+
+
+
+
+
+
+
+
+At iteration 208, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  209 ; minimum lost =  0.1593015491962433 ; diff loss =  4.470348358154297e-07 ; diff weight =  0.0006064680055715144
+lambda is : 0.0681292069057962, cost : 52.075 min
+==========
+At iteration 251, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  252 ; minimum lost =  0.19691604375839233 ; diff loss =  8.940696716308594e-08 ; diff weight =  9.357886301586404e-05
+lambda is : 0.10000000000000002, cost : 61.181 min
+==========
+At iteration 254, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  255 ; minimum lost =  0.06337956339120865 ; diff loss =  5.587935447692871e-07 ; diff weight =  0.0009883076418191195
+lambda is : 0.014677992676220709, cost : 62.139 min
+==========
+At iteration 259, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  260 ; minimum lost =  0.12691403925418854 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0009077273425646126
+lambda is : 0.04641588833612786, cost : 63.212 min
+==========
+At iteration 258, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  259 ; minimum lost =  0.10094919800758362 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.0005975706153549254
+lambda is : 0.0316227766016838, cost : 63.276 min
+==========
+At iteration 304, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  305 ; minimum lost =  0.08014146983623505 ; diff loss =  6.332993507385254e-07 ; diff weight =  0.0006388697074726224
+lambda is : 0.02154434690031885, cost : 74.616 min
+==========
+At iteration 311, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  312 ; minimum lost =  0.03992488235235214 ; diff loss =  9.462237358093262e-07 ; diff weight =  0.0006697491044178605
+lambda is : 0.006812920690579613, cost : 76.196 min
+==========
+At iteration 334, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  335 ; minimum lost =  0.05003172159194946 ; diff loss =  2.0116567611694336e-07 ; diff weight =  0.00042418352677486837
+lambda is : 0.010000000000000004, cost : 81.48 min
+==========
+At iteration 346, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  347 ; minimum lost =  0.03190590441226959 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.0012760077370330691
+lambda is : 0.004641588833612781, cost : 83.099 min
+==========
+At iteration 417, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  418 ; minimum lost =  0.021051904186606407 ; diff loss =  6.686896085739136e-07 ; diff weight =  0.0023015961050987244
+At iteration 416, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  417 ; minimum lost =  0.01750953495502472 ; diff loss =  9.424984455108643e-07 ; diff weight =  0.002794527681544423
+lambda is : 0.0021544346900318843, cost : 101.771 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 101.776 min
+==========
+At iteration 426, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  427 ; minimum lost =  0.025744937360286713 ; diff loss =  9.94652509689331e-07 ; diff weight =  0.0023269671946763992
+lambda is : 0.003162277660168382, cost : 101.817 min
+==========
+At iteration 435, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  436 ; minimum lost =  0.014816896989941597 ; diff loss =  9.96515154838562e-07 ; diff weight =  0.005338574294000864
+lambda is : 0.0010000000000000002, cost : 103.479 min
+==========
+At iteration 469, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  470 ; minimum lost =  0.012779701501131058 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.004527118522673845
+lambda is : 0.0006812920690579617, cost : 109.045 min
+==========
+At iteration 486, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  487 ; minimum lost =  0.009817676618695259 ; diff loss =  9.043142199516296e-07 ; diff weight =  0.004023776855319738
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 113.303 min
+==========
+At iteration 485, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  486 ; minimum lost =  0.011147252283990383 ; diff loss =  9.51811671257019e-07 ; diff weight =  0.0043412186205387115
+lambda is : 0.00046415888336127795, cost : 114.161 min
+==========
+At iteration 515, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  516 ; minimum lost =  0.0077240196987986565 ; diff loss =  9.695068001747131e-07 ; diff weight =  0.003916759043931961
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 119.233 min
+==========
+At iteration 513, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  514 ; minimum lost =  0.008686370216310024 ; diff loss =  8.707866072654724e-07 ; diff weight =  0.0038921604864299297
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 122.319 min
+==========
+At iteration 550, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  551 ; minimum lost =  0.006805292330682278 ; diff loss =  9.294599294662476e-07 ; diff weight =  0.004104335326701403
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 127.52 min
+==========
+At iteration 547, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  548 ; minimum lost =  0.004391145892441273 ; diff loss =  6.94766640663147e-07 ; diff weight =  0.00807323306798935
+lambda is : 3.16227766016838e-05, cost : 128.3 min
+==========
+At iteration 561, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  562 ; minimum lost =  0.005938267335295677 ; diff loss =  9.899958968162537e-07 ; diff weight =  0.007604246959090233
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 130.944 min
+==========
+At iteration 564, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  565 ; minimum lost =  0.0051033031195402145 ; diff loss =  9.979121387004852e-07 ; diff weight =  0.00343324919231236
+lambda is : 4.6415888336127784e-05, cost : 131.376 min
+==========
+At iteration 561, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  562 ; minimum lost =  0.0025675026699900627 ; diff loss =  8.433125913143158e-07 ; diff weight =  0.014305259101092815
+lambda is : 9.999999999999997e-06, cost : 132.416 min
+==========
+At iteration 584, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  585 ; minimum lost =  0.0035913537722080946 ; diff loss =  8.891802281141281e-07 ; diff weight =  0.009058043360710144
+lambda is : 2.1544346900318854e-05, cost : 135.457 min
+==========
+At iteration 591, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  592 ; minimum lost =  0.0029991664923727512 ; diff loss =  5.881302058696747e-07 ; diff weight =  0.01503862626850605
+lambda is : 1.4677992676220687e-05, cost : 136.393 min
+==========
+*** Collecting results ***
+Exporting result Dict
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff_noZ.py:929: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax1 = plt.subplots(figsize = (fig_width,fig_height))
+Leiden_10 Time elapsed: 136.46761178970337 minutes.
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_11
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda: Lambda:Lambda: Lambda:Lambda:  Lambda:Lambda:Lambda:1.5e-05   Lambda:2.2e-05Lambda:Lambda: Lambda: Lambda:Lambda:4.6e-05 Lambda:Lambda:1e-05  Lambda:  Lambda:Lambda:Lambda:starting at Lambda:3.2e-05 0.000147 Lambda: Lambda: starting at 0.000316  0.000215   starting at   starting at 6.8e-05  0.0001 0.004642    2024-11-22 22:31:54  starting at starting at  0.031623   2024-11-22 22:31:540.1 starting at 0.000464 starting at 0.000681 0.001 2024-11-22 22:31:54 0.001468 0.002154 2024-11-22 22:31:54 starting at 0.003162 starting at starting at 0.006813 0.01 0.014678 Max_iter: 0.021544 2024-11-22 22:31:54 2024-11-22 22:31:54 0.046416 starting at 0.068129  Max_iter:starting at 2024-11-22 22:31:54 starting at 2024-11-22 22:31:54 starting at starting at Max_iter: starting at starting atMax_iter: 2024-11-22 22:31:54 starting at 2024-11-22 22:31:54 2024-11-22 22:31:54 starting at starting at starting at 1000starting at Max_iter: Max_iter: starting at 2024-11-22 22:31:54 starting at  10002024-11-22 22:31:54 Max_iter: 2024-11-22 22:31:54 Max_iter: 2024-11-22 22:31:54 2024-11-22 22:31:54 1000
+2024-11-22 22:31:54  2024-11-22 22:31:541000Max_iter: 2024-11-22 22:31:54 Max_iter: Max_iter: 2024-11-22 22:31:54 2024-11-22 22:31:54 2024-11-22 22:31:54 
+2024-11-22 22:31:54 100010002024-11-22 22:31:54 Max_iter: 2024-11-22 22:31:54 
+Max_iter: 1000Max_iter: 1000Max_iter: Max_iter: Max_iter:  Max_iter:
+1000Max_iter:10001000Max_iter:Max_iter:Max_iter:Max_iter:
+
+Max_iter:1000Max_iter:1000
+1000
+1000
+10001000 1000
+ 
+
+     
+ 
+
+
+
+
+100010001000
+1000
+1000
+10001000
+
+
+
+At iteration 209, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  210 ; minimum lost =  0.2110215425491333 ; diff loss =  2.980232238769531e-07 ; diff weight =  0.00020735178259201348
+lambda is : 0.10000000000000002, cost : 50.902 min
+==========
+At iteration 261, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  262 ; minimum lost =  0.1854102909564972 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0006038506398908794
+lambda is : 0.0681292069057962, cost : 62.614 min
+==========
+At iteration 266, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  267 ; minimum lost =  0.13178089261054993 ; diff loss =  9.08970832824707e-07 ; diff weight =  0.0007284347666427493
+lambda is : 0.0316227766016838, cost : 65.05 min
+==========
+At iteration 265, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  266 ; minimum lost =  0.1586666852235794 ; diff loss =  1.4901161193847656e-08 ; diff weight =  7.415630534524098e-05
+lambda is : 0.04641588833612786, cost : 65.206 min
+==========
+At iteration 319, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  320 ; minimum lost =  0.10721317678689957 ; diff loss =  5.289912223815918e-07 ; diff weight =  0.00040462100878357887
+lambda is : 0.02154434690031885, cost : 76.584 min
+==========
+At iteration 323, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  324 ; minimum lost =  0.06828022748231888 ; diff loss =  7.152557373046875e-07 ; diff weight =  0.0010982470121234655
+lambda is : 0.010000000000000004, cost : 78.241 min
+==========
+At iteration 332, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  333 ; minimum lost =  0.042922087013721466 ; diff loss =  6.034970283508301e-07 ; diff weight =  0.0013057364849373698
+lambda is : 0.004641588833612781, cost : 80.396 min
+==========
+At iteration 365, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  366 ; minimum lost =  0.0857580155134201 ; diff loss =  3.501772880554199e-07 ; diff weight =  0.00045437272638082504
+lambda is : 0.014677992676220709, cost : 87.998 min
+==========
+At iteration 393, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  394 ; minimum lost =  0.03405424579977989 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0029896977357566357
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168382, cost : 93.398 min
+==========
+At iteration 400, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  401 ; minimum lost =  0.027258675545454025 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.001964340452104807
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 96.099 min
+==========
+At iteration 415, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  416 ; minimum lost =  0.054074615240097046 ; diff loss =  8.717179298400879e-07 ; diff weight =  0.001470048213377595
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.006812920690579613, cost : 98.578 min
+==========
+At iteration 415, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  416 ; minimum lost =  0.022019043564796448 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.0022924281656742096
+lambda is : 0.0014677992676220694, cost : 99.591 min
+==========
+At iteration 419, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  420 ; minimum lost =  0.01796879991889 ; diff loss =  9.872019290924072e-07 ; diff weight =  0.0024942283052951097
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 100.079 min
+==========
+At iteration 422, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  423 ; minimum lost =  0.0148305743932724 ; diff loss =  9.424984455108643e-07 ; diff weight =  0.002131716813892126
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 101.265 min
+==========
+At iteration 473, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  474 ; minimum lost =  0.010349515825510025 ; diff loss =  9.51811671257019e-07 ; diff weight =  0.0038087968714535236
+lambda is : 0.00031622776601683783, cost : 111.124 min
+==========
+At iteration 474, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  475 ; minimum lost =  0.012331369332969189 ; diff loss =  9.34116542339325e-07 ; diff weight =  0.0032341957557946444
+lambda is : 0.00046415888336127795, cost : 113.88 min
+==========
+At iteration 489, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  490 ; minimum lost =  0.00871848315000534 ; diff loss =  9.909272193908691e-07 ; diff weight =  0.004206873942166567
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 114.625 min
+==========
+At iteration 523, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  524 ; minimum lost =  0.007360500283539295 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.004958749748766422
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 123.29 min
+==========
+At iteration 543, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  544 ; minimum lost =  0.006168232765048742 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.005572664551436901
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 127.943 min
+==========
+At iteration 567, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  568 ; minimum lost =  0.005123003851622343 ; diff loss =  8.540228009223938e-07 ; diff weight =  0.006445357110351324
+lambda is : 6.81292069057961e-05, cost : 129.653 min
+==========
+At iteration 585, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  586 ; minimum lost =  0.003526222426444292 ; diff loss =  7.180497050285339e-07 ; diff weight =  0.002618826925754547
+lambda is : 3.16227766016838e-05, cost : 136.28 min
+==========
+At iteration 611, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  612 ; minimum lost =  0.0023182861041277647 ; diff loss =  6.253831088542938e-07 ; diff weight =  0.003497517202049494
+At iteration 604, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  605 ; minimum lost =  0.0018896544352173805 ; diff loss =  4.3713953346014023e-07 ; diff weight =  0.004201479256153107
+lambda is : 1.4677992676220687e-05, cost : 139.009 min
+==========
+lambda is : 9.999999999999997e-06, cost : 139.11 min
+==========
+At iteration 606, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  607 ; minimum lost =  0.002855184953659773 ; diff loss =  5.485489964485168e-07 ; diff weight =  0.004144890233874321
+lambda is : 2.1544346900318854e-05, cost : 140.513 min
+==========
+At iteration 610, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  611 ; minimum lost =  0.004232416860759258 ; diff loss =  9.015202522277832e-07 ; diff weight =  0.003737780498340726
+lambda is : 4.6415888336127784e-05, cost : 141.007 min
+==========
+*** Collecting results ***
+Exporting result Dict
+Leiden_11 Time elapsed: 141.07707260847093 minutes.
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_12
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:  Lambda:Lambda: Lambda:Lambda: Lambda: Lambda:1e-05 1.5e-05 Lambda: Lambda:Lambda:Lambda:3.2e-05  Lambda: 2.2e-05 Lambda:Lambda:6.8e-05 Lambda:Lambda: Lambda:Lambda:starting at Lambda:Lambda:starting at Lambda:Lambda:Lambda: 0.000147    starting at 4.6e-05  0.001 starting at   starting at   0.0001   2024-11-23 00:53:05   2024-11-23 00:53:05    0.000215 starting at 0.000316 0.000464 0.000681 2024-11-23 00:53:05 starting at 0.001468 starting at 2024-11-23 00:53:05 0.002154 0.003162 2024-11-23 00:53:05 0.004642 0.006813 starting at 0.01 0.014678 Max_iter: 0.021544 0.031623 Max_iter: 0.046416 0.068129 0.1 starting at 2024-11-23 00:53:05 starting at starting at starting at Max_iter: 2024-11-23 00:53:05 starting at 2024-11-23 00:53:05 Max_iter: starting at starting at Max_iter: starting at starting at 2024-11-23 00:53:05 starting at starting at 1000starting at starting at 1000starting at starting at starting at 2024-11-23 00:53:05 Max_iter: 2024-11-23 00:53:05 2024-11-23 00:53:05 2024-11-23 00:53:05 1000Max_iter: 2024-11-23 00:53:05 Max_iter: 10002024-11-23 00:53:05 2024-11-23 00:53:05 10002024-11-23 00:53:05 2024-11-23 00:53:05 Max_iter: 2024-11-23 00:53:05 2024-11-23 00:53:05
+2024-11-23 00:53:05 2024-11-23 00:53:05 
+2024-11-23 00:53:05 2024-11-23 00:53:05 2024-11-23 00:53:05 Max_iter: 1000Max_iter: Max_iter: Max_iter: 
+1000Max_iter: 1000
+Max_iter: Max_iter: 
+Max_iter:Max_iter: 1000Max_iter: Max_iter:Max_iter:Max_iter:Max_iter:Max_iter:1000
+100010001000
+1000
+
+10001000 10001000
+
+ 1000Max_iter:  1000 1000  1000 1000
+
+
+
+
+
+
+
+1000
+
+1000
+
+
+
+At iteration 174, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  175 ; minimum lost =  0.19513805210590363 ; diff loss =  9.834766387939453e-07 ; diff weight =  0.00033346613054163754
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.10000000000000002, cost : 42.772 min
+==========
+At iteration 187, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  188 ; minimum lost =  0.17031361162662506 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.00037243677070364356
+lambda is : 0.0681292069057962, cost : 44.798 min
+==========
+At iteration 193, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  194 ; minimum lost =  0.13800504803657532 ; diff loss =  3.8743019104003906e-07 ; diff weight =  0.0003992051933892071
+lambda is : 0.0316227766016838, cost : 46.239 min
+==========
+At iteration 226, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  227 ; minimum lost =  0.1240205466747284 ; diff loss =  8.866190910339355e-07 ; diff weight =  0.0009345635189674795
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.02154434690031885, cost : 54.245 min
+==========
+At iteration 225, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  226 ; minimum lost =  0.1519777476787567 ; diff loss =  4.76837158203125e-07 ; diff weight =  0.0003695889899972826
+lambda is : 0.04641588833612786, cost : 54.474 min
+==========
+At iteration 313, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  314 ; minimum lost =  0.09117826074361801 ; diff loss =  9.164214134216309e-07 ; diff weight =  0.001341496710665524
+lambda is : 0.010000000000000004, cost : 75.372 min
+==========
+At iteration 320, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  321 ; minimum lost =  0.07708665728569031 ; diff loss =  8.419156074523926e-07 ; diff weight =  0.0012516897404566407
+lambda is : 0.006812920690579613, cost : 76.691 min
+==========
+At iteration 328, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  329 ; minimum lost =  0.10727294534444809 ; diff loss =  4.0978193283081055e-07 ; diff weight =  0.00044718306162394583
+lambda is : 0.014677992676220709, cost : 78.084 min
+==========
+At iteration 343, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  344 ; minimum lost =  0.06547684967517853 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0014077251544222236
+lambda is : 0.004641588833612781, cost : 81.288 min
+==========
+At iteration 352, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  353 ; minimum lost =  0.05595777928829193 ; diff loss =  8.158385753631592e-07 ; diff weight =  0.0012342171976342797
+lambda is : 0.003162277660168382, cost : 85.28 min
+==========
+At iteration 366, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  367 ; minimum lost =  0.048252686858177185 ; diff loss =  8.754432201385498e-07 ; diff weight =  0.001717067207209766
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 87.841 min
+==========
+At iteration 365, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  366 ; minimum lost =  0.04193906486034393 ; diff loss =  9.760260581970215e-07 ; diff weight =  0.0016090049175545573
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 88.616 min
+==========
+At iteration 397, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  398 ; minimum lost =  0.03665323555469513 ; diff loss =  9.797513484954834e-07 ; diff weight =  0.0017650374211370945
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 94.517 min
+==========
+At iteration 406, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  407 ; minimum lost =  0.032319385558366776 ; diff loss =  9.797513484954834e-07 ; diff weight =  0.0018071633530780673
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 95.383 min
+==========
+At iteration 423, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  424 ; minimum lost =  0.02086063101887703 ; diff loss =  8.642673492431641e-07 ; diff weight =  0.0008496061200276017
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 100.153 min
+==========
+At iteration 424, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  425 ; minimum lost =  0.01698790304362774 ; diff loss =  9.257346391677856e-07 ; diff weight =  0.0007873672875575721
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 100.779 min
+==========
+At iteration 446, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  447 ; minimum lost =  0.010901515372097492 ; diff loss =  8.838251233100891e-07 ; diff weight =  0.0006095670978538692
+lambda is : 1.4677992676220687e-05, cost : 103.641 min
+==========
+At iteration 445, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  446 ; minimum lost =  0.01869058422744274 ; diff loss =  7.580965757369995e-07 ; diff weight =  0.003733825171366334
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 104.202 min
+==========
+At iteration 440, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  441 ; minimum lost =  0.012208547443151474 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.0007474400335922837
+At iteration 444, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  445 ; minimum lost =  0.02870093658566475 ; diff loss =  8.903443813323975e-07 ; diff weight =  0.002206838922575116
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 104.507 min
+==========
+lambda is : 2.1544346900318854e-05, cost : 104.574 min
+==========
+At iteration 459, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  460 ; minimum lost =  0.025671591982245445 ; diff loss =  9.704381227493286e-07 ; diff weight =  0.0023815312888473272
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 107.887 min
+==========
+At iteration 474, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  474 ; minimum lost =  0.015020536258816719 ; diff loss =  -8.530914783477783e-07 ; diff weight =  0.0067706117406487465
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 4.6415888336127784e-05, cost : 111.762 min
+==========
+At iteration 488, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  489 ; minimum lost =  0.008956320583820343 ; diff loss =  6.426125764846802e-07 ; diff weight =  0.0005264817737042904
+At iteration 479, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  480 ; minimum lost =  0.0133899487555027 ; diff loss =  9.993091225624084e-07 ; diff weight =  0.0004900430212728679
+lambda is : 9.999999999999997e-06, cost : 112.803 min
+==========
+lambda is : 3.16227766016838e-05, cost : 112.894 min
+==========
+At iteration 501, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  502 ; minimum lost =  0.022999916225671768 ; diff loss =  6.332993507385254e-07 ; diff weight =  0.0018765623681247234
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 117.713 min
+==========
+*** Collecting results ***
+Exporting result Dict
+Leiden_12 Time elapsed: 117.79253241618474 minutes.
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_13
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda: Lambda: Lambda: Lambda: Lambda:Lambda:1.5e-05 Lambda: Lambda:Lambda:Lambda:1e-05 Lambda: Lambda:3.2e-05 Lambda:Lambda:Lambda:4.6e-05  Lambda: Lambda:Lambda:starting at Lambda: Lambda:2.2e-05 Lambda: Lambda:  Lambda: Lambda:  starting at 0.000316  starting at    starting at 6.8e-05  0.002154   2024-11-23 02:50:59  0.0001  starting at  0.000147 0.046416 0.031623 0.068129 0.1 0.000215 2024-11-23 02:50:59 starting at 0.000464 2024-11-23 02:50:59 0.000681 0.001 0.001468 2024-11-23 02:50:59 starting at 0.003162 starting at 0.004642 0.006813 Max_iter: 0.01 starting at 0.014678 2024-11-23 02:50:59 0.021544 starting at starting at starting at starting at starting at starting at Max_iter: 2024-11-23 02:50:59 starting at Max_iter: starting at starting at starting at Max_iter: 2024-11-23 02:50:59 starting at 2024-11-23 02:50:59 starting at starting at 1000starting at 2024-11-23 02:50:59 starting at Max_iter: starting at 2024-11-23 02:50:59 2024-11-23 02:50:59 2024-11-23 02:50:59 2024-11-23 02:50:59 2024-11-23 02:50:59 2024-11-23 02:50:59 1000Max_iter: 2024-11-23 02:50:59 10002024-11-23 02:50:59 2024-11-23 02:50:59 2024-11-23 02:50:59 1000Max_iter: 2024-11-23 02:50:59 Max_iter: 2024-11-23 02:50:59 2024-11-23 02:50:59 
+2024-11-23 02:50:59 Max_iter: 2024-11-23 02:50:59 10002024-11-23 02:50:59 Max_iter: Max_iter: Max_iter: Max_iter: Max_iter: Max_iter: 
+1000Max_iter: 
+Max_iter: Max_iter:Max_iter:
+1000Max_iter: 1000Max_iter:Max_iter:Max_iter:1000Max_iter:
+Max_iter: 100010001000100010001000
+10001000
+  1000
+1000
+
+ 1000 1000 1000
+ 10001000
+
+
+
+
+
+
+1000
+
+
+
+
+
+
+At iteration 112, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  113 ; minimum lost =  0.18670134246349335 ; diff loss =  5.811452865600586e-07 ; diff weight =  0.00015146173245739192
+lambda is : 0.10000000000000002, cost : 27.987 min
+==========
+At iteration 167, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  168 ; minimum lost =  0.1411193311214447 ; diff loss =  5.662441253662109e-07 ; diff weight =  0.00038449757266789675
+lambda is : 0.04641588833612786, cost : 42.269 min
+==========
+At iteration 175, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  176 ; minimum lost =  0.12672236561775208 ; diff loss =  5.364418029785156e-07 ; diff weight =  0.00033822254044935107
+lambda is : 0.0316227766016838, cost : 43.606 min
+==========
+At iteration 190, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  191 ; minimum lost =  0.1602230966091156 ; diff loss =  4.470348358154297e-08 ; diff weight =  5.916641021030955e-05
+lambda is : 0.0681292069057962, cost : 46.893 min
+==========
+At iteration 265, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  266 ; minimum lost =  0.09326063096523285 ; diff loss =  6.48200511932373e-07 ; diff weight =  0.0005873373593203723
+lambda is : 0.014677992676220709, cost : 66.794 min
+==========
+At iteration 281, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  282 ; minimum lost =  0.11138472706079483 ; diff loss =  8.642673492431641e-07 ; diff weight =  0.0009792629862204194
+lambda is : 0.02154434690031885, cost : 68.467 min
+==========
+At iteration 365, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  366 ; minimum lost =  0.03376443311572075 ; diff loss =  7.711350917816162e-07 ; diff weight =  0.0016648174496367574
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 88.698 min
+==========
+At iteration 371, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  372 ; minimum lost =  0.0769398882985115 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0014540418051183224
+lambda is : 0.010000000000000004, cost : 88.779 min
+==========
+At iteration 380, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  381 ; minimum lost =  0.022750727832317352 ; diff loss =  8.195638656616211e-07 ; diff weight =  0.002398001030087471
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 91.981 min
+==========
+At iteration 380, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  381 ; minimum lost =  0.05117537081241608 ; diff loss =  8.642673492431641e-07 ; diff weight =  0.0020813453011214733
+lambda is : 0.004641588833612781, cost : 92.095 min
+==========
+At iteration 399, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  400 ; minimum lost =  0.06295382231473923 ; diff loss =  3.3527612686157227e-07 ; diff weight =  0.0005535489181056619
+lambda is : 0.006812920690579613, cost : 94.323 min
+==========
+At iteration 411, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  412 ; minimum lost =  0.041492387652397156 ; diff loss =  9.94652509689331e-07 ; diff weight =  0.0018651437712833285
+lambda is : 0.003162277660168382, cost : 97.667 min
+==========
+At iteration 415, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  416 ; minimum lost =  0.01885254681110382 ; diff loss =  9.052455425262451e-07 ; diff weight =  0.0025427849031984806
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 99.216 min
+==========
+At iteration 427, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  428 ; minimum lost =  0.015771890059113503 ; diff loss =  9.499490261077881e-07 ; diff weight =  0.006136743817478418
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 102.619 min
+==========
+At iteration 432, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  433 ; minimum lost =  0.02754574827849865 ; diff loss =  9.704381227493286e-07 ; diff weight =  0.0027987908106297255
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 103.638 min
+==========
+At iteration 434, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  435 ; minimum lost =  0.013281254097819328 ; diff loss =  9.55536961555481e-07 ; diff weight =  0.0034554782323539257
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 104.378 min
+==========
+At iteration 454, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  455 ; minimum lost =  0.011264711618423462 ; diff loss =  9.676441550254822e-07 ; diff weight =  0.0062461853958666325
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 109.048 min
+==========
+At iteration 460, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  461 ; minimum lost =  0.009616886265575886 ; diff loss =  9.527429938316345e-07 ; diff weight =  0.0032746128272265196
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 109.236 min
+==========
+At iteration 496, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  497 ; minimum lost =  0.004607995506376028 ; diff loss =  8.675269782543182e-07 ; diff weight =  0.0025731814093887806
+lambda is : 2.1544346900318854e-05, cost : 117.356 min
+==========
+At iteration 512, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  513 ; minimum lost =  0.006071454845368862 ; diff loss =  7.525086402893066e-07 ; diff weight =  0.0018851313507184386
+lambda is : 4.6415888336127784e-05, cost : 119.75 min
+==========
+At iteration 510, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  511 ; minimum lost =  0.003282711608335376 ; diff loss =  8.956994861364365e-07 ; diff weight =  0.0023901157546788454
+lambda is : 9.999999999999997e-06, cost : 119.954 min
+==========
+At iteration 528, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  529 ; minimum lost =  0.00523754907771945 ; diff loss =  5.387701094150543e-07 ; diff weight =  0.0010690497001633048
+At iteration 521, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  522 ; minimum lost =  0.0081765903159976 ; diff loss =  9.480863809585571e-07 ; diff weight =  0.0062978435307741165
+lambda is : 3.16227766016838e-05, cost : 123.576 min
+==========
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 123.621 min
+==========
+At iteration 522, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  523 ; minimum lost =  0.007016911171376705 ; diff loss =  5.820766091346741e-07 ; diff weight =  0.0014196374686434865
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 6.81292069057961e-05, cost : 124.02 min
+==========
+At iteration 548, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  549 ; minimum lost =  0.003660155227407813 ; diff loss =  2.2142194211483002e-07 ; diff weight =  0.00893444661051035
+lambda is : 1.4677992676220687e-05, cost : 126.206 min
+==========
+*** Collecting results ***
+Exporting result Dict
+Leiden_13 Time elapsed: 126.28245935440063 minutes.
+Shape: (71915, 25712)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Leiden_14
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:  Lambda:Lambda: Lambda: Lambda:Lambda:2.2e-05 Lambda:1e-05 Lambda: Lambda: Lambda:1.5e-05 Lambda:Lambda:Lambda:4.6e-05 Lambda:  Lambda: Lambda:Lambda:starting at Lambda: Lambda:Lambda:starting at Lambda:Lambda:Lambda:  3.2e-05  0.000316  starting at    starting at 0.003162 6.8e-05  0.0001   2024-11-23 04:57:23  0.000147   2024-11-23 04:57:23   0.1 0.000215 starting at 0.000464 starting at 0.000681 2024-11-23 04:57:23 0.001 0.001468 0.002154 2024-11-23 04:57:23 starting at starting at 0.004642 starting at 0.006813 0.01 Max_iter: 0.014678 starting at0.021544 0.031623 Max_iter: 0.046416 0.068129 starting at starting at 2024-11-23 04:57:23 starting at 2024-11-23 04:57:23 starting at Max_iter: starting at starting at starting at Max_iter: 2024-11-23 04:57:23 2024-11-23 04:57:23 starting at 2024-11-23 04:57:23 starting at starting at 1000starting at  2024-11-23 04:57:23starting at starting at 1000starting at starting at 2024-11-23 04:57:23 2024-11-23 04:57:23 Max_iter: 2024-11-23 04:57:23 Max_iter: 2024-11-23 04:57:23 10002024-11-23 04:57:23 2024-11-23 04:57:23 2024-11-23 04:57:23 1000Max_iter: Max_iter: 2024-11-23 04:57:23 Max_iter: 2024-11-23 04:57:23 2024-11-23 04:57:23 
+2024-11-23 04:57:23  Max_iter:2024-11-23 04:57:23 2024-11-23 04:57:23 
+2024-11-23 04:57:23 2024-11-23 04:57:23 Max_iter: Max_iter: 1000
+Max_iter: 1000Max_iter: 
+Max_iter: Max_iter: Max_iter: 
+10001000Max_iter:1000Max_iter:Max_iter:Max_iter: Max_iter:Max_iter: Max_iter:Max_iter: 100010001000
+1000100010001000
+
+ 1000
+ 1000 1000 10001000 10001000
+ 10001000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At iteration 104, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  105 ; minimum lost =  0.1631672978401184 ; diff loss =  1.1920928955078125e-07 ; diff weight =  0.0001012746652122587
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.10000000000000002, cost : 26.693 min
+==========
+At iteration 111, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  111 ; minimum lost =  0.11734216660261154 ; diff loss =  0.0 ; diff weight =  2.148747444152832e-05
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.04641588833612786, cost : 28.298 min
+==========
+At iteration 112, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  113 ; minimum lost =  0.13681049644947052 ; diff loss =  1.043081283569336e-07 ; diff weight =  0.00012034115934511647
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0681292069057962, cost : 28.475 min
+==========
+At iteration 150, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  151 ; minimum lost =  0.10317789763212204 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.00023748219246044755
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.0316227766016838, cost : 37.174 min
+==========
+At iteration 154, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  155 ; minimum lost =  0.09296217560768127 ; diff loss =  6.556510925292969e-07 ; diff weight =  0.000495951680932194
+lambda is : 0.02154434690031885, cost : 38.342 min
+==========
+At iteration 260, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  261 ; minimum lost =  0.08099353313446045 ; diff loss =  6.631016731262207e-07 ; diff weight =  0.0006788962054997683
+lambda is : 0.014677992676220709, cost : 64.508 min
+==========
+At iteration 275, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  276 ; minimum lost =  0.06868123263120651 ; diff loss =  7.227063179016113e-07 ; diff weight =  0.0009052943787537515
+lambda is : 0.010000000000000004, cost : 67.468 min
+==========
+At iteration 279, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  280 ; minimum lost =  0.048032160848379135 ; diff loss =  8.381903171539307e-07 ; diff weight =  0.000863477645907551
+lambda is : 0.004641588833612781, cost : 68.051 min
+==========
+At iteration 340, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  341 ; minimum lost =  0.057367537170648575 ; diff loss =  5.513429641723633e-07 ; diff weight =  0.00029528079903684556
+lambda is : 0.006812920690579613, cost : 81.239 min
+==========
+At iteration 339, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  340 ; minimum lost =  0.034025512635707855 ; diff loss =  9.909272193908691e-07 ; diff weight =  0.002520994283258915
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318843, cost : 82.565 min
+==========
+At iteration 348, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  349 ; minimum lost =  0.040178488940000534 ; diff loss =  6.407499313354492e-07 ; diff weight =  0.0014570786152034998
+lambda is : 0.003162277660168382, cost : 84.507 min
+==========
+At iteration 357, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  358 ; minimum lost =  0.021477168425917625 ; diff loss =  8.288770914077759e-07 ; diff weight =  0.0039973389357328415
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579617, cost : 85.792 min
+==========
+At iteration 370, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  371 ; minimum lost =  0.028932612389326096 ; diff loss =  9.797513484954834e-07 ; diff weight =  0.0028120381757616997
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 89.88 min
+==========
+At iteration 387, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  388 ; minimum lost =  0.02478703483939171 ; diff loss =  8.773058652877808e-07 ; diff weight =  0.002594961319118738
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0010000000000000002, cost : 92.092 min
+==========
+At iteration 407, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  408 ; minimum lost =  0.01873565837740898 ; diff loss =  9.611248970031738e-07 ; diff weight =  0.0037220066878944635
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00046415888336127795, cost : 94.685 min
+==========
+At iteration 417, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  418 ; minimum lost =  0.010970257222652435 ; diff loss =  8.25151801109314e-07 ; diff weight =  0.0007178117521107197
+lambda is : 6.81292069057961e-05, cost : 98.188 min
+==========
+At iteration 414, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  415 ; minimum lost =  0.012161326594650745 ; diff loss =  8.00006091594696e-07 ; diff weight =  0.0007934608729556203
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 9.999999999999991e-05, cost : 98.964 min
+==========
+At iteration 428, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  429 ; minimum lost =  0.00972252432256937 ; diff loss =  7.133930921554565e-07 ; diff weight =  0.0006123369676060975
+lambda is : 4.6415888336127784e-05, cost : 100.792 min
+==========
+At iteration 432, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  433 ; minimum lost =  0.013368065468966961 ; diff loss =  3.9581209421157837e-07 ; diff weight =  0.0060634370893239975
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00014677992676220703, cost : 100.973 min
+==========
+At iteration 441, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  442 ; minimum lost =  0.007519247941672802 ; diff loss =  9.853392839431763e-07 ; diff weight =  0.00409260019659996
+lambda is : 2.1544346900318854e-05, cost : 101.594 min
+==========
+At iteration 440, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  441 ; minimum lost =  0.01481863483786583 ; diff loss =  6.332993507385254e-07 ; diff weight =  0.0010348433861508965
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0002154434690031884, cost : 103.987 min
+==========
+At iteration 450, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  451 ; minimum lost =  0.016548652201890945 ; diff loss =  9.94652509689331e-07 ; diff weight =  0.00496277492493391
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.00031622776601683783, cost : 105.666 min
+==========
+At iteration 465, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  466 ; minimum lost =  0.005599022842943668 ; diff loss =  9.32253897190094e-07 ; diff weight =  0.0012157699093222618
+lambda is : 9.999999999999997e-06, cost : 109.764 min
+==========
+At iteration 468, Convergence with loss difference, Device: cpu
+Convergence with loss difference, Device: cpu
+minimum epoch =  469 ; minimum lost =  0.008371034637093544 ; diff loss =  6.444752216339111e-07 ; diff weight =  0.0014614843530580401
+lambda is : 3.16227766016838e-05, cost : 110.243 min
+==========

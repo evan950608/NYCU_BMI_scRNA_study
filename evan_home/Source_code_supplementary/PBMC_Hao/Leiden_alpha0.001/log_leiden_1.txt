@@ -1,0 +1,56 @@
+nohup: ignoring input
+(161764, 20568)
+====================
+Starting job for 0
+Lambda: 0.0010000000000000002
+QWL-QN convergence
+lambda is : 0.0010000000000000002, cost : 2.321 min
+==========
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 1.701 min
+==========
+Lambda: 0.003162277660168382
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 2.294 min
+==========
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 1.776 min
+==========
+Lambda: 0.0021544346900318864
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 2.477 min
+==========
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 1.63 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Optimal lambda: 0.004641588833612781
+0 Time elapsed: 216.7473530491193 minutes.

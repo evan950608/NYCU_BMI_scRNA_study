@@ -1,0 +1,285 @@
+nohup: ignoring input
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+Original adata: (32340, 20568)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+cts ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM']
+====================
+Original adata: (32340, 20568)
+adata celltype shape: (15, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 9595)
+====================
+Starting job for ASDC
+/opt/conda/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 1.0
+QWL-QN convergence
+lambda is : 1.0, cost : 0.274 min
+==========
+Lambda: 0.46415888336127825
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 11.304 min
+==========
+Lambda: 0.004641588833612781
+QWL-QN convergence
+lambda is : 0.004641588833612781, cost : 17.547 min
+==========
+Lambda: 0.146779926762207
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 11.5 min
+==========
+Lambda: 0.21544346900318853
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 11.683 min
+==========
+Lambda: 0.06812920690579614
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 11.855 min
+==========
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 13.25 min
+==========
+Lambda: 0.031622776601683826
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 13.416 min
+==========
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 14.291 min
+==========
+Lambda: 0.010000000000000004
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 15.749 min
+==========
+Lambda: 0.006812920690579619
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 16.514 min
+==========
+Lambda: 0.31622776601683833
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 20.171 min
+==========
+Lambda: 0.003162277660168382
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 20.432 min
+==========
+Lambda: 0.10000000000000006
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 20.447 min
+==========
+Lambda: 0.0021544346900318864
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 21.416 min
+==========
+Lambda: 0.6812920690579616
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 22.76 min
+==========
+Lambda: 0.0014677992676220707
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 22.883 min
+==========
+Lambda: 0.0010000000000000002
+QWL-QN convergence
+lambda is : 0.0010000000000000002, cost : 25.273 min
+==========
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 25.981 min
+==========
+Lambda: 0.0004641588833612784
+QWL-QN convergence
+lambda is : 0.0004641588833612784, cost : 28.046 min
+==========
+Lambda: 0.0006812920690579617
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 28.55 min
+==========
+Lambda: 0.00014677992676220703
+QWL-QN convergence
+lambda is : 0.00014677992676220703, cost : 53.312 min
+==========
+Lambda: 0.0003162277660168384
+QWL-QN did not convergence
+lambda is : 0.0003162277660168384, cost : 59.207 min
+==========
+Lambda: 0.00010000000000000009
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 58.981 min
+==========
+Lambda: 0.0002154434690031884
+QWL-QN did not convergence
+lambda is : 0.0002154434690031884, cost : 59.477 min
+==========
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Optimal lambda: 0.010000000000000004
+ASDC Time elapsed: 59.52834102710088 minutes.
+***** Finished lambda tuning
+====================
+Original adata: (32340, 20568)
+adata celltype shape: (486, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15319)
+====================
+Starting job for B_intermediate
+/opt/conda/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/opt/conda/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/opt/conda/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:460: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 1.0
+QWL-QN convergence
+lambda is : 1.0, cost : 0.318 min
+==========
+Lambda: 0.6812920690579616
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 12.029 min
+==========
+Lambda: 0.46415888336127825
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 12.245 min
+==========
+Lambda: 0.031622776601683826
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 12.983 min
+==========
+Lambda: 0.06812920690579614
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 13.019 min
+==========
+Lambda: 0.146779926762207
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 14.063 min
+==========
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 14.151 min
+==========
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 15.63 min
+==========
+Lambda: 0.21544346900318853
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 18.623 min
+==========
+Lambda: 0.10000000000000006
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 20.746 min
+==========
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 21.486 min
+==========
+Lambda: 0.31622776601683833
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 22.5 min
+==========
+Lambda: 0.010000000000000004
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 22.885 min
+==========
+Lambda: 0.006812920690579619
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 28.162 min
+==========
+Lambda: 0.003162277660168382
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 29.939 min
+==========
+Lambda: 0.0021544346900318864
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 30.559 min
+==========
+Lambda: 0.004641588833612781
+QWL-QN convergence
+lambda is : 0.004641588833612781, cost : 33.253 min
+==========
+Lambda: 0.0014677992676220707
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 35.358 min
+==========
+Lambda: 0.0006812920690579617
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 41.576 min
+==========
+Lambda: 0.00014677992676220703
+QWL-QN convergence
+lambda is : 0.00014677992676220703, cost : 46.507 min
+==========
+Lambda: 0.00010000000000000009
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 52.463 min
+==========
+Lambda: 0.0003162277660168384
+QWL-QN convergence
+lambda is : 0.0003162277660168384, cost : 61.246 min
+==========
+Lambda: 0.0004641588833612784
+QWL-QN did not convergence
+lambda is : 0.0004641588833612784, cost : 65.919 min
+==========
+Lambda: 0.0010000000000000002
+QWL-QN did not convergence
+lambda is : 0.0010000000000000002, cost : 66.025 min
+==========
+Lambda: 0.0002154434690031884
+QWL-QN convergence
+lambda is : 0.0002154434690031884, cost : 63.741 min
+==========
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Traceback (most recent call last):
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_pvl0_ttsplit/Level2_1.py", line 128, in <module>
+    pipeline_ad2(adata, celltype, label, alpha=0.01, output_path=server_path)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_pvl0_ttsplit/Level2_1.py", line 44, in pipeline_ad2
+    os.chdir(output_path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao/Level2_pvl0_ttsplit/B_intermediate'

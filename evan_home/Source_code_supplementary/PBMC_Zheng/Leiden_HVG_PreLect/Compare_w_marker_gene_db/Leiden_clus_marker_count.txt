@@ -1,0 +1,193 @@
+Leiden_0 cell type counts:
+T cells                                         11
+T memory cells                                   5
+Dendritic cells                                  5
+NK cells                                         5
+Macrophages                                      4
+B cells naive                                    4
+B cells                                          3
+Gamma delta T cells                              3
+B cells memory                                   2
+Platelets                                        2
+Monocytes                                        2
+Myeloid-derived suppressor cells                 1
+Neutrophils                                      1
+Erythroid-like and erythroid precursor cells     1
+Nuocytes                                         1
+Plasma cells                                     1
+Eosinophils                                      1
+Name: cell type, dtype: int64
+
+Leiden_1 cell type counts:
+T cells                             7
+NK cells                            6
+Macrophages                         3
+B cells                             2
+B cells naive                       2
+Gamma delta T cells                 2
+Platelets                           2
+B cells memory                      1
+Dendritic cells                     1
+Eosinophils                         1
+Mast cells                          1
+Monocytes                           1
+Myeloid-derived suppressor cells    1
+Neutrophils                         1
+Plasma cells                        1
+T memory cells                      1
+Name: cell type, dtype: int64
+
+Leiden_10 cell type counts:
+Series([], Name: cell type, dtype: int64)
+
+Leiden_11 cell type counts:
+Dendritic cells    1
+Name: cell type, dtype: int64
+
+Leiden_12 cell type counts:
+Series([], Name: cell type, dtype: int64)
+
+Leiden_13 cell type counts:
+Series([], Name: cell type, dtype: int64)
+
+Leiden_14 cell type counts:
+Series([], Name: cell type, dtype: int64)
+
+Leiden_15 cell type counts:
+Series([], Name: cell type, dtype: int64)
+
+Leiden_2 cell type counts:
+T cells                                         13
+T memory cells                                   8
+NK cells                                         8
+Dendritic cells                                  5
+Macrophages                                      4
+B cells                                          4
+B cells naive                                    4
+Gamma delta T cells                              3
+B cells memory                                   3
+Platelets                                        3
+Monocytes                                        2
+Plasma cells                                     2
+T helper cells                                   2
+Erythroid-like and erythroid precursor cells     1
+Mast cells                                       1
+Neutrophils                                      1
+Eosinophils                                      1
+T cells naive                                    1
+T cytotoxic cells                                1
+T follicular helper cells                        1
+Myeloid-derived suppressor cells                 1
+Name: cell type, dtype: int64
+
+Leiden_3 cell type counts:
+T cells                                         7
+T memory cells                                  5
+Dendritic cells                                 5
+B cells memory                                  4
+B cells naive                                   4
+Plasma cells                                    3
+NK cells                                        3
+B cells                                         3
+Macrophages                                     3
+Myeloid-derived suppressor cells                1
+Monocytes                                       1
+Mast cells                                      1
+Platelets                                       1
+Erythroid-like and erythroid precursor cells    1
+T cells naive                                   1
+T cytotoxic cells                               1
+T follicular helper cells                       1
+T helper cells                                  1
+Neutrophils                                     1
+Name: cell type, dtype: int64
+
+Leiden_4 cell type counts:
+T cells                                         14
+Dendritic cells                                  8
+T memory cells                                   8
+NK cells                                         7
+B cells naive                                    6
+B cells                                          5
+Macrophages                                      5
+Gamma delta T cells                              4
+B cells memory                                   4
+Platelets                                        3
+Monocytes                                        3
+T cells naive                                    3
+Plasma cells                                     3
+T helper cells                                   2
+T cytotoxic cells                                2
+Neutrophils                                      2
+Plasmacytoid dendritic cells                     2
+Erythroid-like and erythroid precursor cells     2
+Myeloid-derived suppressor cells                 1
+Mast cells                                       1
+T follicular helper cells                        1
+Eosinophils                                      1
+T regulatory cells                               1
+Name: cell type, dtype: int64
+
+Leiden_5 cell type counts:
+T cells                             6
+NK cells                            5
+Gamma delta T cells                 2
+Macrophages                         2
+B cells                             1
+B cells naive                       1
+Dendritic cells                     1
+Eosinophils                         1
+Monocytes                           1
+Myeloid-derived suppressor cells    1
+Neutrophils                         1
+Platelets                           1
+T cells naive                       1
+T follicular helper cells           1
+T helper cells                      1
+T memory cells                      1
+Name: cell type, dtype: int64
+
+Leiden_6 cell type counts:
+Gamma delta T cells                 5
+NK cells                            5
+Macrophages                         3
+T cells                             3
+Dendritic cells                     2
+Monocytes                           2
+T memory cells                      2
+Eosinophils                         1
+Myeloid-derived suppressor cells    1
+Neutrophils                         1
+Platelets                           1
+Name: cell type, dtype: int64
+
+Leiden_7 cell type counts:
+B cells            4
+B cells naive      3
+B cells memory     2
+Dendritic cells    2
+Plasma cells       2
+Macrophages        1
+Monocytes          1
+Name: cell type, dtype: int64
+
+Leiden_8 cell type counts:
+Dendritic cells                                 4
+Monocytes                                       3
+Neutrophils                                     3
+Erythroid-like and erythroid precursor cells    2
+Megakaryocytes                                  2
+Myeloid-derived suppressor cells                2
+T memory cells                                  2
+Eosinophils                                     1
+Macrophages                                     1
+Plasmacytoid dendritic cells                    1
+Platelets                                       1
+Name: cell type, dtype: int64
+
+Leiden_9 cell type counts:
+Dendritic cells    2
+Macrophages        1
+Monocytes          1
+Name: cell type, dtype: int64
+

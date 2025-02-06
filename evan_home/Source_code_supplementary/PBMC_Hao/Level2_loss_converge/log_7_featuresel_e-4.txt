@@ -1,0 +1,156 @@
+nohup: ignoring input
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+Original adata: (32340, 20568)
+adata celltype shape: (21, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 8587)
+optimal lambda: 0.0002154434690031884
+====================
+Starting job for CD4_Proliferating
+Fitting with optimal lambda: 0.0002154434690031884
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.04827697202563286, 100: 0.030607283115386963, 150: 0.019793476909399033, 200: 0.01350769866257906, 250: 0.00959906354546547, 300: 0.007267750799655914, 350: 0.00535655627027154, 400: 0.004781038966029882, 450: 0.0044455863535404205, 500: 0.004202305339276791, 550: 0.004140756092965603, 600: 0.004129126667976379, 650: 0.00412644213065505, 700: 0.004124489612877369, 750: 0.004123129416257143, 800: 0.004121463280171156, 850: 0.004120408557355404, 900: 0.004120226018130779, 950: 0.0041199373081326485}
+minimum epoch =  1000 ; minimum lost =  0.004119680263102055 ; diff weight =  0.000766431912779808
+CD4_Proliferating feature list exported.
+---Selection result for CD4_Proliferating
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 1.0
+    minimal loss: 0.004119680263102055
+    minimal weight diff: 0.000766431912779808
+    total selected feature: 11
+    Time elapsed: 7.215963900089264
+
+Elapsed time for CD4_Proliferating: 7.26 minutes
+Original adata: (32340, 20568)
+adata celltype shape: (18, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 9184)
+optimal lambda: 0.0002154434690031884
+====================
+Starting job for CD8_Proliferating
+Fitting with optimal lambda: 0.0002154434690031884
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.046399135142564774, 100: 0.029420973733067513, 150: 0.019134975969791412, 200: 0.012943582609295845, 250: 0.009256399236619473, 300: 0.0071134380996227264, 350: 0.00606869999319315, 400: 0.004933837801218033, 450: 0.004644110798835754, 500: 0.004437459632754326, 550: 0.0043521784245967865, 600: 0.004345926456153393, 650: 0.004316881764680147, 700: 0.004297257401049137, 750: 0.004293716978281736, 800: 0.004282897338271141, 850: 0.004271368961781263, 900: 0.004266790114343166, 950: 0.00426481245085597}
+minimum epoch =  1000 ; minimum lost =  0.004263317212462425 ; diff weight =  0.0030223499052226543
+CD8_Proliferating feature list exported.
+---Selection result for CD8_Proliferating
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 1.0
+    minimal loss: 0.004263317212462425
+    minimal weight diff: 0.0030223499052226543
+    total selected feature: 11
+    Time elapsed: 7.410612432161967
+
+Elapsed time for CD8_Proliferating: 7.46 minutes
+Original adata: (32340, 20568)
+adata celltype shape: (16, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 2804)
+optimal lambda: 0.0003162277660168384
+====================
+Starting job for Eryth
+Fitting with optimal lambda: 0.0003162277660168384
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.0809641107916832, 100: 0.0504324734210968, 150: 0.031080296263098717, 200: 0.01846335642039776, 250: 0.010339133441448212, 300: 0.006936759687960148, 350: 0.005691546481102705, 400: 0.003879890777170658, 450: 0.0034784115850925446, 500: 0.003245127620175481, 550: 0.0032198734115809202, 600: 0.003219844540581107, 650: 0.0032198294065892696, 700: 0.0032194398809224367, 750: 0.003219243371859193, 800: 0.0032191898208111525, 850: 0.003219173988327384, 900: 0.0032191663049161434, 950: 0.003219159319996834}
+minimum epoch =  996 ; minimum lost =  0.0032191546633839607 ; diff weight =  0.00028628326253965497
+Eryth feature list exported.
+---Selection result for Eryth
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 1.0
+    minimal loss: 0.0032191546633839607
+    minimal weight diff: 0.00028628326253965497
+    total selected feature: 5
+    Time elapsed: 3.5124244332313537
+
+Elapsed time for Eryth: 3.56 minutes
+Original adata: (32340, 20568)
+adata celltype shape: (26, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 8935)
+optimal lambda: 0.0003162277660168384
+====================
+Starting job for ILC
+Fitting with optimal lambda: 0.0003162277660168384
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.04680169001221657, 100: 0.029602939262986183, 150: 0.019361335784196854, 200: 0.013312150724232197, 250: 0.010170436464250088, 300: 0.008710145018994808, 350: 0.007850593887269497, 400: 0.007295310031622648, 450: 0.00703971553593874, 500: 0.006955372169613838, 550: 0.006910969968885183, 600: 0.00690489262342453, 650: 0.006902771536260843, 700: 0.006902203895151615, 750: 0.006901673972606659, 800: 0.00690162368118763, 850: 0.006901582702994347, 900: 0.006901572458446026, 950: 0.006901565473526716}
+minimum epoch =  999 ; minimum lost =  0.006901546381413937 ; diff weight =  0.0001894407469080761
+ILC feature list exported.
+---Selection result for ILC
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 0.9615384615384616
+    minimal loss: 0.006901546381413937
+    minimal weight diff: 0.0001894407469080761
+    total selected feature: 8
+    Time elapsed: 7.650745475292206
+
+Elapsed time for ILC: 7.70 minutes
+Original adata: (32340, 20568)
+adata celltype shape: (73, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 10812)
+optimal lambda: 0.0006812920690579617
+====================
+Starting job for Plasmablast
+Fitting with optimal lambda: 0.0006812920690579617
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.05204721540212631, 100: 0.032040566205978394, 150: 0.021801456809043884, 200: 0.016274454072117805, 250: 0.011080699041485786, 300: 0.009975242428481579, 350: 0.009106612764298916, 400: 0.00871217343956232, 450: 0.00862959772348404, 500: 0.008589033968746662, 550: 0.00858781673014164, 600: 0.008584821596741676, 650: 0.008580492809414864, 700: 0.008575903251767159, 750: 0.008571536280214787, 800: 0.008570793084800243, 850: 0.00857049971818924, 900: 0.008570227771997452, 950: 0.008569501340389252}
+minimum epoch =  1000 ; minimum lost =  0.008568663150072098 ; diff weight =  0.0021840815898030996
+Plasmablast feature list exported.
+---Selection result for Plasmablast
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.9931506849315068
+    minimal loss: 0.008568663150072098
+    minimal weight diff: 0.0021840815898030996
+    total selected feature: 8
+    Time elapsed: 7.751235461235046
+
+Elapsed time for Plasmablast: 7.80 minutes
+Original adata: (32340, 20568)
+adata celltype shape: (30, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 10109)
+optimal lambda: 0.0003162277660168384
+====================
+Starting job for cDC1
+Fitting with optimal lambda: 0.0003162277660168384
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.04963809996843338, 100: 0.031275227665901184, 150: 0.020381301641464233, 200: 0.014275366440415382, 250: 0.01083067711442709, 300: 0.00888526625931263, 350: 0.005907152779400349, 400: 0.005514831747859716, 450: 0.00493706576526165, 500: 0.004661109298467636, 550: 0.004577514249831438, 600: 0.004573865327984095, 650: 0.004573128651827574, 700: 0.004570848308503628, 750: 0.004570787772536278, 800: 0.004570722114294767, 850: 0.004570655059069395, 900: 0.004570635035634041, 950: 0.004570622928440571}
+minimum epoch =  999 ; minimum lost =  0.004570618271827698 ; diff weight =  0.00010170077439397573
+cDC1 feature list exported.
+---Selection result for cDC1
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 1.0
+    minimal loss: 0.004570618271827698
+    minimal weight diff: 0.00010170077439397573
+    total selected feature: 4
+    Time elapsed: 7.520807560284933
+
+Elapsed time for cDC1: 7.57 minutes
+Original adata: (32340, 20568)
+adata celltype shape: (71, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 11828)
+optimal lambda: 0.0003162277660168384
+====================
+Starting job for dnT
+Fitting with optimal lambda: 0.0003162277660168384
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.051363855600357056, 100: 0.03555399551987648, 150: 0.026054339483380318, 200: 0.02056628093123436, 250: 0.016996819525957108, 300: 0.011424718424677849, 350: 0.009491424076259136, 400: 0.008427739143371582, 450: 0.008150679990649223, 500: 0.008061718195676804, 550: 0.008027458563446999, 600: 0.00800947193056345, 650: 0.007998919114470482, 700: 0.007990209385752678, 750: 0.007983657531440258, 800: 0.00798153318464756, 850: 0.007980291731655598, 900: 0.007978660985827446, 950: 0.007976487278938293}
+minimum epoch =  1000 ; minimum lost =  0.007975583896040916 ; diff weight =  0.0022718359250575304
+dnT feature list exported.
+---Selection result for dnT
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 0.9577464788732395
+    minimal loss: 0.007975583896040916
+    minimal weight diff: 0.0022718359250575304
+    total selected feature: 18
+    Time elapsed: 126.62172198692957
+
+Elapsed time for dnT: 126.67 minutes

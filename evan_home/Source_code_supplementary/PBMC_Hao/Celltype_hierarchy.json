@@ -1,0 +1,49 @@
+{
+    "B": [
+        "B intermediate",
+        "B memory",
+        "B naive",
+        "Plasmablast"
+    ],
+    "CD4 T": [
+        "CD4 CTL",
+        "CD4 Naive",
+        "CD4 Proliferating",
+        "CD4 TCM",
+        "CD4 TEM",
+        "Treg"
+    ],
+    "CD8 T": [
+        "CD8 Naive",
+        "CD8 Proliferating",
+        "CD8 TCM",
+        "CD8 TEM"
+    ],
+    "DC": [
+        "ASDC",
+        "cDC1",
+        "cDC2",
+        "pDC"
+    ],
+    "Mono": [
+        "CD14 Mono",
+        "CD16 Mono"
+    ],
+    "NK": [
+        "NK",
+        "NK Proliferating",
+        "NK_CD56bright"
+    ],
+    "other": [
+        "Doublet",
+        "Eryth",
+        "HSPC",
+        "ILC",
+        "Platelet"
+    ],
+    "other T": [
+        "MAIT",
+        "dnT",
+        "gdT"
+    ]
+}

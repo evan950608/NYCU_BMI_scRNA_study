@@ -1,0 +1,10 @@
+nohup: ignoring input
+Original adata: (59897, 27504)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Queue ['CD4_T', 'DC', 'Mono', 'other_T']
+Original adata: (59897, 27504)
+optimal lambda: 0.010000000000000004
+====================
+Starting job for CD4_T
+Fitting with optimal lambda: 0.010000000000000004

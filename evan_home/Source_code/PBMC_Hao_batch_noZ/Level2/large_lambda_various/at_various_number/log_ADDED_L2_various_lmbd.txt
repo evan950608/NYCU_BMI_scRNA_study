@@ -1,0 +1,1535 @@
+nohup: ignoring input
+Original adata: (57515, 27504)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+queue_filtered ['B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_Naive', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_TCM', 'CD8_TEM', 'HSPC', 'MAIT', 'NK', 'NK_CD56bright', 'Plasmablast', 'Treg', 'cDC1', 'cDC2', 'gdT', 'pDC']
+Indices at different celltype:
+ {'B_memory': [8, 18, 20], 'B_naive': [8, 10, 12, 14, 16, 20], 'CD14_Mono': [8, 10, 12, 14, 16, 18], 'CD16_Mono': [8, 10, 12, 20], 'CD4_Naive': [20], 'CD4_TCM': [8, 10], 'CD4_TEM': [8, 10, 20], 'CD8_Naive': [8, 12, 20], 'CD8_TCM': [8, 20], 'CD8_TEM': [8, 10], 'HSPC': [8, 10, 16, 18, 20], 'MAIT': [8, 10, 18, 20], 'NK': [8, 10, 12, 14, 16, 18, 20], 'NK_CD56bright': [8, 10, 20], 'Plasmablast': [8, 10, 18, 20], 'Treg': [8, 18, 20], 'cDC1': [16, 18, 20], 'cDC2': [8, 10, 12, 14, 16, 18, 20], 'gdT': [8, 10, 12, 14, 16, 18, 20], 'pDC': [8, 10, 12, 16, 20]}
+lambda_dict:
+ {'B_memory': array([0.00021544, 0.01      , 0.02154435]), 'B_naive': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.02154435]), 'CD14_Mono': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      ]), 'CD16_Mono': array([0.00021544, 0.00046416, 0.001     , 0.02154435]), 'CD4_Naive': array([0.02154435]), 'CD4_TCM': array([0.00021544, 0.00046416]), 'CD4_TEM': array([0.00021544, 0.00046416, 0.02154435]), 'CD8_Naive': array([0.00021544, 0.001     , 0.02154435]), 'CD8_TCM': array([0.00021544, 0.02154435]), 'CD8_TEM': array([0.00021544, 0.00046416]), 'HSPC': array([0.00021544, 0.00046416, 0.00464159, 0.01      , 0.02154435]), 'MAIT': array([0.00021544, 0.00046416, 0.01      , 0.02154435]), 'NK': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      , 0.02154435]), 'NK_CD56bright': array([0.00021544, 0.00046416, 0.02154435]), 'Plasmablast': array([0.00021544, 0.00046416, 0.01      , 0.02154435]), 'Treg': array([0.00021544, 0.01      , 0.02154435]), 'cDC1': array([0.00464159, 0.01      , 0.02154435]), 'cDC2': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      , 0.02154435]), 'gdT': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      , 0.02154435]), 'pDC': array([0.00021544, 0.00046416, 0.001     , 0.00464159, 0.02154435])}
+
+====================
+JOB: B_memory, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for B_memory
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 503, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  504 ; minimum lost =  0.018219245597720146 ; diff loss =  7.431954145431519e-07 ; diff weight =  0.007612226996570826
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.8315911730545877
+    minimal loss: 0.018219245597720146
+    minimal weight diff: 0.007612226996570826
+    total selected feature: 210
+    Time elapsed: 7.866297415892283
+
+Elapsed time for B_memory: 7.94 minutes
+====================
+JOB: B_memory, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for B_memory
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 404, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  405 ; minimum lost =  0.10301261395215988 ; diff loss =  3.0547380447387695e-07 ; diff weight =  0.0008994843228720129
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.993321718931475
+    minimal loss: 0.10301261395215988
+    minimal weight diff: 0.0008994843228720129
+    total selected feature: 14
+    Time elapsed: 6.24858524799347
+
+Elapsed time for B_memory: 6.32 minutes
+====================
+JOB: B_memory, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for B_memory
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 312, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  313 ; minimum lost =  0.13126039505004883 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0009015910909511149
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.13126039505004883
+    minimal weight diff: 0.0009015910909511149
+    total selected feature: 7
+    Time elapsed: 4.829254126548767
+
+Elapsed time for B_memory: 4.90 minutes
+====================
+JOB: B_naive, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for B_naive
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 579, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  580 ; minimum lost =  0.01472478173673153 ; diff loss =  9.378418326377869e-07 ; diff weight =  0.003683588234707713
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.8365504358655044
+    minimal loss: 0.01472478173673153
+    minimal weight diff: 0.003683588234707713
+    total selected feature: 136
+    Time elapsed: 8.921949716409047
+
+Elapsed time for B_naive: 8.99 minutes
+====================
+JOB: B_naive, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for B_naive
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 555, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  555 ; minimum lost =  0.018785718828439713 ; diff loss =  -1.1734664440155029e-07 ; diff weight =  0.007460396271198988
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9486301369863014
+    minimal loss: 0.018785718828439713
+    minimal weight diff: 0.007460396271198988
+    total selected feature: 77
+    Time elapsed: 8.578886230786642
+
+Elapsed time for B_naive: 8.65 minutes
+====================
+JOB: B_naive, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for B_naive
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 547, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  548 ; minimum lost =  0.02491438388824463 ; diff loss =  9.480863809585571e-07 ; diff weight =  0.003725141054019332
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.9834993773349938
+    minimal loss: 0.02491438388824463
+    minimal weight diff: 0.003725141054019332
+    total selected feature: 36
+    Time elapsed: 8.432538270950317
+
+Elapsed time for B_naive: 8.50 minutes
+====================
+JOB: B_naive, 0.0021544346900318843
+Original adata: (57515, 27504)
+Set lambda: 0.0021544346900318843
+Starting job for B_naive
+Fitting with optimal lambda: 0.0021544346900318843
+At iteration 381, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  382 ; minimum lost =  0.03532294183969498 ; diff loss =  8.903443813323975e-07 ; diff weight =  0.0002195543929701671
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.0021544346900318843
+    median of selected prevalence: 0.9847447073474471
+    minimal loss: 0.03532294183969498
+    minimal weight diff: 0.0002195543929701671
+    total selected feature: 36
+    Time elapsed: 5.922189895311991
+
+Elapsed time for B_naive: 5.99 minutes
+====================
+JOB: B_naive, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for B_naive
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 482, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  483 ; minimum lost =  0.049994096159935 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.00344646698795259
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9785180572851806
+    minimal loss: 0.049994096159935
+    minimal weight diff: 0.00344646698795259
+    total selected feature: 12
+    Time elapsed: 7.438566823800405
+
+Elapsed time for B_naive: 7.51 minutes
+====================
+JOB: B_naive, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for B_naive
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 414, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  415 ; minimum lost =  0.11450868844985962 ; diff loss =  9.238719940185547e-07 ; diff weight =  0.001091281301341951
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9968866749688667
+    minimal loss: 0.11450868844985962
+    minimal weight diff: 0.001091281301341951
+    total selected feature: 5
+    Time elapsed: 6.396972672144572
+
+Elapsed time for B_naive: 6.47 minutes
+====================
+JOB: CD14_Mono, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 523, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  524 ; minimum lost =  0.0341094434261322 ; diff loss =  8.977949619293213e-07 ; diff weight =  0.007868299260735512
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.8345045678144765
+    minimal loss: 0.0341094434261322
+    minimal weight diff: 0.007868299260735512
+    total selected feature: 561
+    Time elapsed: 8.061530284086864
+
+Elapsed time for CD14_Mono: 8.13 minutes
+====================
+JOB: CD14_Mono, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 509, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  510 ; minimum lost =  0.039668694138526917 ; diff loss =  9.611248970031738e-07 ; diff weight =  0.000359823607141152
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9387444366362145
+    minimal loss: 0.039668694138526917
+    minimal weight diff: 0.000359823607141152
+    total selected feature: 337
+    Time elapsed: 7.853673926989237
+
+Elapsed time for CD14_Mono: 7.92 minutes
+====================
+JOB: CD14_Mono, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 524, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  525 ; minimum lost =  0.04606160894036293 ; diff loss =  9.126961231231689e-07 ; diff weight =  0.0008085110457614064
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.9526821269618178
+    minimal loss: 0.04606160894036293
+    minimal weight diff: 0.0008085110457614064
+    total selected feature: 103
+    Time elapsed: 8.083547294139862
+
+Elapsed time for CD14_Mono: 8.15 minutes
+====================
+JOB: CD14_Mono, 0.0021544346900318843
+Original adata: (57515, 27504)
+Set lambda: 0.0021544346900318843
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.0021544346900318843
+At iteration 573, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  574 ; minimum lost =  0.05539311096072197 ; diff loss =  9.872019290924072e-07 ; diff weight =  0.0016254790825769305
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.0021544346900318843
+    median of selected prevalence: 0.9811431248535957
+    minimal loss: 0.05539311096072197
+    minimal weight diff: 0.0016254790825769305
+    total selected feature: 37
+    Time elapsed: 8.848014442125956
+
+Elapsed time for CD14_Mono: 8.92 minutes
+====================
+JOB: CD14_Mono, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 565, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  566 ; minimum lost =  0.07068639248609543 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0012434908421710134
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.992504099320684
+    minimal loss: 0.07068639248609543
+    minimal weight diff: 0.0012434908421710134
+    total selected feature: 23
+    Time elapsed: 8.71365460952123
+
+Elapsed time for CD14_Mono: 8.78 minutes
+====================
+JOB: CD14_Mono, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 493, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  494 ; minimum lost =  0.095990389585495 ; diff loss =  9.98377799987793e-07 ; diff weight =  0.0008914867648854852
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9971304755211994
+    minimal loss: 0.095990389585495
+    minimal weight diff: 0.0008914867648854852
+    total selected feature: 18
+    Time elapsed: 7.613115894794464
+
+Elapsed time for CD14_Mono: 7.68 minutes
+====================
+JOB: CD16_Mono, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD16_Mono
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 574, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  575 ; minimum lost =  0.022118378430604935 ; diff loss =  3.650784492492676e-07 ; diff weight =  0.000956676434725523
+CD16_Mono feature list exported.
+---Selection result for CD16_Mono
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9433691756272401
+    minimal loss: 0.022118378430604935
+    minimal weight diff: 0.000956676434725523
+    total selected feature: 297
+    Time elapsed: 8.84459297657013
+
+Elapsed time for CD16_Mono: 8.91 minutes
+====================
+JOB: CD16_Mono, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for CD16_Mono
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 570, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  571 ; minimum lost =  0.026899926364421844 ; diff loss =  8.158385753631592e-07 ; diff weight =  0.0022481996566057205
+CD16_Mono feature list exported.
+---Selection result for CD16_Mono
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9888888888888889
+    minimal loss: 0.026899926364421844
+    minimal weight diff: 0.0022481996566057205
+    total selected feature: 111
+    Time elapsed: 8.784603563944499
+
+Elapsed time for CD16_Mono: 8.85 minutes
+====================
+JOB: CD16_Mono, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for CD16_Mono
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 536, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  537 ; minimum lost =  0.03377262130379677 ; diff loss =  8.270144462585449e-07 ; diff weight =  0.002148756291717291
+CD16_Mono feature list exported.
+---Selection result for CD16_Mono
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.9942652329749104
+    minimal loss: 0.03377262130379677
+    minimal weight diff: 0.002148756291717291
+    total selected feature: 65
+    Time elapsed: 8.267791676521302
+
+Elapsed time for CD16_Mono: 8.34 minutes
+====================
+JOB: CD16_Mono, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for CD16_Mono
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 343, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  344 ; minimum lost =  0.12037816643714905 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.00030580308521166444
+CD16_Mono feature list exported.
+---Selection result for CD16_Mono
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9996415770609319
+    minimal loss: 0.12037816643714905
+    minimal weight diff: 0.00030580308521166444
+    total selected feature: 8
+    Time elapsed: 5.307831994692484
+
+Elapsed time for CD16_Mono: 5.38 minutes
+====================
+JOB: CD4_Naive, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for CD4_Naive
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 461, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  462 ; minimum lost =  0.2534949779510498 ; diff loss =  2.086162567138672e-07 ; diff weight =  0.0001261352008441463
+CD4_Naive feature list exported.
+---Selection result for CD4_Naive
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9707441945511062
+    minimal loss: 0.2534949779510498
+    minimal weight diff: 0.0001261352008441463
+    total selected feature: 16
+    Time elapsed: 7.115551122029623
+
+Elapsed time for CD4_Naive: 7.18 minutes
+====================
+JOB: CD4_TCM, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD4_TCM
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 476, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  477 ; minimum lost =  0.08766888827085495 ; diff loss =  9.5367431640625e-07 ; diff weight =  0.0002547543263062835
+CD4_TCM feature list exported.
+---Selection result for CD4_TCM
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.6196572580645161
+    minimal loss: 0.08766888827085495
+    minimal weight diff: 0.0002547543263062835
+    total selected feature: 1010
+    Time elapsed: 7.344837693373362
+
+Elapsed time for CD4_TCM: 7.41 minutes
+====================
+JOB: CD4_TCM, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for CD4_TCM
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 488, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  489 ; minimum lost =  0.0999189093708992 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.0001706905459286645
+CD4_TCM feature list exported.
+---Selection result for CD4_TCM
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.7741935483870968
+    minimal loss: 0.0999189093708992
+    minimal weight diff: 0.0001706905459286645
+    total selected feature: 551
+    Time elapsed: 7.523139683405558
+
+Elapsed time for CD4_TCM: 7.59 minutes
+====================
+JOB: CD4_TEM, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD4_TEM
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 480, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  480 ; minimum lost =  0.0647611916065216 ; diff loss =  -8.493661880493164e-07 ; diff weight =  0.0030064056627452374
+CD4_TEM feature list exported.
+---Selection result for CD4_TEM
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.6832460732984293
+    minimal loss: 0.0647611916065216
+    minimal weight diff: 0.0030064056627452374
+    total selected feature: 694
+    Time elapsed: 7.418623963991801
+
+Elapsed time for CD4_TEM: 7.49 minutes
+====================
+JOB: CD4_TEM, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for CD4_TEM
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 436, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  437 ; minimum lost =  0.0743926465511322 ; diff loss =  8.121132850646973e-07 ; diff weight =  0.0011874062474817038
+CD4_TEM feature list exported.
+---Selection result for CD4_TEM
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.8610185625892433
+    minimal loss: 0.0743926465511322
+    minimal weight diff: 0.0011874062474817038
+    total selected feature: 389
+    Time elapsed: 6.729493725299835
+
+Elapsed time for CD4_TEM: 6.80 minutes
+====================
+JOB: CD4_TEM, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for CD4_TEM
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 365, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  366 ; minimum lost =  0.16065436601638794 ; diff loss =  5.364418029785156e-07 ; diff weight =  0.0003532206465024501
+CD4_TEM feature list exported.
+---Selection result for CD4_TEM
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.16065436601638794
+    minimal weight diff: 0.0003532206465024501
+    total selected feature: 7
+    Time elapsed: 5.63725920120875
+
+Elapsed time for CD4_TEM: 5.71 minutes
+====================
+JOB: CD8_Naive, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD8_Naive
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 589, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  590 ; minimum lost =  0.03555842116475105 ; diff loss =  9.313225746154785e-08 ; diff weight =  0.004132021218538284
+CD8_Naive feature list exported.
+---Selection result for CD8_Naive
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.7996524329692155
+    minimal loss: 0.03555842116475105
+    minimal weight diff: 0.004132021218538284
+    total selected feature: 545
+    Time elapsed: 9.079112060864766
+
+Elapsed time for CD8_Naive: 9.15 minutes
+====================
+JOB: CD8_Naive, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for CD8_Naive
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 643, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  644 ; minimum lost =  0.06185173615813255 ; diff loss =  9.909272193908691e-07 ; diff weight =  0.0023782814387232065
+CD8_Naive feature list exported.
+---Selection result for CD8_Naive
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.8939920556107249
+    minimal loss: 0.06185173615813255
+    minimal weight diff: 0.0023782814387232065
+    total selected feature: 97
+    Time elapsed: 9.927671229839325
+
+Elapsed time for CD8_Naive: 10.00 minutes
+====================
+JOB: CD8_Naive, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for CD8_Naive
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 401, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  401 ; minimum lost =  0.19931724667549133 ; diff loss =  -7.450580596923828e-08 ; diff weight =  0.004552507307380438
+CD8_Naive feature list exported.
+---Selection result for CD8_Naive
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.974428997020854
+    minimal loss: 0.19931724667549133
+    minimal weight diff: 0.004552507307380438
+    total selected feature: 8
+    Time elapsed: 6.1935194770495094
+
+Elapsed time for CD8_Naive: 6.26 minutes
+====================
+JOB: CD8_TCM, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD8_TCM
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 481, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  482 ; minimum lost =  0.045844487845897675 ; diff loss =  7.748603820800781e-07 ; diff weight =  0.006708765868097544
+CD8_TCM feature list exported.
+---Selection result for CD8_TCM
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.7408595253367544
+    minimal loss: 0.045844487845897675
+    minimal weight diff: 0.006708765868097544
+    total selected feature: 478
+    Time elapsed: 7.416190687815348
+
+Elapsed time for CD8_TCM: 7.48 minutes
+====================
+JOB: CD8_TCM, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for CD8_TCM
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 318, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  319 ; minimum lost =  0.1381417214870453 ; diff loss =  7.301568984985352e-07 ; diff weight =  0.000322265230352059
+CD8_TCM feature list exported.
+---Selection result for CD8_TCM
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9980756895445798
+    minimal loss: 0.1381417214870453
+    minimal weight diff: 0.000322265230352059
+    total selected feature: 7
+    Time elapsed: 4.916851623853048
+
+Elapsed time for CD8_TCM: 4.99 minutes
+====================
+JOB: CD8_TEM, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for CD8_TEM
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 523, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  524 ; minimum lost =  0.05391562730073929 ; diff loss =  7.972121238708496e-07 ; diff weight =  0.0034633364994078875
+CD8_TEM feature list exported.
+---Selection result for CD8_TEM
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.6719080028162403
+    minimal loss: 0.05391562730073929
+    minimal weight diff: 0.0034633364994078875
+    total selected feature: 513
+    Time elapsed: 8.057571880022685
+
+Elapsed time for CD8_TEM: 8.13 minutes
+====================
+JOB: CD8_TEM, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for CD8_TEM
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 521, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  521 ; minimum lost =  0.06463820487260818 ; diff loss =  -3.129243850708008e-07 ; diff weight =  0.005649155005812645
+CD8_TEM feature list exported.
+---Selection result for CD8_TEM
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.7904247829148088
+    minimal loss: 0.06463820487260818
+    minimal weight diff: 0.005649155005812645
+    total selected feature: 231
+    Time elapsed: 8.034613656997681
+
+Elapsed time for CD8_TEM: 8.10 minutes
+====================
+JOB: HSPC, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for HSPC
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 365, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  366 ; minimum lost =  0.0031083994545042515 ; diff loss =  8.861534297466278e-07 ; diff weight =  0.006043196655809879
+HSPC feature list exported.
+---Selection result for HSPC
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9888475836431226
+    minimal loss: 0.0031083994545042515
+    minimal weight diff: 0.006043196655809879
+    total selected feature: 29
+    Time elapsed: 5.642595247427622
+
+Elapsed time for HSPC: 5.71 minutes
+====================
+JOB: HSPC, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for HSPC
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 326, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  327 ; minimum lost =  0.005478815641254187 ; diff loss =  7.674098014831543e-07 ; diff weight =  0.005646131467074156
+HSPC feature list exported.
+---Selection result for HSPC
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9851301115241635
+    minimal loss: 0.005478815641254187
+    minimal weight diff: 0.005646131467074156
+    total selected feature: 21
+    Time elapsed: 5.039586647351583
+
+Elapsed time for HSPC: 5.11 minutes
+====================
+JOB: HSPC, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for HSPC
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 229, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  230 ; minimum lost =  0.025766713544726372 ; diff loss =  9.220093488693237e-07 ; diff weight =  0.0017596177058294415
+HSPC feature list exported.
+---Selection result for HSPC
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9851301115241635
+    minimal loss: 0.025766713544726372
+    minimal weight diff: 0.0017596177058294415
+    total selected feature: 7
+    Time elapsed: 3.5579263806343078
+
+Elapsed time for HSPC: 3.63 minutes
+====================
+JOB: HSPC, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for HSPC
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 123, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  124 ; minimum lost =  0.03548417612910271 ; diff loss =  1.8998980522155762e-07 ; diff weight =  0.0005524944281205535
+HSPC feature list exported.
+---Selection result for HSPC
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 1.0
+    minimal loss: 0.03548417612910271
+    minimal weight diff: 0.0005524944281205535
+    total selected feature: 3
+    Time elapsed: 1.9322905659675598
+
+Elapsed time for HSPC: 2.00 minutes
+====================
+JOB: HSPC, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for HSPC
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 140, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  141 ; minimum lost =  0.047873035073280334 ; diff loss =  2.086162567138672e-07 ; diff weight =  0.00033795833587646484
+HSPC feature list exported.
+---Selection result for HSPC
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.047873035073280334
+    minimal weight diff: 0.00033795833587646484
+    total selected feature: 3
+    Time elapsed: 2.1913223465283713
+
+Elapsed time for HSPC: 2.26 minutes
+====================
+JOB: MAIT, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for MAIT
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 439, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  439 ; minimum lost =  0.017559409141540527 ; diff loss =  -5.736947059631348e-07 ; diff weight =  0.015804745256900787
+MAIT feature list exported.
+---Selection result for MAIT
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.7947957839262187
+    minimal loss: 0.017559409141540527
+    minimal weight diff: 0.015804745256900787
+    total selected feature: 196
+    Time elapsed: 6.786525988578797
+
+Elapsed time for MAIT: 6.86 minutes
+====================
+JOB: MAIT, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for MAIT
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 494, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  494 ; minimum lost =  0.023135080933570862 ; diff loss =  -4.284083843231201e-07 ; diff weight =  0.010226618498563766
+MAIT feature list exported.
+---Selection result for MAIT
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.8728590250329381
+    minimal loss: 0.023135080933570862
+    minimal weight diff: 0.010226618498563766
+    total selected feature: 93
+    Time elapsed: 7.6214327653249105
+
+Elapsed time for MAIT: 7.69 minutes
+====================
+JOB: MAIT, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for MAIT
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 368, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  369 ; minimum lost =  0.079536072909832 ; diff loss =  2.0116567611694336e-07 ; diff weight =  0.0003115851432085037
+MAIT feature list exported.
+---Selection result for MAIT
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9920948616600791
+    minimal loss: 0.079536072909832
+    minimal weight diff: 0.0003115851432085037
+    total selected feature: 7
+    Time elapsed: 5.719449694951376
+
+Elapsed time for MAIT: 5.79 minutes
+====================
+JOB: MAIT, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for MAIT
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 321, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  322 ; minimum lost =  0.11324863880872726 ; diff loss =  1.4901161193847656e-07 ; diff weight =  0.0002001015964196995
+MAIT feature list exported.
+---Selection result for MAIT
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9920948616600791
+    minimal loss: 0.11324863880872726
+    minimal weight diff: 0.0002001015964196995
+    total selected feature: 7
+    Time elapsed: 5.000089863936107
+
+Elapsed time for MAIT: 5.07 minutes
+====================
+JOB: NK, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for NK
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 560, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  561 ; minimum lost =  0.029254689812660217 ; diff loss =  8.549541234970093e-07 ; diff weight =  0.0020465264096856117
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.7639992607651082
+    minimal loss: 0.029254689812660217
+    minimal weight diff: 0.0020465264096856117
+    total selected feature: 385
+    Time elapsed: 8.632480506102244
+
+Elapsed time for NK: 8.70 minutes
+====================
+JOB: NK, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for NK
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 623, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  624 ; minimum lost =  0.038743529468774796 ; diff loss =  7.711350917816162e-07 ; diff weight =  0.002832325641065836
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.7767510626501571
+    minimal loss: 0.038743529468774796
+    minimal weight diff: 0.002832325641065836
+    total selected feature: 165
+    Time elapsed: 9.597102030118306
+
+Elapsed time for NK: 9.67 minutes
+====================
+JOB: NK, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for NK
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 568, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  569 ; minimum lost =  0.051734697073698044 ; diff loss =  8.23289155960083e-07 ; diff weight =  0.0020573027431964874
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.8194418776566254
+    minimal loss: 0.051734697073698044
+    minimal weight diff: 0.0020573027431964874
+    total selected feature: 87
+    Time elapsed: 8.74974031051
+
+Elapsed time for NK: 8.82 minutes
+====================
+JOB: NK, 0.0021544346900318843
+Original adata: (57515, 27504)
+Set lambda: 0.0021544346900318843
+Starting job for NK
+Fitting with optimal lambda: 0.0021544346900318843
+At iteration 478, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  479 ; minimum lost =  0.06865432858467102 ; diff loss =  8.940696716308594e-07 ; diff weight =  0.000528769101947546
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.0021544346900318843
+    median of selected prevalence: 0.9270005544261689
+    minimal loss: 0.06865432858467102
+    minimal weight diff: 0.000528769101947546
+    total selected feature: 65
+    Time elapsed: 7.3765020291010535
+
+Elapsed time for NK: 7.45 minutes
+====================
+JOB: NK, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for NK
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 501, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  502 ; minimum lost =  0.08991922438144684 ; diff loss =  4.172325134277344e-07 ; diff weight =  0.0007268367917276919
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9647015339124007
+    minimal loss: 0.08991922438144684
+    minimal weight diff: 0.0007268367917276919
+    total selected feature: 38
+    Time elapsed: 7.729760615030925
+
+Elapsed time for NK: 7.80 minutes
+====================
+JOB: NK, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for NK
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 330, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  331 ; minimum lost =  0.12302815169095993 ; diff loss =  7.450580596923828e-08 ; diff weight =  0.0026715451385825872
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9824431713176862
+    minimal loss: 0.12302815169095993
+    minimal weight diff: 0.0026715451385825872
+    total selected feature: 41
+    Time elapsed: 5.108899438381195
+
+Elapsed time for NK: 5.18 minutes
+====================
+JOB: NK, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for NK
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 429, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  430 ; minimum lost =  0.17086106538772583 ; diff loss =  7.897615432739258e-07 ; diff weight =  0.0003789848124142736
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9888190722602106
+    minimal loss: 0.17086106538772583
+    minimal weight diff: 0.0003789848124142736
+    total selected feature: 22
+    Time elapsed: 6.625648164749146
+
+Elapsed time for NK: 6.69 minutes
+====================
+JOB: NK_CD56bright, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for NK_CD56bright
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 423, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  424 ; minimum lost =  0.010016553103923798 ; diff loss =  7.087364792823792e-07 ; diff weight =  0.001461172942072153
+NK_CD56bright feature list exported.
+---Selection result for NK_CD56bright
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9222395023328149
+    minimal loss: 0.010016553103923798
+    minimal weight diff: 0.001461172942072153
+    total selected feature: 134
+    Time elapsed: 6.529397432009379
+
+Elapsed time for NK_CD56bright: 6.60 minutes
+====================
+JOB: NK_CD56bright, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for NK_CD56bright
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 438, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  439 ; minimum lost =  0.01383790373802185 ; diff loss =  9.937211871147156e-07 ; diff weight =  0.0036774929612874985
+NK_CD56bright feature list exported.
+---Selection result for NK_CD56bright
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.8872472783825816
+    minimal loss: 0.01383790373802185
+    minimal weight diff: 0.0036774929612874985
+    total selected feature: 64
+    Time elapsed: 6.7582421938578285
+
+Elapsed time for NK_CD56bright: 6.83 minutes
+====================
+JOB: NK_CD56bright, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for NK_CD56bright
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 199, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  200 ; minimum lost =  0.07655298709869385 ; diff loss =  8.866190910339355e-07 ; diff weight =  0.0002311501302756369
+NK_CD56bright feature list exported.
+---Selection result for NK_CD56bright
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9984447900466563
+    minimal loss: 0.07655298709869385
+    minimal weight diff: 0.0002311501302756369
+    total selected feature: 6
+    Time elapsed: 3.102175462245941
+
+Elapsed time for NK_CD56bright: 3.17 minutes
+====================
+JOB: Plasmablast, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for Plasmablast
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 327, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  328 ; minimum lost =  0.0022575377952307463 ; diff loss =  9.969808161258698e-07 ; diff weight =  0.009538247250020504
+Plasmablast feature list exported.
+---Selection result for Plasmablast
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9863945578231292
+    minimal loss: 0.0022575377952307463
+    minimal weight diff: 0.009538247250020504
+    total selected feature: 34
+    Time elapsed: 5.063615997632344
+
+Elapsed time for Plasmablast: 5.13 minutes
+====================
+JOB: Plasmablast, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for Plasmablast
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 320, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  321 ; minimum lost =  0.0038159345276653767 ; diff loss =  7.897615432739258e-07 ; diff weight =  0.007776915095746517
+Plasmablast feature list exported.
+---Selection result for Plasmablast
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9948979591836735
+    minimal loss: 0.0038159345276653767
+    minimal weight diff: 0.007776915095746517
+    total selected feature: 20
+    Time elapsed: 4.951143511136373
+
+Elapsed time for Plasmablast: 5.02 minutes
+====================
+JOB: Plasmablast, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for Plasmablast
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 180, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  181 ; minimum lost =  0.03000207617878914 ; diff loss =  1.0989606380462646e-07 ; diff weight =  0.0005804240354336798
+Plasmablast feature list exported.
+---Selection result for Plasmablast
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9965986394557823
+    minimal loss: 0.03000207617878914
+    minimal weight diff: 0.0005804240354336798
+    total selected feature: 3
+    Time elapsed: 2.8084962368011475
+
+Elapsed time for Plasmablast: 2.88 minutes
+====================
+JOB: Plasmablast, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for Plasmablast
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 142, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  143 ; minimum lost =  0.04761902242898941 ; diff loss =  2.980232238769531e-07 ; diff weight =  0.0002219080924987793
+Plasmablast feature list exported.
+---Selection result for Plasmablast
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9965986394557823
+    minimal loss: 0.04761902242898941
+    minimal weight diff: 0.0002219080924987793
+    total selected feature: 3
+    Time elapsed: 2.22592871983846
+
+Elapsed time for Plasmablast: 2.30 minutes
+====================
+JOB: Treg, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for Treg
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 456, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  457 ; minimum lost =  0.03234150633215904 ; diff loss =  8.605420589447021e-07 ; diff weight =  0.0035433159209787846
+Treg feature list exported.
+---Selection result for Treg
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.6939285714285715
+    minimal loss: 0.03234150633215904
+    minimal weight diff: 0.0035433159209787846
+    total selected feature: 334
+    Time elapsed: 7.032883135477702
+
+Elapsed time for Treg: 7.10 minutes
+====================
+JOB: Treg, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for Treg
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 269, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  270 ; minimum lost =  0.11636056751012802 ; diff loss =  8.866190910339355e-07 ; diff weight =  0.0013044326333329082
+Treg feature list exported.
+---Selection result for Treg
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9907142857142858
+    minimal loss: 0.11636056751012802
+    minimal weight diff: 0.0013044326333329082
+    total selected feature: 9
+    Time elapsed: 4.169734962781271
+
+Elapsed time for Treg: 4.24 minutes
+====================
+JOB: Treg, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for Treg
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 238, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  239 ; minimum lost =  0.1275746375322342 ; diff loss =  2.9802322387695312e-08 ; diff weight =  8.790584979578853e-05
+Treg feature list exported.
+---Selection result for Treg
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9992857142857143
+    minimal loss: 0.1275746375322342
+    minimal weight diff: 8.790584979578853e-05
+    total selected feature: 4
+    Time elapsed: 3.6978123982747397
+
+Elapsed time for Treg: 3.77 minutes
+====================
+JOB: cDC1, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for cDC1
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 132, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  133 ; minimum lost =  0.02010776661336422 ; diff loss =  8.866190910339355e-07 ; diff weight =  0.0014875689521431923
+cDC1 feature list exported.
+---Selection result for cDC1
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 1.0
+    minimal loss: 0.02010776661336422
+    minimal weight diff: 0.0014875689521431923
+    total selected feature: 7
+    Time elapsed: 2.0724021553993226
+
+Elapsed time for cDC1: 2.14 minutes
+====================
+JOB: cDC1, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for cDC1
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 112, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  113 ; minimum lost =  0.025888267904520035 ; diff loss =  6.277114152908325e-07 ; diff weight =  0.00021014278172515333
+cDC1 feature list exported.
+---Selection result for cDC1
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 1.0
+    minimal loss: 0.025888267904520035
+    minimal weight diff: 0.00021014278172515333
+    total selected feature: 3
+    Time elapsed: 1.7658961494763692
+
+Elapsed time for cDC1: 1.83 minutes
+====================
+JOB: cDC1, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for cDC1
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 121, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  122 ; minimum lost =  0.03660663217306137 ; diff loss =  3.650784492492676e-07 ; diff weight =  0.0005402565002441406
+cDC1 feature list exported.
+---Selection result for cDC1
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.03660663217306137
+    minimal weight diff: 0.0005402565002441406
+    total selected feature: 1
+    Time elapsed: 1.9057625889778138
+
+Elapsed time for cDC1: 1.97 minutes
+====================
+JOB: cDC2, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for cDC2
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 491, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  492 ; minimum lost =  0.010423471219837666 ; diff loss =  6.565824151039124e-07 ; diff weight =  0.001461615669541061
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9971367215461704
+    minimal loss: 0.010423471219837666
+    minimal weight diff: 0.001461615669541061
+    total selected feature: 229
+    Time elapsed: 7.576852945486705
+
+Elapsed time for cDC2: 7.64 minutes
+====================
+JOB: cDC2, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for cDC2
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 440, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  441 ; minimum lost =  0.014016489498317242 ; diff loss =  8.977949619293213e-07 ; diff weight =  0.008828395046293736
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9914101646385111
+    minimal loss: 0.014016489498317242
+    minimal weight diff: 0.008828395046293736
+    total selected feature: 67
+    Time elapsed: 6.788725213209788
+
+Elapsed time for cDC2: 6.86 minutes
+====================
+JOB: cDC2, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for cDC2
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 486, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  487 ; minimum lost =  0.019242629408836365 ; diff loss =  7.860362529754639e-07 ; diff weight =  0.0017392553854733706
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.9971367215461704
+    minimal loss: 0.019242629408836365
+    minimal weight diff: 0.0017392553854733706
+    total selected feature: 28
+    Time elapsed: 7.493895324071248
+
+Elapsed time for cDC2: 7.56 minutes
+====================
+JOB: cDC2, 0.0021544346900318843
+Original adata: (57515, 27504)
+Set lambda: 0.0021544346900318843
+Starting job for cDC2
+Fitting with optimal lambda: 0.0021544346900318843
+At iteration 411, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  412 ; minimum lost =  0.027670715004205704 ; diff loss =  9.052455425262451e-07 ; diff weight =  0.0024959926959127188
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.0021544346900318843
+    median of selected prevalence: 0.9992841803865425
+    minimal loss: 0.027670715004205704
+    minimal weight diff: 0.0024959926959127188
+    total selected feature: 19
+    Time elapsed: 6.342936273415884
+
+Elapsed time for cDC2: 6.41 minutes
+====================
+JOB: cDC2, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for cDC2
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 344, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  345 ; minimum lost =  0.04135783389210701 ; diff loss =  9.760260581970215e-07 ; diff weight =  0.0020172125659883022
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 1.0
+    minimal loss: 0.04135783389210701
+    minimal weight diff: 0.0020172125659883022
+    total selected feature: 12
+    Time elapsed: 5.317170337835948
+
+Elapsed time for cDC2: 5.39 minutes
+====================
+JOB: cDC2, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for cDC2
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 359, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  360 ; minimum lost =  0.06364734470844269 ; diff loss =  8.568167686462402e-07 ; diff weight =  0.0005036710645072162
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 1.0
+    minimal loss: 0.06364734470844269
+    minimal weight diff: 0.0005036710645072162
+    total selected feature: 8
+    Time elapsed: 5.553762400150299
+
+Elapsed time for cDC2: 5.62 minutes
+====================
+JOB: cDC2, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for cDC2
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 317, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  318 ; minimum lost =  0.09705738723278046 ; diff loss =  6.705522537231445e-08 ; diff weight =  9.878108539851382e-05
+cDC2 feature list exported.
+---Selection result for cDC2
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.09705738723278046
+    minimal weight diff: 9.878108539851382e-05
+    total selected feature: 6
+    Time elapsed: 4.908316767215728
+
+Elapsed time for cDC2: 4.98 minutes
+====================
+JOB: gdT, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for gdT
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 557, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  558 ; minimum lost =  0.030697353184223175 ; diff loss =  7.506459951400757e-07 ; diff weight =  0.0026483573019504547
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.7636802575107295
+    minimal loss: 0.030697353184223175
+    minimal weight diff: 0.0026483573019504547
+    total selected feature: 292
+    Time elapsed: 8.579789630572002
+
+Elapsed time for gdT: 8.65 minutes
+====================
+JOB: gdT, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for gdT
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 509, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  509 ; minimum lost =  0.03596913069486618 ; diff loss =  -3.3527612686157227e-07 ; diff weight =  0.0044027031399309635
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.8369098712446352
+    minimal loss: 0.03596913069486618
+    minimal weight diff: 0.0044027031399309635
+    total selected feature: 89
+    Time elapsed: 7.88494477669398
+
+Elapsed time for gdT: 7.96 minutes
+====================
+JOB: gdT, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for gdT
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 483, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  484 ; minimum lost =  0.04296612739562988 ; diff loss =  4.917383193969727e-07 ; diff weight =  0.0015680984361097217
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.9227467811158798
+    minimal loss: 0.04296612739562988
+    minimal weight diff: 0.0015680984361097217
+    total selected feature: 49
+    Time elapsed: 7.44730353752772
+
+Elapsed time for gdT: 7.52 minutes
+====================
+JOB: gdT, 0.0021544346900318843
+Original adata: (57515, 27504)
+Set lambda: 0.0021544346900318843
+Starting job for gdT
+Fitting with optimal lambda: 0.0021544346900318843
+At iteration 496, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  497 ; minimum lost =  0.05415330454707146 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.0015875049866735935
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.0021544346900318843
+    median of selected prevalence: 0.9377682403433476
+    minimal loss: 0.05415330454707146
+    minimal weight diff: 0.0015875049866735935
+    total selected feature: 27
+    Time elapsed: 7.646356892585755
+
+Elapsed time for gdT: 7.71 minutes
+====================
+JOB: gdT, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for gdT
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 472, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  472 ; minimum lost =  0.0720263198018074 ; diff loss =  -2.1606683731079102e-07 ; diff weight =  0.003959896508604288
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9576180257510729
+    minimal loss: 0.0720263198018074
+    minimal weight diff: 0.003959896508604288
+    total selected feature: 19
+    Time elapsed: 7.30750603278478
+
+Elapsed time for gdT: 7.38 minutes
+====================
+JOB: gdT, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for gdT
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 426, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  426 ; minimum lost =  0.09810741245746613 ; diff loss =  -5.662441253662109e-07 ; diff weight =  0.0065939705818891525
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9946351931330472
+    minimal loss: 0.09810741245746613
+    minimal weight diff: 0.0065939705818891525
+    total selected feature: 11
+    Time elapsed: 6.580891068776449
+
+Elapsed time for gdT: 6.65 minutes
+====================
+JOB: gdT, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for gdT
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 403, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  404 ; minimum lost =  0.13346754014492035 ; diff loss =  7.897615432739258e-07 ; diff weight =  0.0006077244761399925
+gdT feature list exported.
+---Selection result for gdT
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 0.9946351931330472
+    minimal loss: 0.13346754014492035
+    minimal weight diff: 0.0006077244761399925
+    total selected feature: 9
+    Time elapsed: 6.223749876022339
+
+Elapsed time for gdT: 6.29 minutes
+====================
+JOB: pDC, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for pDC
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 380, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  381 ; minimum lost =  0.0029403683729469776 ; diff loss =  9.709037840366364e-07 ; diff weight =  0.015105817466974258
+pDC feature list exported.
+---Selection result for pDC
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9949748743718593
+    minimal loss: 0.0029403683729469776
+    minimal weight diff: 0.015105817466974258
+    total selected feature: 45
+    Time elapsed: 5.8775221308072405
+
+Elapsed time for pDC: 5.95 minutes
+====================
+JOB: pDC, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for pDC
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 362, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  363 ; minimum lost =  0.004948045127093792 ; diff loss =  9.052455425262451e-07 ; diff weight =  0.004920215345919132
+pDC feature list exported.
+---Selection result for pDC
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 1.0
+    minimal loss: 0.004948045127093792
+    minimal weight diff: 0.004920215345919132
+    total selected feature: 29
+    Time elapsed: 5.59764256477356
+
+Elapsed time for pDC: 5.67 minutes
+====================
+JOB: pDC, 0.0010000000000000002
+Original adata: (57515, 27504)
+Set lambda: 0.0010000000000000002
+Starting job for pDC
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 321, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  322 ; minimum lost =  0.008690736256539822 ; diff loss =  6.789341568946838e-07 ; diff weight =  0.002370142377912998
+pDC feature list exported.
+---Selection result for pDC
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.9991624790619765
+    minimal loss: 0.008690736256539822
+    minimal weight diff: 0.002370142377912998
+    total selected feature: 28
+    Time elapsed: 4.967263245582581
+
+Elapsed time for pDC: 5.04 minutes
+====================
+JOB: pDC, 0.004641588833612781
+Original adata: (57515, 27504)
+Set lambda: 0.004641588833612781
+Starting job for pDC
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 301, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  302 ; minimum lost =  0.027127061039209366 ; diff loss =  6.761401891708374e-07 ; diff weight =  0.0009413447696715593
+pDC feature list exported.
+---Selection result for pDC
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 1.0
+    minimal loss: 0.027127061039209366
+    minimal weight diff: 0.0009413447696715593
+    total selected feature: 15
+    Time elapsed: 4.663580894470215
+
+Elapsed time for pDC: 4.73 minutes
+====================
+JOB: pDC, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for pDC
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 231, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  232 ; minimum lost =  0.07364952564239502 ; diff loss =  4.76837158203125e-07 ; diff weight =  0.00048390362644568086
+pDC feature list exported.
+---Selection result for pDC
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.07364952564239502
+    minimal weight diff: 0.00048390362644568086
+    total selected feature: 6
+    Time elapsed: 3.5892180522282917
+
+Elapsed time for pDC: 3.66 minutes

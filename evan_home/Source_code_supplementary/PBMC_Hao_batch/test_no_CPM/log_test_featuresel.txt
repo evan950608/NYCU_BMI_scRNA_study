@@ -1,0 +1,24 @@
+nohup: ignoring input
+Original adata: (77763, 33538)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Original adata: (77763, 33538)
+adata celltype shape: (11290, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 22388)
+optimal lambda: 0.014677992676220709
+====================
+Starting job for B
+Fitting with optimal lambda: 0.014677992676220709
+At iteration 443, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  444 ; minimum lost =  0.09934135526418686 ; diff weight =  0.0007985489210113883
+B feature list exported.
+---Selection result for B
+Optimal lambda: 0.014677992676220709
+    median of selected prevalence: 0.9926483613817537
+    minimal loss: 0.09934135526418686
+    minimal weight diff: 0.0007985489210113883
+    total selected feature: 11
+    Time elapsed: 9.400396394729615
+
+Elapsed time for B: 9.49 minutes

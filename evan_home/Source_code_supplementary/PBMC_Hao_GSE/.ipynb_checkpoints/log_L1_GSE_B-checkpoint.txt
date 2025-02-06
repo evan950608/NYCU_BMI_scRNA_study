@@ -1,0 +1,115 @@
+nohup: ignoring input
+WARNING: adata.X seems to be already log-transformed.
+Original adata: (32349, 33538)
+all cell types: ['B', 'CD4 T', 'CD8 T', 'DC', 'Mono', 'NK', 'other', 'other T']
+====================
+cts ['B']
+====================
+Original adata: (32349, 33538)
+adata celltype shape: (2760, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 20223)
+====================
+Starting job for B
+Testing lambda: 1e-05
+Convergence with loss difference
+lambda is : 9.999999999999997e-06, cost : 0.476 min
+==========
+Testing lambda: 1.5e-05
+Convergence with loss difference
+lambda is : 1.4677992676220687e-05, cost : 0.287 min
+==========
+Testing lambda: 2.2e-05
+Convergence with loss difference
+lambda is : 2.1544346900318854e-05, cost : 0.292 min
+==========
+Testing lambda: 3.2e-05
+Convergence with loss difference
+lambda is : 3.16227766016838e-05, cost : 0.288 min
+==========
+Testing lambda: 4.6e-05
+Convergence with loss difference
+lambda is : 4.6415888336127784e-05, cost : 0.291 min
+==========
+Testing lambda: 6.8e-05
+Convergence with loss difference
+lambda is : 6.81292069057961e-05, cost : 0.299 min
+==========
+Testing lambda: 0.0001
+Convergence with loss difference
+lambda is : 9.999999999999991e-05, cost : 0.295 min
+==========
+Testing lambda: 0.000147
+Convergence with loss difference
+lambda is : 0.00014677992676220703, cost : 0.288 min
+==========
+Testing lambda: 0.000215
+Convergence with loss difference
+lambda is : 0.0002154434690031884, cost : 0.272 min
+==========
+Testing lambda: 0.000316
+Convergence with loss difference
+lambda is : 0.00031622776601683783, cost : 0.292 min
+==========
+Testing lambda: 0.000464
+Convergence with loss difference
+lambda is : 0.00046415888336127795, cost : 0.285 min
+==========
+Testing lambda: 0.000681
+Convergence with loss difference
+lambda is : 0.0006812920690579617, cost : 0.297 min
+==========
+Testing lambda: 0.001
+Convergence with loss difference
+lambda is : 0.0010000000000000002, cost : 0.296 min
+==========
+Testing lambda: 0.001468
+Convergence with loss difference
+lambda is : 0.0014677992676220694, cost : 0.291 min
+==========
+Testing lambda: 0.002154
+Convergence with loss difference
+lambda is : 0.0021544346900318843, cost : 0.287 min
+==========
+Testing lambda: 0.003162
+Convergence with loss difference
+lambda is : 0.003162277660168382, cost : 0.273 min
+==========
+Testing lambda: 0.004642
+Convergence with loss difference
+lambda is : 0.004641588833612781, cost : 0.263 min
+==========
+Testing lambda: 0.006813
+Convergence with loss difference
+lambda is : 0.006812920690579613, cost : 0.266 min
+==========
+Testing lambda: 0.01
+Convergence with loss difference
+lambda is : 0.010000000000000004, cost : 0.267 min
+==========
+Testing lambda: 0.014678
+Convergence with loss difference
+lambda is : 0.014677992676220709, cost : 0.271 min
+==========
+Testing lambda: 0.021544
+Convergence with loss difference
+lambda is : 0.02154434690031885, cost : 0.269 min
+==========
+Testing lambda: 0.031623
+Convergence with loss difference
+lambda is : 0.0316227766016838, cost : 0.275 min
+==========
+Testing lambda: 0.046416
+Convergence with loss difference
+lambda is : 0.04641588833612786, cost : 0.276 min
+==========
+Testing lambda: 0.068129
+Convergence with loss difference
+lambda is : 0.0681292069057962, cost : 0.279 min
+==========
+Testing lambda: 0.1
+Convergence with loss difference
+lambda is : 0.10000000000000002, cost : 0.27 min
+==========
+B Time elapsed: 7.296983639399211 minutes.
+***** Finished lambda tuning
+====================

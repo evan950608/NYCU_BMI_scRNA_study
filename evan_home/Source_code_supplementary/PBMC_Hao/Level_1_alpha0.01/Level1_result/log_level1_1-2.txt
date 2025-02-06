@@ -1,0 +1,118 @@
+nohup: ignoring input
+(32349, 20568)
+['B', 'CD4 T', 'CD8 T', 'DC', 'Mono', 'NK', 'other', 'other T']
+***** Finished lambda tuning
+====================
+***** Starting feature selection
+CD4 T Optimal lambda: 0.014677992676220709 
+
+====================
+Starting job for CD4 T
+Fitting with optimal lambda: 0.014677992676220709
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5908829569816589 ; diff weight =  9.641996439313516e-05
+CD4 T feature list exported.
+---Selection result for CD4 T
+Optimal lambda: 0.014677992676220709
+    median of selected prevalence: 0.4631707317073171
+    total selected feature: 1786
+
+other Optimal lambda: 0.046415888336127815 
+
+====================
+Starting job for other
+Fitting with optimal lambda: 0.046415888336127815
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  137 ; minimum lost =  0.17121809720993042 ; diff weight =  7.355213165283203e-05
+other feature list exported.
+---Selection result for other
+Optimal lambda: 0.046415888336127815
+    median of selected prevalence: 1.0
+    total selected feature: 1
+
+other T Optimal lambda: 0.046415888336127815 
+
+====================
+Starting job for other T
+Fitting with optimal lambda: 0.046415888336127815
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  142 ; minimum lost =  0.24613316357135773 ; diff weight =  1.0155141353607178e-05
+other T feature list exported.
+---Selection result for other T
+Optimal lambda: 0.046415888336127815
+    median of selected prevalence: 1.0
+    total selected feature: 2
+
+DC Optimal lambda: 0.06812920690579614 
+
+====================
+Starting job for DC
+Fitting with optimal lambda: 0.06812920690579614
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  158 ; minimum lost =  0.22132226824760437 ; diff weight =  8.83340835571289e-05
+DC feature list exported.
+---Selection result for DC
+Optimal lambda: 0.06812920690579614
+    median of selected prevalence: 1.0
+    total selected feature: 1
+
+CD8 T Optimal lambda: 0.0021544346900318864 
+
+====================
+Starting job for CD8 T
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  743 ; minimum lost =  0.13635194301605225 ; diff weight =  0.0001654656807659194
+CD8 T feature list exported.
+---Selection result for CD8 T
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.9426664048694287
+    total selected feature: 26
+
+NK Optimal lambda: 0.0021544346900318864 
+
+====================
+Starting job for NK
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  865 ; minimum lost =  0.08749399334192276 ; diff weight =  5.483600034494884e-05
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.9158628081457664
+    total selected feature: 27
+
+B Optimal lambda: 0.0014677992676220707 
+
+====================
+Starting job for B
+Fitting with optimal lambda: 0.0014677992676220707
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.036052629351615906 ; diff weight =  0.0006705035921186209
+B feature list exported.
+---Selection result for B
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.8905797101449275
+    total selected feature: 17
+
+Mono Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for Mono
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.10275566577911377 ; diff weight =  0.0007351894164457917
+Mono feature list exported.
+---Selection result for Mono
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9806162007753519
+    total selected feature: 22
+

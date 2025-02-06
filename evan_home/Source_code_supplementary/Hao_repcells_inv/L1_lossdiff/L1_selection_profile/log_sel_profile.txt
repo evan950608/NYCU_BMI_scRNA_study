@@ -1,0 +1,137 @@
+nohup: ignoring input
+====================
+Starting job for B
+Original adata: (77763, 33538)
+adata celltype shape: (11290, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 22375)
+optimal lambda: 0.014677992676220709
+Fitting with optimal lambda: 0.014677992676220709
+At iteration 519, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  520 ; minimum lost =  0.10102690011262894 ; diff weight =  0.001894619083032012
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.001579  0.001104  No selected    0.002263      0.002196      0.002657  AL627309.1
+1       0.000189  0.000142  No selected    0.000257      0.000181      0.000709  AL627309.3
+2       0.000107  0.000074  No selected    0.000154      0.000120      0.000354  AL669831.2
+3       0.038068  0.026804  No selected    0.052583      0.048366      0.077414  AL669831.5
+4       0.000428  0.000296  No selected    0.000617      0.000647      0.000443      FAM87B
+Elapsed time for B: 11.25715792576472 minutes
+====================
+Starting job for CD4_T
+Original adata: (77763, 33538)
+adata celltype shape: (13965, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 22104)
+optimal lambda: 0.0010000000000000002
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 598, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  598 ; minimum lost =  0.14593419432640076 ; diff weight =  0.002295029815286398
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.001579  0.001104  No selected    0.002263      0.002445      0.001432  AL627309.1
+1       0.000189  0.000142  No selected    0.000257      0.000298      0.000072  AL627309.3
+2       0.000214  0.000148  No selected    0.000309      0.000361      0.000072  AL627309.4
+3       0.038068  0.026804  No selected    0.052583      0.056867      0.033011  AL669831.5
+4       0.000428  0.000296  No selected    0.000617      0.000643      0.000501      FAM87B
+Elapsed time for CD4_T: 12.941550393899282 minutes
+====================
+Starting job for CD8_T
+Original adata: (77763, 33538)
+adata celltype shape: (15619, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 22362)
+optimal lambda: 0.010000000000000004
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 605, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  606 ; minimum lost =  0.21153518557548523 ; diff weight =  0.00080705969594419
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.000009  0.000006  No selected    0.000013      0.000000      0.000064       OR4F5
+1       0.001579  0.001104  No selected    0.002263      0.002333      0.001985  AL627309.1
+2       0.000189  0.000142  No selected    0.000257      0.000290      0.000128  AL627309.3
+3       0.000214  0.000148  No selected    0.000309      0.000354      0.000128  AL627309.4
+4       0.000107  0.000074  No selected    0.000154      0.000129      0.000256  AL669831.2
+Elapsed time for CD8_T: 12.97163157860438 minutes
+====================
+Starting job for DC
+Original adata: (77763, 33538)
+adata celltype shape: (3579, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 21243)
+optimal lambda: 0.004641588833612781
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 376, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  376 ; minimum lost =  0.04864976555109024 ; diff weight =  0.009878704324364662
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.001579  0.001104  No selected    0.002263      0.002265      0.002235  AL627309.1
+1       0.000189  0.000142  No selected    0.000257      0.000243      0.000559  AL627309.3
+2       0.000214  0.000148  No selected    0.000309      0.000310      0.000279  AL627309.4
+3       0.038068  0.026804  No selected    0.052583      0.046600      0.176586  AL669831.5
+4       0.000428  0.000296  No selected    0.000617      0.000553      0.001956      FAM87B
+Elapsed time for DC: 8.132848866780598 minutes
+====================
+Starting job for Mono
+Original adata: (77763, 33538)
+adata celltype shape: (9802, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 22372)
+optimal lambda: 0.014677992676220709
+Fitting with optimal lambda: 0.014677992676220709
+At iteration 430, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  431 ; minimum lost =  0.11753568798303604 ; diff weight =  0.00018928594363387674
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.001579  0.001104  No selected    0.002263      0.001795      0.005509  AL627309.1
+1       0.000189  0.000142  No selected    0.000257      0.000221      0.000510  AL627309.3
+2       0.000214  0.000148  No selected    0.000309      0.000074      0.001938  AL627309.4
+3       0.000107  0.000074  No selected    0.000154      0.000147      0.000204  AL669831.2
+4       0.038068  0.026804  No selected    0.052583      0.049573      0.073454  AL669831.5
+Elapsed time for Mono: 9.253547489643097 minutes
+====================
+Starting job for NK
+Original adata: (77763, 33538)
+adata celltype shape: (13676, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 21876)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 502, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  502 ; minimum lost =  0.11405716836452484 ; diff weight =  0.003083622781559825
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.001579  0.001104  No selected    0.002263      0.002450      0.001389  AL627309.1
+1       0.000189  0.000142  No selected    0.000257      0.000296      0.000073  AL627309.3
+2       0.000214  0.000148  No selected    0.000309      0.000359      0.000073  AL627309.4
+3       0.000107  0.000074  No selected    0.000154      0.000156      0.000146  AL669831.2
+4       0.038068  0.026804  No selected    0.052583      0.055175      0.040436  AL669831.5
+Elapsed time for NK: 10.783092391490936 minutes
+====================
+Starting job for other
+Original adata: (77763, 33538)
+adata celltype shape: (3442, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 20244)
+optimal lambda: 0.010000000000000004
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 243, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  244 ; minimum lost =  0.10112842917442322 ; diff weight =  0.0018168695969507098
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1    featureID
+0       0.000009  0.000006  No selected    0.000013      0.000000      0.000291  MIR1302-2HG
+1       0.001579  0.001104  No selected    0.002263      0.002287      0.001743   AL627309.1
+2       0.038068  0.026804  No selected    0.052583      0.053740      0.027600   AL669831.5
+3       0.000428  0.000296  No selected    0.000617      0.000619      0.000581       FAM87B
+4       0.016297  0.011475  No selected    0.022942      0.023156      0.018303    LINC00115
+Elapsed time for other: 5.284517725308736 minutes
+====================
+Starting job for other_T
+Original adata: (77763, 33538)
+adata celltype shape: (6390, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 20291)
+optimal lambda: 0.0014677992676220694
+Fitting with optimal lambda: 0.0014677992676220694
+At iteration 580, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  580 ; minimum lost =  0.10982155054807663 ; diff weight =  0.004262331873178482
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1   featureID
+0       0.001579  0.001104  No selected    0.002263      0.002354      0.001252  AL627309.1
+1       0.000189  0.000142  No selected    0.000257      0.000266      0.000156  AL627309.3
+2       0.038068  0.026804  No selected    0.052583      0.054376      0.032551  AL669831.5
+3       0.000428  0.000296  No selected    0.000617      0.000616      0.000626      FAM87B
+4       0.016297  0.011475  No selected    0.022942      0.023538      0.016275   LINC00115
+Elapsed time for other_T: 12.44778413772583 minutes

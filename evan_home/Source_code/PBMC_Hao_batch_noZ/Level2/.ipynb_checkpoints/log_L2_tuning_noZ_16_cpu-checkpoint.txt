@@ -1,0 +1,51 @@
+nohup: ignoring input
+Representative adata: (57515, 27504) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Queue ['Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+***** Starting tuning
+Representative adata: (57515, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for Doublet
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+Alpha: 0.01
+Loss tolerance: 1e-06
+*** Start parallel lambda tuning ***
+Lambda:Lambda: Lambda:Lambda:  1e-05 Lambda:Lambda:Lambda:  Lambda:Lambda: Lambda:3.2e-05 Lambda:1.5e-05 Lambda:Lambda:starting at Lambda: Lambda: 0.0001 2.2e-05  0.000215  Lambda: Lambda:starting at Lambda: Lambda:Lambda:Lambda:starting at Lambda: Lambda:Lambda: Lambda:2024-10-02 17:17:36  4.6e-05  6.8e-05 starting at starting at 0.000147 starting at 0.000316 0.003162  2024-10-02 17:17:36  0.000464    2024-10-02 17:17:36  0.000681   0.001  Max_iter: 0.001468 starting at 0.002154 starting at 2024-10-02 17:17:36 2024-10-02 17:17:36 starting at 2024-10-02 17:17:36 starting at starting at 0.004642 Max_iter: 0.006813 starting at 0.01 0.014678 0.021544 Max_iter: 0.031623 starting at 0.046416 0.068129 starting at 0.1 1000starting at 2024-10-02 17:17:36 starting at 2024-10-02 17:17:36 Max_iter: Max_iter: 2024-10-02 17:17:36 Max_iter: 2024-10-02 17:17:36 2024-10-02 17:17:36 starting at 1000
+starting at 2024-10-02 17:17:36 starting at starting at starting at 1000
+starting at 2024-10-02 17:17:36 starting at starting at 2024-10-02 17:17:36 starting at 
+2024-10-02 17:17:36 Max_iter: 2024-10-02 17:17:36 Max_iter: 10001000Max_iter: 1000Max_iter: Max_iter: 2024-10-02 17:17:36 2024-10-02 17:17:36 Max_iter:2024-10-02 17:17:36 2024-10-02 17:17:36 2024-10-02 17:17:36 2024-10-02 17:17:36 Max_iter:2024-10-02 17:17:36 2024-10-02 17:17:36Max_iter:2024-10-02 17:17:36Max_iter: 1000Max_iter:1000
+
+1000
+10001000Max_iter: Max_iter:  1000Max_iter: Max_iter: Max_iter: Max_iter:  1000Max_iter:  Max_iter: 1000 Max_iter:1000
+
+ 1000
+
+
+
+1000
+1000
+1000
+10001000
+1000
+
+1000
+ 
+ 1000
+
+
+1000
+

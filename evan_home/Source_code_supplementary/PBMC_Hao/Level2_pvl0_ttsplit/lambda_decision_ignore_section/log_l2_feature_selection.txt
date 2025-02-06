@@ -1,0 +1,508 @@
+nohup: ignoring input
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+Original adata: (32340, 20568)
+adata celltype shape: (15, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 9595)
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.00014677992676220703
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.0028002471663057804 ; diff weight =  0.0015458150301128626
+ASDC feature list exported.
+Elapsed time for ASDC: 7.687758505344391 minutes
+---Selection result for ASDC
+Optimal lambda: 0.00014677992676220703
+    median of selected prevalence: 1.0
+    total selected feature: 10
+    Time elapsed: 7.687758505344391
+
+Original adata: (32340, 20568)
+adata celltype shape: (486, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15319)
+====================
+Starting job for B_intermediate
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  416 ; minimum lost =  0.05375410243868828 ; diff weight =  5.221675746724941e-05
+B_intermediate feature list exported.
+Elapsed time for B_intermediate: 3.560111323992411 minutes
+---Selection result for B_intermediate
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.9711934156378601
+    total selected feature: 11
+    Time elapsed: 3.560111323992411
+
+Original adata: (32340, 20568)
+adata celltype shape: (657, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15674)
+====================
+Starting job for B_memory
+Fitting with optimal lambda: 0.0010000000000000002
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.042835623025894165 ; diff weight =  0.0007803727639839053
+B_memory feature list exported.
+Elapsed time for B_memory: 8.499933250745137 minutes
+---Selection result for B_memory
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.8698630136986301
+    total selected feature: 20
+    Time elapsed: 8.499933250745137
+
+Original adata: (32340, 20568)
+adata celltype shape: (1543, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 16507)
+====================
+Starting job for B_naive
+Fitting with optimal lambda: 0.0006812920690579617
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  623 ; minimum lost =  0.02705829218029976 ; diff weight =  9.869918721960858e-05
+B_naive feature list exported.
+Elapsed time for B_naive: 5.329345162709554 minutes
+---Selection result for B_naive
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.9805573558003888
+    total selected feature: 21
+    Time elapsed: 5.329345162709554
+
+Original adata: (32340, 20568)
+adata celltype shape: (8538, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 19144)
+====================
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.010000000000000004
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  837 ; minimum lost =  0.1721910685300827 ; diff weight =  8.409874862991273e-05
+CD14_Mono feature list exported.
+Elapsed time for CD14_Mono: 7.159123277664184 minutes
+---Selection result for CD14_Mono
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9926212227687983
+    total selected feature: 15
+    Time elapsed: 7.159123277664184
+
+Original adata: (32340, 20568)
+adata celltype shape: (1264, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 16819)
+====================
+Starting job for CD16_Mono
+Fitting with optimal lambda: 0.0004641588833612784
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.19568122923374176 ; diff weight =  9.984146163333207e-05
+CD16_Mono feature list exported.
+Elapsed time for CD16_Mono: 0.047479104995727536 minutes
+---Selection result for CD16_Mono
+Optimal lambda: 0.0004641588833612784
+    median of selected prevalence: 0.20015822784810128
+    total selected feature: 9042
+    Time elapsed: 0.047479104995727536
+
+Original adata: (32340, 20568)
+adata celltype shape: (347, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 13458)
+====================
+Starting job for CD4_CTL
+Fitting with optimal lambda: 0.0003162277660168384
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  918 ; minimum lost =  0.027430381625890732 ; diff weight =  9.207118273479864e-05
+CD4_CTL feature list exported.
+Elapsed time for CD4_CTL: 7.753405956427256 minutes
+---Selection result for CD4_CTL
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 0.8328530259365994
+    total selected feature: 69
+    Time elapsed: 7.753405956427256
+
+====================
+Skipping CD4_Naive...
+Original adata: (32340, 20568)
+adata celltype shape: (21, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 8587)
+====================
+Starting job for CD4_Proliferating
+Fitting with optimal lambda: 0.0002154434690031884
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  681 ; minimum lost =  0.004129914566874504 ; diff weight =  6.165099330246449e-05
+CD4_Proliferating feature list exported.
+Elapsed time for CD4_Proliferating: 4.900455331802368 minutes
+---Selection result for CD4_Proliferating
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.9761904761904762
+    total selected feature: 12
+    Time elapsed: 4.900455331802368
+
+====================
+Skipping CD4_TCM...
+Original adata: (32340, 20568)
+adata celltype shape: (856, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15467)
+====================
+Starting job for CD4_TEM
+Fitting with optimal lambda: 0.0014677992676220707
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  703 ; minimum lost =  0.08893606066703796 ; diff weight =  9.19652811717242e-05
+CD4_TEM feature list exported.
+Elapsed time for CD4_TEM: 5.985362752278646 minutes
+---Selection result for CD4_TEM
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.9550233644859814
+    total selected feature: 20
+    Time elapsed: 5.985362752278646
+
+====================
+Skipping CD8_Naive...
+Original adata: (32340, 20568)
+adata celltype shape: (18, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 9184)
+====================
+Starting job for CD8_Proliferating
+Fitting with optimal lambda: 0.0002154434690031884
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.004260514862835407 ; diff weight =  0.00046441511949524283
+CD8_Proliferating feature list exported.
+Elapsed time for CD8_Proliferating: 7.406573033332824 minutes
+---Selection result for CD8_Proliferating
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 1.0
+    total selected feature: 11
+    Time elapsed: 7.406573033332824
+
+Original adata: (32340, 20568)
+adata celltype shape: (576, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15046)
+====================
+Starting job for CD8_TCM
+Fitting with optimal lambda: 0.010000000000000004
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  172 ; minimum lost =  0.11098088324069977 ; diff weight =  3.297388684586622e-05
+CD8_TCM feature list exported.
+Elapsed time for CD8_TCM: 1.4816524744033814 minutes
+---Selection result for CD8_TCM
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 1.0
+    total selected feature: 11
+    Time elapsed: 1.4816524744033814
+
+====================
+Skipping CD8_TEM...
+Original adata: (32340, 20568)
+adata celltype shape: (121, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 13100)
+====================
+Starting job for Doublet
+Fitting with optimal lambda: 0.0004641588833612784
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  568 ; minimum lost =  /opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+0.016547711566090584 ; diff weight =  7.997390639502555e-05
+Doublet feature list exported.
+Elapsed time for Doublet: 4.65979612270991 minutes
+---Selection result for Doublet
+Optimal lambda: 0.0004641588833612784
+    median of selected prevalence: 1.0
+    total selected feature: 40
+    Time elapsed: 4.65979612270991
+
+Original adata: (32340, 20568)
+adata celltype shape: (16, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 2804)
+====================
+Starting job for Eryth
+Fitting with optimal lambda: 0.0003162277660168384
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  514 ; minimum lost =  0.0032207064796239138 ; diff weight =  5.875642455066554e-05
+Eryth feature list exported.
+Elapsed time for Eryth: 1.78561958471934 minutes
+---Selection result for Eryth
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 1.0
+    total selected feature: 5
+    Time elapsed: 1.78561958471934
+
+Original adata: (32340, 20568)
+adata celltype shape: (65, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 12633)
+====================
+Starting job for HSPC
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  278 ; minimum lost =  0.020373139530420303 ; diff weight =  8.957884710980579e-05
+HSPC feature list exported.
+Elapsed time for HSPC: 2.24828253587087 minutes
+---Selection result for HSPC
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 1.0
+    total selected feature: 7
+    Time elapsed: 2.24828253587087
+
+Original adata: (32340, 20568)
+adata celltype shape: (26, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 8935)
+====================
+Starting job for ILC
+Fitting with optimal lambda: 0.0003162277660168384
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  704 ; minimum lost =  0.0069028520956635475 ; diff weight =  9.008201595861465e-05
+ILC feature list exported.
+Elapsed time for ILC: 5.327339724699656 minutes
+---Selection result for ILC
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 0.9615384615384616
+    total selected feature: 8
+    Time elapsed: 5.327339724699656
+
+Original adata: (32340, 20568)
+adata celltype shape: (556, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 14526)
+====================
+Starting job for MAIT
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  479 ; minimum lost =  0.053341686725616455 ; diff weight =  5.601011434919201e-05
+MAIT feature list exported.
+Elapsed time for MAIT: 4.095115025838216 minutes
+---Selection result for MAIT
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.9730215827338129
+    total selected feature: 10
+    Time elapsed: 4.095115025838216
+
+====================
+Skipping NK...
+Original adata: (32340, 20568)
+adata celltype shape: (188, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 13203)
+====================
+Starting job for NK_CD56bright
+Fitting with optimal lambda: 0.0006812920690579617
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  587 ; minimum lost =  0.019949527457356453 ; diff weight =  9.116862929658964e-05
+NK_CD56bright feature list exported.
+Elapsed time for NK_CD56bright: 4.809770568211873 minutes
+---Selection result for NK_CD56bright
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.9521276595744681
+    total selected feature: 27
+    Time elapsed: 4.809770568211873
+
+Original adata: (32340, 20568)
+adata celltype shape: (109, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 13053)
+====================
+Starting job for NK_Proliferating
+Fitting with optimal lambda: 0.0006812920690579617
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  838 ; minimum lost =  0.011573564261198044 ; diff weight =  0.004241642542183399
+NK_Proliferating feature list exported.
+Elapsed time for NK_Proliferating: 6.935618817806244 minutes
+---Selection result for NK_Proliferating
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 1.0
+    total selected feature: 15
+    Time elapsed: 6.935618817806244
+
+Original adata: (32340, 20568)
+adata celltype shape: (73, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 10812)
+====================
+Starting job for Plasmablast
+Fitting with optimal lambda: 0.0006812920690579617
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  687 ; minimum lost =  0.008573188446462154 ; diff weight =  3.607431790442206e-05
+Plasmablast feature list exported.
+Elapsed time for Plasmablast: 5.335355114936829 minutes
+---Selection result for Plasmablast
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.9931506849315068
+    total selected feature: 8
+    Time elapsed: 5.335355114936829
+
+Original adata: (32340, 20568)
+adata celltype shape: (458, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 12420)
+====================
+Starting job for Platelet
+Fitting with optimal lambda: 0.003162277660168382
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  391 ; minimum lost =  0.03281533718109131 ; diff weight =  7.904502126621082e-05
+Platelet feature list exported.
+Elapsed time for Platelet: 3.1928808132807416 minutes
+---Selection result for Platelet
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 0.9858078602620087
+    total selected feature: 6
+    Time elapsed: 3.1928808132807416
+
+Original adata: (32340, 20568)
+adata celltype shape: (501, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 14209)
+====================
+Starting job for Treg
+Fitting with optimal lambda: 0.010000000000000004
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  183 ; minimum lost =  0.10069087147712708 ; diff weight =  3.576440940378234e-05
+Treg feature list exported.
+Elapsed time for Treg: 1.5659719864527384 minutes
+---Selection result for Treg
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 1.0
+    total selected feature: 7
+    Time elapsed: 1.5659719864527384
+
+Original adata: (32340, 20568)
+adata celltype shape: (30, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 10109)
+====================
+Starting job for cDC1
+Fitting with optimal lambda: 0.0003162277660168384
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  606 ; minimum lost =  0.004574964754283428 ; diff weight =  4.2154555558227e-05
+cDC1 feature list exported.
+Elapsed time for cDC1: 4.473431332906087 minutes
+---Selection result for cDC1
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 1.0
+    total selected feature: 6
+    Time elapsed: 4.473431332906087
+
+Original adata: (32340, 20568)
+adata celltype shape: (500, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 15863)
+====================
+Starting job for cDC2
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  544 ; minimum lost =  0.03709232807159424 ; diff weight =  6.946060238988139e-06
+cDC2 feature list exported.
+Elapsed time for cDC2: 4.643165214856466 minutes
+---Selection result for cDC2
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.902
+    total selected feature: 6
+    Time elapsed: 4.643165214856466
+
+Original adata: (32340, 20568)
+adata celltype shape: (71, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 11828)
+====================
+Starting job for dnT
+Fitting with optimal lambda: 0.0003162277660168384
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.007979738526046276 ; diff weight =  0.0029544448480010033
+dnT feature list exported.
+Elapsed time for dnT: 8.016242921352386 minutes
+---Selection result for dnT
+Optimal lambda: 0.0003162277660168384
+    median of selected prevalence: 0.9859154929577465
+    total selected feature: 19
+    Time elapsed: 8.016242921352386
+
+Original adata: (32340, 20568)
+adata celltype shape: (729, 20568)
+/opt/conda/lib/python3.10/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+adata shape after removing all zero columns for celltype cells: (32340, 15347)
+====================
+Starting job for gdT
+Fitting with optimal lambda: 0.0014677992676220707
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  596 ; minimum lost =  0.0511799119412899 ; diff weight =  9.809285984374583e-05
+gdT feature list exported.
+Elapsed time for gdT: 5.080128053824107 minutes
+---Selection result for gdT
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.9643347050754458
+    total selected feature: 17
+    Time elapsed: 5.080128053824107
+
+Original adata: (32340, 20568)
+adata celltype shape: (172, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 13858)
+====================
+Starting job for pDC
+Fitting with optimal lambda: 0.0010000000000000002
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  900 ; minimum lost =  0.01446723472326994 ; diff weight =  9.447390038985759e-05
+pDC feature list exported.
+Elapsed time for pDC: 7.409383742014567 minutes
+---Selection result for pDC
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 1.0
+    total selected feature: 16
+    Time elapsed: 7.409383742014567
+

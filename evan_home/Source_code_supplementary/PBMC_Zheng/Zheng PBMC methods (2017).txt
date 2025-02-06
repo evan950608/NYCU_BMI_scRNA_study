@@ -1,0 +1,40 @@
+Zheng PBMC methods (2017)
+
+Source
+we obtained fresh PBMCs from a healthy donor (Donor A).
+8–9k cells were captured from each of 8 channels and pooled to obtain B68k cells.
+
+PCA and tSNE analysis of PBMCs
+PCA: run on the normalized gene-barcode of the top 1000 most variable genes. (ranked by dispersion)
+UMI normalization: dividing UMI counts by the total UMI counts in each cell, followed by multiplication with the median of the total UMI counts across cells.
+Natural log of UMI counts.
+Each gene was normalized such that the mean signal for each gene is 0, and standard deviation is 1.
+t-SNE on the first 50 PCs
+
+
+Identification of cluster-specific genes and marker-based classification
+Identify genes that are enriched in a specific cluster
+	the mean expression of each gene was calculated across all cells in the cluster.
+	each gene from the cluster was compared to the median expression of the same gene from cells in all other clusters.
+	Genes were ranked based on their expression difference, and the top 10 enriched genes from each cluster were selected.
+	Hierarchical clustering of each cluster. calculate the pair-wise correlation between each cluster.
+
+Cell classification analysis using purified PBMCs
+We classified 68k PBMCs based on their best match to the average expression profile of 11 reference transcriptomes
+cluster with Seurat: While it was able to distinguish inferred CD4þ naive from inferred CD8þ naive T cells, it was not able to cleanly separate out inferred activated cytotoxic T cells from inferred NK cells.
+
+
+Important cell markers
+	T cells: CD3D
+		CD8, CD4
+		T memory: CCR10
+		T regulatory: TNFRSF18
+		ID3: important in maintaining a naive T-cell state
+	NK: NKG7
+	B: CD79A
+	myeloid cells (Mono, DC): S100A8 and S100A9
+	Dendritic cells: FCER1A
+	CD34: progenitor and differentiation markers (hematopoietic progenitors)
+	megakaryocytes: PF4
+
+

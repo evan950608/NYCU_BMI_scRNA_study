@@ -1,0 +1,16 @@
+species	official gene symbol	cell type	nicknames	ubiquitousness index	product description	gene type	canonical marker	germ layer	organ	sensitivity_human	sensitivity_mouse	specificity_human	specificity_mouse
+Mm Hs	CD79A	B cells	MB-1|IGA	0.024	CD79a molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.983871	0.914729	0.0246006	0.00339271
+Mm Hs	CD79B	B cells	IGB	0.028	CD79b molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.919355	0.926357	0.0255591	0.00835128
+Hs	HLA-DRA	B cells	HLA-DRA1	0.039	major histocompatibility complex, class II, DR alpha	protein-coding gene	1.0	Mesoderm	Immune system	0.935484	0.0	0.198083	0.0
+Mm Hs	CD74	B cells	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.983871	0.94186	0.351438	0.111437
+Mm Hs	CD79A	B cells memory	MB-1|IGA	0.024	CD79a molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.0432331	0.0184793
+Mm Hs	CD79B	B cells memory	IGB	0.028	CD79b molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.0429198	0.0235483
+Mm Hs	CD79A	B cells naive	MB-1|IGA	0.024	CD79a molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.933333	0.0	0.0390305	0.0184793
+Mm Hs	CD79B	B cells naive	IGB	0.028	CD79b molecule	protein-coding gene	1.0	Mesoderm	Immune system	1.0	0.0	0.038401	0.0235483
+Mm Hs	CD74	B cells naive	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	1.0	0.0	0.360718	0.125184
+Hs	HLA-DRA	Dendritic cells	HLA-DRA1	0.039	major histocompatibility complex, class II, DR alpha	protein-coding gene	1.0	Mesoderm	Immune system	1.0	0.0	0.174384	0.0
+Hs	FTL	Dendritic cells	MGC71996|NBIA3	0.178	ferritin light chain	protein-coding gene	1.0	Mesoderm	Immune system	0.993197	0.0	0.935961	0.0
+Mm Hs	CD74	Macrophages	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.75	0.721212	0.362264	0.105633
+Hs	HLA-DRA	Monocytes	HLA-DRA1	0.039	major histocompatibility complex, class II, DR alpha	protein-coding gene		Mesoderm	Immune system	0.576923	0.0	0.209413	0.0
+Mm Hs	CD74	Plasma cells	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.972222	1.0	0.356781	0.125128
+Mm Hs	CD79A	Plasma cells	MB-1|IGA	0.024	CD79a molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.75	0.0	0.0351711	0.0184805

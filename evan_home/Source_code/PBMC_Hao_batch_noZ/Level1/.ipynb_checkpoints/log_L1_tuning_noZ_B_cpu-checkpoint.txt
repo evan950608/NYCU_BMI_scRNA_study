@@ -1,0 +1,49 @@
+nohup: ignoring input
+Representative adata: (59897, 27504) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Queue ['B']
+====================
+***** Starting tuning
+Representative adata: (59897, 27504)
+TYPE <class 'scipy.sparse._csr.csr_matrix'>
+====================
+Starting job for B
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda: Lambda:Lambda: Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:Lambda: Lambda: Lambda:1e-05 Lambda:  Lambda:1.5e-05     Lambda: Lambda: Lambda: Lambda:0.000316 Lambda: Lambda:3.2e-05 Lambda:Lambda:Lambda: starting at  0.001 2.2e-05  starting at 4.6e-05 6.8e-05 0.0001 0.000147  0.000215  0.004642 0.01  starting at  0.000464  starting at    0.000681 2024-10-02 11:20:56 0.001468 starting at starting at 0.002154 2024-10-02 11:20:56 starting at starting at starting at starting at 0.003162 starting at 0.006813 starting at starting at 0.014678 2024-10-02 11:20:56 0.021544 starting at 0.031623 2024-10-02 11:20:56 0.046416 0.068129 0.1 starting at Max_iter: starting at 2024-10-02 11:20:56 2024-10-02 11:20:56 starting at Max_iter: 2024-10-02 11:20:56 2024-10-02 11:20:56 2024-10-02 11:20:56 2024-10-02 11:20:56 starting at 2024-10-02 11:20:56 starting at 2024-10-02 11:20:56 2024-10-02 11:20:56 starting at Max_iter: starting at 2024-10-02 11:20:56 starting at Max_iter: starting at starting at starting at 2024-10-02 11:20:56 10002024-10-02 11:20:56 Max_iter: Max_iter: 2024-10-02 11:20:56 1000Max_iter: Max_iter: Max_iter: Max_iter: 2024-10-02 11:20:56 Max_iter: 2024-10-02 11:20:56 Max_iter: Max_iter: 2024-10-02 11:20:56 10002024-10-02 11:20:56 Max_iter: 2024-10-02 11:20:56 10002024-10-02 11:20:56 2024-10-02 11:20:56 2024-10-02 11:20:56 Max_iter: 
+Max_iter: 10001000Max_iter: 
+1000100010001000Max_iter: 1000Max_iter: 1000
+1000Max_iter: 
+Max_iter: 1000Max_iter: 
+Max_iter: Max_iter: Max_iter: 10001000
+
+1000
+
+
+
+
+1000
+1000
+
+1000
+1000
+
+1000
+1000
+1000
+1000
+
+
+

@@ -1,0 +1,3 @@
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.7981402002861231
+    total selected feature: 72

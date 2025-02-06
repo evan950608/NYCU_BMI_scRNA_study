@@ -1,0 +1,24 @@
+nohup: ignoring input
+Home Path: /home/jovyan/work/Bmi_NAS_evan/evan_home
+Original adata: (71915, 25712)
+all cell types: ['B', 'Endothelial', 'Fibroblast', 'Hepatocyte', 'Myeloid', 'T/NK']
+====================
+Original adata: (71915, 25712)
+optimal lambda: 0.004641588833612781
+====================
+Starting job for B
+/home/jovyan/work/Bmi_NAS_evan/evan_home/Source_code/ADlasso2/AD2_w_utils_lossdiff_noZ.py:439: RuntimeWarning: invalid value encountered in divide
+  pvl_vecter = X.astype(bool).sum(axis=0)/X.shape[0]
+Fitting with optimal lambda: 0.004641588833612781
+Traceback (most recent call last):
+  File "/home/jovyan/work/Bmi_NAS_evan/evan_home/Source_code/HCC_case_study/tuning_celltype/d_celltype_k3_feature_selection_property_cuda.py", line 181, in <module>
+    run_pipeline_feature_selection(celltype)
+  File "/home/jovyan/work/Bmi_NAS_evan/evan_home/Source_code/HCC_case_study/tuning_celltype/d_celltype_k3_feature_selection_property_cuda.py", line 158, in run_pipeline_feature_selection
+    pipeline_feature_selection(adata, celltype, label, opt_lmbd, output_path=server_fractal_path)
+  File "/home/jovyan/work/Bmi_NAS_evan/evan_home/Source_code/HCC_case_study/tuning_celltype/d_celltype_k3_feature_selection_property_cuda.py", line 93, in pipeline_feature_selection
+    opt_res.fit(data.X, celltype_label, pvl)
+  File "/home/jovyan/work/Bmi_NAS_evan/evan_home/Source_code/ADlasso2/AD2_w_utils_lossdiff_noZ.py", line 192, in fit
+    X, Xt, y, prevalence, weight = self.initialize(X_input, Y, prevalence)
+  File "/home/jovyan/work/Bmi_NAS_evan/evan_home/Source_code/ADlasso2/AD2_w_utils_lossdiff_noZ.py", line 79, in initialize
+    raise ValueError("This solver needs samples of at only 2 classes, try to use MultiClassADlasso.")
+ValueError: This solver needs samples of at only 2 classes, try to use MultiClassADlasso.

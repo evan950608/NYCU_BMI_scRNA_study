@@ -1,0 +1,105 @@
+nohup: ignoring input
+Original adata: (57515, 33538)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Queue ['ILC', 'CD4_Proliferating', 'CD8_Proliferating', 'Eryth', 'ASDC']
+Original adata: (57515, 33538)
+adata celltype shape: (123, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 12575)
+optimal lambda: 0.006812920690579613
+====================
+Starting job for ILC
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 143, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  144 ; minimum lost =  0.023481344804167747 ; diff weight =  0.00035635725362226367
+ILC feature list exported.
+---Selection result for ILC
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 1.0
+    minimal loss: 0.023481344804167747
+    minimal weight diff: 0.00035635725362226367
+    total selected feature: 9
+    Time elapsed: 2.246259876092275
+
+Elapsed time for ILC: 2.31 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (104, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 14186)
+optimal lambda: 0.00046415888336127795
+====================
+Starting job for CD4_Proliferating
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 255, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  256 ; minimum lost =  0.005709091667085886 ; diff weight =  0.0038918154314160347
+CD4_Proliferating feature list exported.
+---Selection result for CD4_Proliferating
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9903846153846154
+    minimal loss: 0.005709091667085886
+    minimal weight diff: 0.0038918154314160347
+    total selected feature: 26
+    Time elapsed: 3.9336843132972716
+
+Elapsed time for CD4_Proliferating: 4.00 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (89, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 13359)
+optimal lambda: 0.004641588833612781
+====================
+Starting job for CD8_Proliferating
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 96, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  97 ; minimum lost =  0.015679707750678062 ; diff weight =  0.0002123543672496453
+CD8_Proliferating feature list exported.
+---Selection result for CD8_Proliferating
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 1.0
+    minimal loss: 0.015679707750678062
+    minimal weight diff: 0.0002123543672496453
+    total selected feature: 3
+    Time elapsed: 1.527090859413147
+
+Elapsed time for CD8_Proliferating: 1.59 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (83, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 11675)
+optimal lambda: 0.003162277660168382
+====================
+Starting job for Eryth
+Fitting with optimal lambda: 0.003162277660168382
+At iteration 171, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  172 ; minimum lost =  0.008843834511935711 ; diff weight =  0.0014870959566906095
+Eryth feature list exported.
+---Selection result for Eryth
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 1.0
+    minimal loss: 0.008843834511935711
+    minimal weight diff: 0.0014870959566906095
+    total selected feature: 4
+    Time elapsed: 2.662596642971039
+
+Elapsed time for Eryth: 2.72 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (76, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 12931)
+optimal lambda: 0.00031622776601683783
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.00031622776601683783
+At iteration 309, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  310 ; minimum lost =  0.004067607223987579 ; diff weight =  0.00854405201971531
+ASDC feature list exported.
+---Selection result for ASDC
+Optimal lambda: 0.00031622776601683783
+    median of selected prevalence: 1.0
+    minimal loss: 0.004067607223987579
+    minimal weight diff: 0.00854405201971531
+    total selected feature: 27
+    Time elapsed: 4.7873509963353476
+
+Elapsed time for ASDC: 4.85 minutes

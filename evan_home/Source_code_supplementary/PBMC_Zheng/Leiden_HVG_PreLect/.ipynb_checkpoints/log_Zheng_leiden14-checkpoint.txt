@@ -1,0 +1,50 @@
+nohup: ignoring input
+Original adata: (68579, 32738)
+unique leiden clusters adata: ['Leiden_0', 'Leiden_1', 'Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_2', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+Queue ['Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_2', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+Original adata: (68579, 32738)
+adata celltype shape: (364, 32738)
+type adata_cluster.X <class 'anndata._core.views.SparseCSRView'>
+adata shape after removing all zero columns for celltype cells: (68579, 10332)
+====================
+Starting job for Leiden_10
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:Lambda:  Lambda:     Lambda: Lambda:3.2e-05 Lambda:Lambda:Lambda:6.8e-05  Lambda:0.0001 Lambda:Lambda:1e-05 2.2e-05 Lambda:4.6e-05 Lambda: Lambda:Lambda:Lambda:1.5e-05  0.000147  Lambda: Lambda:starting at Lambda:   starting at 0.000215  starting at   starting at starting at  starting at 0.004642    starting at 0.014678 starting at 0.046416 0.1  2024-03-18 08:06:11 0.000316 0.000464 0.000681 2024-03-18 08:06:11starting at 0.001468 2024-03-18 08:06:110.002154 0.001 2024-03-18 08:06:112024-03-18 08:06:110.003162 2024-03-18 08:06:11starting at 0.006813 0.01 0.031623 2024-03-18 08:06:11
+starting at 2024-03-18 08:06:11
+starting at starting at 0.068129 
+0.021544 starting at starting at starting at 
+2024-03-18 08:06:11starting at 
+starting at starting at 
+
+starting at 
+2024-03-18 08:06:11
+starting at starting at starting at2024-03-18 08:06:112024-03-18 08:06:112024-03-18 08:06:11starting at starting at2024-03-18 08:06:112024-03-18 08:06:112024-03-18 08:06:11
+2024-03-18 08:06:11
+2024-03-18 08:06:112024-03-18 08:06:112024-03-18 08:06:112024-03-18 08:06:112024-03-18 08:06:11 
+
+
+2024-03-18 08:06:11 
+
+
+
+
+
+
+
+2024-03-18 08:06:11
+
+2024-03-18 08:06:11

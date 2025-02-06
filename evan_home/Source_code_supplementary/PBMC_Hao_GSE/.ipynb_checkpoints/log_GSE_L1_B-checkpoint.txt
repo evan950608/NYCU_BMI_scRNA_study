@@ -1,0 +1,37 @@
+nohup: ignoring input
+Original adata: (32349, 33538)
+all cell types: ['B', 'CD4 T', 'CD8 T', 'DC', 'Mono', 'NK', 'other', 'other T']
+====================
+cts ['B']
+====================
+Original adata: (32349, 33538)
+adata celltype shape: (2760, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 20086)
+====================
+Starting job for B
+*** Start parallel lambda tuning ***
+Lambda: 0.046416
+Lambda: 3.2e-05
+Lambda: Lambda:4.6e-05 
+0.000316
+Lambda: 0.002154
+Lambda: Lambda:0.001468 
+0.006813
+Lambda: 0.068129
+Lambda: 0.031623
+Lambda:Lambda: Lambda: Lambda:0.000464 0.003162
+ 
+0.021544
+6.8e-05
+Lambda: 0.004642
+Lambda: 0.001
+Lambda: 0.01
+Lambda: 0.0001
+Lambda: 0.000147
+Lambda: 0.1
+Lambda: 2.2e-05
+Lambda:Lambda: 0.014678Lambda:  0.000681
+1e-05
+
+Lambda: 0.000215
+Lambda: 1.5e-05

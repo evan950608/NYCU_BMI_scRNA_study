@@ -1,0 +1,31 @@
+nohup: ignoring input
+Original adata: (32340, 33538)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (32340, 33538)
+adata celltype shape: (15, 33538)
+adata shape after removing all zero columns for celltype cells: (32340, 9840)
+optimal lambda: 0.003162277660168382
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.003162277660168382
+At iteration 93, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  94 ; minimum lost =  0.009281800128519535 ; diff weight =  0.000928632274735719
+ASDC feature list exported.
+---Selection result for ASDC
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 1.0
+    minimal loss: 0.009281800128519535
+    minimal weight diff: 0.000928632274735719
+    total selected feature: 13
+    Time elapsed: 0.8385128339131673
+
+Elapsed time for ASDC: 0.86 minutes
+Original adata: (32340, 33538)
+adata celltype shape: (486, 33538)
+adata shape after removing all zero columns for celltype cells: (32340, 16370)
+optimal lambda: 0.003162277660168382
+====================
+Starting job for B_intermediate
+Fitting with optimal lambda: 0.003162277660168382

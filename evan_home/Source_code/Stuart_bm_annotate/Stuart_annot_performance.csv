@@ -1,0 +1,9 @@
+,Accuracy ,Precision ,F1-score
+PreLect LR L1 (Stuart),0.8939,0.8572,0.8745
+PreLect LR L1 (Hao),0.8744,0.8833,0.8676
+PreLect LR L2,0.7701,0.8352,0.7837
+SingleR L1 (Stuart),0.8942,0.8218,0.8539
+SingleR L1 (Hao),0.761,0.8477,0.7213
+SingleR L2,0.7208,0.8491,0.7435
+CellAssign L1,0.8757,0.9289,0.8896
+CellAssign L2,0.4666,0.4502,0.4339

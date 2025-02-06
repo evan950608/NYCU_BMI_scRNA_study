@@ -1,0 +1,105 @@
+nohup: ignoring input
+Original adata: (57515, 33538)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Queue ['dnT', 'Treg', 'CD8_Proliferating', 'ILC', 'CD8_TCM']
+Original adata: (57515, 33538)
+adata celltype shape: (287, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 14008)
+optimal lambda: 0.00046415888336127795
+====================
+Starting job for dnT
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 364, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  365 ; minimum lost =  0.015006083995103836 ; diff weight =  0.0030747740529477596
+dnT feature list exported.
+---Selection result for dnT
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9094076655052264
+    minimal loss: 0.015006083995103836
+    minimal weight diff: 0.0030747740529477596
+    total selected feature: 55
+    Time elapsed: 5.853731906414032
+
+Elapsed time for dnT: 6.00 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (1400, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 16450)
+optimal lambda: 0.00031622776601683783
+====================
+Starting job for Treg
+Fitting with optimal lambda: 0.00031622776601683783
+At iteration 492, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  493 ; minimum lost =  0.036775317043066025 ; diff weight =  0.0007847335073165596
+Treg feature list exported.
+---Selection result for Treg
+Optimal lambda: 0.00031622776601683783
+    median of selected prevalence: 0.8153571428571429
+    minimal loss: 0.036775317043066025
+    minimal weight diff: 0.0007847335073165596
+    total selected feature: 282
+    Time elapsed: 7.849308987458547
+
+Elapsed time for Treg: 7.98 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (89, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 13359)
+optimal lambda: 0.00046415888336127795
+====================
+Starting job for CD8_Proliferating
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 288, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  289 ; minimum lost =  0.006873694248497486 ; diff weight =  0.0049420311115682125
+CD8_Proliferating feature list exported.
+---Selection result for CD8_Proliferating
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 1.0
+    minimal loss: 0.006873694248497486
+    minimal weight diff: 0.0049420311115682125
+    total selected feature: 29
+    Time elapsed: 4.544627495606741
+
+Elapsed time for CD8_Proliferating: 4.67 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (123, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 12575)
+optimal lambda: 0.0002154434690031884
+====================
+Starting job for ILC
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 331, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  332 ; minimum lost =  0.00596487894654274 ; diff weight =  0.009717869572341442
+ILC feature list exported.
+---Selection result for ILC
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.967479674796748
+    minimal loss: 0.00596487894654274
+    minimal weight diff: 0.009717869572341442
+    total selected feature: 57
+    Time elapsed: 5.173093481858571
+
+Elapsed time for ILC: 5.34 minutes
+Original adata: (57515, 33538)
+adata celltype shape: (1559, 33538)
+adata shape after removing all zero columns for celltype cells: (57515, 17400)
+optimal lambda: 0.00046415888336127795
+====================
+Starting job for CD8_TCM
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 453, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  454 ; minimum lost =  0.056144844740629196 ; diff weight =  0.00024710045545361936
+CD8_TCM feature list exported.
+---Selection result for CD8_TCM
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9127645926876202
+    minimal loss: 0.056144844740629196
+    minimal weight diff: 0.00024710045545361936
+    total selected feature: 333
+    Time elapsed: 253.63419756094615
+
+Elapsed time for CD8_TCM: 253.78 minutes

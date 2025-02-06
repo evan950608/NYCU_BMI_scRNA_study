@@ -1,0 +1,17 @@
+nohup: ignoring input
+Original adata: (68579, 32738)
+unique leiden clusters adata: ['Leiden_0', 'Leiden_1', 'Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_2', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+                                      celltype     TSNE.1     TSNE.2 leiden_cluster
+AAACATACACCCAA-1              CD8+ Cytotoxic T   7.565540   0.441370       Leiden_1
+AAACATACCCCTCA-1  CD8+/CD45RA+ Naive Cytotoxic   2.552626 -25.786672       Leiden_4
+AAACATACCGGAGA-1           CD4+/CD45RO+ Memory  -5.771831  11.830846       Leiden_0
+AAACATACTAACCG-1                       CD19+ B   1.762556  25.979346       Leiden_7
+AAACATACTCTTCA-1               CD4+/CD25 T Reg -16.793856 -16.589970       Leiden_3
+====================
+Starting job for Leiden_0
+Original adata: (68579, 32738)
+adata celltype shape: (11601, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 16409)
+optimal lambda: 0.0010000000000000002
+Fitting with optimal lambda: 0.0010000000000000002

@@ -1,0 +1,104 @@
+nohup: ignoring input
+Original adata: (30011, 17009)
+all cell types: ['B_cell', 'Mono&DC', 'NK', 'Progenitor_cells', 'T_cell']
+====================
+====================
+Starting job for B_cell
+Original adata: (30011, 17009)
+adata celltype shape: (3733, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 15715)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 470, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  471 ; minimum lost =  0.09886442124843597 ; diff weight =  0.0016116452170535922
+B_cell feature list exported.
+---Selection result for B_cell
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.9687918564157514
+    minimal loss: 0.09886442124843597
+    minimal weight diff: 0.0016116452170535922
+    total selected feature: 16
+    Time elapsed: 1.5421456853548685
+
+Elapsed time for B_cell: 1.71 minutes
+====================
+Starting job for Mono&DC
+Original adata: (30011, 17009)
+adata celltype shape: (7658, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 16266)
+optimal lambda: 0.010000000000000004
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 459, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  460 ; minimum lost =  0.1264423429965973 ; diff weight =  0.0005843224935233593
+Mono&DC feature list exported.
+---Selection result for Mono&DC
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9860276834682684
+    minimal loss: 0.1264423429965973
+    minimal weight diff: 0.0005843224935233593
+    total selected feature: 20
+    Time elapsed: 1.4896284739176433
+
+Elapsed time for Mono&DC: 1.66 minutes
+====================
+Starting job for NK
+Original adata: (30011, 17009)
+adata celltype shape: (1376, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 14287)
+optimal lambda: 0.010000000000000004
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 319, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  320 ; minimum lost =  0.08457992970943451 ; diff weight =  0.0004550039884634316
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.997093023255814
+    minimal loss: 0.08457992970943451
+    minimal weight diff: 0.0004550039884634316
+    total selected feature: 13
+    Time elapsed: 1.036939005057017
+
+Elapsed time for NK: 1.19 minutes
+====================
+Starting job for Progenitor_cells
+Original adata: (30011, 17009)
+adata celltype shape: (2678, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 16567)
+optimal lambda: 0.004641588833612781
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 393, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  393 ; minimum lost =  0.09998628497123718 ; diff weight =  0.006120435427874327
+Progenitor_cells feature list exported.
+---Selection result for Progenitor_cells
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9152352501867065
+    minimal loss: 0.09998628497123718
+    minimal weight diff: 0.006120435427874327
+    total selected feature: 33
+    Time elapsed: 1.3449119607607523
+
+Elapsed time for Progenitor_cells: 1.51 minutes
+====================
+Starting job for T_cell
+Original adata: (30011, 17009)
+adata celltype shape: (14566, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 16577)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 522, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  523 ; minimum lost =  0.17166170477867126 ; diff weight =  0.0005274055292829871
+T_cell feature list exported.
+---Selection result for T_cell
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.9270218316627763
+    minimal loss: 0.17166170477867126
+    minimal weight diff: 0.0005274055292829871
+    total selected feature: 29
+    Time elapsed: 1.7772002816200256
+
+Elapsed time for T_cell: 2.03 minutes

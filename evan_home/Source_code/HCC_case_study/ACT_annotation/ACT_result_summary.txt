@@ -1,0 +1,49 @@
+
+HCC ACT annotation (PreLect features)
+JOB: Tissue:  Liver, Vasculature of liver, Lymph node
+20241125140025J4SNCB3TVK7EU1
+http://xteam.xbio.top/ACT/ResultAction.action?jobID=20241125140025J4SNCB3TVK7EU1
+
+
+Results:
+Leiden 0: ⭐️Hepatocyte (Epithelial cell)
+Leiden 1: ⭐️CD8_TEM, CD4_TEM, CD4_T, CD4_TCM [T/NK]
+Leiden 2: ⭐️Kupffer cell (Macrophage in liver) [Myeloid]
+Leiden 3: ⭐️Monocyte, DC [Myeloid]
+Leiden 4: ⭐️Hepatocyte (Epithelial cell)
+Leiden 5: ⭐️Natural kill cell [T/NK]
+Leiden 6: ⭐️Endothelial cell [Endothelial]
+Leiden 7: ⭐️CD8_TEM, CD4_TEM, T cell [T/NK]
+Leiden 8: ⭐️Natural kill cell [T/NK]
+Leiden 9: ⭐️Cholangiocyte, Hepatic oval stem cell (epithelial cells lining the bile ducts)
+Leiden 10: ⭐️Plasma cell, B cell (B cell activates and differentiates into Plasma cells and memory B cells) [B]
+Leiden 11: ⭐️Fibroblast
+Leiden 12: ⭐️T_reg [T/NK]
+Leiden 13: ⭐️B cell [B]
+Leiden 14: Kupffer cell, Macrophage, ⭐️T cell [Myeloid] [T/NK]
+Leiden 15: ⭐️Hepatocyte, Kupffer cell (Epithelial cell)
+Leiden 16: ⭐️Cholangiocyte (updated after setting k=4)
+Leiden 17: ⭐️Hepatocyte
+Leiden 18: ⭐️Kupffer cell, Macrophage, Monocyte [Myeloid]
+Leiden 19: ⭐️Kupffer cell [Myeloid] (updated after setting k=4)
+Leiden 20: Kupffer cell, Macrophage, Monocyte [Myeloid] (few features)
+Leiden 21: Kupffer cell, Macrophage, Monocyte [Myeloid] (few features)
+Leiden 22: NOT ANNOTATED (few features)
+Leiden 23: Kupffer cell, Macrophage, Monocyte [Myeloid] (few features)
+
+PreLect features for Leiden 19-23:
+    Leiden_19: FTL, MALAT1, B2M, MT-CO1, RPS18, RPS27, RPL41
+    Leiden_20: MALAT1, FTL, B2M, RPL41, RPS27, RPS18, RPLP1, RPL10
+    Leiden_21: MALAT1, FTL, B2M, RPL41, RPS18, RPS27, RPLP1, RPL10
+    Leiden_22: MALAT1, FTL, B2M, MT-CO1, RPL41, RPS18, RPLP1, RPS19, RPL10
+    Leiden_23: B2M, FTL, MT-CO1, RPL41, RPLP1, MALAT1, RPS18, RPS27
+    highly replicated.
+    mostly broadly expressed genes.
+    'RPL41', 'RPS18', 'RPS27' are Ribosomal protein genes. Broadly expressed. May be upregulated in cells undergoing rapid growth and division
+
+
+JOB: Tissue: Liver, Vasculature of liver (FINAL)
+20241125152428A7UIYTVN7SPVJS
+http://xteam.xbio.top/ACT/ResultAction.action?jobID=20241125152428A7UIYTVN7SPVJS
+
+Same as the JOB on top.

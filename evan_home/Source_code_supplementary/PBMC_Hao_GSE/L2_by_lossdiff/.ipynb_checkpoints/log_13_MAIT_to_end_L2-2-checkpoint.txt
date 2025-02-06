@@ -1,0 +1,37 @@
+nohup: ignoring input
+Original adata: (32340, 33538)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+cts ['MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (32340, 33538)
+adata celltype shape: (556, 33538)
+adata shape after removing all zero columns for celltype cells: (32340, 14859)
+====================
+Starting job for MAIT
+*** Start parallel lambda tuning ***
+Lambda:Lambda:  0.003162 0.0001 starting at starting at 2023-11-29 17:50:432023-11-29 17:50:43
+
+Lambda:Lambda:Lambda:Lambda: Lambda:Lambda: Lambda: Lambda: Lambda:Lambda: Lambda:Lambda:  4.6e-05 0.000681 2.2e-05Lambda:0.046416Lambda: 0.000464  Lambda: 1e-05 6.8e-05 1.5e-05  starting at3.2e-05  Lambda: starting atLambda: 0.068129 Lambda:Lambda:starting at 0.1  0.000316 Lambda:Lambda:Lambda:Lambda:starting at  starting atstarting atstarting at 2023-11-29 17:50:43 starting at0.021544    0.000147starting at   0.0002152023-11-29 17:50:43starting at 0.001starting at     2023-11-29 17:50:43   
+starting at starting at0.012023-11-29 17:50:430.002154 2023-11-29 17:50:430.014678  starting at
+2023-11-29 17:50:43
+ starting at2023-11-29 17:50:43
+0.006813 0.004642 0.031623 0.001468 
+2023-11-29 17:50:43
+2023-11-29 17:50:432023-11-29 17:50:43 2023-11-29 17:50:432023-11-29 17:50:43
+ 2023-11-29 17:50:44 starting at
+ starting at 
+starting at  2023-11-29 17:50:44starting atstarting atstarting at starting at 
+
+
+
+ 2023-11-29 17:50:44starting at2023-11-29 17:50:44 2023-11-29 17:50:44
+  2023-11-29 17:50:442023-11-29 17:50:44
+ 2023-11-29 17:50:44
+2023-11-29 17:50:44
+2023-11-29 17:50:442023-11-29 17:50:44
+
+
+
+
+

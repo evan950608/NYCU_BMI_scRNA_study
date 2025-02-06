@@ -1,0 +1,34 @@
+species	official gene symbol	cell type	nicknames	ubiquitousness index	product description	gene type	canonical marker	germ layer	organ	sensitivity_human	sensitivity_mouse	specificity_human	specificity_mouse
+Mm Hs	LTB	B cells	TNFSF3|TNFC	0.065	lymphotoxin beta	protein-coding gene		Mesoderm	Immune system	0.612903	0.453488	0.154313	0.0385594
+Mm Hs	CD74	B cells	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.983871	0.94186	0.351438	0.111437
+Mm Hs	LTB	B cells memory	TNFSF3|TNFC	0.065	lymphotoxin beta	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.163221	0.0454283
+Mm Hs	LTB	B cells naive	TNFSF3|TNFC	0.065	lymphotoxin beta	protein-coding gene	1.0	Mesoderm	Immune system	1.0	0.0	0.15927	0.0454283
+Mm Hs	CD74	B cells naive	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	1.0	0.0	0.360718	0.125184
+Mm Hs	S100A4	Dendritic cells	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	Mesoderm	Immune system	0.836735	0.0	0.348768	0.0
+Mm Hs	CCL5	Eosinophils	RANTES|SISd|TCP228|MGC17164|D17S136E|SCYA5	0.042	C-C motif chemokine ligand 5	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0	0.0858396	0.0327259
+Hs	GNLY	Gamma delta T cells	NKG5|LAG-2|D2S69E|TLA519|LAG2	0.013	granulysin	protein-coding gene	1.0	Mesoderm	Immune system	1.0	0.0	0.0596728	0.0
+Mm Hs	CCL5	Gamma delta T cells	RANTES|SISd|TCP228|MGC17164|D17S136E|SCYA5	0.042	C-C motif chemokine ligand 5	protein-coding gene	1.0	Mesoderm	Immune system	0.986667	1.0	0.0641643	0.0321649
+Mm Hs	S100A4	Macrophages	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	Mesoderm	Immune system	0.916667	0.0	0.369182	0.0
+Mm Hs	CCL5	Macrophages	RANTES|SISd|TCP228|MGC17164|D17S136E|SCYA5	0.042	C-C motif chemokine ligand 5	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.109091	0.0861635	0.0302187
+Mm Hs	CD74	Macrophages	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.75	0.721212	0.362264	0.105633
+Mm Hs	DUSP1	Mast cells	HVH1|CL100|MKP-1|PTPN10	0.281	dual specificity phosphatase 1	protein-coding gene	1.0	Mesoderm	Immune system	0.5	0.868421	0.442525	0.249566
+Mm Hs	S100A4	Monocytes	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	Mesoderm	Immune system	0.5	0.0	0.370183	0.0
+Mm Hs	S100A4	Myeloid-derived suppressor cells	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	mesoderm	Immune system	0.0	0.0	0.371241	0.0
+Mm Hs	S100A4	Neutrophils	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	Mesoderm	Immune system	0.692308	0.0	0.369928	0.0
+Hs	GNLY	NK cells	NKG5|LAG-2|D2S69E|TLA519|LAG2	0.013	granulysin	protein-coding gene	1.0	Mesoderm	Immune system	0.851351	0.0	0.0635022	0.0
+Hs	IL32	NK cells	NK4|TAIF|TAIFb|TAIFd	0.036	interleukin 32	protein-coding gene		Mesoderm	Immune system	0.824324	0.0	0.190186	0.0
+Mm Hs	CCL5	NK cells	RANTES|SISd|TCP228|MGC17164|D17S136E|SCYA5	0.042	C-C motif chemokine ligand 5	protein-coding gene	1.0	Mesoderm	Immune system	0.891892	0.968085	0.0667094	0.027048
+Mm Hs	DUSP2	NK cells	PAC-1	0.042	dual specificity phosphatase 2	protein-coding gene	1.0	Mesoderm	Immune system	0.5	0.797872	0.0493906	0.0343425
+Mm Hs	S100A4	NK cells	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	Mesoderm	Immune system	0.851351	0.0	0.359846	0.0
+Mm Hs	GZMK	NK cells	TRYP2|PRSS	0.001	granzyme K	protein-coding gene	1.0	Mesoderm	Immune system	0.0	0.0106383	0.000320718	0.00148473
+Mm Hs	CD74	Plasma cells	DHLAG	0.169	CD74 molecule	protein-coding gene	1.0	Mesoderm	Immune system	0.972222	1.0	0.356781	0.125128
+Mm Hs	CCL5	Platelets	RANTES|SISd|TCP228|MGC17164|D17S136E|SCYA5	0.042	C-C motif chemokine ligand 5	protein-coding gene	1.0	Mesoderm	Blood	1.0	0.0	0.0846926	0.0327301
+Mm Hs	ARHGDIB	Platelets	Ly-GDI|RhoGDI2|RAP1GN1|GDIA2|GDID4	0.201	Rho GDP dissociation inhibitor beta	protein-coding gene	1.0	Mesoderm	Blood	1.0	1.0	0.35665	0.167822
+Mm Hs	LTB	T cells	TNFSF3|TNFC	0.065	lymphotoxin beta	protein-coding gene	1.0	Mesoderm	Immune system	0.83004	0.518692	0.105818	0.0388394
+Hs	IL32	T cells	NK4|TAIF|TAIFb|TAIFd	0.036	interleukin 32	protein-coding gene	1.0	Mesoderm	Immune system	0.976285	0.0	0.138482	0.0
+Mm Hs	GZMK	T cells	TRYP2|PRSS	0.001	granzyme K	protein-coding gene	1.0	Mesoderm	Immune system	0.00395257	0.0934579	0.0	0.00026023
+Mm Hs	S100A4	T cells	P9KA|18A2|PEL98|42A|CAPL	0.098	S100 calcium binding protein A4	protein-coding gene	1.0	Mesoderm	Immune system	0.849802	0.0	0.330044	0.0
+Mm Hs	CCL5	T cells	RANTES|SISd|TCP228|MGC17164|D17S136E|SCYA5	0.042	C-C motif chemokine ligand 5	protein-coding gene	1.0	Mesoderm	Immune system	0.347826	0.28972	0.0632868	0.0291458
+Mm Hs	JUNB	T cells		0.387	JunB proto-oncogene, AP-1 transcription factor subunit	protein-coding gene	1.0	Mesoderm	Immune system	0.675889	0.691589	0.515822	0.35645
+Mm Hs	DUSP2	T cells	PAC-1	0.042	dual specificity phosphatase 2	protein-coding gene	1.0	Mesoderm	Immune system	0.29249	0.17757	0.0398095	0.0370178
+Mm Hs	LTB	T memory cells	TNFSF3|TNFC	0.065	lymphotoxin beta	protein-coding gene		Mesoderm	Immune system	1.0	0.81875	0.152333	0.0292172

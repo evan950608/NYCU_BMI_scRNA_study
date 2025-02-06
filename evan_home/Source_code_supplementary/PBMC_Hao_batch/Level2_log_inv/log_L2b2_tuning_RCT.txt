@@ -1,0 +1,208 @@
+nohup: ignoring input
+Queue celltype: ASDC
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (76, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 12931)
+====================
+Starting job for ASDC
+[-1.91882091 -1.53505673 -1.15129255 -0.76752836 -0.38376418]
+[0.14677993 0.21544347 0.31622777 0.46415888 0.68129207]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:   Lambda: Lambda: 0.464159 0.215443 0.3162280.14678 0.681292 starting at starting at  starting atstarting at starting at 2024-04-14 12:32:402024-04-14 12:32:40
+ 2024-04-14 12:32:402024-04-14 12:32:40
+
+2024-04-14 12:32:40
+
+At iteration 117, Convergence with loss difference
+lambda is : 0.6812920690579616, cost : 18.837 min
+==========
+At iteration 121, Convergence with loss difference
+lambda is : 0.31622776601683833, cost : 19.308 min
+==========
+At iteration 130, Convergence with loss difference
+lambda is : 0.46415888336127825, cost : 20.393 min
+==========
+At iteration 140, Convergence with loss difference
+lambda is : 0.21544346900318834, cost : 21.312 min
+==========
+At iteration 143, Convergence with loss difference
+lambda is : 0.146779926762207, cost : 21.453 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:939: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  ax1.set(yscale="log")
+ASDC Time elapsed: 21.490106276671092 minutes.
+***** Finished lambda tuning
+====================
+
+==========
+nohup: ignoring input
+Queue celltype: CD4_Proliferating
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (104, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 14186)
+====================
+Starting job for CD4_Proliferating
+[-1.91882091 -1.53505673 -1.15129255 -0.76752836 -0.38376418]
+[0.14677993 0.21544347 0.31622777 0.46415888 0.68129207]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda:Lambda:Lambda:     0.681292 0.4641590.215443 0.14678 0.316228 starting at  starting at starting at starting at 2024-04-14 12:29:21starting at2024-04-14 12:29:212024-04-14 12:29:212024-04-14 12:29:21
+ 
+
+
+2024-04-14 12:29:21
+At iteration 118, Convergence with loss difference
+lambda is : 0.6812920690579616, cost : 19.223 min
+==========
+At iteration 120, Convergence with loss difference
+lambda is : 0.31622776601683833, cost : 19.728 min
+==========
+At iteration 131, Convergence with loss difference
+lambda is : 0.46415888336127825, cost : 20.812 min
+==========
+At iteration 141, Convergence with loss difference
+lambda is : 0.21544346900318834, cost : 22.146 min
+==========
+At iteration 146, Convergence with loss difference
+lambda is : 0.146779926762207, cost : 23.005 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:939: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  ax1.set(yscale="log")
+CD4_Proliferating Time elapsed: 23.04351948897044 minutes.
+***** Finished lambda tuning
+====================
+
+==========
+nohup: ignoring input
+Queue celltype: CD8_Proliferating
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (89, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 13359)
+====================
+Starting job for CD8_Proliferating
+[-1.91882091 -1.53505673 -1.15129255 -0.76752836 -0.38376418]
+[0.14677993 0.21544347 0.31622777 0.46415888 0.68129207]
+*** Start parallel lambda tuning ***
+Lambda: 0.464159 starting at 2024-04-14 12:29:48Lambda:Lambda:Lambda:Lambda:
+    0.316228 0.14678 0.215443 0.681292 starting at starting at starting at starting at 2024-04-14 12:29:482024-04-14 12:29:482024-04-14 12:29:482024-04-14 12:29:48
+
+
+
+At iteration 114, Convergence with loss difference
+lambda is : 0.6812920690579616, cost : 18.463 min
+==========
+At iteration 128, Convergence with loss difference
+lambda is : 0.31622776601683833, cost : 20.466 min
+==========
+At iteration 129, Convergence with loss difference
+lambda is : 0.46415888336127825, cost : 20.483 min
+==========
+At iteration 140, Convergence with loss difference
+lambda is : 0.21544346900318834, cost : 21.959 min
+==========
+At iteration 145, Convergence with loss difference
+lambda is : 0.146779926762207, cost : 22.433 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:939: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  ax1.set(yscale="log")
+CD8_Proliferating Time elapsed: 22.467984807491302 minutes.
+***** Finished lambda tuning
+====================
+
+==========
+nohup: ignoring input
+Queue celltype: Eryth
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (83, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 11675)
+====================
+Starting job for Eryth
+[-1.91882091 -1.53505673 -1.15129255 -0.76752836 -0.38376418]
+[0.14677993 0.21544347 0.31622777 0.46415888 0.68129207]
+*** Start parallel lambda tuning ***
+Lambda: Lambda: Lambda: Lambda:Lambda: 0.316228 0.464159 0.14678  0.681292 starting at starting at starting at 0.215443 starting at 2024-04-14 12:31:52
+2024-04-14 12:31:52
+2024-04-14 12:31:52starting at2024-04-14 12:31:52
+
+ 2024-04-14 12:31:52
+At iteration 110, Convergence with loss difference
+lambda is : 0.146779926762207, cost : 17.882 min
+==========
+At iteration 111, Convergence with loss difference
+lambda is : 0.6812920690579616, cost : 18.144 min
+==========
+At iteration 112, Convergence with loss difference
+lambda is : 0.31622776601683833, cost : 18.299 min
+==========
+At iteration 112, Convergence with loss difference
+lambda is : 0.46415888336127825, cost : 18.396 min
+==========
+At iteration 131, Convergence with loss difference
+lambda is : 0.21544346900318834, cost : 20.817 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:939: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  ax1.set(yscale="log")
+Eryth Time elapsed: 20.852961055437724 minutes.
+***** Finished lambda tuning
+====================
+
+==========
+nohup: ignoring input
+Queue celltype: ILC
+Original adata: (57515, 33538) <class 'scipy.sparse._csc.csc_matrix'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Original adata: (57515, 33538)
+adata celltype shape: (123, 33538)
+type adata_celltype.X <class 'anndata._core.views.SparseCSCView'>
+adata shape after removing all zero columns for celltype cells: (57515, 12575)
+====================
+Starting job for ILC
+[-1.91882091 -1.53505673 -1.15129255 -0.76752836 -0.38376418]
+[0.14677993 0.21544347 0.31622777 0.46415888 0.68129207]
+*** Start parallel lambda tuning ***
+Lambda:Lambda:Lambda: Lambda:Lambda:  0.14678   0.215443 0.316228 starting at 0.681292 0.464159 starting at starting at 2024-04-14 12:28:19starting at starting at 2024-04-14 12:28:192024-04-14 12:28:19
+2024-04-14 12:28:192024-04-14 12:28:19
+
+
+
+At iteration 113, Convergence with loss difference
+lambda is : 0.46415888336127825, cost : 17.464 min
+==========
+At iteration 118, Convergence with loss difference
+lambda is : 0.6812920690579616, cost : 19.229 min
+==========
+At iteration 139, Convergence with loss difference
+lambda is : 0.31622776601683833, cost : 22.242 min
+==========
+At iteration 141, Convergence with loss difference
+lambda is : 0.146779926762207, cost : 22.408 min
+==========
+At iteration 147, Convergence with loss difference
+lambda is : 0.21544346900318834, cost : 22.821 min
+==========
+*** Collecting results ***
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:939: UserWarning: Data has no positive values, and therefore cannot be log-scaled.
+  ax1.set(yscale="log")
+ILC Time elapsed: 22.856871791680653 minutes.
+***** Finished lambda tuning
+====================

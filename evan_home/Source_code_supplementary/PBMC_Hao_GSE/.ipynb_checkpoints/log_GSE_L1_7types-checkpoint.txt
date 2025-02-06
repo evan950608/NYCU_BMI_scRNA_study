@@ -1,0 +1,19 @@
+nohup: ignoring input
+Original adata: (32349, 33538)
+all cell types: ['B', 'CD4 T', 'CD8 T', 'DC', 'Mono', 'NK', 'other', 'other T']
+====================
+cts ['CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Original adata: (32349, 33538)
+adata celltype shape: (0, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 0)
+====================
+Starting job for CD4_T
+Traceback (most recent call last):
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao_GSE/GSE_L1_loss_diff_tuning_cpu_7.py", line 140, in <module>
+    pipeline_ad2(adata, celltype, label, output_path=server_path)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/PBMC_Hao_GSE/GSE_L1_loss_diff_tuning_cpu_7.py", line 61, in pipeline_ad2
+    result_dict, loss_history_dict, loss_diff_history_dict = ad.lambda_tuning_para_ttsplit(data.X, celltype_label, lmbd_range, device='cpu', loss_tol=1e-6, n_jobs=25)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py", line 607, in lambda_tuning_para_ttsplit
+    raise ValueError("This procedure allows only 2 classes.")
+ValueError: This procedure allows only 2 classes.

@@ -1,0 +1,164 @@
+nohup: ignoring input
+Original adata: (32349, 33538)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Original adata: (32349, 33538)
+adata celltype shape: (2760, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 20086)
+optimal lambda: 0.010000000000000004
+====================
+Starting job for B
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 559, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  560 ; minimum lost =  0.07774810492992401 ; diff weight =  0.001648672274313867
+B feature list exported.
+---Selection result for B
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.9753623188405797
+    minimal loss: 0.07774810492992401
+    minimal weight diff: 0.001648672274313867
+    total selected feature: 13
+    Time elapsed: 5.446668907006582
+
+Elapsed time for B: 5.47 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (8200, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 21153)
+optimal lambda: 0.0014677992676220694
+====================
+Starting job for CD4_T
+Fitting with optimal lambda: 0.0014677992676220694
+At iteration 545, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  545 ; minimum lost =  0.160381019115448 ; diff weight =  0.005100424867123365
+CD4_T feature list exported.
+---Selection result for CD4_T
+Optimal lambda: 0.0014677992676220694
+    median of selected prevalence: 0.8141463414634147
+    minimal loss: 0.160381019115448
+    minimal weight diff: 0.005100424867123365
+    total selected feature: 200
+    Time elapsed: 5.068884062767029
+
+Elapsed time for CD4_T: 5.10 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (5093, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 20277)
+optimal lambda: 0.006812920690579613
+====================
+Starting job for CD8_T
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 539, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  540 ; minimum lost =  0.1633453369140625 ; diff weight =  0.0009987662779167295
+CD8_T feature list exported.
+---Selection result for CD8_T
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.9685843314353033
+    minimal loss: 0.1633453369140625
+    minimal weight diff: 0.0009987662779167295
+    total selected feature: 25
+    Time elapsed: 5.125516327222188
+
+Elapsed time for CD8_T: 5.15 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (717, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 17987)
+optimal lambda: 0.003162277660168382
+====================
+Starting job for DC
+Fitting with optimal lambda: 0.003162277660168382
+At iteration 453, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  454 ; minimum lost =  0.03467581421136856 ; diff weight =  0.0016061121132224798
+DC feature list exported.
+---Selection result for DC
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 0.9846582984658299
+    minimal loss: 0.03467581421136856
+    minimal weight diff: 0.0016061121132224798
+    total selected feature: 25
+    Time elapsed: 4.7208592613538105
+
+Elapsed time for DC: 4.89 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (9802, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 22372)
+optimal lambda: 0.014677992676220709
+====================
+Starting job for Mono
+Fitting with optimal lambda: 0.014677992676220709
+At iteration 435, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  436 ; minimum lost =  0.10591627657413483 ; diff weight =  0.0013349066721275449
+Mono feature list exported.
+---Selection result for Mono
+Optimal lambda: 0.014677992676220709
+    median of selected prevalence: 0.9947969802081208
+    minimal loss: 0.10591627657413483
+    minimal weight diff: 0.0013349066721275449
+    total selected feature: 21
+    Time elapsed: 4.910834113756816
+
+Elapsed time for Mono: 4.96 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (3732, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 19503)
+optimal lambda: 0.006812920690579613
+====================
+Starting job for NK
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 500, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  501 ; minimum lost =  0.10506532341241837 ; diff weight =  0.0010132427560165524
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.9417202572347267
+    minimal loss: 0.10506532341241837
+    minimal weight diff: 0.0010132427560165524
+    total selected feature: 28
+    Time elapsed: 5.583110352357228
+
+Elapsed time for NK: 5.62 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (688, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 17244)
+optimal lambda: 0.0010000000000000002
+====================
+Starting job for other
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 421, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  422 ; minimum lost =  0.029641859233379364 ; diff weight =  0.00567656708881259
+other feature list exported.
+---Selection result for other
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.7892441860465116
+    minimal loss: 0.029641859233379364
+    minimal weight diff: 0.00567656708881259
+    total selected feature: 42
+    Time elapsed: 4.227009499073029
+
+Elapsed time for other: 4.27 minutes
+Original adata: (32349, 33538)
+adata celltype shape: (1357, 33538)
+adata shape after removing all zero columns for celltype cells: (32349, 17110)
+optimal lambda: 0.0014677992676220694
+====================
+Starting job for other_T
+Fitting with optimal lambda: 0.0014677992676220694
+At iteration 524, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  525 ; minimum lost =  0.07577621936798096 ; diff weight =  0.001408869749866426
+other_T feature list exported.
+---Selection result for other_T
+Optimal lambda: 0.0014677992676220694
+    median of selected prevalence: 0.8997789240972734
+    minimal loss: 0.07577621936798096
+    minimal weight diff: 0.001408869749866426
+    total selected feature: 61
+    Time elapsed: 5.6969024260838825
+
+Elapsed time for other_T: 5.73 minutes

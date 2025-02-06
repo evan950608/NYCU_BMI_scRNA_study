@@ -1,0 +1,330 @@
+nohup: ignoring input
+Original adata: (68579, 32738)
+unique leiden clusters adata: ['Leiden_0', 'Leiden_1', 'Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_2', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+                                      celltype     TSNE.1     TSNE.2 leiden_cluster
+AAACATACACCCAA-1              CD8+ Cytotoxic T   7.565540   0.441370       Leiden_1
+AAACATACCCCTCA-1  CD8+/CD45RA+ Naive Cytotoxic   2.552626 -25.786672       Leiden_4
+AAACATACCGGAGA-1           CD4+/CD45RO+ Memory  -5.771831  11.830846       Leiden_0
+AAACATACTAACCG-1                       CD19+ B   1.762556  25.979346       Leiden_7
+AAACATACTCTTCA-1               CD4+/CD25 T Reg -16.793856 -16.589970       Leiden_3
+====================
+Starting job for Leiden_0
+Original adata: (68579, 32738)
+adata celltype shape: (11601, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 16409)
+optimal lambda: 0.0010000000000000002
+Fitting with optimal lambda: 0.0010000000000000002
+At iteration 511, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  512 ; minimum lost =  0.1911335587501526 ; diff weight =  0.0011692356783896685
+Leiden_0 feature list exported.
+---Selection result for Leiden_0
+Optimal lambda: 0.0010000000000000002
+    median of selected prevalence: 0.8952676493405741
+    minimal loss: 0.1911335587501526
+    minimal weight diff: 0.0011692356783896685
+    total selected feature: 97
+    Time elapsed: 2.3950740257898966
+
+Elapsed time for Leiden_0: 2.42 minutes
+====================
+Starting job for Leiden_1
+Original adata: (68579, 32738)
+adata celltype shape: (9488, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 15854)
+optimal lambda: 0.003162277660168382
+Fitting with optimal lambda: 0.003162277660168382
+At iteration 456, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  457 ; minimum lost =  0.15165778994560242 ; diff weight =  0.0013010151451453567
+Leiden_1 feature list exported.
+---Selection result for Leiden_1
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 0.851602023608769
+    minimal loss: 0.15165778994560242
+    minimal weight diff: 0.0013010151451453567
+    total selected feature: 21
+    Time elapsed: 2.1237255771954855
+
+Elapsed time for Leiden_1: 2.15 minutes
+====================
+Starting job for Leiden_10
+Original adata: (68579, 32738)
+adata celltype shape: (364, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 10332)
+optimal lambda: 0.014677992676220709
+Fitting with optimal lambda: 0.014677992676220709
+At iteration 340, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  341 ; minimum lost =  0.05280427634716034 ; diff weight =  0.00025150045985355973
+Leiden_10 feature list exported.
+---Selection result for Leiden_10
+Optimal lambda: 0.014677992676220709
+    median of selected prevalence: 0.9958791208791209
+    minimal loss: 0.05280427634716034
+    minimal weight diff: 0.00025150045985355973
+    total selected feature: 4
+    Time elapsed: 1.5524951537450156
+
+Elapsed time for Leiden_10: 1.58 minutes
+====================
+Starting job for Leiden_11
+Original adata: (68579, 32738)
+adata celltype shape: (216, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 10894)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 344, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  345 ; minimum lost =  0.029229678213596344 ; diff weight =  0.0008138949051499367
+Leiden_11 feature list exported.
+---Selection result for Leiden_11
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 1.0
+    minimal loss: 0.029229678213596344
+    minimal weight diff: 0.0008138949051499367
+    total selected feature: 5
+    Time elapsed: 1.5854783495267233
+
+Elapsed time for Leiden_11: 1.61 minutes
+====================
+Starting job for Leiden_12
+Original adata: (68579, 32738)
+adata celltype shape: (164, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 5258)
+optimal lambda: 0.02154434690031885
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 229, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  230 ; minimum lost =  0.05961594730615616 ; diff weight =  0.0014209534274414182
+Leiden_12 feature list exported.
+---Selection result for Leiden_12
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.05961594730615616
+    minimal weight diff: 0.0014209534274414182
+    total selected feature: 2
+    Time elapsed: 0.8262397130330403
+
+Elapsed time for Leiden_12: 0.86 minutes
+====================
+Starting job for Leiden_13
+Original adata: (68579, 32738)
+adata celltype shape: (145, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 11379)
+optimal lambda: 0.010000000000000004
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 335, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  336 ; minimum lost =  0.029906056821346283 ; diff weight =  9.489059448242188e-05
+Leiden_13 feature list exported.
+---Selection result for Leiden_13
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.996551724137931
+    minimal loss: 0.029906056821346283
+    minimal weight diff: 9.489059448242188e-05
+    total selected feature: 2
+    Time elapsed: 1.5417601108551025
+
+Elapsed time for Leiden_13: 1.57 minutes
+====================
+Starting job for Leiden_14
+Original adata: (68579, 32738)
+adata celltype shape: (77, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 8407)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 359, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  360 ; minimum lost =  0.02188080921769142 ; diff weight =  0.0021279507782310247
+Leiden_14 feature list exported.
+---Selection result for Leiden_14
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 1.0
+    minimal loss: 0.02188080921769142
+    minimal weight diff: 0.0021279507782310247
+    total selected feature: 7
+    Time elapsed: 1.6121148904164633
+
+Elapsed time for Leiden_14: 1.64 minutes
+====================
+Starting job for Leiden_15
+Original adata: (68579, 32738)
+adata celltype shape: (49, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 6620)
+optimal lambda: 0.010000000000000004
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 386, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  387 ; minimum lost =  0.025071652606129646 ; diff weight =  0.001359183806926012
+Leiden_15 feature list exported.
+---Selection result for Leiden_15
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 1.0
+    minimal loss: 0.025071652606129646
+    minimal weight diff: 0.001359183806926012
+    total selected feature: 5
+    Time elapsed: 1.6593631347020468
+
+Elapsed time for Leiden_15: 1.69 minutes
+====================
+Starting job for Leiden_2
+Original adata: (68579, 32738)
+adata celltype shape: (9408, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 15928)
+optimal lambda: 0.0006812920690579617
+Fitting with optimal lambda: 0.0006812920690579617
+At iteration 444, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  445 ; minimum lost =  0.22705784440040588 ; diff weight =  0.0020447412971407175
+Leiden_2 feature list exported.
+---Selection result for Leiden_2
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.8912627551020408
+    minimal loss: 0.22705784440040588
+    minimal weight diff: 0.0020447412971407175
+    total selected feature: 141
+    Time elapsed: 2.0671069383621217
+
+Elapsed time for Leiden_2: 2.10 minutes
+====================
+Starting job for Leiden_3
+Original adata: (68579, 32738)
+adata celltype shape: (9046, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 15451)
+optimal lambda: 0.0006812920690579617
+Fitting with optimal lambda: 0.0006812920690579617
+At iteration 526, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  527 ; minimum lost =  0.18309205770492554 ; diff weight =  0.001058995840139687
+Leiden_3 feature list exported.
+---Selection result for Leiden_3
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.9159849657307098
+    minimal loss: 0.18309205770492554
+    minimal weight diff: 0.001058995840139687
+    total selected feature: 89
+    Time elapsed: 2.446135453383128
+
+Elapsed time for Leiden_3: 2.48 minutes
+====================
+Starting job for Leiden_4
+Original adata: (68579, 32738)
+adata celltype shape: (8167, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 15573)
+optimal lambda: 0.00046415888336127795
+Fitting with optimal lambda: 0.00046415888336127795
+At iteration 516, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  517 ; minimum lost =  0.1557908058166504 ; diff weight =  0.001526930253021419
+Leiden_4 feature list exported.
+---Selection result for Leiden_4
+Optimal lambda: 0.00046415888336127795
+    median of selected prevalence: 0.9055344679808988
+    minimal loss: 0.1557908058166504
+    minimal weight diff: 0.001526930253021419
+    total selected feature: 152
+    Time elapsed: 2.3995335261027018
+
+Elapsed time for Leiden_4: 2.43 minutes
+====================
+Starting job for Leiden_5
+Original adata: (68579, 32738)
+adata celltype shape: (6801, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 15003)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 441, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  442 ; minimum lost =  0.1316712200641632 ; diff weight =  0.0007158105145208538
+Leiden_5 feature list exported.
+---Selection result for Leiden_5
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.9823555359505955
+    minimal loss: 0.1316712200641632
+    minimal weight diff: 0.0007158105145208538
+    total selected feature: 17
+    Time elapsed: 2.0536926706631977
+
+Elapsed time for Leiden_5: 2.08 minutes
+====================
+Starting job for Leiden_6
+Original adata: (68579, 32738)
+adata celltype shape: (4578, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 14703)
+optimal lambda: 0.004641588833612781
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 444, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  445 ; minimum lost =  0.08365298062562943 ; diff weight =  0.002133317291736603
+Leiden_6 feature list exported.
+---Selection result for Leiden_6
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.9796854521625163
+    minimal loss: 0.08365298062562943
+    minimal weight diff: 0.002133317291736603
+    total selected feature: 22
+    Time elapsed: 2.065282678604126
+
+Elapsed time for Leiden_6: 2.10 minutes
+====================
+Starting job for Leiden_7
+Original adata: (68579, 32738)
+adata celltype shape: (3815, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 14808)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 354, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  355 ; minimum lost =  0.06596844643354416 ; diff weight =  0.0015818591928109527
+Leiden_7 feature list exported.
+---Selection result for Leiden_7
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.9918741808650066
+    minimal loss: 0.06596844643354416
+    minimal weight diff: 0.0015818591928109527
+    total selected feature: 12
+    Time elapsed: 1.6501577655474344
+
+Elapsed time for Leiden_7: 1.68 minutes
+====================
+Starting job for Leiden_8
+Original adata: (68579, 32738)
+adata celltype shape: (2893, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 14620)
+optimal lambda: 0.004641588833612781
+Fitting with optimal lambda: 0.004641588833612781
+At iteration 334, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  335 ; minimum lost =  0.05082712322473526 ; diff weight =  5.5850952776381746e-05
+Leiden_8 feature list exported.
+---Selection result for Leiden_8
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.8717594192879364
+    minimal loss: 0.05082712322473526
+    minimal weight diff: 5.5850952776381746e-05
+    total selected feature: 7
+    Time elapsed: 1.5573207219441731
+
+Elapsed time for Leiden_8: 1.59 minutes
+====================
+Starting job for Leiden_9
+Original adata: (68579, 32738)
+adata celltype shape: (1767, 32738)
+adata shape after removing all zero columns for celltype cells: (68579, 13813)
+optimal lambda: 0.006812920690579613
+Fitting with optimal lambda: 0.006812920690579613
+At iteration 432, Convergence with loss difference
+Convergence with loss difference
+minimum epoch =  433 ; minimum lost =  0.053222231566905975 ; diff weight =  0.000721594609785825
+Leiden_9 feature list exported.
+---Selection result for Leiden_9
+Optimal lambda: 0.006812920690579613
+    median of selected prevalence: 0.99830220713073
+    minimal loss: 0.053222231566905975
+    minimal weight diff: 0.000721594609785825
+    total selected feature: 7
+    Time elapsed: 2.004575483004252
+
+Elapsed time for Leiden_9: 2.03 minutes

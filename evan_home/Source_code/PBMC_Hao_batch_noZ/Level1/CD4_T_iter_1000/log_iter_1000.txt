@@ -1,0 +1,20 @@
+Original adata: (59897, 27504)
+optimal lambda: 0.0014677992676220694
+====================
+Starting job for CD4_T
+Fitting with optimal lambda: 0.0014677992676220694
+At iteration 560, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 561, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 562, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 563, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 623, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 979, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 980, Convergence with loss difference, Device: cuda
+=*=*=*=*=*=*=*=*=*=*=*=*=
+At iteration 981, Convergence with loss difference, Device: cuda

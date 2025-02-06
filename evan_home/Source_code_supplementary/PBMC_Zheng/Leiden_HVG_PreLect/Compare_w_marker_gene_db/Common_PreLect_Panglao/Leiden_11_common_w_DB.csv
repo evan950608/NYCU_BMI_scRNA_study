@@ -1,0 +1,2 @@
+species	official gene symbol	cell type	nicknames	ubiquitousness index	product description	gene type	canonical marker	germ layer	organ	sensitivity_human	sensitivity_mouse	specificity_human	specificity_mouse
+Hs	FTL	Dendritic cells	MGC71996|NBIA3	0.178	ferritin light chain	protein-coding gene	1.0	Mesoderm	Immune system	0.993197	0.0	0.935961	0.0

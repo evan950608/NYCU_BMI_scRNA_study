@@ -1,0 +1,97 @@
+nohup: ignoring input
+Original adata: (57515, 27504)
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+queue_filtered ['B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_Naive', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_TCM', 'CD8_TEM', 'HSPC', 'MAIT', 'NK', 'NK_CD56bright', 'Plasmablast', 'Treg', 'cDC1', 'cDC2', 'gdT', 'pDC']
+Indices at different celltype:
+ {'B_memory': [8, 18, 20], 'B_naive': [8, 10, 12, 14, 16, 20], 'CD14_Mono': [8, 10, 12, 14, 16, 18], 'CD16_Mono': [8, 10, 12, 20], 'CD4_Naive': [20], 'CD4_TCM': [8, 10], 'CD4_TEM': [8, 10, 20], 'CD8_Naive': [8, 12, 20], 'CD8_TCM': [8, 20], 'CD8_TEM': [8, 10], 'HSPC': [8, 10, 16, 18, 20], 'MAIT': [8, 10, 18, 20], 'NK': [8, 10, 12, 14, 16, 18, 20], 'NK_CD56bright': [8, 10, 20], 'Plasmablast': [8, 10, 18, 20], 'Treg': [8, 18, 20], 'cDC1': [16, 18, 20], 'cDC2': [8, 10, 12, 14, 16, 18, 20], 'gdT': [8, 10, 12, 14, 16, 18, 20], 'pDC': [8, 10, 12, 16, 20]}
+lambda_dict:
+ {'B_memory': array([0.00021544, 0.01      , 0.02154435]), 'B_naive': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.02154435]), 'CD14_Mono': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      ]), 'CD16_Mono': array([0.00021544, 0.00046416, 0.001     , 0.02154435]), 'CD4_Naive': array([0.02154435]), 'CD4_TCM': array([0.00021544, 0.00046416]), 'CD4_TEM': array([0.00021544, 0.00046416, 0.02154435]), 'CD8_Naive': array([0.00021544, 0.001     , 0.02154435]), 'CD8_TCM': array([0.00021544, 0.02154435]), 'CD8_TEM': array([0.00021544, 0.00046416]), 'HSPC': array([0.00021544, 0.00046416, 0.00464159, 0.01      , 0.02154435]), 'MAIT': array([0.00021544, 0.00046416, 0.01      , 0.02154435]), 'NK': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      , 0.02154435]), 'NK_CD56bright': array([0.00021544, 0.00046416, 0.02154435]), 'Plasmablast': array([0.00021544, 0.00046416, 0.01      , 0.02154435]), 'Treg': array([0.00021544, 0.01      , 0.02154435]), 'cDC1': array([0.00464159, 0.01      , 0.02154435]), 'cDC2': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      , 0.02154435]), 'gdT': array([0.00021544, 0.00046416, 0.001     , 0.00215443, 0.00464159,
+       0.01      , 0.02154435]), 'pDC': array([0.00021544, 0.00046416, 0.001     , 0.00464159, 0.02154435])}
+
+====================
+JOB: B_memory, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for B_memory
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 503, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  504 ; minimum lost =  0.018219245597720146 ; diff loss =  7.431954145431519e-07 ; diff weight =  0.007612226996570826
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.8315911730545877
+    minimal loss: 0.018219245597720146
+    minimal weight diff: 0.007612226996570826
+    total selected feature: 210
+    Time elapsed: 7.866297415892283
+
+Elapsed time for B_memory: 7.94 minutes
+====================
+JOB: B_memory, 0.010000000000000004
+Original adata: (57515, 27504)
+Set lambda: 0.010000000000000004
+Starting job for B_memory
+Fitting with optimal lambda: 0.010000000000000004
+At iteration 404, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  405 ; minimum lost =  0.10301261395215988 ; diff loss =  3.0547380447387695e-07 ; diff weight =  0.0008994843228720129
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.010000000000000004
+    median of selected prevalence: 0.993321718931475
+    minimal loss: 0.10301261395215988
+    minimal weight diff: 0.0008994843228720129
+    total selected feature: 14
+    Time elapsed: 6.24858524799347
+
+Elapsed time for B_memory: 6.32 minutes
+====================
+JOB: B_memory, 0.02154434690031885
+Original adata: (57515, 27504)
+Set lambda: 0.02154434690031885
+Starting job for B_memory
+Fitting with optimal lambda: 0.02154434690031885
+At iteration 312, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  313 ; minimum lost =  0.13126039505004883 ; diff loss =  8.344650268554688e-07 ; diff weight =  0.0009015910909511149
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.02154434690031885
+    median of selected prevalence: 1.0
+    minimal loss: 0.13126039505004883
+    minimal weight diff: 0.0009015910909511149
+    total selected feature: 7
+    Time elapsed: 4.829254126548767
+
+Elapsed time for B_memory: 4.90 minutes
+====================
+JOB: B_naive, 0.0002154434690031884
+Original adata: (57515, 27504)
+Set lambda: 0.0002154434690031884
+Starting job for B_naive
+Fitting with optimal lambda: 0.0002154434690031884
+At iteration 579, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  580 ; minimum lost =  0.01472478173673153 ; diff loss =  9.378418326377869e-07 ; diff weight =  0.003683588234707713
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.0002154434690031884
+    median of selected prevalence: 0.8365504358655044
+    minimal loss: 0.01472478173673153
+    minimal weight diff: 0.003683588234707713
+    total selected feature: 136
+    Time elapsed: 8.921949716409047
+
+Elapsed time for B_naive: 8.99 minutes
+====================
+JOB: B_naive, 0.00046415888336127795
+Original adata: (57515, 27504)
+Set lambda: 0.00046415888336127795
+Starting job for B_naive
+Fitting with optimal lambda: 0.00046415888336127795

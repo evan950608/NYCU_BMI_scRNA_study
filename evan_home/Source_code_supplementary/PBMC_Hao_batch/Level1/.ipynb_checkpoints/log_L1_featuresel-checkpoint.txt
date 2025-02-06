@@ -1,0 +1,11 @@
+nohup: ignoring input
+Original adata: (77763, 33538)
+all cell types: ['B', 'CD4_T', 'CD8_T', 'DC', 'Mono', 'NK', 'other', 'other_T']
+====================
+Original adata: (77763, 33538)
+adata celltype shape: (11290, 33538)
+adata shape after removing all zero columns for celltype cells: (77763, 22388)
+optimal lambda: 0.014677992676220709
+====================
+Starting job for B
+Fitting with optimal lambda: 0.014677992676220709

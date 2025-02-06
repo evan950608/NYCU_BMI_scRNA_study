@@ -1,0 +1,5 @@
+species	official gene symbol	cell type	nicknames	ubiquitousness index	product description	gene type	canonical marker	germ layer	organ	sensitivity_human	sensitivity_mouse	specificity_human	specificity_mouse
+Mm Hs	AIF1	Dendritic cells	IRT-1|AIF-1|Em:AF129756.17|IBA1	0.085	allograft inflammatory factor 1	protein-coding gene	1.0	Mesoderm	Immune system	0.884354	0.880952	0.0945813	0.0742456
+Mm Hs	LST1	Dendritic cells	B144|D6S49E	0.082	leukocyte specific transcript 1	protein-coding gene	1.0	Mesoderm	Immune system	0.877551	0.166667	0.0689655	0.0752107
+Mm Hs	AIF1	Macrophages	IRT-1|AIF-1|Em:AF129756.17|IBA1	0.085	allograft inflammatory factor 1	protein-coding gene	1.0	Mesoderm	Immune system	0.916667	0.826263	0.127987	0.0518224
+Mm Hs	LST1	Monocytes	B144|D6S49E	0.082	leukocyte specific transcript 1	protein-coding gene		Mesoderm	Immune system				

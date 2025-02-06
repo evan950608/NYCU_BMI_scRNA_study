@@ -1,0 +1,54 @@
+Leiden_0 Hepatocyte
+Leiden_0 canonical.marker.overlap ['SERPINA1', 'SPINK1', 'KRT18']
+Leiden_4 Hepatocyte
+Leiden_4 canonical.marker.overlap ['APOA2', 'ALB', 'SERPINA1', 'APOA1']
+Leiden_9 Cholangiocyte
+Leiden_9 canonical.marker.overlap ['KRT18', 'ANXA4', 'CD24', 'TM4SF4', 'KRT8']
+Leiden_15 Hepatocyte
+Leiden_15 canonical.marker.overlap ['SERPINA1', 'KRT8', 'TF']
+Leiden_16 Cholangiocyte
+Leiden_16 canonical.marker.overlap ['ELF3', 'ANXA4', 'DEFB1', 'FXYD2', 'KRT8', 'KRT18']
+Leiden_17 Hepatocyte
+Leiden_17 canonical.marker.overlap ['HP', 'ORM1', 'FGL1', 'APOC3', 'APOA1', 'APOE']
+
+Leiden_6 Endothelial cell
+Leiden_6 canonical.marker.overlap ['GNG11', 'IFI27', 'TM4SF1', 'RAMP2', 'DNASE1L3', 'IGFBP7', 'FKBP1A', 'FCN3', 'HES1', 'CLDN5', 'SPARC', 'ENG']
+Leiden_11 Fibroblast
+Leiden_11 canonical.marker.overlap ['CALD1', 'BGN', 'IGFBP7', 'TAGLN', 'COL1A2', 'MYL9', 'TPM2', 'RGS5', 'DCN', 'COL3A1', 'SPARC', 'MT2A', 'NDUFA4L2', 'COL6A2', 'HLA-C']
+
+Leiden_10 Plasma cell
+Leiden_10 canonical.marker.overlap ['MZB1', 'JCHAIN', 'IGHG1', 'IGKC', 'IGHG4', 'IGLC2', 'IGHG3']
+Leiden_13 B cell
+Leiden_13 canonical.marker.overlap ['CD79A', 'HLA-DRA', 'MS4A1', 'CD37', 'CD74', 'NEAT1', 'IGHG1']
+
+Leiden_3 Monocyte (top annotated)
+Leiden_3 canonical.marker.overlap ['TYROBP', 'LST1', 'AIF1', 'LYZ', 'SAT1', 'HLA-DPB1', 'HLA-DRA', 'CST3', 'HLA-DPA1', 'NEAT1', 'GPX1', 'COTL1', 'FTH1', 'IL1B', 'TIMP1', 'LGALS2', 'FCN1', 'HLA-DQB1', 'SRGN', 'FCER1G', 'S100A6', 'LGALS1']
+Leiden_3 Dendritic cell
+Leiden_3 canonical.marker.overlap ['TYROBP', 'LST1', 'AIF1', 'LYZ', 'HLA-DPB1', 'HLA-DRA', 'CST3', 'HLA-DPA1', 'FCN1', 'HLA-DQB1', 'LGALS1']
+intersection between Mono and DC: ['HLA-DPA1', 'HLA-DPB1', 'LYZ', 'LGALS1', 'HLA-DQB1', 'LST1', 'TYROBP', 'CST3', 'FCN1', 'AIF1', 'HLA-DRA']
+
+Leiden_2 Kupffer cell
+Leiden_2 canonical.marker.overlap ['C1QA', 'CTSB', 'TYROBP', 'GPNMB', 'LGMN', 'C1QB', 'C1QC', 'CCL3', 'CTSD', 'PSAP', 'FABP5', 'RNASE1', 'CCL4L2', 'RPS27']
+Leiden_18 Kupffer cell
+Leiden_18 canonical.marker.overlap ['MARCO', 'C1QB', 'HLA-DRB5', 'C1QA', 'C1QC', 'CD5L', 'SERPINA1']
+Leiden_19 Kupffer cell
+Leiden_19 canonical.marker.overlap ['CAPG', 'VIM', 'BTG1', 'ALOX5AP', 'B2M', 'FTL', 'MT-ND2', 'MT-ATP6']
+
+Leiden_1 Effector memory CD8-positive, alpha-beta T cell
+Leiden_1 canonical.marker.overlap ['IL7R', 'CXCR4', 'GZMK', 'CD69', 'TRAC', 'GPR183', 'CCL5']
+Leiden_7 Effector memory CD8-positive, alpha-beta T cell
+Leiden_7 canonical.marker.overlap ['CCL5', 'TRGC2', 'CXCR4', 'HLA-DRB1', 'CST7', 'GZMK', 'PTPRC']
+intersection = ['CXCR4', 'GZMK', 'CCL5']
+
+Leiden_5 Natural killer cell
+Leiden_5 canonical.marker.overlap ['FGFBP2', 'NKG7', 'GNLY', 'GZMB', 'GZMH', 'TXNIP', 'CCL5', 'PRF1', 'IL32', 'HSPA1B', 'KLRD1', 'HSPA1A', 'FCGR3A', 'TRGC2', 'CMC1']
+Leiden_8 Natural killer cell
+Leiden_8 canonical.marker.overlap ['CD7', 'TYROBP', 'FCER1G', 'GZMK', 'KLRB1', 'CMC1', 'AREG', 'KLRF1', 'CD160', 'IL2RB', 'KLRC1', 'ALOX5AP', 'GZMA', 'XCL1'] ['NKG7']
+intersection = ['CMC1, 'NKG7']
+
+Leiden_12 Regulatory T cell
+Leiden_12 canonical.marker.overlap ['BATF', 'IL32', 'TRAC', 'TIGIT', 'DUSP4']
+Leiden_14 T cell
+Leiden_14 canonical.marker.overlap ['STMN1', 'HMGB2', 'HMGN2', 'FTL', 'MALAT1']
+
+20 in total

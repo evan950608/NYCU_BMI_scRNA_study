@@ -1,0 +1,446 @@
+nohup: ignoring input
+(32340, 20568)
+['Doublet']
+====================
+Starting job for Doublet
+Lambda: 1.0
+QWL-QN convergence
+lambda is : 1.0, cost : 0.287 min
+==========
+Lambda: 0.46415888336127825
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 0.403 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.6812920690579616
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 0.41 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.31622776601683833
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 0.457 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.21544346900318853
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 0.503 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.10000000000000006
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 0.514 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.046415888336127815
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 0.517 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.06812920690579614
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 0.522 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.146779926762207
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 0.537 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Lambda: 0.014677992676220709
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 0.54 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.031622776601683826
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 0.55 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.02154434690031885
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 0.561 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0006812920690579617
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 0.566 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.004641588833612781
+QWL-QN convergence
+lambda is : 0.004641588833612781, cost : 0.577 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.010000000000000004
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 0.581 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.003162277660168382
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 0.582 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0004641588833612784
+QWL-QN convergence
+lambda is : 0.0004641588833612784, cost : 0.59 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0014677992676220707
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 0.59 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0021544346900318864
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 0.591 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.006812920690579619
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 0.596 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0010000000000000002
+QWL-QN convergence
+lambda is : 0.0010000000000000002, cost : 0.609 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0002154434690031884
+QWL-QN convergence
+lambda is : 0.0002154434690031884, cost : 0.619 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.0003162277660168384
+QWL-QN convergence
+lambda is : 0.0003162277660168384, cost : 0.625 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.00010000000000000009
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 0.625 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+Lambda: 0.00014677992676220703
+QWL-QN convergence
+lambda is : 0.00014677992676220703, cost : 0.632 min
+==========
+/home/evanlee/.local/lib/python3.8/site-packages/sklearn/linear_model/_logistic.py:1173: FutureWarning: `penalty='none'`has been deprecated in 1.2 and will be removed in 1.4. To keep the past behaviour, set `penalty=None`.
+  warnings.warn(
+*** Start parallel lambda tuning ***
+*** Collecting results ***
+Optimal lambda: 0.006812920690579619
+Doublet Time elapsed: 0.6741004824638367 minutes.
+***** Finished lambda tuning
+====================
+***** Starting feature selection
+CD4_CTL Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for CD4_CTL
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5890227556228638 ; diff weight =  7.663238648092374e-05
+CD4_CTL feature list exported.
+---Selection result for CD4_CTL
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.2622478386167147
+    total selected feature: 3734
+
+Doublet Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for Doublet
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.584078848361969 ; diff weight =  7.529719732701778e-05
+Doublet feature list exported.
+---Selection result for Doublet
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.30578512396694213
+    total selected feature: 4771
+
+CD8_TCM Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for CD8_TCM
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5912507772445679 ; diff weight =  7.442207424901426e-05
+CD8_TCM feature list exported.
+---Selection result for CD8_TCM
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.2934027777777778
+    total selected feature: 4137
+
+CD8_Proliferating Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for CD8_Proliferating
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5834733843803406 ; diff weight =  7.782354805385694e-05
+CD8_Proliferating feature list exported.
+---Selection result for CD8_Proliferating
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.3888888888888889
+    total selected feature: 4446
+
+ASDC Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5837572813034058 ; diff weight =  7.719965651631355e-05
+ASDC feature list exported.
+---Selection result for ASDC
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.4
+    total selected feature: 5278
+
+CD14_Mono Optimal lambda: 0.0021544346900318864 
+
+====================
+Starting job for CD14_Mono
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6667647361755371 ; diff weight =  5.124698145664297e-05
+CD14_Mono feature list exported.
+---Selection result for CD14_Mono
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.310728507847271
+    total selected feature: 5078
+
+B_memory Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for B_memory
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5928862690925598 ; diff weight =  7.398745219688863e-05
+B_memory feature list exported.
+---Selection result for B_memory
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.289193302891933
+    total selected feature: 4284
+
+B_naive Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for B_naive
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6007523536682129 ; diff weight =  6.930382369318977e-05
+B_naive feature list exported.
+---Selection result for B_naive
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.24044069993519118
+    total selected feature: 4657
+
+CD4_Naive Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for CD4_Naive
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6237435936927795 ; diff weight =  6.0903115809196606e-05
+CD4_Naive feature list exported.
+---Selection result for CD4_Naive
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.24520743919885551
+    total selected feature: 4228
+
+CD4_TEM Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for CD4_TEM
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5954247117042542 ; diff weight =  7.352890679612756e-05
+CD4_TEM feature list exported.
+---Selection result for CD4_TEM
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.28154205607476634
+    total selected feature: 3926
+
+CD16_Mono Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for CD16_Mono
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6004420518875122 ; diff weight =  6.986588414292783e-05
+CD16_Mono feature list exported.
+---Selection result for CD16_Mono
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.3338607594936709
+    total selected feature: 4789
+
+B_intermediate Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for B_intermediate
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5901567339897156 ; diff weight =  7.438057946274057e-05
+B_intermediate feature list exported.
+---Selection result for B_intermediate
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.294238683127572
+    total selected feature: 4447
+
+CD4_Proliferating Optimal lambda: 0.006812920690579619 
+
+====================
+Starting job for CD4_Proliferating
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5860270857810974 ; diff weight =  8.043807611102238e-05
+CD4_Proliferating feature list exported.
+---Selection result for CD4_Proliferating
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.38095238095238093
+    total selected feature: 4086
+
+CD8_Naive Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for CD8_Naive
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6082271933555603 ; diff weight =  6.601669156225398e-05
+CD8_Naive feature list exported.
+---Selection result for CD8_Naive
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.2656758012076173
+    total selected feature: 4656
+
+CD4_TCM Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for CD4_TCM
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6185283660888672 ; diff weight =  6.204596866155043e-05
+CD4_TCM feature list exported.
+---Selection result for CD4_TCM
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.27040644944575076
+    total selected feature: 4626
+
+CD8_TEM Optimal lambda: 0.004641588833612781 
+
+====================
+Starting job for CD8_TEM
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.6113201379776001 ; diff weight =  6.51378941256553e-05
+CD8_TEM feature list exported.
+---Selection result for CD8_TEM
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.2439232409381663
+    total selected feature: 4426
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "level2_alpha0.001_pipe.py", line 128, in run_pipeline_feature_selection
+    with open(f'./{celltype}_opt_lambda.txt', 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './Eryth_opt_lambda.txt'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "level2_alpha0.001_pipe.py", line 138, in <module>
+    pool.map(run_pipeline_feature_selection, types)
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.8/multiprocessing/pool.py", line 771, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: './Eryth_opt_lambda.txt'

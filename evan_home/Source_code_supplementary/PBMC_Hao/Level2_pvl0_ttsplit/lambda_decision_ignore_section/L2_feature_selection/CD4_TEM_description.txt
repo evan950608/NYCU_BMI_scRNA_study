@@ -1,0 +1,4 @@
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.9550233644859814
+    total selected feature: 20
+    Time elapsed: 5.985362752278646

@@ -1,0 +1,196 @@
+cwd: /home/evanlee/Pancreas_AD2
+(3696, 27998)
+Counter({'Ductal': 916, 'Ngn3 high EP': 642, 'Pre-endocrine': 592, 'Beta': 591, 'Alpha': 481, 'Ngn3 low EP': 262, 'Epsilon': 142, 'Delta': 70})
+['Pre-endocrine']
+====================
+Starting job for Pre-endocrine
+Getting prevalance
+Getting prevalance
+Getting prevalance
+Lambda: 0.00010000000000000009
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.00010000000000000009, cost : 9.726 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.00014677992676220703
+Fitting ADlasso2
+QWL-QN did not convergence
+lambda is : 0.00014677992676220703, cost : 9.829 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0002154434690031884
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0002154434690031884, cost : 7.257 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0003162277660168384
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0003162277660168384, cost : 8.118 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0004641588833612784
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0004641588833612784, cost : 6.059 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0006812920690579617
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0006812920690579617, cost : 9.047 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0010000000000000002
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0010000000000000002, cost : 7.876 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0014677992676220707
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0014677992676220707, cost : 7.672 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.0021544346900318864
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.0021544346900318864, cost : 7.837 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.003162277660168382
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.003162277660168382, cost : 9.289 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.004641588833612781
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.004641588833612781, cost : 8.746 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.006812920690579619
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.006812920690579619, cost : 9.206 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.010000000000000004
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.010000000000000004, cost : 8.665 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.014677992676220709
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.014677992676220709, cost : 4.228 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.02154434690031885
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.02154434690031885, cost : 8.89 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.031622776601683826
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.031622776601683826, cost : 7.97 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.046415888336127815
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.046415888336127815, cost : 4.413 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.06812920690579614
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.06812920690579614, cost : 4.147 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.10000000000000006
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.10000000000000006, cost : 3.808 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.146779926762207
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.146779926762207, cost : 3.664 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.21544346900318853
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.21544346900318853, cost : 1.883 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.31622776601683833
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.31622776601683833, cost : 1.731 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.46415888336127825
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.46415888336127825, cost : 1.041 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 0.6812920690579616
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 0.6812920690579616, cost : 1.078 min
+==========
+Getting prevalance
+Getting prevalance
+Lambda: 1.0
+Fitting ADlasso2
+QWL-QN convergence
+lambda is : 1.0, cost : 0.028 min
+==========
+Optimal lambda: 0.0014677992676220707
+Getting prevalance
+Fitting ADlasso2
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  655 ; minimum lost =  0.10577455163002014 ; diff weight =  9.842493454925716e-05
+Pre-endocrine feature list exported.
+---Selection result for Pre-endocrine
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.839527027027027
+    total selected feature: 222
+
+Time elapsed: 160.2745261669159 minutes.
+===== End of code

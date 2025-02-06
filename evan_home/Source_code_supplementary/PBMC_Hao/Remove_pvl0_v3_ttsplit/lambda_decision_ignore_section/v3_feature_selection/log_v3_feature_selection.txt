@@ -1,0 +1,137 @@
+nohup: ignoring input
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/opt/conda/lib/python3.11/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+Original adata: (32349, 20568)
+adata celltype shape: (8200, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 18580)
+====================
+Starting job for CD4_T
+Fitting with optimal lambda: 0.014677992676220709
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  2 ; minimum lost =  0.5908829569816589 ; diff weight =  9.642005170462653e-05
+CD4_T feature list exported.
+---Selection result for CD4_T
+Optimal lambda: 0.014677992676220709
+    median of selected prevalence: 0.4631707317073171
+    total selected feature: 1786
+
+Original adata: (32349, 20568)
+adata celltype shape: (5093, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 18232)
+====================
+Starting job for CD8_T
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  692 ; minimum lost =  0.13635431230068207 ; diff weight =  5.214226257521659e-05
+CD8_T feature list exported.
+---Selection result for CD8_T
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.9426664048694287
+    total selected feature: 26
+
+Original adata: (32349, 20568)
+adata celltype shape: (9802, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 19265)
+====================
+Starting job for Mono
+Fitting with optimal lambda: 0.006812920690579619
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  736 ; minimum lost =  0.12915237247943878 ; diff weight =  6.907943316036835e-05
+Mono feature list exported.
+---Selection result for Mono
+Optimal lambda: 0.006812920690579619
+    median of selected prevalence: 0.9806162007753519
+    total selected feature: 18
+
+Original adata: (32349, 20568)
+adata celltype shape: (717, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 16700)
+====================
+Starting job for DC
+Fitting with optimal lambda: 0.0014677992676220707
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  777 ; minimum lost =  0.038047611713409424 ; diff weight =  9.18729929253459e-05
+DC feature list exported.
+---Selection result for DC
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.8856345885634589
+    total selected feature: 19
+
+Original adata: (32349, 20568)
+adata celltype shape: (1357, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 16310)
+====================
+Starting job for other_T
+Fitting with optimal lambda: 0.0006812920690579617
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  785 ; minimum lost =  0.07469211518764496 ; diff weight =  8.63927707541734e-05
+other_T feature list exported.
+---Selection result for other_T
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.8651436993367723
+    total selected feature: 76
+
+Original adata: (32349, 20568)
+adata celltype shape: (3732, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 17653)
+====================
+Starting job for NK
+Fitting with optimal lambda: 0.0021544346900318864
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  873 ; minimum lost =  0.08750401437282562 ; diff weight =  7.21644246368669e-05
+NK feature list exported.
+---Selection result for NK
+Optimal lambda: 0.0021544346900318864
+    median of selected prevalence: 0.9192122186495177
+    total selected feature: 28
+
+Original adata: (32349, 20568)
+adata celltype shape: (688, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 14366)
+====================
+Starting job for other
+Fitting with optimal lambda: 0.004641588833612781
+QWL-QN convergence
+QWL-QN convergence
+minimum epoch =  960 ; minimum lost =  0.058679964393377304 ; diff weight =  8.826520206639543e-05
+other feature list exported.
+---Selection result for other
+Optimal lambda: 0.004641588833612781
+    median of selected prevalence: 0.8604651162790697
+    total selected feature: 5
+
+Original adata: (32349, 20568)
+adata celltype shape: (2760, 20568)
+adata shape after removing all zero columns for celltype cells: (32349, 17774)
+====================
+Starting job for B
+Fitting with optimal lambda: 0.0014677992676220707
+QWL-QN did not convergence
+QWL-QN did not convergence
+minimum epoch =  1000 ; minimum lost =  0.03605228662490845 ; diff weight =  0.0002822194655891508
+B feature list exported.
+---Selection result for B
+Optimal lambda: 0.0014677992676220707
+    median of selected prevalence: 0.8905797101449275
+    total selected feature: 17
+

@@ -1,0 +1,4 @@
+Species	Tissue	CellType	Marker	Resource
+Human	Blood serum	Alternatively activated macrophage	CD163	26886650
+Human	Blood serum	Macrophage	CD68, ITGAM, ADGRE1, CSF1R, ITGAX, MRC1	28843510, 28732135, 28323124, 27393389, 27593106, 26113412, 23237422, 21227423, 20339115, 19893003, 18492752, 15188355
+Human	Blood serum	Sertoli cell	TF	2112555

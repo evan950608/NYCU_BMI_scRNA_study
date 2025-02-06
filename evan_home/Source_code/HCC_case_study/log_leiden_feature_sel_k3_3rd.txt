@@ -1,0 +1,101 @@
+nohup: ignoring input
+Original adata: (71915, 25712)
+all cell types: ['Leiden_0', 'Leiden_1', 'Leiden_10', 'Leiden_11', 'Leiden_12', 'Leiden_13', 'Leiden_14', 'Leiden_15', 'Leiden_16', 'Leiden_17', 'Leiden_18', 'Leiden_19', 'Leiden_2', 'Leiden_20', 'Leiden_21', 'Leiden_22', 'Leiden_23', 'Leiden_3', 'Leiden_4', 'Leiden_5', 'Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+====================
+Queue ['Leiden_6', 'Leiden_7', 'Leiden_8', 'Leiden_9']
+Original adata: (71915, 25712)
+optimal lambda: 0.0014677992676220694
+====================
+Starting job for Leiden_6
+Fitting with optimal lambda: 0.0014677992676220694
+At iteration 462, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  463 ; minimum lost =  0.029234034940600395 ; diff loss =  9.741634130477905e-07 ; diff weight =  0.002180373528972268
+Leiden_6 feature list exported.
+---Selection result for Leiden_6
+Optimal lambda: 0.0014677992676220694
+    median of selected prevalence: 0.9017625712804562
+    minimal loss: 0.029234034940600395
+    minimal weight diff: 0.002180373528972268
+    total selected feature: 38
+    Time elapsed: 8.958118804295857
+
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1      featureID
+0       0.000839  0.000518  No selected    0.002322      0.002307      0.002592   RP11-34P13.7
+1       0.046556  0.029140  No selected    0.117222      0.116902      0.122862     FO538757.2
+2       0.040168  0.022520  No selected    0.107113      0.104956      0.145153     AP006222.2
+3       0.001608  0.000998  No selected    0.005131      0.005143      0.004925  RP4-669L17.10
+4       0.000339  0.000173  No selected    0.001196      0.001205      0.001037   RP5-857K21.4
+Elapsed time for Leiden_6: 9.14 minutes
+Original adata: (71915, 25712)
+optimal lambda: 0.003162277660168382
+====================
+Starting job for Leiden_7
+Fitting with optimal lambda: 0.003162277660168382
+At iteration 432, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  433 ; minimum lost =  0.11674252152442932 ; diff loss =  9.387731552124023e-07 ; diff weight =  0.001128477742895484
+Leiden_7 feature list exported.
+---Selection result for Leiden_7
+Optimal lambda: 0.003162277660168382
+    median of selected prevalence: 0.8935779816513761
+    minimal loss: 0.11674252152442932
+    minimal weight diff: 0.001128477742895484
+    total selected feature: 63
+    Time elapsed: 8.309615012009939
+
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1      featureID
+0       0.000839  0.000518  No selected    0.002322      0.002364      0.001573   RP11-34P13.7
+1       0.046556  0.029140  No selected    0.117222      0.121982      0.032241     FO538757.2
+2       0.040168  0.022520  No selected    0.107113      0.112394      0.012844     AP006222.2
+3       0.001608  0.000998  No selected    0.005131      0.005374      0.000786  RP4-669L17.10
+4       0.000339  0.000173  No selected    0.001196      0.001263      0.000000   RP5-857K21.4
+Elapsed time for Leiden_7: 8.48 minutes
+Original adata: (71915, 25712)
+optimal lambda: 0.0006812920690579617
+====================
+Starting job for Leiden_8
+Fitting with optimal lambda: 0.0006812920690579617
+At iteration 437, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  438 ; minimum lost =  0.03532111644744873 ; diff loss =  9.909272193908691e-07 ; diff weight =  0.0017229546792805195
+Leiden_8 feature list exported.
+---Selection result for Leiden_8
+Optimal lambda: 0.0006812920690579617
+    median of selected prevalence: 0.8085616438356165
+    minimal loss: 0.03532111644744873
+    minimal weight diff: 0.0017229546792805195
+    total selected feature: 99
+    Time elapsed: 8.40680068731308
+
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1      featureID
+0       0.000839  0.000518  No selected    0.002322      0.002391      0.000685   RP11-34P13.7
+1       0.046556  0.029140  No selected    0.117222      0.120516      0.039384     FO538757.2
+2       0.040168  0.022520  No selected    0.107113      0.110950      0.016438     AP006222.2
+3       0.001608  0.000998  No selected    0.005131      0.005290      0.001370  RP4-669L17.10
+4       0.000339  0.000173  No selected    0.001196      0.001232      0.000342   RP5-857K21.4
+Elapsed time for Leiden_8: 8.58 minutes
+Original adata: (71915, 25712)
+optimal lambda: 0.0021544346900318843
+====================
+Starting job for Leiden_9
+Fitting with optimal lambda: 0.0021544346900318843
+At iteration 488, Convergence with loss difference, Device: cuda
+Convergence with loss difference, Device: cuda
+minimum epoch =  489 ; minimum lost =  0.08562539517879486 ; diff loss =  9.685754776000977e-07 ; diff weight =  0.0016339757712557912
+Leiden_9 feature list exported.
+---Selection result for Leiden_9
+Optimal lambda: 0.0021544346900318843
+    median of selected prevalence: 0.9798681013536966
+    minimal loss: 0.08562539517879486
+    minimal weight diff: 0.0016339757712557912
+    total selected feature: 69
+    Time elapsed: 9.378096731503804
+
+   meanAbundance  Variance       select  prevalence  prevalence_0  prevalence_1      featureID
+0       0.000839  0.000518  No selected    0.002322      0.002216      0.004859   RP11-34P13.7
+1       0.046556  0.029140  No selected    0.117222      0.105209      0.405068     FO538757.2
+2       0.040168  0.022520  No selected    0.107113      0.096184      0.368969     AP006222.2
+3       0.001608  0.000998  No selected    0.005131      0.004635      0.017008  RP4-669L17.10
+4       0.000339  0.000173  No selected    0.001196      0.001000      0.005901   RP5-857K21.4
+Elapsed time for Leiden_9: 9.55 minutes

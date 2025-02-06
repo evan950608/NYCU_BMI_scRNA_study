@@ -1,0 +1,49 @@
+Version history - PBMC_Hao Representative cells
+
+Processed .h5ad
+	root folder: C:\Users\evanlee\Documents\Research_datasets
+	Original: Hao_PBMC.h5ad
+	Level1_rep: Hao_PBMC_level1_rep_cells.h5ad
+	Level2_rep: Hao_PBMC_level2_rep_cells.h5ad
+
+
+GSE164378 (convert raw count matrix to .h5ad)
+	root folder: C:\Users\evanlee\Documents\Research_datasets\GSE164378
+	Original: Hao_PBMC_GSE164378_Nov23.h5ad
+	2023/11
+		Level1_rep: Hao_PBMC_GSE_level1_rep_cells_onlyLog1p.h5ad
+		Level2_rep: Hao_PBMC_GSE_level2_rep_cells_onlyLog1p.h5ad
+	2024/01/09 inverse relationshiop between "celltype cell count" and "Percentage"
+		Level1_rep: Hao_level1_inv_rep_cells.h5ad
+
+
+GSE164378_raw (convert raw count matrix to .h5ad) [2024/04/04]
+	DESCR: add all columns of metadata
+	root folder: C:\Users\evanlee\Documents\Research_datasets\PBMC_Hao\GSE164378_Hao
+	Original raw: Hao_PBMC_GSE164378_raw.h5ad
+
+Harmony batch effect correction (20240404)
+	Corrected: "Batch"
+	normalize total, log1p
+	sc.pp.scale: Scaled each gene to unit variance.
+	root folder: C:\Users\evanlee\Documents\Research_datasets\PBMC_Hao\GSE164378_Hao\Batch_corrected\failed_shit
+	Hao_PBMC_scaled_Harmony.h5ad
+	
+Harmony batch effect correction (20240405)
+	Corrected: "Batch" and "donor"
+	normalize total, log1p
+	not scaled
+	root folder: C:\Users\evanlee\Documents\Research_datasets\PBMC_Hao\GSE164378_Hao\Batch_corrected
+	Hao_PBMC_Harmony_unscaled.h5ad
+	Representative cells: (Results as of 2024/06)
+		Hao_L1_inv_rep_cells_Harmony.h5ad  [Cell Percentage inverse relationship with Cell Count]
+		Hao_L2_rep_cells_loginv_Harmony.h5ad  [Cell Percentage inverse relationship with log(Cell Count)]
+
+Harmony batch effect correction then Genes Z-transform (20240912)
+	Source material: Hao_PBMC_GSE164378_raw.h5ad
+	Pipeline: Normalize total, log1p, Harmony (Batch and Donor), Z-transform for each gene
+	sc.pp.scale: Scaled each gene to unit variance.
+	root folder: C:\Users\evanlee\Documents\Research_datasets\PBMC_Hao\GSE164378_Hao\Harmony_and_ztrans
+	Hao_PBMC_ztrans_Harmony.h5ad
+	Representative cells: (Results starting 2024/09)
+		Hao_L1_repcells_loginv_Harmony_ztrans.h5ad  [Cell Percentage inverse relationship with log(Cell Count)]

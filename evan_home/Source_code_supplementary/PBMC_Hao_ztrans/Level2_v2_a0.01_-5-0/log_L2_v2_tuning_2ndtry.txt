@@ -1,0 +1,1200 @@
+nohup: ignoring input
+Z-transformed rep_cells adata: (57515, 27504) <class 'numpy.ndarray'>
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+====================
+Queue ['B_naive', 'HSPC', 'cDC1', 'dnT', 'gdT', 'pDC']
+====================
+Subsetted raw count adata: (57515, 27504) <class 'anndata._core.views.SparseCSCView'>
+***** Starting tuning
+Z-transformed rep_cells adata: (57515, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for B_naive
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509
+  -1.91882091  -1.53505673  -1.15129255  -0.76752836  -0.38376418
+   0.        ]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01 1.46779927e-01 2.15443469e-01 3.16227766e-01
+ 4.64158883e-01 6.81292069e-01 1.00000000e+00]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-24 12:36:51 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 602, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999997e-06, cost : 1.49 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-24 12:38:20 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 543, Convergence with loss difference, Device: cuda
+lambda is : 1.4677992676220687e-05, cost : 1.411 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-24 12:39:45 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 210, Convergence with loss difference, Device: cuda
+lambda is : 2.1544346900318816e-05, cost : 0.484 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-24 12:40:14 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 273, Convergence with loss difference, Device: cuda
+lambda is : 3.16227766016838e-05, cost : 0.684 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-24 12:40:55 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 779, Convergence with loss difference, Device: cuda
+lambda is : 4.6415888336127784e-05, cost : 2.084 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-24 12:43:00 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 779, Convergence with loss difference, Device: cuda
+lambda is : 6.81292069057961e-05, cost : 2.295 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-24 12:45:18 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence, Device: cuda
+lambda is : 9.999999999999991e-05, cost : 2.316 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-24 12:47:37 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 949, Convergence with loss difference, Device: cuda
+lambda is : 0.00014677992676220676, cost : 2.306 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-24 12:49:55 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 854, Convergence with loss difference, Device: cuda
+lambda is : 0.0002154434690031884, cost : 2.276 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-24 12:52:12 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 448, Convergence with loss difference, Device: cuda
+lambda is : 0.00031622776601683783, cost : 1.361 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-24 12:53:33 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 822, Convergence with loss difference, Device: cuda
+lambda is : 0.00046415888336127757, cost : 2.052 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-24 12:55:36 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 760, Convergence with loss difference, Device: cuda
+lambda is : 0.0006812920690579611, cost : 1.967 min
+==========
+Testing lambda: 0.001 starting at 2024-09-24 12:57:34 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 916, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0009999999999999994, cost : 1.875 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-24 12:59:27 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 344, Convergence with loss difference, Device: cuda
+lambda is : 0.0014677992676220694, cost : 0.867 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-24 13:00:19 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 897, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318825, cost : 1.877 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-24 13:02:11 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 338, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168379, cost : 0.752 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-24 13:02:57 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 381, Convergence with loss difference, Device: cuda
+lambda is : 0.004641588833612776, cost : 0.778 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-24 13:03:43 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 319, Convergence with loss difference, Device: cuda
+lambda is : 0.006812920690579607, cost : 0.495 min
+==========
+Testing lambda: 0.01 starting at 2024-09-24 13:04:13 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 306, Convergence with loss difference, Device: cuda
+lambda is : 0.009999999999999995, cost : 0.381 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-24 13:04:36 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 295, Convergence with loss difference, Device: cuda
+lambda is : 0.014677992676220683, cost : 0.247 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-24 13:04:51 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 293, Convergence with loss difference, Device: cuda
+lambda is : 0.02154434690031883, cost : 0.207 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-24 13:05:03 Max_iter: 1000
+At iteration 383, Convergence with loss difference, Device: cuda
+lambda is : 0.0316227766016838, cost : 0.242 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-24 13:05:18 Max_iter: 1000
+At iteration 258, Convergence with loss difference, Device: cuda
+lambda is : 0.046415888336127774, cost : 0.17 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-24 13:05:28 Max_iter: 1000
+At iteration 229, Convergence with loss difference, Device: cuda
+lambda is : 0.06812920690579607, cost : 0.151 min
+==========
+Testing lambda: 0.1 starting at 2024-09-24 13:05:37 Max_iter: 1000
+At iteration 206, Convergence with loss difference, Device: cuda
+lambda is : 0.0999999999999999, cost : 0.139 min
+==========
+Testing lambda: 0.14678 starting at 2024-09-24 13:05:45 Max_iter: 1000
+At iteration 200, Convergence with loss difference, Device: cuda
+lambda is : 0.14677992676220672, cost : 0.135 min
+==========
+Testing lambda: 0.215443 starting at 2024-09-24 13:05:53 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318834, cost : 0.018 min
+==========
+Testing lambda: 0.316228 starting at 2024-09-24 13:05:54 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.3162277660168378, cost : 0.016 min
+==========
+Testing lambda: 0.464159 starting at 2024-09-24 13:05:55 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.4641588833612774, cost : 0.016 min
+==========
+Testing lambda: 0.681292 starting at 2024-09-24 13:05:56 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579604, cost : 0.016 min
+==========
+Testing lambda: 1.0 starting at 2024-09-24 13:05:57 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.017 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.347440    0.118306          0.119203            9556  0.998540  0.983771  0.913029   0.853659  0.915385      0.256778       0.000078
+0.000015    0.339914    0.121420          0.122269            9349  0.998266  0.982698  0.907830   0.838936  0.909643      0.268120       0.000174
+0.000022    0.339514    0.122976          0.123419            9338  0.998338  0.982991  0.910989   0.845827  0.912977      0.301747       0.000129
+0.000032    0.286686    0.146638          0.146800            7885  0.998765  0.985561  0.930080   0.879412  0.932190      0.297474       0.000146
+0.000046    0.189791    0.202210          0.203526            5220  0.999126  0.989167  0.937661   0.897436  0.939968      0.303590       0.000938
+Exporting resultDF
+Exporting result Dict
+B_naive Time elapsed: 29.275190703074138 minutes.
+Z-transformed rep_cells adata: (57515, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for HSPC
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509
+  -1.91882091  -1.53505673  -1.15129255  -0.76752836  -0.38376418
+   0.        ]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01 1.46779927e-01 2.15443469e-01 3.16227766e-01
+ 4.64158883e-01 6.81292069e-01 1.00000000e+00]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-24 13:06:30 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 631, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999997e-06, cost : 1.439 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-24 13:07:57 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 941, Convergence with loss difference, Device: cuda
+lambda is : 1.4677992676220687e-05, cost : 1.408 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-24 13:09:21 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 958, Convergence with loss difference, Device: cuda
+lambda is : 2.1544346900318816e-05, cost : 4.1 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-24 13:13:27 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 795, Convergence with loss difference, Device: cuda
+lambda is : 3.16227766016838e-05, cost : 1.415 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-24 13:14:52 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 723, Convergence with loss difference, Device: cuda
+lambda is : 4.6415888336127784e-05, cost : 1.409 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-24 13:16:16 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence, Device: cuda
+lambda is : 6.81292069057961e-05, cost : 4.211 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-24 13:20:29 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 732, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999991e-05, cost : 1.532 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-24 13:22:01 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 705, Convergence with loss difference, Device: cuda
+lambda is : 0.00014677992676220676, cost : 1.549 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-24 13:23:34 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 383, Convergence with loss difference, Device: cuda
+lambda is : 0.0002154434690031884, cost : 1.048 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-24 13:24:37 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 705, Convergence with loss difference, Device: cuda
+lambda is : 0.00031622776601683783, cost : 1.557 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-24 13:26:10 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 629, Convergence with loss difference, Device: cuda
+lambda is : 0.00046415888336127757, cost : 1.366 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-24 13:27:32 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 686, Convergence with loss difference, Device: cuda
+lambda is : 0.0006812920690579611, cost : 1.47 min
+==========
+Testing lambda: 0.001 starting at 2024-09-24 13:29:01 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 552, Convergence with loss difference, Device: cuda
+lambda is : 0.0009999999999999994, cost : 1.316 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-24 13:30:19 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 611, Convergence with loss difference, Device: cuda
+lambda is : 0.0014677992676220694, cost : 1.446 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-24 13:31:46 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 555, Convergence with loss difference, Device: cuda
+lambda is : 0.0021544346900318825, cost : 1.219 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-24 13:32:59 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 320, Convergence with loss difference, Device: cuda
+lambda is : 0.003162277660168379, cost : 0.234 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-24 13:33:13 Max_iter: 1000
+At iteration 336, Convergence with loss difference, Device: cuda
+lambda is : 0.004641588833612776, cost : 0.217 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-24 13:33:26 Max_iter: 1000
+At iteration 317, Convergence with loss difference, Device: cuda
+lambda is : 0.006812920690579607, cost : 0.206 min
+==========
+Testing lambda: 0.01 starting at 2024-09-24 13:33:39 Max_iter: 1000
+At iteration 308, Convergence with loss difference, Device: cuda
+lambda is : 0.009999999999999995, cost : 0.199 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-24 13:33:51 Max_iter: 1000
+At iteration 351, Convergence with loss difference, Device: cuda
+lambda is : 0.014677992676220683, cost : 0.226 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-24 13:34:04 Max_iter: 1000
+At iteration 306, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.02154434690031883, cost : 0.2 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-24 13:34:16 Max_iter: 1000
+At iteration 301, Convergence with loss difference, Device: cuda
+lambda is : 0.0316227766016838, cost : 0.195 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-24 13:34:28 Max_iter: 1000
+At iteration 249, Convergence with loss difference, Device: cuda
+lambda is : 0.046415888336127774, cost : 0.164 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-24 13:34:38 Max_iter: 1000
+At iteration 241, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.06812920690579607, cost : 0.159 min
+==========
+Testing lambda: 0.1 starting at 2024-09-24 13:34:47 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.0999999999999999, cost : 0.018 min
+==========
+Testing lambda: 0.14678 starting at 2024-09-24 13:34:48 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.14677992676220672, cost : 0.016 min
+==========
+Testing lambda: 0.215443 starting at 2024-09-24 13:34:49 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318834, cost : 0.016 min
+==========
+Testing lambda: 0.316228 starting at 2024-09-24 13:34:50 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.3162277660168378, cost : 0.016 min
+==========
+Testing lambda: 0.464159 starting at 2024-09-24 13:34:51 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.4641588833612774, cost : 0.016 min
+==========
+Testing lambda: 0.681292 starting at 2024-09-24 13:34:52 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579604, cost : 0.017 min
+==========
+Testing lambda: 1.0 starting at 2024-09-24 13:34:53 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.016 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.410958    0.204461          0.202765           11303  0.999856  0.969047  0.627860   0.396947  0.568306      0.139449       0.000207
+0.000015    0.193899    0.360595          0.359447            5333  0.999918  0.984084  0.890518   0.809524  0.886957      0.068811       0.003239
+0.000022    0.328934    0.267658          0.262673            9047  0.999881  0.975450  0.695447   0.485981  0.654088      0.129762       0.012732
+0.000032    0.244837    0.323420          0.322581            6734  0.999936  0.986456  0.861214   0.742857  0.852459      0.107874      13.925390
+0.000046    0.218623    0.349442          0.345622            6013  0.999913  0.983556  0.912634   0.850000  0.910714      0.131380       0.000532
+Exporting resultDF
+Exporting result Dict
+HSPC Time elapsed: 28.538152277469635 minutes.
+Z-transformed rep_cells adata: (57515, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for cDC1
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509
+  -1.91882091  -1.53505673  -1.15129255  -0.76752836  -0.38376418
+   0.        ]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01 1.46779927e-01 2.15443469e-01 3.16227766e-01
+ 4.64158883e-01 6.81292069e-01 1.00000000e+00]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-24 13:35:27 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 745, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999997e-06, cost : 0.79 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-24 13:36:15 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 341, Convergence with loss difference, Device: cuda
+lambda is : 1.4677992676220687e-05, cost : 0.576 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-24 13:36:49 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 340, Convergence with loss difference, Device: cuda
+lambda is : 2.1544346900318816e-05, cost : 0.568 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-24 13:37:23 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 345, Convergence with loss difference, Device: cuda
+lambda is : 3.16227766016838e-05, cost : 0.55 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-24 13:37:56 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 341, Convergence with loss difference, Device: cuda
+lambda is : 4.6415888336127784e-05, cost : 0.512 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-24 13:38:27 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 331, Convergence with loss difference, Device: cuda
+lambda is : 6.81292069057961e-05, cost : 0.472 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-24 13:38:55 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 339, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999991e-05, cost : 0.454 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-24 13:39:23 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 349, Convergence with loss difference, Device: cuda
+lambda is : 0.00014677992676220676, cost : 0.442 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-24 13:39:49 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 334, Convergence with loss difference, Device: cuda
+lambda is : 0.0002154434690031884, cost : 0.398 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-24 13:40:13 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 346, Convergence with loss difference, Device: cuda
+lambda is : 0.00031622776601683783, cost : 0.376 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-24 13:40:36 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 336, Convergence with loss difference, Device: cuda
+lambda is : 0.00046415888336127757, cost : 0.342 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-24 13:40:56 Max_iter: 1000
+At iteration 338, Convergence with loss difference, Device: cuda
+lambda is : 0.0006812920690579611, cost : 0.304 min
+==========
+Testing lambda: 0.001 starting at 2024-09-24 13:41:14 Max_iter: 1000
+At iteration 337, Convergence with loss difference, Device: cuda
+lambda is : 0.0009999999999999994, cost : 0.28 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-24 13:41:31 Max_iter: 1000
+At iteration 348, Convergence with loss difference, Device: cuda
+lambda is : 0.0014677992676220694, cost : 0.263 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-24 13:41:47 Max_iter: 1000
+At iteration 334, Convergence with loss difference, Device: cuda
+lambda is : 0.0021544346900318825, cost : 0.238 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-24 13:42:01 Max_iter: 1000
+At iteration 327, Convergence with loss difference, Device: cuda
+lambda is : 0.003162277660168379, cost : 0.223 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-24 13:42:15 Max_iter: 1000
+At iteration 316, Convergence with loss difference, Device: cuda
+lambda is : 0.004641588833612776, cost : 0.208 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-24 13:42:27 Max_iter: 1000
+At iteration 326, Convergence with loss difference, Device: cuda
+lambda is : 0.006812920690579607, cost : 0.211 min
+==========
+Testing lambda: 0.01 starting at 2024-09-24 13:42:40 Max_iter: 1000
+At iteration 338, Convergence with loss difference, Device: cuda
+lambda is : 0.009999999999999995, cost : 0.216 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-24 13:42:53 Max_iter: 1000
+At iteration 320, Convergence with loss difference, Device: cuda
+lambda is : 0.014677992676220683, cost : 0.208 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-24 13:43:05 Max_iter: 1000
+At iteration 327, Convergence with loss difference, Device: cuda
+lambda is : 0.02154434690031883, cost : 0.209 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-24 13:43:18 Max_iter: 1000
+At iteration 279, Convergence with loss difference, Device: cuda
+lambda is : 0.0316227766016838, cost : 0.182 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-24 13:43:29 Max_iter: 1000
+At iteration 251, Convergence with loss difference, Device: cuda
+lambda is : 0.046415888336127774, cost : 0.165 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-24 13:43:39 Max_iter: 1000
+At iteration 231, Convergence with loss difference, Device: cuda
+lambda is : 0.06812920690579607, cost : 0.153 min
+==========
+Testing lambda: 0.1 starting at 2024-09-24 13:43:48 Max_iter: 1000
+At iteration 60, Convergence with loss difference, Device: cuda
+lambda is : 0.0999999999999999, cost : 0.054 min
+==========
+Testing lambda: 0.14678 starting at 2024-09-24 13:43:51 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.14677992676220672, cost : 0.018 min
+==========
+Testing lambda: 0.215443 starting at 2024-09-24 13:43:52 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318834, cost : 0.016 min
+==========
+Testing lambda: 0.316228 starting at 2024-09-24 13:43:53 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.3162277660168378, cost : 0.016 min
+==========
+Testing lambda: 0.464159 starting at 2024-09-24 13:43:54 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.4641588833612774, cost : 0.016 min
+==========
+Testing lambda: 0.681292 starting at 2024-09-24 13:43:55 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579604, cost : 0.016 min
+==========
+Testing lambda: 1.0 starting at 2024-09-24 13:43:56 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.016 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.366783    0.304348          0.301887           10088  0.998745  0.926878  0.579296   0.348315  0.512397      0.204738       0.167717
+0.000015    0.431683    0.239130          0.235849           11873  0.998940  0.912237  0.494591   0.263158  0.410959      0.441273       0.000026
+0.000022    0.404378    0.260870          0.264151           11122  0.999262  0.944360  0.494022   0.254098  0.402597      0.451854       0.000023
+0.000032    0.377763    0.289855          0.292453           10390  0.996572  0.904241  0.536636   0.309278  0.465116      0.462236       0.000017
+0.000046    0.349295    0.318841          0.320755            9607  0.976432  0.889300  0.532633   0.315217  0.467742      0.473318       0.000017
+Exporting resultDF
+Exporting result Dict
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:947: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax1 = plt.subplots(figsize = (fig_width,fig_height))
+cDC1 Time elapsed: 8.632318178812662 minutes.
+Z-transformed rep_cells adata: (57515, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for dnT
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509
+  -1.91882091  -1.53505673  -1.15129255  -0.76752836  -0.38376418
+   0.        ]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01 1.46779927e-01 2.15443469e-01 3.16227766e-01
+ 4.64158883e-01 6.81292069e-01 1.00000000e+00]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-24 13:44:30 Max_iter: 1000
+At iteration 926, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999997e-06, cost : 0.774 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-24 13:45:16 Max_iter: 1000
+At iteration 490, Convergence with loss difference, Device: cuda
+lambda is : 1.4677992676220687e-05, cost : 0.567 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-24 13:45:51 Max_iter: 1000
+At iteration 492, Convergence with loss difference, Device: cuda
+lambda is : 2.1544346900318816e-05, cost : 0.544 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-24 13:46:23 Max_iter: 1000
+At iteration 484, Convergence with loss difference, Device: cuda
+lambda is : 3.16227766016838e-05, cost : 0.524 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-24 13:46:55 Max_iter: 1000
+At iteration 454, Convergence with loss difference, Device: cuda
+lambda is : 4.6415888336127784e-05, cost : 0.484 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-24 13:47:24 Max_iter: 1000
+At iteration 440, Convergence with loss difference, Device: cuda
+lambda is : 6.81292069057961e-05, cost : 0.45 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-24 13:47:51 Max_iter: 1000
+At iteration 422, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999991e-05, cost : 0.415 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-24 13:48:16 Max_iter: 1000
+At iteration 408, Convergence with loss difference, Device: cuda
+lambda is : 0.00014677992676220676, cost : 0.384 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-24 13:48:39 Max_iter: 1000
+At iteration 406, Convergence with loss difference, Device: cuda
+lambda is : 0.0002154434690031884, cost : 0.363 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-24 13:49:00 Max_iter: 1000
+At iteration 368, Convergence with loss difference, Device: cuda
+lambda is : 0.00031622776601683783, cost : 0.32 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-24 13:49:20 Max_iter: 1000
+At iteration 347, Convergence with loss difference, Device: cuda
+lambda is : 0.00046415888336127757, cost : 0.281 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-24 13:49:36 Max_iter: 1000
+At iteration 346, Convergence with loss difference, Device: cuda
+lambda is : 0.0006812920690579611, cost : 0.261 min
+==========
+Testing lambda: 0.001 starting at 2024-09-24 13:49:52 Max_iter: 1000
+At iteration 331, Convergence with loss difference, Device: cuda
+lambda is : 0.0009999999999999994, cost : 0.24 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-24 13:50:06 Max_iter: 1000
+At iteration 334, Convergence with loss difference, Device: cuda
+lambda is : 0.0014677992676220694, cost : 0.237 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-24 13:50:21 Max_iter: 1000
+At iteration 331, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318825, cost : 0.232 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-24 13:50:35 Max_iter: 1000
+At iteration 327, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.003162277660168379, cost : 0.221 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-24 13:50:48 Max_iter: 1000
+At iteration 326, Convergence with loss difference, Device: cuda
+lambda is : 0.004641588833612776, cost : 0.213 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-24 13:51:01 Max_iter: 1000
+At iteration 325, Convergence with loss difference, Device: cuda
+lambda is : 0.006812920690579607, cost : 0.21 min
+==========
+Testing lambda: 0.01 starting at 2024-09-24 13:51:13 Max_iter: 1000
+At iteration 363, Convergence with loss difference, Device: cuda
+lambda is : 0.009999999999999995, cost : 0.231 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-24 13:51:27 Max_iter: 1000
+At iteration 323, Convergence with loss difference, Device: cuda
+lambda is : 0.014677992676220683, cost : 0.209 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-24 13:51:40 Max_iter: 1000
+At iteration 304, Convergence with loss difference, Device: cuda
+lambda is : 0.02154434690031883, cost : 0.195 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-24 13:51:51 Max_iter: 1000
+At iteration 244, Convergence with loss difference, Device: cuda
+lambda is : 0.0316227766016838, cost : 0.161 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-24 13:52:01 Max_iter: 1000
+At iteration 197, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.046415888336127774, cost : 0.133 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-24 13:52:09 Max_iter: 1000
+At iteration 130, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+lambda is : 0.06812920690579607, cost : 0.096 min
+==========
+Testing lambda: 0.1 starting at 2024-09-24 13:52:15 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.0999999999999999, cost : 0.018 min
+==========
+Testing lambda: 0.14678 starting at 2024-09-24 13:52:16 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.14677992676220672, cost : 0.017 min
+==========
+Testing lambda: 0.215443 starting at 2024-09-24 13:52:17 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318834, cost : 0.016 min
+==========
+Testing lambda: 0.316228 starting at 2024-09-24 13:52:18 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.3162277660168378, cost : 0.016 min
+==========
+Testing lambda: 0.464159 starting at 2024-09-24 13:52:19 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.4641588833612774, cost : 0.016 min
+==========
+Testing lambda: 0.681292 starting at 2024-09-24 13:52:20 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579604, cost : 0.016 min
+==========
+Testing lambda: 1.0 starting at 2024-09-24 13:52:21 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.016 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.289921    0.149826          0.147982            7974  0.932749  0.533640  0.501110   0.492537  0.503817      0.253522       0.006685
+0.000015    0.352858    0.118467          0.116592            9705  0.922857  0.502030  0.471620   0.450704  0.474074      0.477628       0.001485
+0.000022    0.326207    0.128920          0.125561            8972  0.927973  0.515903  0.489085   0.443038  0.489510      0.488903       0.000866
+0.000032    0.297048    0.142857          0.139013            8170  0.941452  0.573617  0.534871   0.500000  0.536232      0.500680       0.000740
+0.000046    0.266434    0.160279          0.152466            7328  0.958435  0.603542  0.616051   0.660714  0.616667      0.512798       0.000715
+Exporting resultDF
+Exporting result Dict
+dnT Time elapsed: 8.000285212198893 minutes.
+Z-transformed rep_cells adata: (57515, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for gdT
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509
+  -1.91882091  -1.53505673  -1.15129255  -0.76752836  -0.38376418
+   0.        ]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01 1.46779927e-01 2.15443469e-01 3.16227766e-01
+ 4.64158883e-01 6.81292069e-01 1.00000000e+00]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-24 13:52:55 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 871, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999997e-06, cost : 1.091 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-24 13:54:00 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 927, Convergence with loss difference, Device: cuda
+lambda is : 1.4677992676220687e-05, cost : 1.067 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-24 13:55:04 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 732, Convergence with loss difference, Device: cuda
+lambda is : 2.1544346900318816e-05, cost : 0.896 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-24 13:55:58 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 719, Convergence with loss difference, Device: cuda
+lambda is : 3.16227766016838e-05, cost : 0.895 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-24 13:56:51 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 670, Convergence with loss difference, Device: cuda
+lambda is : 4.6415888336127784e-05, cost : 0.835 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-24 13:57:42 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 670, Convergence with loss difference, Device: cuda
+lambda is : 6.81292069057961e-05, cost : 0.778 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-24 13:58:28 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 655, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999991e-05, cost : 0.722 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-24 13:59:12 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 635, Convergence with loss difference, Device: cuda
+lambda is : 0.00014677992676220676, cost : 0.661 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-24 13:59:51 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 630, Convergence with loss difference, Device: cuda
+lambda is : 0.0002154434690031884, cost : 0.683 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-24 14:00:32 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 645, Convergence with loss difference, Device: cuda
+lambda is : 0.00031622776601683783, cost : 0.667 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-24 14:01:12 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 634, Convergence with loss difference, Device: cuda
+lambda is : 0.00046415888336127757, cost : 0.662 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-24 14:01:52 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 621, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0006812920690579611, cost : 0.662 min
+==========
+Testing lambda: 0.001 starting at 2024-09-24 14:02:32 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 654, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0009999999999999994, cost : 0.724 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-24 14:03:15 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 712, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0014677992676220694, cost : 0.875 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-24 14:04:08 Max_iter: 1000
+At iteration 356, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0021544346900318825, cost : 0.246 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-24 14:04:22 Max_iter: 1000
+At iteration 322, Convergence with loss difference, Device: cuda
+lambda is : 0.003162277660168379, cost : 0.214 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-24 14:04:35 Max_iter: 1000
+At iteration 315, Convergence with loss difference, Device: cuda
+lambda is : 0.004641588833612776, cost : 0.206 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-24 14:04:48 Max_iter: 1000
+At iteration 299, Convergence with loss difference, Device: cuda
+lambda is : 0.006812920690579607, cost : 0.197 min
+==========
+Testing lambda: 0.01 starting at 2024-09-24 14:04:59 Max_iter: 1000
+At iteration 332, Convergence with loss difference, Device: cuda
+lambda is : 0.009999999999999995, cost : 0.214 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-24 14:05:12 Max_iter: 1000
+At iteration 329, Convergence with loss difference, Device: cuda
+lambda is : 0.014677992676220683, cost : 0.212 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-24 14:05:25 Max_iter: 1000
+At iteration 417, Convergence with loss difference, Device: cuda
+lambda is : 0.02154434690031883, cost : 0.261 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-24 14:05:41 Max_iter: 1000
+At iteration 294, Convergence with loss difference, Device: cuda
+lambda is : 0.0316227766016838, cost : 0.19 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-24 14:05:52 Max_iter: 1000
+At iteration 197, Convergence with loss difference, Device: cuda
+lambda is : 0.046415888336127774, cost : 0.135 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-24 14:06:00 Max_iter: 1000
+At iteration 113, Convergence with loss difference, Device: cuda
+lambda is : 0.06812920690579607, cost : 0.085 min
+==========
+Testing lambda: 0.1 starting at 2024-09-24 14:06:05 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.0999999999999999, cost : 0.019 min
+==========
+Testing lambda: 0.14678 starting at 2024-09-24 14:06:06 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.14677992676220672, cost : 0.017 min
+==========
+Testing lambda: 0.215443 starting at 2024-09-24 14:06:07 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318834, cost : 0.016 min
+==========
+Testing lambda: 0.316228 starting at 2024-09-24 14:06:08 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.3162277660168378, cost : 0.016 min
+==========
+Testing lambda: 0.464159 starting at 2024-09-24 14:06:09 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.4641588833612774, cost : 0.016 min
+==========
+Testing lambda: 0.681292 starting at 2024-09-24 14:06:10 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579604, cost : 0.017 min
+==========
+Testing lambda: 1.0 starting at 2024-09-24 14:06:11 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.016 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.324171    0.118830          0.118984            8916  0.979485  0.808292  0.722823   0.675926  0.730000      0.203193       0.000901
+0.000015    0.290649    0.133047          0.134358            7994  0.982028  0.817725  0.753452   0.736041  0.761155      0.204880       0.000205
+0.000022    0.258581    0.151824          0.152406            7112  0.984095  0.837964  0.753296   0.725926  0.760673      0.208020       0.001097
+0.000032    0.223422    0.170064          0.171123            6145  0.984505  0.852748  0.761648   0.751295  0.769231      0.211991       0.000780
+0.000046    0.187645    0.195279          0.195856            5161  0.986697  0.868711  0.792837   0.786842  0.799465      0.217842       0.000013
+Exporting resultDF
+Exporting result Dict
+gdT Time elapsed: 13.4347887078921 minutes.
+Z-transformed rep_cells adata: (57515, 27504)
+TYPE <class 'numpy.ndarray'>
+====================
+Starting job for pDC
+[-11.51292546 -11.12916128 -10.7453971  -10.36163292  -9.97786874
+  -9.59410455  -9.21034037  -8.82657619  -8.44281201  -8.05904783
+  -7.67528364  -7.29151946  -6.90775528  -6.5239911   -6.14022691
+  -5.75646273  -5.37269855  -4.98893437  -4.60517019  -4.221406
+  -3.83764182  -3.45387764  -3.07011346  -2.68634928  -2.30258509
+  -1.91882091  -1.53505673  -1.15129255  -0.76752836  -0.38376418
+   0.        ]
+[1.00000000e-05 1.46779927e-05 2.15443469e-05 3.16227766e-05
+ 4.64158883e-05 6.81292069e-05 1.00000000e-04 1.46779927e-04
+ 2.15443469e-04 3.16227766e-04 4.64158883e-04 6.81292069e-04
+ 1.00000000e-03 1.46779927e-03 2.15443469e-03 3.16227766e-03
+ 4.64158883e-03 6.81292069e-03 1.00000000e-02 1.46779927e-02
+ 2.15443469e-02 3.16227766e-02 4.64158883e-02 6.81292069e-02
+ 1.00000000e-01 1.46779927e-01 2.15443469e-01 3.16227766e-01
+ 4.64158883e-01 6.81292069e-01 1.00000000e+00]
+Alpha: 0.01
+Loss tolerance: 1e-06
+Testing lambda: 1e-05 starting at 2024-09-24 14:06:45 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 658, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999997e-06, cost : 1.87 min
+==========
+Testing lambda: 1.5e-05 starting at 2024-09-24 14:08:37 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence, Device: cuda
+lambda is : 1.4677992676220687e-05, cost : 4.195 min
+==========
+Testing lambda: 2.2e-05 starting at 2024-09-24 14:12:49 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence, Device: cuda
+lambda is : 2.1544346900318816e-05, cost : 2.09 min
+==========
+Testing lambda: 3.2e-05 starting at 2024-09-24 14:14:54 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+OWL-QN did not convergence, Device: cuda
+lambda is : 3.16227766016838e-05, cost : 2.092 min
+==========
+Testing lambda: 4.6e-05 starting at 2024-09-24 14:17:00 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 819, Convergence with loss difference, Device: cuda
+lambda is : 4.6415888336127784e-05, cost : 2.1 min
+==========
+Testing lambda: 6.8e-05 starting at 2024-09-24 14:19:06 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 808, Convergence with loss difference, Device: cuda
+lambda is : 6.81292069057961e-05, cost : 2.077 min
+==========
+Testing lambda: 0.0001 starting at 2024-09-24 14:21:10 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 732, Convergence with loss difference, Device: cuda
+lambda is : 9.999999999999991e-05, cost : 2.217 min
+==========
+Testing lambda: 0.000147 starting at 2024-09-24 14:23:23 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 632, Convergence with loss difference, Device: cuda
+lambda is : 0.00014677992676220676, cost : 2.056 min
+==========
+Testing lambda: 0.000215 starting at 2024-09-24 14:25:27 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 503, Convergence with loss difference, Device: cuda
+lambda is : 0.0002154434690031884, cost : 1.899 min
+==========
+Testing lambda: 0.000316 starting at 2024-09-24 14:27:21 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 730, Convergence with loss difference, Device: cuda
+lambda is : 0.00031622776601683783, cost : 2.286 min
+==========
+Testing lambda: 0.000464 starting at 2024-09-24 14:29:38 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 919, Convergence with loss difference, Device: cuda
+lambda is : 0.00046415888336127757, cost : 2.446 min
+==========
+Testing lambda: 0.000681 starting at 2024-09-24 14:32:05 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 400, Convergence with loss difference, Device: cuda
+lambda is : 0.0006812920690579611, cost : 1.302 min
+==========
+Testing lambda: 0.001 starting at 2024-09-24 14:33:23 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 764, Convergence with loss difference, Device: cuda
+lambda is : 0.0009999999999999994, cost : 2.325 min
+==========
+Testing lambda: 0.001468 starting at 2024-09-24 14:35:42 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 717, Convergence with loss difference, Device: cuda
+lambda is : 0.0014677992676220694, cost : 2.065 min
+==========
+Testing lambda: 0.002154 starting at 2024-09-24 14:37:46 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 204, Convergence with loss difference, Device: cuda
+lambda is : 0.0021544346900318825, cost : 0.268 min
+==========
+Testing lambda: 0.003162 starting at 2024-09-24 14:38:02 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 583, Convergence with loss difference, Device: cuda
+lambda is : 0.003162277660168379, cost : 1.627 min
+==========
+Testing lambda: 0.004642 starting at 2024-09-24 14:39:40 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 609, Convergence with loss difference, Device: cuda
+lambda is : 0.004641588833612776, cost : 1.087 min
+==========
+Testing lambda: 0.006813 starting at 2024-09-24 14:40:45 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 336, Convergence with loss difference, Device: cuda
+lambda is : 0.006812920690579607, cost : 0.339 min
+==========
+Testing lambda: 0.01 starting at 2024-09-24 14:41:05 Max_iter: 1000
+/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py:167: UserWarning: line search did not converge.
+  warnings.warn('line search did not converge.')
+At iteration 382, Convergence with loss difference, Device: cuda
+lambda is : 0.009999999999999995, cost : 0.261 min
+==========
+Testing lambda: 0.014678 starting at 2024-09-24 14:41:21 Max_iter: 1000
+At iteration 355, Convergence with loss difference, Device: cuda
+lambda is : 0.014677992676220683, cost : 0.227 min
+==========
+Testing lambda: 0.021544 starting at 2024-09-24 14:41:35 Max_iter: 1000
+At iteration 364, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.02154434690031883, cost : 0.237 min
+==========
+Testing lambda: 0.031623 starting at 2024-09-24 14:41:49 Max_iter: 1000
+At iteration 305, Convergence with loss difference, Device: cuda
+/opt/conda/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+lambda is : 0.0316227766016838, cost : 0.204 min
+==========
+Testing lambda: 0.046416 starting at 2024-09-24 14:42:01 Max_iter: 1000
+At iteration 237, Convergence with loss difference, Device: cuda
+lambda is : 0.046415888336127774, cost : 0.16 min
+==========
+Testing lambda: 0.068129 starting at 2024-09-24 14:42:11 Max_iter: 1000
+At iteration 284, Convergence with loss difference, Device: cuda
+lambda is : 0.06812920690579607, cost : 0.186 min
+==========
+Testing lambda: 0.1 starting at 2024-09-24 14:42:22 Max_iter: 1000
+At iteration 89, Convergence with loss difference, Device: cuda
+lambda is : 0.0999999999999999, cost : 0.071 min
+==========
+Testing lambda: 0.14678 starting at 2024-09-24 14:42:26 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.14677992676220672, cost : 0.018 min
+==========
+Testing lambda: 0.215443 starting at 2024-09-24 14:42:27 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.21544346900318834, cost : 0.017 min
+==========
+Testing lambda: 0.316228 starting at 2024-09-24 14:42:28 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.3162277660168378, cost : 0.017 min
+==========
+Testing lambda: 0.464159 starting at 2024-09-24 14:42:29 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.4641588833612774, cost : 0.017 min
+==========
+Testing lambda: 0.681292 starting at 2024-09-24 14:42:30 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 0.6812920690579604, cost : 0.017 min
+==========
+Testing lambda: 1.0 starting at 2024-09-24 14:42:31 Max_iter: 1000
+Hessian initialization fail, gradient diff = 0
+lambda is : 1.0, cost : 0.017 min
+==========
+          Percentage  Prevalence  Train_prevalence  Feature_number       AUC      AUPR       MCC  Precision  F1 score  loss_history  error_history
+0.000010    0.397797    0.195980          0.194561           10941  0.999912  0.991736  0.762812   0.586207  0.739130      0.229406       0.000374
+0.000015    0.343841    0.239531          0.238494            9457  0.999912  0.991736  0.827405   0.687861  0.815068      0.160686       0.000895
+0.000022    0.282723    0.284757          0.284519            7776  0.999956  0.995833  0.874822   0.767742  0.868613      0.133777       0.117085
+0.000032    0.244401    0.318258          0.315900            6722  0.999956  0.995833  0.892498   0.798658  0.888060      0.122888       0.021256
+0.000046    0.227930    0.348409          0.347280            6269  0.999956  0.995833  0.938212   0.881481  0.937008      0.110634       0.076115
+Exporting resultDF
+Exporting result Dict
+pDC Time elapsed: 35.93425064086914 minutes.
+***** Finished lambda tuning
+====================

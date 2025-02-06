@@ -1,0 +1,20 @@
+nohup: ignoring input
+Original adata: (30011, 17009)
+all cell types: ['B_cell', 'Mono&DC', 'NK', 'Progenitor_cells', 'T_cell']
+====================
+====================
+Starting job for B_cell
+Original adata: (30011, 17009)
+adata celltype shape: (3733, 17009)
+adata shape after removing all zero columns for celltype cells: (30011, 15715)
+optimal lambda: 0.006812920690579613
+Traceback (most recent call last):
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/Stuart_bm/Level1_onlylog1p/Stu_L1_feature_selection_cuda.py", line 137, in <module>
+    run_pipeline_feature_selection(celltype)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/Stuart_bm/Level1_onlylog1p/Stu_L1_feature_selection_cuda.py", line 114, in run_pipeline_feature_selection
+    pipeline_feature_selection(adata, celltype, label, opt_lmbd, output_path=server_fractal_path)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/Stuart_bm/Level1_onlylog1p/Stu_L1_feature_selection_cuda.py", line 32, in pipeline_feature_selection
+    pvl = ad.get_prevalence(data.X, celltype_indices)
+  File "/home/jovyan/work/GitHub/EvanPys/Progress/ADlasso2/AD2_w_utils_lossdiff.py", line 441, in get_prevalence
+    raise ValueError("Unrecognizable data types")
+ValueError: Unrecognizable data types

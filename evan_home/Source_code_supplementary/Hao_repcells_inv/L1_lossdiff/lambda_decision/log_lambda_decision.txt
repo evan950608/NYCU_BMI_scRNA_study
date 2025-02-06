@@ -1,0 +1,45 @@
+====================
+Cell type: B
+Optimal lambda: 0.014677992676220709
+Feature no: 11
+====================
+Cell type: CD4_T
+Optimal lambda: 0.0010000000000000002
+Feature no: 289
+====================
+Cell type: CD8_T
+Optimal lambda: 0.010000000000000004
+Feature no: 22
+====================
+Cell type: DC
+Optimal lambda: 0.004641588833612781
+Feature no: 25
+====================
+Cell type: Mono
+Optimal lambda: 0.014677992676220709
+Feature no: 18
+====================
+Cell type: NK
+Optimal lambda: 0.006812920690579613
+Feature no: 35
+====================
+Cell type: other
+23
+Optimal lambda: 0.010000000000000004
+Feature no: 6
+Cut: 0.0681292069057962
+====================
+Cell type: other_T
+Optimal lambda: 0.0014677992676220694
+Feature no: 87
+
+
+{'B': 11,
+ 'CD4_T': 289,
+ 'CD8_T': 22,
+ 'DC': 25,
+ 'Mono': 18,
+ 'NK': 35,
+ 'other': 6,
+ 'other_T': 87}
+ 

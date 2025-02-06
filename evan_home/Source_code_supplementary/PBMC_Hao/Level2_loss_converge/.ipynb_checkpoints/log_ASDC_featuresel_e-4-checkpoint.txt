@@ -1,0 +1,24 @@
+nohup: ignoring input
+all cell types: ['ASDC', 'B_intermediate', 'B_memory', 'B_naive', 'CD14_Mono', 'CD16_Mono', 'CD4_CTL', 'CD4_Naive', 'CD4_Proliferating', 'CD4_TCM', 'CD4_TEM', 'CD8_Naive', 'CD8_Proliferating', 'CD8_TCM', 'CD8_TEM', 'Doublet', 'Eryth', 'HSPC', 'ILC', 'MAIT', 'NK', 'NK_CD56bright', 'NK_Proliferating', 'Plasmablast', 'Platelet', 'Treg', 'cDC1', 'cDC2', 'dnT', 'gdT', 'pDC']
+Original adata: (32340, 20568)
+adata celltype shape: (15, 20568)
+adata shape after removing all zero columns for celltype cells: (32340, 9595)
+optimal lambda: 0.00014677992676220703
+====================
+Starting job for ASDC
+Fitting with optimal lambda: 0.00014677992676220703
+OWL-QN did not convergence
+OWL-QN did not convergence
+Converge history:`
+{0: 0.6931473016738892, 50: 0.045851726084947586, 100: 0.029312897473573685, 150: 0.019233593717217445, 200: 0.012980930507183075, 250: 0.009120244532823563, 300: 0.006664883345365524, 350: 0.005367525853216648, 400: 0.004028123803436756, 450: 0.0034044524654746056, 500: 0.0030746893025934696, 550: 0.0029183002188801765, 600: 0.002843483816832304, 650: 0.002813159255310893, 700: 0.0028108099941164255, 750: 0.0028099154587835073, 800: 0.0028051501139998436, 850: 0.0028026248328387737, 900: 0.0028013766277581453, 950: 0.0028009717352688313}
+minimum epoch =  1000 ; minimum lost =  0.0028007819782942533 ; diff weight =  0.001316887908615172
+ASDC feature list exported.
+---Selection result for ASDC
+Optimal lambda: 0.00014677992676220703
+    median of selected prevalence: 1.0
+    minimal loss: 0.0028007819782942533
+    minimal weight diff: 0.001316887908615172
+    total selected feature: 11
+    Time elapsed: 7.61856039762497
+
+Elapsed time for ASDC: 7.67 minutes
